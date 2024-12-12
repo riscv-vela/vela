@@ -1,11 +1,33 @@
-# ubuntu-ros2-dev
+# ROS 2 Documentation
+
+This repository contains the sources for the ROS 2 documentation that is hosted at [https://docs.ros.org/en](https://docs.ros.org/en).
+The sources from this repository are built and uploaded to the site nightly by a [Jenkins job](https://build.ros.org/job/doc_ros2doc).
+
+## Contributing to the documentation
+
+Contributions to this site are most welcome.
+Please see the [Contributing to ROS 2 Documentation](https://docs.ros.org/en/rolling/The-ROS2-Project/Contributing/Contributing-To-ROS-2-Documentation.html) page to learn more.
+
+## Contributing to ROS 2
+
+To contribute to the ROS 2 source code project please refer to the [ROS 2 contributing guidelines](https://docs.ros.org/en/rolling/The-ROS2-Project/Contributing.html).
+
+### Pinned versions
+
+For development we currently use Noble as our build platform.
+And all python versions are pinned in the constraints file to make sure that things are reproducible.
+To upgrade the system validate that things are working and then use `pip freeze > constraints.txt` to lock in the versions to upgrade.
+
+**NB:** This will ignore local workspace changes and build from the branches.
+
+
+## ubuntu-ros2-dev
 
 ros2 build in arm-ubuntu
 
-22.04 컨테이너 생성
+# 22.04 컨테이너 생성
 
-
-작업 환경 및 위치
+# 작업 환경 및 위치
 
 parallels@ubuntu-linux-22-04-02-desktop:~/work/riscv-ros2/docker-ros2$ pwd
 /home/parallels/work/riscv-ros2/docker-ros2
@@ -22,14 +44,11 @@ drwxrwxr-x 8 parallels parallels  4096 Sep  2 15:31 ../
 -rw-rw-r-- 1 parallels parallels   236 Sep  2 15:33 run.sh
 
 
-
-빌드 매뉴얼
+# 빌드 매뉴얼
 
 https://docs.ros.org/en/jazzy/Installation/Alternatives/Ubuntu-Development-Setup.html#enable-required-repositories
 
-
-
-빌드 로그
+# 빌드 로그
 
 root@b8978c90ada5:/work/ros2_jazzy# rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-6.0.1 urdfdom_headers"
 WARNING: ROS_PYTHON_VERSION is unset. Defaulting to 3
