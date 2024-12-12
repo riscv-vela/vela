@@ -34,6 +34,18 @@ runqemu core-image-minimal nographic
 
 **NOTE** `nographic` is needed for this image, because it has no graphical support for graphical Qemu run.
 
-### Change linux kernel configuration
+### linux kernel
 
-If you need change linux kernel configuration, append to recipes-kernel/linux/linux-yocto/riscv-vela.cfg.
+#### Change configuration
+
+If you need to change linux kernel configuration, append to recipes-kernel/linux/linux-yocto/riscv-vela.cfg.
+
+#### Modify source code
+
+If you need to change linux kernel source, edit files in build/tmp/work-shared/qemuriscv64/kernel-source.
+And then, run the following commands: 
+
+```text
+bitbake -f -c compile linux-yocto
+bitbake linux-yocto
+```
