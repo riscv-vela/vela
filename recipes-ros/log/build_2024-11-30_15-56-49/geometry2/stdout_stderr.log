@@ -1,0 +1,23 @@
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/geometry2
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/ament_index/resource_index/package_run_dependencies/geometry2
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/ament_index/resource_index/parent_prefix_path/geometry2
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/ament_index/resource_index/packages/geometry2
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/cmake/geometry2Config.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/cmake/geometry2Config-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/geometry2/share/geometry2/package.xml

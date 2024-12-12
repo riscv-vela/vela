@@ -1,0 +1,117 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found pluginlib: 5.4.2 (/work/ubuntu-ros2-dev/install/pluginlib/share/pluginlib/cmake)
+-- Found rosbag2_cpp: 0.26.5 (/work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found ament_cmake_gmock: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found rosbag2_test_common: 0.26.5 (/work/ubuntu-ros2-dev/install/rosbag2_test_common/share/rosbag2_test_common/cmake)
+-- Found test_msgs: 2.0.2 (/work/ubuntu-ros2-dev/install/test_msgs/share/test_msgs/cmake)
+-- Found gmock sources under '/work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rosbag2/rosbag2_compression/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosbag2_compression
+[  4%] [32mBuilding CXX object CMakeFiles/rosbag2_compression.dir/src/rosbag2_compression/compression_factory.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rosbag2_compression.dir/src/rosbag2_compression/sequential_compression_writer.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rosbag2_compression.dir/src/rosbag2_compression/sequential_compression_reader.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rosbag2_compression.dir/src/rosbag2_compression/compression_options.cpp.o[0m
+[ 23%] [32m[1mLinking CXX shared library librosbag2_compression.so[0m
+[ 23%] Built target rosbag2_compression
+[ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 38%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 38%] Built target gmock
+[ 42%] [32mBuilding CXX object CMakeFiles/fake_plugin.dir/test/rosbag2_compression/fake_compressor.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/fake_plugin.dir/test/rosbag2_compression/fake_decompressor.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared library libfake_plugin.so[0m
+[ 52%] Built target fake_plugin
+[ 57%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 61%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 61%] Built target gmock_main
+[ 66%] [32mBuilding CXX object CMakeFiles/test_compression_factory.dir/test/rosbag2_compression/test_compression_factory.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable test_compression_factory[0m
+[ 71%] Built target test_compression_factory
+[ 76%] [32mBuilding CXX object CMakeFiles/test_sequential_compression_writer.dir/test/rosbag2_compression/test_sequential_compression_writer.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_sequential_compression_writer[0m
+[ 80%] Built target test_sequential_compression_writer
+[ 85%] [32mBuilding CXX object CMakeFiles/test_sequential_compression_reader.dir/test/rosbag2_compression/test_sequential_compression_reader.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_sequential_compression_reader[0m
+[ 90%] Built target test_sequential_compression_reader
+[ 95%] [32mBuilding CXX object CMakeFiles/test_compression_options.dir/test/rosbag2_compression/test_compression_options.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_compression_options[0m
+[100%] Built target test_compression_options
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/include/rosbag2_compression/rosbag2_compression/base_compressor_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/include/rosbag2_compression/rosbag2_compression/base_decompressor_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/include/rosbag2_compression/rosbag2_compression/compression_factory.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/include/rosbag2_compression/rosbag2_compression/compression_options.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/include/rosbag2_compression/rosbag2_compression/sequential_compression_reader.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/include/rosbag2_compression/rosbag2_compression/sequential_compression_writer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/include/rosbag2_compression/rosbag2_compression/visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/lib/libfake_plugin.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/test/rosbag2_compression/fake_plugin.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/ament_index/resource_index/package_run_dependencies/rosbag2_compression
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/ament_index/resource_index/parent_prefix_path/rosbag2_compression
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/ament_index/resource_index/packages/rosbag2_compression
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/ament_index/resource_index/rosbag2_compression__pluginlib__plugin/rosbag2_compression
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/cmake/rosbag2_compressionConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/cmake/rosbag2_compressionConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_compression/lib/librosbag2_compression.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_compression/lib/librosbag2_compression.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/cmake/export_rosbag2_compressionExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_compression/share/rosbag2_compression/cmake/export_rosbag2_compressionExport-noconfig.cmake

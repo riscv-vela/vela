@@ -1,0 +1,117 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found geometry_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found kdl_parser: 2.11.0 (/work/ubuntu-ros2-dev/install/kdl_parser/share/kdl_parser/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rcl_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/rcl_interfaces/share/rcl_interfaces/cmake)
+-- Found rclcpp: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found tf2_ros: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/cmake)
+-- Found urdf: 2.10.0 (/work/ubuntu-ros2-dev/install/urdf/share/urdf/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros/robot_state_publisher/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/robot_state_publisher
+[  6%] [32mBuilding CXX object CMakeFiles/robot_state_publisher_node.dir/src/robot_state_publisher.cpp.o[0m
+[ 12%] [32m[1mLinking CXX shared library librobot_state_publisher_node.so[0m
+[ 12%] Built target robot_state_publisher_node
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 25%] Built target gtest
+[ 31%] [32mBuilding CXX object CMakeFiles/robot_state_publisher.dir/rclcpp_components/node_main_robot_state_publisher.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable robot_state_publisher[0m
+[ 37%] Built target robot_state_publisher
+[ 43%] [32mBuilding CXX object CMakeFiles/test_change_mimic_joint.dir/test/test_change_mimic_joint.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_change_mimic_joint[0m
+[ 50%] Built target test_change_mimic_joint
+[ 56%] [32mBuilding CXX object CMakeFiles/test_two_links_change_fixed_joint.dir/test/test_two_links_change_fixed_joint.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_two_links_change_fixed_joint[0m
+[ 62%] Built target test_two_links_change_fixed_joint
+[ 68%] [32mBuilding CXX object CMakeFiles/test_two_links_moving_joint.dir/test/test_two_links_moving_joint.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_two_links_moving_joint[0m
+[ 75%] Built target test_two_links_moving_joint
+[ 81%] [32mBuilding CXX object CMakeFiles/test_two_links_fixed_joint_prefix.dir/test/test_two_links_fixed_joint_prefix.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_two_links_fixed_joint_prefix[0m
+[ 87%] Built target test_two_links_fixed_joint_prefix
+[ 93%] [32mBuilding CXX object CMakeFiles/test_two_links_fixed_joint.dir/test/test_two_links_fixed_joint.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_two_links_fixed_joint[0m
+[100%] Built target test_two_links_fixed_joint
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/lib/robot_state_publisher/robot_state_publisher
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/include/robot_state_publisher/robot_state_publisher/robot_state_publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/launch/rsp-launch-urdf-file.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/launch/rsp-launch-urdf-file1.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/launch/rsp-launch-urdf-file2.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/launch/rsp-launch-urdf-inline.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/launch/rsp-launch-urdf-inline.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/launch/rsp-launch-xacro-api.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/launch/rsp-launch-xacro-command-subst.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/launch/rsp-launch-xacro-command-subst.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/launch/rsp-launch-xacro-popen.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/urdf/test-desc.urdf
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/urdf/test-desc.urdf.xacro
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/ament_index/resource_index/package_run_dependencies/robot_state_publisher
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/ament_index/resource_index/parent_prefix_path/robot_state_publisher
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/ament_index/resource_index/packages/robot_state_publisher
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/ament_index/resource_index/rclcpp_components/robot_state_publisher
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/cmake/robot_state_publisherConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/cmake/robot_state_publisherConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/robot_state_publisher/lib/librobot_state_publisher_node.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/robot_state_publisher/lib/librobot_state_publisher_node.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/cmake/export_robot_state_publisher_nodeExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/robot_state_publisher/share/robot_state_publisher/cmake/export_robot_state_publisher_nodeExport-noconfig.cmake

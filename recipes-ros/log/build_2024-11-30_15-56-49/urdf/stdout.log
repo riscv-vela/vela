@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found pluginlib: 5.4.2 (/work/ubuntu-ros2-dev/install/pluginlib/share/pluginlib/cmake)
+-- Found urdf_parser_plugin: 2.10.0 (/work/ubuntu-ros2-dev/install/urdf_parser_plugin/share/urdf_parser_plugin/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_google_benchmark: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/urdf
+[ 16%] [32mBuilding CXX object CMakeFiles/urdf.dir/src/model.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library liburdf.so[0m
+[ 33%] Built target urdf
+[ 33%] Built target pluginlib_enable_plugin_testing__urdf_parser__urdf
+[ 50%] [32mBuilding CXX object CMakeFiles/urdf_xml_parser.dir/src/urdf_plugin.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library liburdf_xml_parser.so[0m
+[ 66%] Built target urdf_xml_parser
+[ 83%] [32mBuilding CXX object CMakeFiles/plugin_overhead.dir/test/benchmark_plugin_overhead.cpp.o[0m
+[100%] [32m[1mLinking CXX executable plugin_overhead[0m
+[100%] Built target plugin_overhead
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/include/urdf/urdf/urdfdom_compatibility.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/lib/liburdf_xml_parser.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/include/urdf/urdf/model.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/include/urdf/urdf/visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf//urdf_parser_description.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/ament_index/resource_index/package_run_dependencies/urdf
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/ament_index/resource_index/parent_prefix_path/urdf
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/ament_index/resource_index/packages/urdf
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/ament_index/resource_index/urdf_parser_plugin__pluginlib__plugin/urdf
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/cmake/urdfConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/cmake/urdfConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/urdf/share/urdf/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/urdf/lib/liburdf.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/urdf/lib/liburdf.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/urdf/share/urdf/cmake/urdfExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/urdf/share/urdf/cmake/urdfExport-noconfig.cmake

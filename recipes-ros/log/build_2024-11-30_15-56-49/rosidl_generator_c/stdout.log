@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_python: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosidl_generator_c
+Built target ament_cmake_python_symlink_rosidl_generator_c
+Built target ament_cmake_python_symlink_rosidl_generator_c_setup
+running egg_info
+creating rosidl_generator_c.egg-info
+writing rosidl_generator_c.egg-info/PKG-INFO
+writing dependency_links to rosidl_generator_c.egg-info/dependency_links.txt
+writing entry points to rosidl_generator_c.egg-info/entry_points.txt
+writing top-level names to rosidl_generator_c.egg-info/top_level.txt
+writing manifest file 'rosidl_generator_c.egg-info/SOURCES.txt'
+reading manifest file 'rosidl_generator_c.egg-info/SOURCES.txt'
+writing manifest file 'rosidl_generator_c.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_rosidl_generator_c_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/ament_index/resource_index/rosidl_generator_packages/rosidl_generator_c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c-4.6.4-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c-4.6.4-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c-4.6.4-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c-4.6.4-py3.10.egg-info/entry_points.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c-4.6.4-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c/cli.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/ament_index/resource_index/packages/rosidl_generator_c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake/rosidl_generator_c-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake/rosidl_generator_cConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake/rosidl_generator_cConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/rosidl_generator_c/rosidl_generator_c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake/register_c.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/action__type_support.c.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/action__type_support.h.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/empty__description.c.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/full__description.c.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl.h.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__description.c.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__functions.c.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__functions.h.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__struct.h.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__type_support.c.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__type_support.h.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__functions.c.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__functions.h.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__struct.h.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__type_support.h.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/rosidl_generator_c__visibility_control.h.in
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/srv__type_support.c.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/resource/srv__type_support.h.em
+Listing '/work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c'...
+Compiling '/work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosidl_generator_c/lib/python3.10/site-packages/rosidl_generator_c/cli.py'...

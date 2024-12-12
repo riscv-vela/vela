@@ -1,0 +1,145 @@
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcutils: 6.7.2 (/work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake)
+-- Found rosidl_typesupport_interface: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found performance_test_fixture: 0.2.1 (/work/ubuntu-ros2-dev/install/performance_test_fixture/share/performance_test_fixture/cmake)
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /work/ubuntu-ros2-dev/install/performance_test_fixture/include;$<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include>
+-- Configured cppcheck exclude dirs and/or files: /work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/key_value__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/key_value__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/field__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/field__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/field_type__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/field_type__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/individual_type_description__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/individual_type_description__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/key_value__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/key_value__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/type_description__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/type_description__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/type_source__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/type_source__functions.c
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: /work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/field_type__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/individual_type_description__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/key_value__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/key_value__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_description__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__functions.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/type_description/type_source__struct.h;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/field__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/field__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/field_type__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/field_type__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/individual_type_description__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/individual_type_description__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/key_value__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/key_value__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/type_description__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/type_description__functions.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/type_source__description.c;/work/ubuntu-ros2-dev/src/ros2/rosidl/rosidl_runtime_c/src/type_description/type_source__functions.c
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosidl_runtime_c
+[  2%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/message_type_support.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_hash.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/u16string_functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description_utils.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/field__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/field__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/field_type__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/field_type__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/individual_type_description__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/individual_type_description__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/key_value__description.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/key_value__functions.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/type_description__description.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/type_description__functions.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/type_source__description.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/type_description/type_source__functions.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/string_functions.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/service_type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/sequence_bound.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/rosidl_runtime_c.dir/src/primitives_sequence_functions.c.o[0m
+[ 48%] [32m[1mLinking C shared library librosidl_runtime_c.so[0m
+[ 48%] Built target rosidl_runtime_c
+[ 51%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 53%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 53%] Built target gtest
+[ 55%] [32mBuilding CXX object CMakeFiles/benchmark_string_conversion.dir/test/benchmark/benchmark_string_conversion.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable benchmark_string_conversion[0m
+[ 58%] Built target benchmark_string_conversion
+[ 60%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 62%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 62%] Built target gtest_main
+[ 65%] [32mBuilding CXX object CMakeFiles/test_message_type_support.dir/test/test_message_type_support.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable test_message_type_support[0m
+[ 67%] Built target test_message_type_support
+[ 69%] [32mBuilding CXX object CMakeFiles/test_type_description_utils.dir/test/test_type_description_utils.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable test_type_description_utils[0m
+[ 72%] Built target test_type_description_utils
+[ 74%] [32mBuilding CXX object CMakeFiles/test_u16string_functions.dir/test/test_u16string_functions.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable test_u16string_functions[0m
+[ 76%] Built target test_u16string_functions
+[ 79%] [32mBuilding CXX object CMakeFiles/test_type_hash.dir/test/test_type_hash.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable test_type_hash[0m
+[ 81%] Built target test_type_hash
+[ 83%] [32mBuilding CXX object CMakeFiles/test_string_functions.dir/test/test_string_functions.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_string_functions[0m
+[ 86%] Built target test_string_functions
+[ 88%] [32mBuilding CXX object CMakeFiles/test_service_type_support.dir/test/test_service_type_support.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_service_type_support[0m
+[ 90%] Built target test_service_type_support
+[ 93%] [32mBuilding CXX object CMakeFiles/test_sequence_bound.dir/test/test_sequence_bound.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_sequence_bound[0m
+[ 95%] Built target test_sequence_bound
+[ 97%] [32mBuilding CXX object CMakeFiles/test_primitives_sequence_functions.dir/test/test_primitives_sequence_functions.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_primitives_sequence_functions[0m
+[100%] Built target test_primitives_sequence_functions
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/ament_index/resource_index/rosidl_runtime_packages/rosidl_runtime_c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/string_bound.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/key_value__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/key_value__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_description_utils.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/u16string.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/u16string_functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/ament_index/resource_index/package_run_dependencies/rosidl_runtime_c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/ament_index/resource_index/parent_prefix_path/rosidl_runtime_c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/ament_index/resource_index/packages/rosidl_runtime_c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/lib/librosidl_runtime_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosidl_runtime_c/lib/librosidl_runtime_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport-noconfig.cmake

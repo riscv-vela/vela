@@ -1,0 +1,34 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/gmock_vendor
+-- Install configuration: ""
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/share/gmock_vendor/cmake/gmock_vendorConfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/share/gmock_vendor/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/CMakeLists.txt
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-function-mocker.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/internal
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-generated-actions.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-matchers.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/README.md
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-port.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-port.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-pp.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-cardinalities.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-spec-builders.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-actions.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-more-matchers.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-matchers.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-nice-strict.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-more-actions.h
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/src
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/src/gmock.cc
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/src/gmock-cardinalities.cc
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/src/gmock_main.cc
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/src/gmock-internal-utils.cc
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/src/gmock-matchers.cc
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/src/gmock-all.cc
+-- Installing: /work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor/src/gmock-spec-builders.cc

@@ -1,0 +1,154 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found message_filters: 4.11.2 (/work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found pluginlib: 5.4.2 (/work/ubuntu-ros2-dev/install/pluginlib/share/pluginlib/cmake)
+-- Found rclcpp_components: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros-perception/point_cloud_transport/point_cloud_transport/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/point_cloud_transport
+[  2%] [32mBuilding CXX object CMakeFiles/point_cloud_transport.dir/src/point_cloud_codec.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/point_cloud_transport.dir/src/publisher_plugin.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/point_cloud_transport.dir/src/raw_subscriber.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/point_cloud_transport.dir/src/single_subscriber_publisher.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/point_cloud_transport.dir/src/subscriber_filter.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/point_cloud_transport.dir/src/subscriber.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/point_cloud_transport.dir/src/publisher.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/point_cloud_transport.dir/src/point_cloud_transport.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/point_cloud_transport.dir/src/point_cloud_common.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library libpoint_cloud_transport.so[0m
+[ 25%] Built target point_cloud_transport
+[ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 30%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 30%] Built target gtest
+[ 32%] [32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable list_transports[0m
+[ 35%] Built target list_transports
+[ 37%] [32mBuilding CXX object CMakeFiles/pc_republish_node.dir/src/republish.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libpc_republish_node.so[0m
+[ 40%] Built target pc_republish_node
+[ 42%] [32mBuilding CXX object CMakeFiles/point_cloud_transport_plugins.dir/src/manifest.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libpoint_cloud_transport_plugins.so[0m
+[ 45%] Built target point_cloud_transport_plugins
+[ 47%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 52%] [32mBuilding CXX object CMakeFiles/republish.dir/rclcpp_components/node_main_republish.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable republish[0m
+[ 55%] Built target republish
+[ 57%] [32mBuilding CXX object CMakeFiles/point_cloud_transport-remapping.dir/test/test_remapping.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable point_cloud_transport-remapping[0m
+[ 60%] Built target point_cloud_transport-remapping
+[ 62%] [32mBuilding CXX object CMakeFiles/point_cloud_transport-message-filter.dir/test/test_message_filter.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable point_cloud_transport-message-filter[0m
+[ 65%] Built target point_cloud_transport-message-filter
+[ 67%] [32mBuilding CXX object CMakeFiles/point_cloud_transport-single_subscriber_publisher.dir/test/test_single_subscriber_publisher.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable point_cloud_transport-single_subscriber_publisher[0m
+[ 70%] Built target point_cloud_transport-single_subscriber_publisher
+[ 72%] [32mBuilding CXX object CMakeFiles/point_cloud_transport-qos_override.dir/test/test_qos_override.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable point_cloud_transport-qos_override[0m
+[ 75%] Built target point_cloud_transport-qos_override
+[ 77%] [32mBuilding CXX object CMakeFiles/point_cloud_transport-message_passing.dir/test/test_message_passing.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable point_cloud_transport-message_passing[0m
+[ 80%] Built target point_cloud_transport-message_passing
+[ 82%] [32mBuilding CXX object CMakeFiles/point_cloud_transport-subscriber.dir/test/test_subscriber.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable point_cloud_transport-subscriber[0m
+[ 85%] Built target point_cloud_transport-subscriber
+[ 87%] [32mBuilding CXX object CMakeFiles/point_cloud_transport-codec.dir/test/test_point_cloud_codec.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable point_cloud_transport-codec[0m
+[ 90%] Built target point_cloud_transport-codec
+[ 92%] [32mBuilding CXX object CMakeFiles/point_cloud_transport-publisher.dir/test/test_publisher.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable point_cloud_transport-publisher[0m
+[ 95%] Built target point_cloud_transport-publisher
+[ 97%] [32mBuilding CXX object CMakeFiles/point_cloud_transport-point_cloud_common.dir/test/test_point_cloud_common.cpp.o[0m
+[100%] [32m[1mLinking CXX executable point_cloud_transport-point_cloud_common[0m
+[100%] Built target point_cloud_transport-point_cloud_common
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/lib/point_cloud_transport/republish
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport//default_plugins.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/lib/libpoint_cloud_transport.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/lib/libpoint_cloud_transport_plugins.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/lib/libpc_republish_node.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/lib/point_cloud_transport/list_transports
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/exception.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/loader_fwds.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/point_cloud_codec.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/point_cloud_common.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/point_cloud_transport.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/publisher_plugin.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/raw_publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/raw_subscriber.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/simple_publisher_plugin.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/simple_subscriber_plugin.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/single_subscriber_publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/subscriber.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/subscriber_filter.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/subscriber_plugin.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/transport_hints.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/include/point_cloud_transport/point_cloud_transport/visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/ament_index/resource_index/package_run_dependencies/point_cloud_transport
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/ament_index/resource_index/parent_prefix_path/point_cloud_transport
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/ament_index/resource_index/packages/point_cloud_transport
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/ament_index/resource_index/point_cloud_transport__pluginlib__plugin/point_cloud_transport
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/ament_index/resource_index/rclcpp_components/point_cloud_transport
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/cmake/point_cloud_transportConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/cmake/point_cloud_transportConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/cmake/export_point_cloud_transportExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/point_cloud_transport/share/point_cloud_transport/cmake/export_point_cloud_transportExport-noconfig.cmake

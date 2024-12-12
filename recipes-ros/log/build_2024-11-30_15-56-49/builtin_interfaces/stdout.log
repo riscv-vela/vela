@@ -1,0 +1,226 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_core_generators: 0.2.0 (/work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_adapter: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_cmake_flake8: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/builtin_interfaces
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target builtin_interfaces__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_symlink_builtin_interfaces
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  4%] Built target builtin_interfaces__cpp
+running egg_info
+creating builtin_interfaces.egg-info
+writing builtin_interfaces.egg-info/PKG-INFO
+writing dependency_links to builtin_interfaces.egg-info/dependency_links.txt
+writing top-level names to builtin_interfaces.egg-info/top_level.txt
+writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'builtin_interfaces.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_builtin_interfaces_egg
+[  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[  9%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/time__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/builtin_interfaces/msg/detail/duration__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_c.so[0m
+[ 22%] Built target builtin_interfaces__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/duration__type_support_c.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/builtin_interfaces/msg/detail/time__type_support_c.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 31%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_cpp.so[0m
+[ 40%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[ 43%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/duration__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/builtin_interfaces/msg/detail/dds_fastrtps/time__type_support.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 50%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 52%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/duration__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/builtin_interfaces/msg/detail/time__type_support.cpp.o[0m
+[ 59%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 59%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[ 63%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 63%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/duration__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/builtin_interfaces/msg/detail/time__type_support.c.o[0m
+[ 75%] [32m[1mLinking CXX shared library libbuiltin_interfaces__rosidl_typesupport_c.so[0m
+[ 77%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 77%] Built target builtin_interfaces__rosidl_typesupport_c
+[ 77%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[ 77%] Built target builtin_interfaces
+[ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 79%] Built target builtin_interfaces__py
+[ 84%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_duration_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/builtin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/builtin_interfaces/msg/_time_s.c.o[0m
+[ 86%] [32m[1mLinking C shared library libbuiltin_interfaces__rosidl_generator_py.so[0m
+[ 86%] Built target builtin_interfaces__rosidl_generator_py
+[ 88%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 90%] Built target builtin_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 93%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so[0m
+[ 95%] Built target builtin_interfaces_s__rosidl_typesupport_c
+[ 97%] [32mBuilding C object CMakeFiles/builtin_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target builtin_interfaces_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/msg/Time.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/time.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces-2.0.2-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces-2.0.2-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces-2.0.2-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces-2.0.2-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/_builtin_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/msg/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/msg/_duration.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/msg/_duration_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/msg/_time.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/msg/_time_s.c
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces'...
+Compiling '/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/__init__.py'...
+Listing '/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/msg'...
+Compiling '/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/msg/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/msg/_duration.py'...
+Compiling '/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/python3.10/site-packages/builtin_interfaces/msg/_time.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_generator_pyExport-noconfig.cmake

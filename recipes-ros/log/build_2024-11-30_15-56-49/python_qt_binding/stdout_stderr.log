@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_pytest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/python_qt_binding
+Built target ament_cmake_python_symlink_python_qt_binding
+running egg_info
+creating python_qt_binding.egg-info
+writing python_qt_binding.egg-info/PKG-INFO
+writing dependency_links to python_qt_binding.egg-info/dependency_links.txt
+writing top-level names to python_qt_binding.egg-info/top_level.txt
+writing manifest file 'python_qt_binding.egg-info/SOURCES.txt'
+reading manifest file 'python_qt_binding.egg-info/SOURCES.txt'
+writing manifest file 'python_qt_binding.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_python_qt_binding_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/lib/python3.10/site-packages/python_qt_binding-2.2.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/lib/python3.10/site-packages/python_qt_binding-2.2.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/lib/python3.10/site-packages/python_qt_binding-2.2.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/lib/python3.10/site-packages/python_qt_binding-2.2.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/lib/python3.10/site-packages/python_qt_binding/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/lib/python3.10/site-packages/python_qt_binding/binding_helper.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/cmake/shiboken_helper.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/cmake/sip_configure.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/cmake/sip_helper.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/ament_index/resource_index/package_run_dependencies/python_qt_binding
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/ament_index/resource_index/parent_prefix_path/python_qt_binding
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/ament_index/resource_index/packages/python_qt_binding
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/cmake/python_qt_bindingConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/cmake/python_qt_bindingConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/python_qt_binding/share/python_qt_binding/package.xml
+Listing '/work/ubuntu-ros2-dev/install/python_qt_binding/lib/python3.10/site-packages/python_qt_binding'...
+Compiling '/work/ubuntu-ros2-dev/install/python_qt_binding/lib/python3.10/site-packages/python_qt_binding/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/python_qt_binding/lib/python3.10/site-packages/python_qt_binding/binding_helper.py'...

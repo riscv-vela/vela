@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_gmock: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found gmock sources under '/work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros-tooling/keyboard_handler/keyboard_handler/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/keyboard_handler
+[  7%] [32mBuilding CXX object CMakeFiles/keyboard_handler.dir/src/keyboard_handler_base.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/keyboard_handler.dir/src/keyboard_handler_windows_impl.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/keyboard_handler.dir/src/keyboard_handler_unix_impl.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/keyboard_handler.dir/src/default_windows_key_map.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/keyboard_handler.dir/src/default_unix_key_map.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library libkeyboard_handler.so[0m
+[ 42%] Built target keyboard_handler
+[ 50%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 57%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 64%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 64%] Built target gmock
+[ 71%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 78%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 78%] Built target gmock_main
+[ 85%] [32mBuilding CXX object CMakeFiles/test_keyboard_handler.dir/test/keyboard_handler_unix_tests.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_keyboard_handler.dir/test/keyboard_handler_windows_tests.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_keyboard_handler[0m
+[100%] Built target test_keyboard_handler
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/include/keyboard_handler/keyboard_handler/keyboard_handler.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/include/keyboard_handler/keyboard_handler/keyboard_handler_base.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/include/keyboard_handler/keyboard_handler/keyboard_handler_unix_impl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/include/keyboard_handler/keyboard_handler/keyboard_handler_windows_impl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/include/keyboard_handler/keyboard_handler/visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/ament_index/resource_index/package_run_dependencies/keyboard_handler
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/ament_index/resource_index/parent_prefix_path/keyboard_handler
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/ament_index/resource_index/packages/keyboard_handler
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/cmake/keyboard_handlerConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/cmake/keyboard_handlerConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/keyboard_handler/lib/libkeyboard_handler.so
+-- Installing: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/cmake/export_keyboard_handlerExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/keyboard_handler/share/keyboard_handler/cmake/export_keyboard_handlerExport-noconfig.cmake

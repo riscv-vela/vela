@@ -1,0 +1,28 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating rosidl_cli.egg-info
+writing rosidl_cli.egg-info/PKG-INFO
+writing dependency_links to rosidl_cli.egg-info/dependency_links.txt
+writing entry points to rosidl_cli.egg-info/entry_points.txt
+writing requirements to rosidl_cli.egg-info/requires.txt
+writing top-level names to rosidl_cli.egg-info/top_level.txt
+writing manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+reading manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+writing manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/rosidl_cli/lib/python3.10/site-packages/rosidl-cli.egg-link (link to .)
+Installing rosidl script to /work/ubuntu-ros2-dev/install/rosidl_cli/bin
+
+Installed /work/ubuntu-ros2-dev/build/rosidl_cli
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/rosidl_cli/share/ament_index
+creating /work/ubuntu-ros2-dev/install/rosidl_cli/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/rosidl_cli/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rosidl_cli/resource/rosidl_cli -> /work/ubuntu-ros2-dev/install/rosidl_cli/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rosidl_cli/package.xml -> /work/ubuntu-ros2-dev/install/rosidl_cli/share/rosidl_cli
+symbolically linking /work/ubuntu-ros2-dev/build/rosidl_cli/resource/package.dsv -> /work/ubuntu-ros2-dev/install/rosidl_cli/share/rosidl_cli
+creating /work/ubuntu-ros2-dev/install/rosidl_cli/share/rosidl_cli/environment
+symbolically linking /work/ubuntu-ros2-dev/build/rosidl_cli/completion/rosidl-argcomplete.bash -> /work/ubuntu-ros2-dev/install/rosidl_cli/share/rosidl_cli/environment
+symbolically linking /work/ubuntu-ros2-dev/build/rosidl_cli/completion/rosidl-argcomplete.zsh -> /work/ubuntu-ros2-dev/install/rosidl_cli/share/rosidl_cli/environment

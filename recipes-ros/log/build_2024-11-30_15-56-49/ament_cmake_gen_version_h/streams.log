@@ -1,0 +1,74 @@
+[0.008s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/ament_cmake/ament_cmake_gen_version_h -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.093s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.150s] -- Detecting CXX compiler ABI info
+[0.219s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.223s] -- Detecting CXX compile features
+[0.223s] -- Detecting CXX compile features - done
+[0.224s] -- Found ament_cmake_core: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.334s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.370s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.373s] -- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+[0.419s] -- Create new version file for version 2.5.2
+[0.467s] -- Create new version file for version 2.5.2
+[0.518s] -- Create new version file for version 2.5.2
+[0.553s] -- Create new version file for version 2.5.2
+[0.555s] -- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.556s] -- Looking for pthread.h
+[0.734s] -- Looking for pthread.h - found
+[0.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.894s] -- Found Threads: TRUE  
+[1.049s] -- Configuring done
+[1.069s] -- Generating done
+[1.071s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h
+[1.074s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/ament_cmake/ament_cmake_gen_version_h -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h
+[1.091s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h -- -j8 -l8
+[1.125s] [  8%] [34m[1mGenerating ament_generate_version_header/version.hpp[0m
+[1.139s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.140s] [ 16%] Built target ament_generate_version_header__some_lib
+[1.144s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.922s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.954s] [ 33%] Built target gtest_main
+[3.351s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.404s] [ 41%] Built target gtest
+[3.409s] [ 50%] [32mBuilding CXX object CMakeFiles/test_ament_generate_version_header.dir/test/test_version_hpp.cpp.o[0m
+[3.410s] [ 58%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_custom.cpp.o[0m
+[3.413s] [ 66%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version_h.cpp.o[0m
+[3.416s] [ 75%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version2_h.cpp.o[0m
+[3.424s] [ 83%] [32mBuilding CXX object CMakeFiles/test_ament_cmake_gen_version_h.dir/test/test_version1_h.cpp.o[0m
+[3.945s] [ 91%] [32m[1mLinking CXX executable test_ament_generate_version_header[0m
+[3.995s] [100%] [32m[1mLinking CXX executable test_ament_cmake_gen_version_h[0m
+[4.040s] [100%] Built target test_ament_generate_version_header
+[4.086s] [100%] Built target test_ament_cmake_gen_version_h
+[4.093s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h -- -j8 -l8
+[4.114s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h
+[4.257s] -- Install configuration: ""
+[4.257s] -- Execute custom install script
+[4.257s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gen_version_h
+[4.258s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gen_version_h
+[4.258s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/ament_prefix_path.sh
+[4.258s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/ament_prefix_path.dsv
+[4.258s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/path.sh
+[4.258s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/path.dsv
+[4.258s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.bash
+[4.258s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.sh
+[4.258s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.zsh
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.dsv
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/package.dsv
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_index/resource_index/packages/ament_cmake_gen_version_h
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h-extras.cmake
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig.cmake
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig-version.cmake
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/package.xml
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h.cmake
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_generate_version_header.cmake
+[4.259s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/generate_version_header.cmake.in
+[4.260s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/version.h.in
+[4.263s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/ament_cmake_gen_version_h

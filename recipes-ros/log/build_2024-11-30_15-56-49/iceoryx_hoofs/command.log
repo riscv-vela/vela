@@ -1,0 +1,6 @@
+Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs': /usr/bin/cmake /work/ubuntu-ros2-dev/src/eclipse-iceoryx/iceoryx/iceoryx_hoofs -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/iceoryx_hoofs
+Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs' returned '0': /usr/bin/cmake /work/ubuntu-ros2-dev/src/eclipse-iceoryx/iceoryx/iceoryx_hoofs -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/iceoryx_hoofs
+Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/iceoryx_hoofs -- -j8 -l8
+Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs' returned '0': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/iceoryx_hoofs -- -j8 -l8
+Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/iceoryx_hoofs
+Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs' returned '0': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/iceoryx_hoofs

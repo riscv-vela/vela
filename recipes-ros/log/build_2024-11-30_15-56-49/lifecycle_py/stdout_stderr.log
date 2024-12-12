@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating lifecycle_py.egg-info
+writing lifecycle_py.egg-info/PKG-INFO
+writing dependency_links to lifecycle_py.egg-info/dependency_links.txt
+writing entry points to lifecycle_py.egg-info/entry_points.txt
+writing requirements to lifecycle_py.egg-info/requires.txt
+writing top-level names to lifecycle_py.egg-info/top_level.txt
+writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+reading manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+writing manifest file 'lifecycle_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/lifecycle_py/lib/python3.10/site-packages/lifecycle-py.egg-link (link to .)
+Installing lifecycle_talker script to /work/ubuntu-ros2-dev/install/lifecycle_py/lib/lifecycle_py
+
+Installed /work/ubuntu-ros2-dev/build/lifecycle_py
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/lifecycle_py/share/ament_index
+creating /work/ubuntu-ros2-dev/install/lifecycle_py/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/lifecycle_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/lifecycle_py/resource/lifecycle_py -> /work/ubuntu-ros2-dev/install/lifecycle_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/lifecycle_py/package.xml -> /work/ubuntu-ros2-dev/install/lifecycle_py/share/lifecycle_py
+creating /work/ubuntu-ros2-dev/install/lifecycle_py/share/lifecycle_py/launch
+symbolically linking /work/ubuntu-ros2-dev/build/lifecycle_py/launch/lifecycle_demo_launch.py -> /work/ubuntu-ros2-dev/install/lifecycle_py/share/lifecycle_py/launch
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(

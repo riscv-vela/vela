@@ -1,0 +1,5 @@
+[0mrmw implementation 'rmw_connextdds' not available for test 'test_generic_pub_sub'[0m
+[0mrmw implementation 'rmw_connextdds' not available for test 'test_generic_subscription'[0m
+[0mrmw implementation 'rmw_connextdds' not available for test 'test_pub_sub'[0m
+[0mrmw implementation 'rmw_connextdds' not available for test 'test_publisher'[0m
+[0mrmw implementation 'rmw_connextdds' not available for test 'test_subscription'[0m

@@ -1,0 +1,44 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- urdfdom_headers version 1.1.2
+-- Configuration successful. Type make install to install urdfdom_headers.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/urdfdom_headers
+-- Install configuration: ""
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_sensor
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_sensor/types.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_sensor/sensor.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_world
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_world/world.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_world/types.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_exception
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_exception/exception.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model/twist.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model/utils.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model/model.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model/pose.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model/link.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model/types.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model/color.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model/joint.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model_state
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model_state/twist.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model_state/types.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/include/urdfdom_headers/urdf_model_state/model_state.h
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headers-config.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headers-config-version.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/lib/pkgconfig/urdfdom_headers.pc
+-- Installing: /work/ubuntu-ros2-dev/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headersExport.cmake

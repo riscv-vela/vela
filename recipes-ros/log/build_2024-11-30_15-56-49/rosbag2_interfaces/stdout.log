@@ -1,0 +1,613 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_default_generators: 1.6.0 (/work/ubuntu-ros2-dev/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_cmake_flake8: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosbag2_interfaces
+[  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  0%] Built target rosbag2_interfaces__rosidl_generator_type_description
+[  0%] Built target ament_cmake_python_symlink_rosbag2_interfaces
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/msg/detail/read_split_event__description.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/msg/detail/write_split_event__type_support.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/burst__description.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/burst__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/burst__type_support.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/get_rate__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/get_rate__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/get_rate__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/is_paused__description.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/is_paused__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/is_paused__type_support.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/pause__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/pause__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/pause__type_support.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/play__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/play__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/play__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/play_next__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/play_next__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/play_next__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/resume__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/resume__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/resume__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/seek__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/seek__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/seek__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/set_rate__description.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/set_rate__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/set_rate__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/snapshot__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/snapshot__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/snapshot__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/split_bagfile__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/split_bagfile__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/split_bagfile__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/stop__description.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/stop__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/stop__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/toggle_paused__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/toggle_paused__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/srv/detail/toggle_paused__type_support.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/msg/detail/write_split_event__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/msg/detail/write_split_event__description.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/msg/detail/read_split_event__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_interfaces/msg/detail/read_split_event__functions.c.o[0m
+[ 27%] [32m[1mLinking C shared library librosbag2_interfaces__rosidl_generator_c.so[0m
+[ 27%] Built target rosbag2_interfaces__rosidl_generator_c
+running egg_info
+creating rosbag2_interfaces.egg-info
+writing rosbag2_interfaces.egg-info/PKG-INFO
+writing dependency_links to rosbag2_interfaces.egg-info/dependency_links.txt
+writing top-level names to rosbag2_interfaces.egg-info/top_level.txt
+writing manifest file 'rosbag2_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'rosbag2_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'rosbag2_interfaces.egg-info/SOURCES.txt'
+[ 27%] Built target ament_cmake_python_build_rosbag2_interfaces_egg
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/msg/read_split_event__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/is_paused__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/pause__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/play__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/play_next__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/resume__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/seek__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/set_rate__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/snapshot__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/split_bagfile__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/stop__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/toggle_paused__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/get_rate__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/srv/burst__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_interfaces/msg/write_split_event__type_support.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_c.so[0m
+[ 37%] Built target rosbag2_interfaces__rosidl_typesupport_c
+[ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 38%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/msg/detail/read_split_event__type_support.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/pause__type_support.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/play__type_support.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/play_next__type_support.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/resume__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/seek__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/set_rate__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/snapshot__type_support.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/split_bagfile__type_support.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/stop__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/toggle_paused__type_support.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/is_paused__type_support.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/get_rate__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/srv/detail/burst__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_interfaces/msg/detail/write_split_event__type_support.c.o[0m
+[ 46%] [32m[1mLinking C shared library librosbag2_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 46%] Built target rosbag2_interfaces__rosidl_typesupport_introspection_c
+[ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/msg/detail/read_split_event__type_support_c.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/play__type_support_c.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/play_next__type_support_c.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/resume__type_support_c.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/seek__type_support_c.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/set_rate__type_support_c.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/snapshot__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/split_bagfile__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/stop__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/toggle_paused__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/pause__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/is_paused__type_support_c.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/get_rate__type_support_c.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/srv/detail/burst__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_interfaces/msg/detail/write_split_event__type_support_c.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 56%] Built target rosbag2_interfaces__rosidl_typesupport_fastrtps_c
+[ 56%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 56%] Built target rosbag2_interfaces__cpp
+[ 57%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/msg/read_split_event__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/pause__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/play__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/play_next__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/resume__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/seek__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/set_rate__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/snapshot__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/split_bagfile__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/stop__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/toggle_paused__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/is_paused__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/get_rate__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/srv/burst__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_interfaces/msg/write_split_event__type_support.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_cpp.so[0m
+[ 66%] Built target rosbag2_interfaces__rosidl_typesupport_cpp
+[ 67%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/msg/detail/read_split_event__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/play__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/play_next__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/resume__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/seek__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/set_rate__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/snapshot__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/split_bagfile__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/stop__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/toggle_paused__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/pause__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/is_paused__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/get_rate__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/srv/detail/burst__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_interfaces/msg/detail/write_split_event__type_support.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 76%] Built target rosbag2_interfaces__rosidl_typesupport_introspection_cpp
+[ 76%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/msg/detail/dds_fastrtps/read_split_event__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/play_next__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/resume__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/seek__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/set_rate__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/snapshot__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/split_bagfile__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/stop__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/toggle_paused__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/play__type_support.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/pause__type_support.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/is_paused__type_support.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/get_rate__type_support.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/srv/detail/dds_fastrtps/burst__type_support.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_interfaces/msg/detail/dds_fastrtps/write_split_event__type_support.cpp.o[0m
+[ 86%] [32m[1mLinking CXX shared library librosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 86%] Built target rosbag2_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 86%] Built target rosbag2_interfaces
+[ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 87%] Built target rosbag2_interfaces__py
+[ 87%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/msg/_read_split_event_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_play_next_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_resume_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_seek_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_set_rate_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_snapshot_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_split_bagfile_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_stop_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_toggle_paused_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_play_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_pause_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_is_paused_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_get_rate_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/srv/_burst_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/rosbag2_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_interfaces/msg/_write_split_event_s.c.o[0m
+[ 96%] [32m[1mLinking C shared library librosbag2_interfaces__rosidl_generator_py.so[0m
+[ 96%] Built target rosbag2_interfaces__rosidl_generator_py
+[ 97%] [32mBuilding C object CMakeFiles/rosbag2_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 97%] Built target rosbag2_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 98%] [32mBuilding C object CMakeFiles/rosbag2_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_c.so[0m
+[ 98%] Built target rosbag2_interfaces_s__rosidl_typesupport_c
+[ 99%] [32mBuilding C object CMakeFiles/rosbag2_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target rosbag2_interfaces_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/ament_index/resource_index/rosidl_interfaces/rosbag2_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/ReadSplitEvent.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/WriteSplitEvent.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Burst.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/GetRate.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/IsPaused.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Pause.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Play.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/PlayNext.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Resume.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Seek.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SetRate.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Snapshot.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SplitBagfile.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Stop.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/TogglePaused.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/read_split_event.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/write_split_event.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/burst.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/get_rate.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/is_paused.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/pause.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/play.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/play_next.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/resume.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/seek.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/set_rate.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/snapshot.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/split_bagfile.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/stop.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/toggle_paused.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/read_split_event.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/write_split_event.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/burst.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/get_rate.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/is_paused.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/pause.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/play.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/play_next.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/resume.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/seek.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/set_rate.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/snapshot.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/split_bagfile.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/stop.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/toggle_paused.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/read_split_event__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/msg/detail/write_split_event__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/burst__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/get_rate__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/is_paused__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/play_next__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/resume__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/seek__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/set_rate__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/snapshot__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/split_bagfile__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/stop__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/include/rosbag2_interfaces/rosbag2_interfaces/srv/detail/toggle_paused__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces-0.26.5-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces-0.26.5-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces-0.26.5-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces-0.26.5-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/_rosbag2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/msg/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/msg/_read_split_event.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/msg/_read_split_event_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/msg/_write_split_event.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/msg/_write_split_event_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_burst.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_burst_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_get_rate.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_get_rate_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_is_paused.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_is_paused_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_pause.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_pause_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_play.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_play_next.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_play_next_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_play_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_resume.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_resume_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_seek.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_seek_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_set_rate.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_set_rate_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_snapshot.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_snapshot_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_split_bagfile.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_split_bagfile_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_stop.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_stop_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_toggle_paused.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_toggle_paused_s.c
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/rosbag2_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/ReadSplitEvent.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/WriteSplitEvent.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Burst.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/GetRate.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/IsPaused.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Pause.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Play.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/PlayNext.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Resume.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Seek.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SetRate.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Snapshot.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SplitBagfile.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Stop.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/TogglePaused.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/ReadSplitEvent.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/msg/WriteSplitEvent.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Burst.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/GetRate.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/IsPaused.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Pause.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Play.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/PlayNext.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Resume.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Seek.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SetRate.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Snapshot.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/SplitBagfile.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/Stop.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/srv/TogglePaused.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/ament_index/resource_index/package_run_dependencies/rosbag2_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/ament_index/resource_index/parent_prefix_path/rosbag2_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/ament_index/resource_index/packages/rosbag2_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfacesConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfacesConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/__init__.py'...
+Listing '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/msg'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/msg/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/msg/_read_split_event.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/msg/_write_split_event.py'...
+Listing '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_burst.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_get_rate.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_is_paused.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_pause.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_play.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_play_next.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_resume.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_seek.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_set_rate.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_snapshot.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_split_bagfile.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_stop.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/python3.10/site-packages/rosbag2_interfaces/srv/_toggle_paused.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_interfaces/lib/librosbag2_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/rosbag2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_interfaces/share/rosbag2_interfaces/cmake/export_rosbag2_interfaces__rosidl_generator_pyExport-noconfig.cmake

@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found TinyXML2: /usr/lib/aarch64-linux-gnu/libtinyxml2.so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/tinyxml2_vendor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/cmake/Modules/FindTinyXML2.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/ament_index/resource_index/package_run_dependencies/tinyxml2_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/ament_index/resource_index/parent_prefix_path/tinyxml2_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/ament_index/resource_index/packages/tinyxml2_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/cmake/tinyxml2_vendor-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/cmake/tinyxml2_vendorConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/cmake/tinyxml2_vendorConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tinyxml2_vendor/share/tinyxml2_vendor/package.xml

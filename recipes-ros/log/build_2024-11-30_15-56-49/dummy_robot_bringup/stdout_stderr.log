@@ -1,0 +1,46 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/dummy_robot_bringup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/launch/dummy_robot_bringup_launch.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/launch/dummy_robot_bringup_launch.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/launch/dummy_robot_bringup_launch.yaml
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/launch/single_rrbot.urdf
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/ament_index/resource_index/package_run_dependencies/dummy_robot_bringup
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/ament_index/resource_index/parent_prefix_path/dummy_robot_bringup
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/ament_index/resource_index/packages/dummy_robot_bringup
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/cmake/dummy_robot_bringupConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/cmake/dummy_robot_bringupConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/dummy_robot_bringup/share/dummy_robot_bringup/package.xml

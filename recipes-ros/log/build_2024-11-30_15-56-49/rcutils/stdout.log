@@ -1,0 +1,305 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_python: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Performing Test USES_GLIBC
+-- Performing Test USES_GLIBC - Success
+-- Found performance_test_fixture: 0.2.1 (/work/ubuntu-ros2-dev/install/performance_test_fixture/share/performance_test_fixture/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Looking for __atomic_load_8 in atomic
+-- Looking for __atomic_load_8 in atomic - found
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Found gmock sources under '/work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Performing Test is_no_as_needed_supported
+-- Performing Test is_no_as_needed_supported - Success
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rcutils
+[  0%] Built target ament_cmake_python_symlink_rcutils
+[  0%] [32mBuilding C object CMakeFiles/dummy_shared_library_in_load_paths.dir/test/dummy_shared_library/dummy_shared_library.c.o[0m
+[  1%] [32m[1mLinking C shared library test_libraries/libdummy_shared_library_in_load_paths.so[0m
+[  1%] Built target dummy_shared_library_in_load_paths
+[  2%] [32mBuilding C object CMakeFiles/dummy_shared_library_preloaded.dir/test/dummy_shared_library/dummy_shared_library.c.o[0m
+[  2%] [32m[1mLinking C shared library test_libraries/libdummy_shared_library_preloaded.so[0m
+[  2%] Built target dummy_shared_library_preloaded
+running egg_info
+creating rcutils.egg-info
+writing rcutils.egg-info/PKG-INFO
+writing dependency_links to rcutils.egg-info/dependency_links.txt
+writing top-level names to rcutils.egg-info/top_level.txt
+writing manifest file 'rcutils.egg-info/SOURCES.txt'
+reading manifest file 'rcutils.egg-info/SOURCES.txt'
+writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_rcutils_egg
+[  3%] [32mBuilding C object CMakeFiles/dummy_shared_library_in_run_paths.dir/test/dummy_shared_library/dummy_shared_library.c.o[0m
+[  4%] [32m[1mLinking C shared library libdummy_shared_library_in_run_paths.so[0m
+[  4%] Built target dummy_shared_library_in_run_paths
+[  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[  7%] [32m[1mLinking CXX static library libgmock.a[0m
+[  7%] Built target gmock
+[  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[  8%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[  8%] Built target gmock_main
+[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 10%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 10%] Built target gtest
+[ 11%] [32mBuilding CXX object CMakeFiles/test_error_handling_helpers.dir/test/test_error_handling_helpers.cpp.o[0m
+[ 12%] [32m[1mLinking CXX executable test_error_handling_helpers[0m
+[ 12%] Built target test_error_handling_helpers
+[ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 13%] Built target gtest_main
+[ 14%] [34m[1mExpanding logging_macros.h.em[0m
+[ 15%] [32mBuilding C object CMakeFiles/rcutils.dir/src/allocator.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rcutils.dir/src/find.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rcutils.dir/src/format_string.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rcutils.dir/src/hash_map.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rcutils.dir/src/logging.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/rcutils.dir/src/process.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/rcutils.dir/src/qsort.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rcutils.dir/src/repl_str.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rcutils.dir/src/sha256.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rcutils.dir/src/shared_library.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rcutils.dir/src/snprintf.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rcutils.dir/src/split.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strcasecmp.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strdup.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strerror.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_array.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_map.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/rcutils.dir/src/testing/fault_injection.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time_unix.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/rcutils.dir/src/uint8_array.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/rcutils.dir/src/filesystem.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/rcutils.dir/src/error_handling.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/rcutils.dir/src/env.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/rcutils.dir/src/cmdline_parser.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/rcutils.dir/src/char_array.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/rcutils.dir/src/array_list.c.o[0m
+[ 36%] [32m[1mLinking C shared library librcutils.so[0m
+[ 36%] Built target rcutils
+[ 37%] [32mBuilding CXX object CMakeFiles/test_logging.dir/test/test_logging.cpp.o[0m
+[ 38%] [32m[1mLinking CXX executable test_logging[0m
+[ 38%] Built target test_logging
+[ 39%] [32mBuilding CXX object CMakeFiles/test_error_handling.dir/test/test_error_handling.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable test_error_handling[0m
+[ 40%] Built target test_error_handling
+[ 41%] [32mBuilding CXX object CMakeFiles/test_split.dir/test/test_split.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable test_split[0m
+[ 42%] Built target test_split
+[ 43%] [32mBuilding CXX object CMakeFiles/test_find.dir/test/test_find.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable test_find[0m
+[ 44%] Built target test_find
+[ 44%] [32mBuilding CXX object CMakeFiles/test_strerror.dir/test/test_strerror.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable test_strerror[0m
+[ 45%] Built target test_strerror
+[ 46%] [32mBuilding CXX object CMakeFiles/test_string_array.dir/test/test_string_array.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable test_string_array[0m
+[ 47%] Built target test_string_array
+[ 48%] [32mBuilding CXX object CMakeFiles/test_env.dir/test/test_env.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable test_env[0m
+[ 48%] Built target test_env
+[ 48%] [32mBuilding CXX object CMakeFiles/test_filesystem.dir/test/test_filesystem.cpp.o[0m
+[ 49%] [32m[1mLinking CXX executable test_filesystem[0m
+[ 49%] Built target test_filesystem
+[ 50%] [32mBuilding CXX object CMakeFiles/test_strdup.dir/test/test_strdup.cpp.o[0m
+[ 51%] [32m[1mLinking CXX executable test_strdup[0m
+[ 51%] Built target test_strdup
+[ 51%] [32mBuilding CXX object CMakeFiles/test_format_string.dir/test/test_format_string.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable test_format_string[0m
+[ 52%] Built target test_format_string
+[ 53%] [32mBuilding CXX object CMakeFiles/test_string_map.dir/test/test_string_map.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable test_string_map[0m
+[ 53%] Built target test_string_map
+[ 54%] [32mBuilding CXX object CMakeFiles/test_isalnum_no_locale.dir/test/test_isalnum_no_locale.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable test_isalnum_no_locale[0m
+[ 54%] Built target test_isalnum_no_locale
+[ 54%] [32mBuilding CXX object CMakeFiles/test_repl_str.dir/test/test_repl_str.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable test_repl_str[0m
+[ 55%] Built target test_repl_str
+[ 56%] [32mBuilding CXX object CMakeFiles/test_sha256.dir/test/test_sha256.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable test_sha256[0m
+[ 57%] Built target test_sha256
+[ 58%] [32mBuilding CXX object CMakeFiles/test_shared_library_in_run_paths.dir/test/test_shared_library.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable test_shared_library_in_run_paths[0m
+[ 59%] Built target test_shared_library_in_run_paths
+[ 60%] [32mBuilding CXX object CMakeFiles/test_shared_library_in_load_paths.dir/test/test_shared_library.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable test_shared_library_in_load_paths[0m
+[ 60%] Built target test_shared_library_in_load_paths
+[ 61%] [32mBuilding CXX object CMakeFiles/test_shared_library_preloaded.dir/test/test_shared_library.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable test_shared_library_preloaded[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o[0m
+[ 62%] Built target test_shared_library_preloaded
+[ 63%] [32mBuilding C object CMakeFiles/test_atomics_executable.dir/test/test_atomics.c.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/test_char_array.dir/test/test_char_array.cpp.o[0m
+[ 64%] [32m[1mLinking C executable test_atomics_executable[0m
+[ 64%] Built target test_atomics_executable
+[ 65%] [32mBuilding CXX object CMakeFiles/test_snprintf.dir/test/test_snprintf.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_time[0m
+[ 67%] [32m[1mLinking CXX executable test_char_array[0m
+[ 67%] Built target test_time
+[ 67%] [32mBuilding CXX object CMakeFiles/test_strcasecmp.dir/test/test_strcasecmp.cpp.o[0m
+[ 67%] Built target test_char_array
+[ 68%] [32mBuilding CXX object CMakeFiles/test_allocator.dir/test/test_allocator.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/test_uint8_array.dir/test/test_uint8_array.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable test_snprintf[0m
+[ 70%] Built target test_snprintf
+[ 70%] [32mBuilding CXX object CMakeFiles/test_array_list.dir/test/test_array_list.cpp.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/test_logging_macros_c.dir/test/test_logging_macros.c.o[0m
+[ 72%] [32m[1mLinking C executable test_logging_macros_c[0m
+[ 72%] Built target test_logging_macros_c
+[ 73%] [32mBuilding CXX object CMakeFiles/test_hash_map.dir/test/test_hash_map.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable test_strcasecmp[0m
+[ 75%] [32m[1mLinking CXX executable test_uint8_array[0m
+[ 75%] Built target test_strcasecmp
+[ 76%] [32mBuilding CXX object CMakeFiles/test_cmdline_parser.dir/test/test_cmdline_parser.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/test_logging_macros.dir/test/test_logging_macros.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_allocator[0m
+[ 78%] Built target test_uint8_array
+[ 79%] [32m[1mLinking CXX executable test_array_list[0m
+[ 79%] Built target test_allocator
+[ 79%] Built target test_array_list
+[ 80%] [32m[1mLinking CXX executable test_hash_map[0m
+[ 81%] [32m[1mLinking CXX executable test_cmdline_parser[0m
+[ 81%] Built target test_hash_map
+[ 81%] Built target test_cmdline_parser
+[ 82%] [32m[1mLinking CXX executable test_logging_macros[0m
+[ 82%] Built target test_logging_macros
+[ 83%] [32mBuilding CXX object CMakeFiles/test_logging_bad_env3.dir/test/test_logging_bad_env.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable test_logging_bad_env3[0m
+[ 84%] Built target test_logging_bad_env3
+[ 85%] [32mBuilding CXX object CMakeFiles/test_logging_enable_for.dir/test/test_logging_enable_for.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_logging_enable_for[0m
+[ 86%] Built target test_logging_enable_for
+[ 86%] [32mBuilding CXX object CMakeFiles/test_logging_console_output_handler.dir/test/test_logging_console_output_handler.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_logging_console_output_handler[0m
+[ 87%] Built target test_logging_console_output_handler
+[ 87%] [32mBuilding CXX object CMakeFiles/test_macros.dir/test/test_macros.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_macros[0m
+[ 88%] Built target test_macros
+[ 89%] [32mBuilding CXX object CMakeFiles/benchmark_logging.dir/test/benchmark/benchmark_logging.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable benchmark_logging[0m
+[ 90%] Built target benchmark_logging
+[ 90%] [32mBuilding CXX object CMakeFiles/benchmark_err_handle.dir/test/benchmark/benchmark_error_handling.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable benchmark_err_handle[0m
+[ 91%] Built target benchmark_err_handle
+[ 92%] [32mBuilding CXX object CMakeFiles/test_logging_bad_env2.dir/test/test_logging_bad_env.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable test_logging_bad_env2[0m
+[ 93%] Built target test_logging_bad_env2
+[ 94%] [32mBuilding CXX object CMakeFiles/test_logging_bad_env.dir/test/test_logging_bad_env.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable test_logging_bad_env[0m
+[ 94%] Built target test_logging_bad_env
+[ 94%] [32mBuilding CXX object CMakeFiles/test_logging_custom_env2.dir/test/test_logging_custom_env.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_logging_custom_env2[0m
+[ 95%] Built target test_logging_custom_env2
+[ 96%] [32mBuilding CXX object CMakeFiles/test_logging_custom_env.dir/test/test_logging_custom_env.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable test_logging_custom_env[0m
+[ 97%] Built target test_logging_custom_env
+[ 98%] [32mBuilding CXX object CMakeFiles/test_process.dir/test/test_process.cpp.o[0m
+[ 99%] [32m[1mLinking CXX executable test_process[0m
+[ 99%] Built target test_process
+[100%] [32mBuilding CXX object CMakeFiles/test_logging_long_messages.dir/test/test_logging_long_messages.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_logging_long_messages[0m
+[100%] Built target test_logging_long_messages
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/lib/python3.10/site-packages/rcutils-6.7.2-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/lib/python3.10/site-packages/rcutils-6.7.2-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/lib/python3.10/site-packages/rcutils-6.7.2-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/lib/python3.10/site-packages/rcutils-6.7.2-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/lib/python3.10/site-packages/rcutils/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/lib/python3.10/site-packages/rcutils/logging.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/ament_index/resource_index/package_run_dependencies/rcutils
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/ament_index/resource_index/parent_prefix_path/rcutils
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/ament_index/resource_index/packages/rcutils
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake/ament_cmake_export_link_flags-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake/rcutilsConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/allocator.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/cmdline_parser.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/env.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/error_handling.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/filesystem.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/find.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/format_string.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/isalnum_no_locale.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/logging.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/macros.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/process.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/qsort.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/repl_str.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/sha256.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/shared_library.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/snprintf.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/split.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/stdatomic_helper.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/stdatomic_helper/gcc/stdatomic.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/stdatomic_helper/win32/stdatomic.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/strcasecmp.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/strdup.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/strerror.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/testing/fault_injection.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/time.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/types.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/types/array_list.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/types/char_array.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/types/hash_map.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/types/rcutils_ret.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/types/string_array.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/types/string_map.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/types/uint8_array.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/visibility_control_macros.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcutils/include/rcutils/rcutils/logging_macros.h
+Listing '/work/ubuntu-ros2-dev/install/rcutils/lib/python3.10/site-packages/rcutils'...
+Compiling '/work/ubuntu-ros2-dev/install/rcutils/lib/python3.10/site-packages/rcutils/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rcutils/lib/python3.10/site-packages/rcutils/logging.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/rcutils/lib/librcutils.so
+-- Installing: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake/rcutilsExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake/rcutilsExport-noconfig.cmake

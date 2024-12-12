@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- googletest version '1.14' selected, of versions: '1.8.1;1.10.0;1.10.0.1;1.10.0.2;1.14'
+-- building googletest from '/work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/../../../share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz'...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/test_osrf_testing_tools_cpp/googletest-1.14-extracted
+[ 11%] Creating directories for 'googletest'
+[ 22%] Performing download step (verify and extract) for 'googletest'
+-- verifying file...
+     file='/work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/../../../share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz'
+-- verifying file... done
+-- extracting...
+     src='/work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz'
+     dst='/work/ubuntu-ros2-dev/build/test_osrf_testing_tools_cpp/googletest-1.14-extracted/googletest-1.14-src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'googletest'
+[ 44%] No patch step for 'googletest'
+[ 55%] No configure step for 'googletest'
+[ 66%] No build step for 'googletest'
+[ 77%] No install step for 'googletest'
+[ 88%] No test step for 'googletest'
+[100%] Completed 'googletest'
+[100%] Built target googletest
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/test_osrf_testing_tools_cpp
+-- Install configuration: ""

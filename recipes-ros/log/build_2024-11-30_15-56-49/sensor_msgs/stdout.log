@@ -1,0 +1,1023 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found geometry_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/work/ubuntu-ros2-dev/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_cmake_flake8: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/common_interfaces/sensor_msgs/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/sensor_msgs
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_symlink_sensor_msgs
+[  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  1%] Built target sensor_msgs__rosidl_generator_type_description
+[  1%] [32m[1mLinking CXX static library libgtest.a[0m
+[  1%] Built target gtest
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__description.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__type_support.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__description.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__description.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__description.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__type_support.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__type_support.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__description.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__description.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__description.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__description.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__description.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__functions.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__description.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__functions.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__type_support.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__description.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__functions.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__description.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__type_support.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__functions.c.o[0m
+[ 29%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_c.so[0m
+[ 29%] Built target sensor_msgs__rosidl_generator_c
+[ 29%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 29%] Built target sensor_msgs__cpp
+[ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[ 38%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_c.so[0m
+[ 38%] Built target sensor_msgs__rosidl_typesupport_c
+[ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/battery_state__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/camera_info__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/channel_float32__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/compressed_image__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/illuminance__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/image__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/imu__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joint_state__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_echo__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_scan__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/magnetic_field__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud2__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_field__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/range__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/region_of_interest__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/relative_humidity__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/temperature__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/time_reference__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/srv/detail/set_camera_info__type_support.cpp.o[0m
+[ 47%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 47%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[ 48%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/channel_float32__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/compressed_image__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/fluid_pressure__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/illuminance__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/image__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback_array__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_echo__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_scan__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/magnetic_field__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_dof_joint_state__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_echo_laser_scan__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_fix__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_status__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud2__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_field__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/range__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/region_of_interest__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/relative_humidity__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/temperature__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/time_reference__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/dds_fastrtps/set_camera_info__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 57%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[ 58%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so[0m
+[ 67%] Built target sensor_msgs__rosidl_typesupport_cpp
+[ 67%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 67%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+running egg_info
+creating sensor_msgs.egg-info
+writing sensor_msgs.egg-info/PKG-INFO
+writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+writing top-level names to sensor_msgs.egg-info/top_level.txt
+writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[ 67%] Built target ament_cmake_python_build_sensor_msgs_egg
+[ 67%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 68%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 68%] Built target gtest_main
+[ 69%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_image_encodings.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_conversion.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_iterator.cpp.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/camera_info__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/battery_state__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/illuminance__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/image__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/imu__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joint_state__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/battery_state__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/camera_info__type_support_c.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_sensor_msgs[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/channel_float32__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_field__type_support.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/range__type_support.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/temperature__type_support.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/time_reference__type_support.c.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/fluid_pressure__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o[0m
+[ 81%] Built target test_sensor_msgs
+[ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/image__type_support_c.cpp.o[0m
+[ 82%] [32m[1mLinking C shared library libsensor_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joint_state__type_support_c.cpp.o[0m
+[ 82%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback_array__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_echo__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_scan__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/magnetic_field__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_fix__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_status__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud2__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_field__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/range__type_support_c.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/time_reference__type_support_c.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/srv/detail/set_camera_info__type_support_c.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/temperature__type_support_c.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/relative_humidity__type_support_c.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/region_of_interest__type_support_c.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/illuminance__type_support_c.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/compressed_image__type_support_c.cpp.o[0m
+[ 89%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 89%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[ 89%] Built target sensor_msgs
+[ 89%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 89%] Built target sensor_msgs__py
+[ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_battery_state_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_imu_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joint_state_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_array_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_echo_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_scan_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_magnetic_field_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_dof_joint_state_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_echo_laser_scan_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_fix_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_status_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud2_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_field_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_range_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_region_of_interest_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_relative_humidity_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_temperature_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_time_reference_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/srv/_set_camera_info_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_image_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_illuminance_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_fluid_pressure_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_compressed_image_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_channel_float32_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_camera_info_s.c.o[0m
+[ 98%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_py.so[0m
+[ 98%] Built target sensor_msgs__rosidl_generator_py
+[ 98%] [32mBuilding C object CMakeFiles/sensor_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 99%] Built target sensor_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] [32mBuilding C object CMakeFiles/sensor_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so[0m
+[100%] Built target sensor_msgs_s__rosidl_typesupport_c
+[100%] [32mBuilding C object CMakeFiles/sensor_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target sensor_msgs_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Image.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Imu.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/JointState.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Joy.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/PointField.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Range.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Temperature.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs-5.3.5-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs-5.3.5-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs-5.3.5-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs-5.3.5-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_battery_state.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_battery_state_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_camera_info.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_camera_info_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_channel_float32.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_channel_float32_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_compressed_image.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_compressed_image_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_fluid_pressure.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_fluid_pressure_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_illuminance.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_illuminance_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_image.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_image_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_imu.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_imu_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joint_state.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joint_state_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joy.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joy_feedback.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joy_feedback_array.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joy_feedback_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joy_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_laser_echo.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_laser_echo_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_laser_scan.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_laser_scan_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_magnetic_field.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_magnetic_field_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_nav_sat_fix.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_nav_sat_status.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_nav_sat_status_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_point_cloud.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_point_cloud2.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_point_cloud2_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_point_cloud_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_point_field.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_point_field_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_range.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_range_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_region_of_interest.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_region_of_interest_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_relative_humidity.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_relative_humidity_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_temperature.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_temperature_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_time_reference.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_time_reference_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/srv/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/srv/_set_camera_info.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/srv/_set_camera_info_s.c
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Image.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Imu.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/JointState.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Joy.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/PointField.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Range.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Temperature.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Image.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Imu.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/JointState.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Joy.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/PointField.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Range.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/Temperature.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/distortion_models.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/fill_image.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/image_encodings.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_field_conversion.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/ament_index/resource_index/packages/sensor_msgs
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/__init__.py'...
+Listing '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_battery_state.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_camera_info.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_channel_float32.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_compressed_image.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_fluid_pressure.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_illuminance.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_image.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_imu.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joint_state.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joy.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joy_feedback.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_joy_feedback_array.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_laser_echo.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_laser_scan.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_magnetic_field.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_multi_dof_joint_state.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_multi_echo_laser_scan.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_nav_sat_fix.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_nav_sat_status.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_point_cloud.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_point_cloud2.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_point_field.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_range.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_region_of_interest.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_relative_humidity.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_temperature.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/msg/_time_reference.py'...
+Listing '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/srv'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/srv/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/sensor_msgs/lib/python3.10/site-packages/sensor_msgs/srv/_set_camera_info.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgsExport.cmake

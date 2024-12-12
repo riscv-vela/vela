@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating src/rqt_action.egg-info
+writing src/rqt_action.egg-info/PKG-INFO
+writing dependency_links to src/rqt_action.egg-info/dependency_links.txt
+writing entry points to src/rqt_action.egg-info/entry_points.txt
+writing requirements to src/rqt_action.egg-info/requires.txt
+writing top-level names to src/rqt_action.egg-info/top_level.txt
+writing manifest file 'src/rqt_action.egg-info/SOURCES.txt'
+reading manifest file 'src/rqt_action.egg-info/SOURCES.txt'
+writing manifest file 'src/rqt_action.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/rqt_action/lib/python3.10/site-packages/rqt-action.egg-link (link to src)
+Installing rqt_action script to /work/ubuntu-ros2-dev/install/rqt_action/lib/rqt_action
+
+Installed /work/ubuntu-ros2-dev/build/rqt_action/src
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/rqt_action/share/ament_index
+creating /work/ubuntu-ros2-dev/install/rqt_action/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/rqt_action/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_action/resource/rqt_action -> /work/ubuntu-ros2-dev/install/rqt_action/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_action/package.xml -> /work/ubuntu-ros2-dev/install/rqt_action/share/rqt_action
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_action/plugin.xml -> /work/ubuntu-ros2-dev/install/rqt_action/share/rqt_action

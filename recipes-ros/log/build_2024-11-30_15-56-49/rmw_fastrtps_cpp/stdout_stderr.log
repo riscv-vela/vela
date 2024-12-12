@@ -1,0 +1,145 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcpputils: 2.11.0 (/work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/cmake)
+-- Found rmw_dds_common: 3.1.0 (/work/ubuntu-ros2-dev/install/rmw_dds_common/share/rmw_dds_common/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_fastrtps_shared_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_shared_cpp/share/rmw_fastrtps_shared_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Found tracetools: 8.2.2 (/work/ubuntu-ros2-dev/install/tracetools/share/tracetools/cmake)
+-- Found rosidl_dynamic_typesupport_fastrtps: 0.1.0 (/work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport_fastrtps/share/rosidl_dynamic_typesupport_fastrtps/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /work/ubuntu-ros2-dev/src/ros2/rmw_fastrtps/rmw_fastrtps_cpp/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rmw_fastrtps_cpp
+[  1%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/get_client.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/identifier.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/init_rmw_context_impl.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/publisher.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_logging.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_client.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_compare_gids_equal.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_count.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_dynamic_message_type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_event.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_features.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_get_gid_for_client.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_get_gid_for_publisher.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_get_implementation_identifier.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_get_serialization_format.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_get_topic_endpoint_info.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_guard_condition.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_init.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_node_info_and_types.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_node_names.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_publish.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_publisher.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_qos.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_request.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_response.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_serialize.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_service.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_service_names_and_types.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_service_server_is_available.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_subscription.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_take.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_topic_names_and_types.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_trigger_guard_condition.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_wait.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_wait_set.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/serialization_format.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/subscription.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/type_support_common.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/rmw_get_endpoint_network_flow.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/get_subscriber.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/get_service.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/get_publisher.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rmw_fastrtps_cpp.dir/src/get_participant.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library librmw_fastrtps_cpp.so[0m
+[ 84%] Built target rmw_fastrtps_cpp
+[ 86%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 88%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 88%] Built target gtest
+[ 90%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 92%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 92%] Built target gtest_main
+[ 96%] [32mBuilding CXX object CMakeFiles/test_logging.dir/test/test_logging.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/test_get_native_entities.dir/test/test_get_native_entities.cpp.o[0m
+[ 98%] [32m[1mLinking CXX executable test_logging[0m
+[ 98%] Built target test_logging
+[100%] [32m[1mLinking CXX executable test_get_native_entities[0m
+[100%] Built target test_get_native_entities
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/ament_index/resource_index/rmw_typesupport_c/rmw_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/ament_index/resource_index/rmw_typesupport/rmw_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/ament_index/resource_index/package_run_dependencies/rmw_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/ament_index/resource_index/parent_prefix_path/rmw_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/ament_index/resource_index/packages/rmw_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/rmw_fastrtps_cpp-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/rmw_fastrtps_cppConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/rmw_fastrtps_cppConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/MessageTypeSupport.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/ServiceTypeSupport.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/TypeSupport.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/get_client.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/get_participant.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/get_publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/get_service.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/get_subscriber.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/identifier.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/init_rmw_context_impl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/serialization_format.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/subscription.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/rmw_fastrtps_cpp/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/lib/librmw_fastrtps_cpp.so

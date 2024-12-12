@@ -1,0 +1,114 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found geometry_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found ament_cmake_google_benchmark: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_google_benchmark/share/ament_cmake_google_benchmark/cmake)
+-- Found ament_cmake_copyright: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_xmllint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_xmllint/share/ament_cmake_xmllint/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/tf2
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/cache.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/buffer_core.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/time.cpp.o[0m
+[ 23%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/tf2.dir/src/static_cache.cpp.o[0m
+[ 28%] Built target gtest_main
+[ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 38%] [32m[1mLinking CXX shared library libtf2.so[0m
+[ 38%] Built target tf2
+[ 42%] [32mBuilding CXX object CMakeFiles/cache_benchmark.dir/test/cache_benchmark.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable cache_benchmark[0m
+[ 47%] Built target cache_benchmark
+[ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 52%] Built target gtest
+[ 57%] [32mBuilding CXX object CMakeFiles/test_static_cache_unittest.dir/test/static_cache_test.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/test_cache_unittest.dir/test/cache_unittest.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_static_cache_unittest[0m
+[ 71%] [32m[1mLinking CXX executable test_cache_unittest[0m
+[ 71%] Built target test_static_cache_unittest
+[ 71%] Built target test_cache_unittest
+[ 76%] [32mBuilding CXX object CMakeFiles/test_storage.dir/test/test_storage.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_storage[0m
+[ 80%] Built target test_storage
+[ 85%] [32mBuilding CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_time[0m
+[ 90%] Built target test_time
+[ 95%] [32mBuilding CXX object CMakeFiles/test_simple_tf2_core.dir/test/simple_tf2_core.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_simple_tf2_core[0m
+[100%] Built target test_simple_tf2_core
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/LinearMath/Matrix3x3.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/LinearMath/MinMax.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/LinearMath/QuadWord.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/LinearMath/Quaternion.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/LinearMath/Scalar.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/LinearMath/Transform.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/LinearMath/Vector3.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/buffer_core.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/buffer_core_interface.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/convert.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/exceptions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/impl/convert.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/impl/utils.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/time.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/time_cache.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/transform_datatypes.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/transform_storage.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/utils.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/include/tf2/tf2/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/ament_index/resource_index/package_run_dependencies/tf2
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/ament_index/resource_index/parent_prefix_path/tf2
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/ament_index/resource_index/packages/tf2
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake/tf2Config.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake/tf2Config-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2/share/tf2/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/tf2/lib/libtf2.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/tf2/lib/libtf2.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake/export_tf2Export.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake/export_tf2Export-noconfig.cmake

@@ -1,0 +1,531 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_core: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+-- Found ament_cmake_export_dependencies: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+-- Found gz_cmake_vendor: 0.0.8 (/work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/cmake)
+-- Found gz_utils_vendor: 0.0.4 (/work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/cmake)
+-- Found ament_cmake_test: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_test/share/ament_cmake_test/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_copyright: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_xmllint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_xmllint/share/ament_cmake_xmllint/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/gz_math_vendor
+[ 14%] [34m[1mCreating directories for 'gz_math_vendor'[0m
+[ 28%] [34m[1mPerforming download step for 'gz_math_vendor'[0m
+[34m=== [1m./gz_math_vendor[22m (git) ===[0m
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/src/gz_math_vendor/.git/
+
+From https://github.com/gazebosim/gz-math
+ * [new tag]         gz-math7_7.5.1 -> gz-math7_7.5.1
+Note: switching to 'gz-math7_7.5.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 5072602 Prepare for 7.5.1 (#623)
+
+[ 42%] [34m[1mNo patch step for 'gz_math_vendor'[0m
+[ 57%] [34m[1mPerforming configure step for 'gz_math_vendor'[0m
+loading initial cache file /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-config.cmake
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- gz-math7 version 7.5.1
+-- Operating system is Linux
+-- Found CPack generators: DEB
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Searching for dependencies of gz-utils2
+-- Looking for gz-utils2 - found
+
+-- Looking for eigen3 - found
+
+-- SKIP_SWIG set - disabling SWIG Ruby support
+-- SKIP_PYBIND11 set - disabling python bindings
+-- 
+-- Searching for host SSE information
+-- Could not find hardware support for SSE2 on this machine.
+-- Could not find hardware support for SSE3 on this machine.
+-- Could not find hardware support for SSSE3 on this machine.
+-- Could not find hardware support for SSE4.1 on this machine.
+-- Could not find hardware support for SSE4.2 on this machine.
+-- SSE4 disabled.
+--
+-- Configuring library: gz-math7
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Testing is disabled -- skipping UNIT tests
+-- Testing is disabled -- skipping UNIT tests
+-- Configuring library: gz-math7-eigen3
+-- Testing is disabled -- skipping UNIT tests
+-- Adding codecheck target
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor
+-- Building Documentation disabled via BUILD_DOCS=OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/src/gz_math_vendor-build
+[ 71%] [34m[1mPerforming build step for 'gz_math_vendor'[0m
+[  4%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Angle.cc.o[0m
+[  8%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Kmeans.cc.o[0m
+[ 12%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Material.cc.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/MecanumDriveOdometry.cc.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/MovingWindowFilter.cc.o[0m
+[ 24%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/PID.cc.o[0m
+[ 28%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Rand.cc.o[0m
+[ 32%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/RollingMean.cc.o[0m
+[ 36%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/RotationSpline.cc.o[0m
+[ 40%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SemanticVersion.cc.o[0m
+[ 44%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SignalStats.cc.o[0m
+[ 48%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SpeedLimiter.cc.o[0m
+[ 52%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SphericalCoordinates.cc.o[0m
+[ 56%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Spline.cc.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/SplinePrivate.cc.o[0m
+[ 64%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Stopwatch.cc.o[0m
+[ 68%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Temperature.cc.o[0m
+[ 72%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Vector3Stats.cc.o[0m
+[ 76%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Helpers.cc.o[0m
+[ 80%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/GaussMarkovProcess.cc.o[0m
+[ 84%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Frustum.cc.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/DiffDriveOdometry.cc.o[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/Color.cc.o[0m
+[ 96%] [32mBuilding CXX object src/CMakeFiles/gz-math7.dir/AxisAlignedBox.cc.o[0m
+[100%] [32m[1mLinking CXX shared library ../lib/libgz-math7.so[0m
+[100%] Built target gz-math7
+[ 85%] [34m[1mPerforming install step for 'gz_math_vendor'[0m
+[35m[1mConsolidate compiler generated dependencies of target gz-math7[0m
+[100%] Built target gz-math7
+[36mInstall the project...[0m
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7-all/gz-math7-all-config.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7-all/gz-math7-all-config-version.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7-all/gz-math7-all-targets.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/Export.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Export.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/libgz-math7.so.7.5.1
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/libgz-math7.so.7
+-- Set runtime path of "/work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/libgz-math7.so.7.5.1" to ""
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/libgz-math7.so
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7/gz-math7-config.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7/gz-math7-config-version.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7/gz-math7-targets.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7/gz-math7-targets-relwithdebinfo.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/pkgconfig/gz-math7.pc
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Filter.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Vector3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Helpers.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/PID.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/MecanumDriveOdometry.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/GaussMarkovProcess.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/PiecewiseScalarField3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Line3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Plane.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/VolumetricGridLookupField.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Vector4.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/AxisAlignedBox.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Export.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Triangle.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/RotationSpline.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Ellipsoid.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Pose3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Capsule.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/DiffDriveOdometry.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Angle.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/MaterialType.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/config.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/SphericalCoordinates.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/OrientedBox.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/graph
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/graph/Edge.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/graph/Graph.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/graph/Vertex.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/graph/GraphAlgorithms.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Line2.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Stopwatch.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Matrix3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/SpeedLimiter.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/AdditivelySeparableScalarField3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Vector3Stats.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Triangle3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/RollingMean.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/SignalStats.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Spline.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Material.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Matrix6.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Temperature.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/MassMatrix3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Color.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Inertial.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Interval.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Box.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/SemanticVersion.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Region3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Frustum.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Rand.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Polynomial3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Sphere.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Quaternion.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Matrix4.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/MovingWindowFilter.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Vector2.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail/Export.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail/Ellipsoid.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail/Capsule.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail/WellOrderedVector.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail/AxisIndex.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail/Box.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail/Sphere.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail/InterpolationPoint.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/detail/Cylinder.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Kmeans.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/Cylinder.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/graph/Edge.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/graph/Graph.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/graph/GraphAlgorithms.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/graph/Vertex.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/AdditivelySeparableScalarField3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Angle.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/AxisAlignedBox.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Box.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Capsule.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Color.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Cone.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Cylinder.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/DiffDriveOdometry.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Ellipsoid.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Filter.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Frustum.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/GaussMarkovProcess.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Helpers.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Inertial.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Interval.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Kmeans.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Line2.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Line3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/MassMatrix3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Material.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/MaterialType.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Matrix3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Matrix4.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Matrix6.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/MecanumDriveOdometry.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/MovingWindowFilter.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/OrientedBox.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/PID.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/PiecewiseScalarField3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Plane.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Polynomial3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Pose3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Quaternion.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Rand.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Region3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/RollingMean.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/RotationSpline.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/SemanticVersion.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/SignalStats.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/SpeedLimiter.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Sphere.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/SphericalCoordinates.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Spline.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Stopwatch.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Temperature.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/TimeVaryingVolumetricGrid.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/TimeVaryingVolumetricGridLookupField.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Triangle.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Triangle3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Vector2.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Vector3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Vector3Stats.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/Vector4.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/VolumetricGridLookupField.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/../math.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/config.hh
+-- Up-to-date: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/Ellipsoid.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/Capsule.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/WellOrderedVector.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/AxisIndex.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/Cone.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/Box.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/Sphere.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/InterpolationPoint.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/detail/Cylinder.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7-eigen3/gz-math7-eigen3-config.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7-eigen3/gz-math7-eigen3-config-version.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/cmake/gz-math7-eigen3/gz-math7-eigen3-targets.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/lib/pkgconfig/gz-math7-eigen3.pc
+-- Up-to-date: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition
+-- Up-to-date: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/eigen3.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/eigen3
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/eigen3/Util.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/ignition/math/eigen3/Conversions.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/eigen3/Conversions.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/eigen3/Util.hh
+-- Installing: /work/ubuntu-ros2-dev/build/gz_math_vendor/gz_math_vendor-prefix/install/include/gz/math7/gz/math/eigen3/../eigen3.hh
+[100%] [34m[1mCompleted 'gz_math_vendor'[0m
+[100%] Built target gz_math_vendor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/vendor_package_cmake_prefix.bat
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/vendor_package_cmake_prefix.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/vendor_package_cmake_prefix.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/vendor_package.bat
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/vendor_package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/vendor_package.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/ament_index/resource_index/vendor_packages/gz_math_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/gz_math_vendor.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/gz_math_vendor.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/ament_index/resource_index/package_run_dependencies/gz_math_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/ament_index/resource_index/parent_prefix_path/gz_math_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/ament_index/resource_index/packages/gz_math_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/cmake/gz_math_vendor-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/cmake/gz_math_vendorConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/cmake/gz_math_vendorConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/share/gz_math_vendor/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/extra_cmake/lib/cmake/gz-math/gz-math-config.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/extra_cmake/lib/cmake/gz-math/gz-math-config-version.cmake
+-- Up-to-date: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Filter.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Vector3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Helpers.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/PID.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/MecanumDriveOdometry.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/GaussMarkovProcess.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/PiecewiseScalarField3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Line3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Plane.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/VolumetricGridLookupField.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Vector4.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/AxisAlignedBox.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Export.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Triangle.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/RotationSpline.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Ellipsoid.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Pose3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Capsule.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/DiffDriveOdometry.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/eigen3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Angle.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/MaterialType.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/config.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/SphericalCoordinates.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/OrientedBox.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/graph
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/graph/Edge.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/graph/Graph.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/graph/Vertex.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/graph/GraphAlgorithms.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Line2.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Stopwatch.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Matrix3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/SpeedLimiter.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/eigen3
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/eigen3/Util.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/eigen3/Conversions.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/AdditivelySeparableScalarField3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Vector3Stats.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Triangle3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/RollingMean.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/SignalStats.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/TimeVaryingVolumetricGridLookupField.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Spline.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Material.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Matrix6.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Temperature.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/MassMatrix3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Color.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Inertial.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Interval.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Cone.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Box.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/SemanticVersion.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Region3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Frustum.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Rand.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Polynomial3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Sphere.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Quaternion.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Matrix4.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/MovingWindowFilter.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Vector2.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/Export.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/Ellipsoid.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/Capsule.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/WellOrderedVector.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/AxisIndex.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/Cone.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/Box.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/Sphere.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/InterpolationPoint.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/detail/Cylinder.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/TimeVaryingVolumetricGrid.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Kmeans.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math/Cylinder.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/gz/math.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Filter.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Vector3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Helpers.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/PID.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/MecanumDriveOdometry.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/GaussMarkovProcess.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/PiecewiseScalarField3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Line3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Plane.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/VolumetricGridLookupField.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Vector4.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/AxisAlignedBox.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Export.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Triangle.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/RotationSpline.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Ellipsoid.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Pose3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Capsule.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/DiffDriveOdometry.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/eigen3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Angle.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/MaterialType.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/config.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/SphericalCoordinates.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/OrientedBox.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/graph
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/graph/Edge.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/graph/Graph.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/graph/Vertex.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/graph/GraphAlgorithms.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Line2.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Stopwatch.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Matrix3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/SpeedLimiter.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/eigen3
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/eigen3/Util.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/eigen3/Conversions.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/AdditivelySeparableScalarField3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Vector3Stats.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Triangle3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/RollingMean.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/SignalStats.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Spline.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Material.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Matrix6.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Temperature.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/MassMatrix3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Color.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Inertial.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Interval.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Box.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/SemanticVersion.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Region3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Frustum.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Rand.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Polynomial3.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Sphere.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Quaternion.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Matrix4.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/MovingWindowFilter.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Vector2.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail/Export.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail/Ellipsoid.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail/Capsule.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail/WellOrderedVector.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail/AxisIndex.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail/Box.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail/Sphere.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail/InterpolationPoint.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/detail/Cylinder.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Kmeans.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math/Cylinder.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/include/gz/math7/ignition/math.hh
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/libgz-math7.so.7
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/libgz-math7.so
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/pkgconfig
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/pkgconfig/gz-math7-eigen3.pc
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/pkgconfig/gz-math7.pc
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7-eigen3
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7-eigen3/gz-math7-eigen3-config.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7-eigen3/gz-math7-eigen3-config-version.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7-eigen3/gz-math7-eigen3-targets.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7/gz-math7-config-version.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7/gz-math7-targets-relwithdebinfo.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7/gz-math7-config.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7/gz-math7-targets.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7-all
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7-all/gz-math7-all-config-version.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7-all/gz-math7-all-targets.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/cmake/gz-math7-all/gz-math7-all-config.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/gz_math_vendor/opt/gz_math_vendor/lib/libgz-math7.so.7.5.1

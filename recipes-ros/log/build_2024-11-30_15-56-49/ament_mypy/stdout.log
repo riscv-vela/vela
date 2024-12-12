@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ament_mypy.egg-info
+writing ament_mypy.egg-info/PKG-INFO
+writing dependency_links to ament_mypy.egg-info/dependency_links.txt
+writing entry points to ament_mypy.egg-info/entry_points.txt
+writing requirements to ament_mypy.egg-info/requires.txt
+writing top-level names to ament_mypy.egg-info/top_level.txt
+writing manifest file 'ament_mypy.egg-info/SOURCES.txt'
+reading manifest file 'ament_mypy.egg-info/SOURCES.txt'
+writing manifest file 'ament_mypy.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/ament_mypy/lib/python3.10/site-packages/ament-mypy.egg-link (link to .)
+Installing ament_mypy script to /work/ubuntu-ros2-dev/install/ament_mypy/bin
+
+Installed /work/ubuntu-ros2-dev/build/ament_mypy
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/ament_mypy/package.xml -> /work/ubuntu-ros2-dev/install/ament_mypy/share/ament_mypy
+creating /work/ubuntu-ros2-dev/install/ament_mypy/share/ament_index
+creating /work/ubuntu-ros2-dev/install/ament_mypy/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/ament_mypy/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/ament_mypy/resource/ament_mypy -> /work/ubuntu-ros2-dev/install/ament_mypy/share/ament_index/resource_index/packages

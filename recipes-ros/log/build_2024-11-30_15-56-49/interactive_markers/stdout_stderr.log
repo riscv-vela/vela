@@ -1,0 +1,131 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rclcpp: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found visualization_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake)
+-- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros-visualization/interactive_markers/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/interactive_markers
+[  0%] Built target ament_cmake_python_symlink_interactive_markers
+[  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 12%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 12%] Built target gtest
+running egg_info
+creating interactive_markers.egg-info
+writing interactive_markers.egg-info/PKG-INFO
+writing dependency_links to interactive_markers.egg-info/dependency_links.txt
+writing top-level names to interactive_markers.egg-info/top_level.txt
+writing manifest file 'interactive_markers.egg-info/SOURCES.txt'
+reading manifest file 'interactive_markers.egg-info/SOURCES.txt'
+writing manifest file 'interactive_markers.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_interactive_markers_egg
+[ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 25%] Built target gtest_main
+[ 31%] [32mBuilding CXX object CMakeFiles/interactive_marker_fixtures.dir/test/interactive_markers/interactive_marker_fixtures.cpp.o[0m
+[ 37%] [32m[1mLinking CXX static library libinteractive_marker_fixtures.a[0m
+[ 37%] Built target interactive_marker_fixtures
+[ 43%] [32mBuilding CXX object CMakeFiles/interactive_markers.dir/src/interactive_marker_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/interactive_markers.dir/src/message_context.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/interactive_markers.dir/src/interactive_marker_client.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/interactive_markers.dir/src/menu_handler.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/interactive_markers.dir/src/tools.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libinteractive_markers.so[0m
+[ 75%] Built target interactive_markers
+[ 81%] [32mBuilding CXX object CMakeFiles/test_interactive_marker_server.dir/test/interactive_markers/test_interactive_marker_server.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_interactive_marker_server[0m
+[ 87%] Built target test_interactive_marker_server
+[ 93%] [32mBuilding CXX object CMakeFiles/test_interactive_marker_client.dir/test/interactive_markers/test_interactive_marker_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_interactive_marker_client[0m
+[100%] Built target test_interactive_marker_client
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers-2.5.4-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers-2.5.4-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers-2.5.4-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers-2.5.4-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers/interactive_marker_server.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers/menu_handler.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/include/interactive_markers/interactive_markers/exceptions.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/include/interactive_markers/interactive_markers/interactive_marker_client.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/include/interactive_markers/interactive_markers/interactive_marker_server.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/include/interactive_markers/interactive_markers/menu_handler.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/include/interactive_markers/interactive_markers/message_context.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/include/interactive_markers/interactive_markers/tools.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/include/interactive_markers/interactive_markers/visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/ament_index/resource_index/package_run_dependencies/interactive_markers
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/ament_index/resource_index/parent_prefix_path/interactive_markers
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/ament_index/resource_index/packages/interactive_markers
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/cmake/interactive_markersConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/cmake/interactive_markersConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/package.xml
+Listing '/work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers'...
+Compiling '/work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers/interactive_marker_server.py'...
+Compiling '/work/ubuntu-ros2-dev/install/interactive_markers/lib/python3.10/site-packages/interactive_markers/menu_handler.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/interactive_markers/lib/libinteractive_markers.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/interactive_markers/lib/libinteractive_markers.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/cmake/export_interactive_markersExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/interactive_markers/share/interactive_markers/cmake/export_interactive_markersExport-noconfig.cmake

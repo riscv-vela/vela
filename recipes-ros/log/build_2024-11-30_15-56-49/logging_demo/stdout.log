@@ -1,0 +1,226 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found std_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/std_msgs/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/work/ubuntu-ros2-dev/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /work/ubuntu-ros2-dev/src/ros2/demos/logging_demo/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/logging_demo
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target logging_demo__rosidl_generator_type_description
+[  5%] [32mBuilding CXX object CMakeFiles/logger_usage_component.dir/src/logger_usage_component.cpp.o[0m
+[  7%] [32m[1mLinking CXX shared library liblogger_usage_component.so[0m
+[  7%] Built target logger_usage_component
+[ 10%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 12%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_generator_c.dir/rosidl_generator_c/logging_demo/srv/detail/config_logger__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_generator_c.dir/rosidl_generator_c/logging_demo/srv/detail/config_logger__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_generator_c.dir/rosidl_generator_c/logging_demo/srv/detail/config_logger__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library liblogging_demo__rosidl_generator_c.so[0m
+[ 20%] Built target logging_demo__rosidl_generator_c
+[ 22%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 22%] Built target logging_demo__cpp
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/logging_demo/srv/config_logger__type_support.cpp.o[0m
+[ 30%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_c.so[0m
+[ 30%] Built target logging_demo__rosidl_typesupport_c
+[ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/logging_demo/srv/detail/config_logger__type_support.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_introspection_cpp.so[0m
+[ 37%] Built target logging_demo__rosidl_typesupport_introspection_cpp
+[ 40%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/logging_demo/srv/detail/dds_fastrtps/config_logger__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 45%] Built target logging_demo__rosidl_typesupport_fastrtps_cpp
+[ 47%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/logging_demo/srv/config_logger__type_support.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_cpp.so[0m
+[ 52%] Built target logging_demo__rosidl_typesupport_cpp
+[ 55%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 57%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/logging_demo/srv/detail/config_logger__type_support.c.o[0m
+[ 60%] [32m[1mLinking C shared library liblogging_demo__rosidl_typesupport_introspection_c.so[0m
+[ 60%] Built target logging_demo__rosidl_typesupport_introspection_c
+[ 62%] [32mBuilding CXX object CMakeFiles/logger_config_component.dir/src/logger_config_component.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library liblogger_config_component.so[0m
+[ 65%] Built target logger_config_component
+[ 67%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/logging_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/logging_demo/srv/detail/config_logger__type_support_c.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library liblogging_demo__rosidl_typesupport_fastrtps_c.so[0m
+[ 72%] Built target logging_demo__rosidl_typesupport_fastrtps_c
+[ 75%] [32mBuilding CXX object CMakeFiles/logging_demo_main.dir/src/logging_demo_main.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable logging_demo_main[0m
+[ 77%] Built target logging_demo_main
+[ 77%] Built target logging_demo
+[ 77%] Built target ament_cmake_python_symlink_logging_demo
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target logging_demo__py
+running egg_info
+creating logging_demo.egg-info
+writing logging_demo.egg-info/PKG-INFO
+writing dependency_links to logging_demo.egg-info/dependency_links.txt
+writing top-level names to logging_demo.egg-info/top_level.txt
+writing manifest file 'logging_demo.egg-info/SOURCES.txt'
+reading manifest file 'logging_demo.egg-info/SOURCES.txt'
+writing manifest file 'logging_demo.egg-info/SOURCES.txt'
+[ 80%] Built target ament_cmake_python_build_logging_demo_egg
+[ 82%] [32mBuilding C object CMakeFiles/logging_demo__rosidl_generator_py.dir/rosidl_generator_py/logging_demo/srv/_config_logger_s.c.o[0m
+[ 85%] [32m[1mLinking C shared library liblogging_demo__rosidl_generator_py.so[0m
+[ 85%] Built target logging_demo__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/logging_demo_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/logging_demo/_logging_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32m[1mLinking C shared module rosidl_generator_py/logging_demo/logging_demo_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 90%] Built target logging_demo_s__rosidl_typesupport_fastrtps_c
+[ 92%] [32mBuilding C object CMakeFiles/logging_demo_s__rosidl_typesupport_c.dir/rosidl_generator_py/logging_demo/_logging_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32m[1mLinking C shared module rosidl_generator_py/logging_demo/logging_demo_s__rosidl_typesupport_c.so[0m
+[ 95%] Built target logging_demo_s__rosidl_typesupport_c
+[ 97%] [32mBuilding C object CMakeFiles/logging_demo_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/logging_demo/_logging_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/logging_demo/logging_demo_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target logging_demo_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/ament_index/resource_index/rosidl_interfaces/logging_demo
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/srv/ConfigLogger.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/config_logger.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/config_logger.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/include/logging_demo/logging_demo/srv/detail/config_logger__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo-0.33.5-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo-0.33.5-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo-0.33.5-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo-0.33.5-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/_logging_demo_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/_logging_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/_logging_demo_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/logging_demo_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/logging_demo_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/logging_demo_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/srv/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/srv/_config_logger.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/srv/_config_logger_s.c
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/logging_demo_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/logging_demo_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/logging_demo_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/srv/ConfigLogger.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/srv/ConfigLogger.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogger_config_component.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogger_usage_component.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/lib/logging_demo/logging_demo_main
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/ament_index/resource_index/package_run_dependencies/logging_demo
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/ament_index/resource_index/parent_prefix_path/logging_demo
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/ament_index/resource_index/packages/logging_demo
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/ament_index/resource_index/rclcpp_components/logging_demo
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demoConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demoConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_generator_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_generator_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_typesupport_cpp.so" to ""
+Listing '/work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo'...
+Compiling '/work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/__init__.py'...
+Listing '/work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/srv'...
+Compiling '/work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/srv/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/logging_demo/lib/python3.10/site-packages/logging_demo/srv/_config_logger.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_generator_py.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/logging_demo/lib/liblogging_demo__rosidl_generator_py.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/logging_demo__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_pyExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/logging_demo/share/logging_demo/cmake/export_logging_demo__rosidl_generator_pyExport-noconfig.cmake

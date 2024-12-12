@@ -1,0 +1,196 @@
+[0.349s] Invoking command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor': /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/google_benchmark_vendor
+[0.467s] -- The CXX compiler identification is GNU 11.4.0
+[0.481s] -- Detecting CXX compiler ABI info
+[0.542s] -- Detecting CXX compiler ABI info - done
+[0.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.546s] -- Detecting CXX compile features
+[0.555s] -- Detecting CXX compile features - done
+[0.728s] -- Configuring done
+[0.729s] -- Generating done
+[0.730s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/google_benchmark_vendor
+[0.733s] Invoked command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor' returned '0': /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/google_benchmark_vendor
+[0.734s] Invoking command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/google_benchmark_vendor -- -j8 -l8
+[0.926s] Cloning into 'benchmark-1.8.3'...
+[0.926s] [ 12%] [34m[1mCreating directories for 'benchmark-1.8.3'[0m
+[0.926s] [ 25%] [34m[1mPerforming download step (git clone) for 'benchmark-1.8.3'[0m
+[2.060s] HEAD is now at 3441176 bump version to 1.8.3
+[2.652s] [ 37%] [34m[1mNo update step for 'benchmark-1.8.3'[0m
+[2.672s] [ 50%] [34m[1mPerforming patch step for 'benchmark-1.8.3'[0m
+[2.699s] [ 62%] [34m[1mPerforming configure step for 'benchmark-1.8.3'[0m
+[2.890s] -- The CXX compiler identification is GNU 11.4.0
+[2.919s] -- Detecting CXX compiler ABI info
+[3.032s] -- Detecting CXX compiler ABI info - done
+[3.040s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.040s] -- Detecting CXX compile features
+[3.040s] -- Detecting CXX compile features - done
+[3.055s] -- Found Git: /usr/bin/git (found version "2.34.1") 
+[3.084s] -- git version: v1.8.3-dirty normalized to 1.8.3
+[3.090s] -- Google Benchmark version: 1.8.3
+[3.090s] -- Looking for shm_open in rt
+[3.159s] -- Looking for shm_open in rt - found
+[3.160s] -- Performing Test HAVE_CXX_FLAG_WALL
+[3.197s] -- Performing Test HAVE_CXX_FLAG_WALL - Success
+[3.198s] -- Performing Test HAVE_CXX_FLAG_WEXTRA
+[3.233s] -- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+[3.234s] -- Performing Test HAVE_CXX_FLAG_WSHADOW
+[3.274s] -- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+[3.274s] -- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+[3.329s] -- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+[3.330s] -- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+[3.404s] -- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+[3.405s] -- Performing Test HAVE_CXX_FLAG_WERROR
+[3.494s] -- Performing Test HAVE_CXX_FLAG_WERROR - Success
+[3.495s] -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+[3.539s] -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+[3.539s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC
+[3.587s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+[3.587s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+[3.634s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+[3.634s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+[3.646s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+[3.646s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+[3.681s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+[3.681s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+[3.715s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+[3.716s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+[3.752s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+[3.753s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+[3.791s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+[3.791s] -- Performing Test HAVE_CXX_FLAG_WD654
+[3.803s] -- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+[3.803s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+[3.829s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+[3.831s] -- Performing Test HAVE_CXX_FLAG_COVERAGE
+[3.916s] -- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+[3.917s] -- Compiling and running to test HAVE_STD_REGEX
+[4.874s] -- Performing Test HAVE_STD_REGEX -- success
+[4.874s] -- Compiling and running to test HAVE_GNU_POSIX_REGEX
+[4.891s] -- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+[4.891s] -- Compiling and running to test HAVE_POSIX_REGEX
+[5.007s] -- Performing Test HAVE_POSIX_REGEX -- success
+[5.007s] -- Compiling and running to test HAVE_STEADY_CLOCK
+[5.126s] -- Performing Test HAVE_STEADY_CLOCK -- success
+[5.126s] -- Looking for C++ include pthread.h
+[5.228s] -- Looking for C++ include pthread.h - found
+[5.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.283s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.283s] -- Found Threads: TRUE  
+[5.284s] -- Compiling and running to test HAVE_PTHREAD_AFFINITY
+[5.406s] -- Performing Test HAVE_PTHREAD_AFFINITY -- success
+[5.408s] -- Configuring done
+[5.412s] -- Generating done
+[5.412s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/benchmark-1.8.3-prefix/src/benchmark-1.8.3-build
+[5.426s] [ 75%] [34m[1mPerforming build step for 'benchmark-1.8.3'[0m
+[5.478s] [  4%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark.cc.o[0m
+[5.478s] [  9%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o[0m
+[5.478s] [ 13%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_name.cc.o[0m
+[5.494s] [ 18%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_register.cc.o[0m
+[5.502s] [ 22%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/check.cc.o[0m
+[5.505s] [ 27%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o[0m
+[5.512s] [ 31%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/colorprint.cc.o[0m
+[5.541s] [ 36%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/commandlineflags.cc.o[0m
+[5.701s] [ 40%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/complexity.cc.o[0m
+[5.740s] [ 45%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/console_reporter.cc.o[0m
+[5.914s] [ 50%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/json_reporter.cc.o[0m
+[5.919s] [ 54%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/counter.cc.o[0m
+[5.921s] [ 59%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/csv_reporter.cc.o[0m
+[6.091s] [ 63%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/perf_counters.cc.o[0m
+[6.207s] [ 68%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/statistics.cc.o[0m
+[6.221s] [ 72%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/reporter.cc.o[0m
+[6.313s] [ 77%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/string_util.cc.o[0m
+[6.407s] [ 81%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/sysinfo.cc.o[0m
+[6.457s] [ 86%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/timers.cc.o[0m
+[7.321s] [ 90%] [32m[1mLinking CXX shared library libbenchmark.so[0m
+[7.483s] [ 90%] Built target benchmark
+[7.493s] [ 95%] [32mBuilding CXX object src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o[0m
+[7.695s] [100%] [32m[1mLinking CXX shared library libbenchmark_main.so[0m
+[7.730s] [100%] Built target benchmark_main
+[7.743s] [ 87%] [34m[1mPerforming install step for 'benchmark-1.8.3'[0m
+[7.762s] [35m[1mConsolidate compiler generated dependencies of target benchmark[0m
+[7.777s] [ 90%] Built target benchmark
+[7.781s] [35m[1mConsolidate compiler generated dependencies of target benchmark_main[0m
+[7.786s] [100%] Built target benchmark_main
+[7.794s] [36mInstall the project...[0m
+[7.798s] -- Install configuration: ""
+[7.798s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1.8.3
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.8.3
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1
+[7.799s] -- Set runtime path of "/work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.8.3" to ""
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/export.h
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/benchmark.h
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfig.cmake
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[7.799s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/pkgconfig/benchmark.pc
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets.cmake
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/reducing_variance.md
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/python_bindings.md
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/AssemblyTests.md
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/tools.md
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/_config.yml
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/random_interleaving.md
+[7.800s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/platform_specific_build_instructions.md
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/dependencies.md
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/perf_counters.md
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/user_guide.md
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/index.md
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/releasing.md
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon.png
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon_black.xcf
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon_black.png
+[7.801s] -- Installing: /work/ubuntu-ros2-dev/build/google_benchmark_vendor/google_benchmark_vendor_install/share/doc/benchmark/assets/images/icon.xcf
+[7.808s] [100%] [34m[1mCompleted 'benchmark-1.8.3'[0m
+[7.822s] [100%] Built target benchmark-1.8.3
+[8.028s] Invoked command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/google_benchmark_vendor -- -j8 -l8
+[8.141s] Invoking command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/google_benchmark_vendor
+[8.151s] -- Install configuration: ""
+[8.151s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor
+[8.151s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/include
+[8.151s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/include/benchmark
+[8.151s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/include/benchmark/export.h
+[8.151s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/include/benchmark/benchmark.h
+[8.151s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share
+[8.151s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/reducing_variance.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/python_bindings.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/AssemblyTests.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/tools.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/_config.yml
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/random_interleaving.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/platform_specific_build_instructions.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/dependencies.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/perf_counters.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/user_guide.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/index.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/releasing.md
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/assets
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/assets/images
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/assets/images/icon.png
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/assets/images/icon_black.xcf
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/assets/images/icon_black.png
+[8.152s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/doc/benchmark/assets/images/icon.xcf
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/pkgconfig
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/pkgconfig/benchmark.pc
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/libbenchmark_main.so
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/libbenchmark.so
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/libbenchmark.so.1.8.3
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/libbenchmark_main.so.1.8.3
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/libbenchmark.so.1
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/libbenchmark_main.so.1
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/cmake
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/cmake/benchmark
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfig.cmake
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets.cmake
+[8.153s] -- Installing: /work/ubuntu-ros2-dev/install/google_benchmark_vendor/share/google_benchmark_vendor/package.xml
+[8.158s] Invoked command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/google_benchmark_vendor

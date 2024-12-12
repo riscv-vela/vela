@@ -1,0 +1,29 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating topic_monitor.egg-info
+writing topic_monitor.egg-info/PKG-INFO
+writing dependency_links to topic_monitor.egg-info/dependency_links.txt
+writing entry points to topic_monitor.egg-info/entry_points.txt
+writing requirements to topic_monitor.egg-info/requires.txt
+writing top-level names to topic_monitor.egg-info/top_level.txt
+writing manifest file 'topic_monitor.egg-info/SOURCES.txt'
+reading manifest file 'topic_monitor.egg-info/SOURCES.txt'
+writing manifest file 'topic_monitor.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/topic_monitor/lib/python3.10/site-packages/topic-monitor.egg-link (link to .)
+Installing data_publisher script to /work/ubuntu-ros2-dev/install/topic_monitor/lib/topic_monitor
+Installing topic_monitor script to /work/ubuntu-ros2-dev/install/topic_monitor/lib/topic_monitor
+
+Installed /work/ubuntu-ros2-dev/build/topic_monitor
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/topic_monitor/share/ament_index
+creating /work/ubuntu-ros2-dev/install/topic_monitor/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/topic_monitor/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/topic_monitor/resource/topic_monitor -> /work/ubuntu-ros2-dev/install/topic_monitor/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/topic_monitor/package.xml -> /work/ubuntu-ros2-dev/install/topic_monitor/share/topic_monitor
+creating /work/ubuntu-ros2-dev/install/topic_monitor/share/topic_monitor/launch
+symbolically linking /work/ubuntu-ros2-dev/build/topic_monitor/launch/depth_demo_launch.py -> /work/ubuntu-ros2-dev/install/topic_monitor/share/topic_monitor/launch
+symbolically linking /work/ubuntu-ros2-dev/build/topic_monitor/launch/reliability_demo_launch.py -> /work/ubuntu-ros2-dev/install/topic_monitor/share/topic_monitor/launch
+symbolically linking /work/ubuntu-ros2-dev/build/topic_monitor/launch/fragmentation_demo_launch.py -> /work/ubuntu-ros2-dev/install/topic_monitor/share/topic_monitor/launch

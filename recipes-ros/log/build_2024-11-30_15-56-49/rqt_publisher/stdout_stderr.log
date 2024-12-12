@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating src/rqt_publisher.egg-info
+writing src/rqt_publisher.egg-info/PKG-INFO
+writing dependency_links to src/rqt_publisher.egg-info/dependency_links.txt
+writing entry points to src/rqt_publisher.egg-info/entry_points.txt
+writing requirements to src/rqt_publisher.egg-info/requires.txt
+writing top-level names to src/rqt_publisher.egg-info/top_level.txt
+writing manifest file 'src/rqt_publisher.egg-info/SOURCES.txt'
+reading manifest file 'src/rqt_publisher.egg-info/SOURCES.txt'
+writing manifest file 'src/rqt_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/rqt_publisher/lib/python3.10/site-packages/rqt-publisher.egg-link (link to src)
+Installing rqt_publisher script to /work/ubuntu-ros2-dev/install/rqt_publisher/lib/rqt_publisher
+
+Installed /work/ubuntu-ros2-dev/build/rqt_publisher/src
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/rqt_publisher/share/ament_index
+creating /work/ubuntu-ros2-dev/install/rqt_publisher/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/rqt_publisher/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_publisher/resource/rqt_publisher -> /work/ubuntu-ros2-dev/install/rqt_publisher/share/ament_index/resource_index/packages
+creating /work/ubuntu-ros2-dev/install/rqt_publisher/share/rqt_publisher/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_publisher/resource/Publisher.ui -> /work/ubuntu-ros2-dev/install/rqt_publisher/share/rqt_publisher/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_publisher/package.xml -> /work/ubuntu-ros2-dev/install/rqt_publisher/share/rqt_publisher
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_publisher/plugin.xml -> /work/ubuntu-ros2-dev/install/rqt_publisher/share/rqt_publisher
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(

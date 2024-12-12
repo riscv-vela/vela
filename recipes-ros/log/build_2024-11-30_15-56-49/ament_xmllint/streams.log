@@ -1,0 +1,26 @@
+[0.371s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_xmllint': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_xmllint/build --no-deps symlink_data
+[0.471s] running develop
+[0.471s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.471s]   warnings.warn(
+[0.515s] running egg_info
+[0.515s] creating ament_xmllint.egg-info
+[0.515s] writing ament_xmllint.egg-info/PKG-INFO
+[0.515s] writing dependency_links to ament_xmllint.egg-info/dependency_links.txt
+[0.516s] writing entry points to ament_xmllint.egg-info/entry_points.txt
+[0.516s] writing requirements to ament_xmllint.egg-info/requires.txt
+[0.516s] writing top-level names to ament_xmllint.egg-info/top_level.txt
+[0.516s] writing manifest file 'ament_xmllint.egg-info/SOURCES.txt'
+[0.517s] reading manifest file 'ament_xmllint.egg-info/SOURCES.txt'
+[0.517s] writing manifest file 'ament_xmllint.egg-info/SOURCES.txt'
+[0.518s] running build_ext
+[0.518s] Creating /work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages/ament-xmllint.egg-link (link to .)
+[0.519s] Installing ament_xmllint script to /work/ubuntu-ros2-dev/install/ament_xmllint/bin
+[0.519s] 
+[0.519s] Installed /work/ubuntu-ros2-dev/build/ament_xmllint
+[0.519s] running symlink_data
+[0.519s] symbolically linking /work/ubuntu-ros2-dev/build/ament_xmllint/package.xml -> /work/ubuntu-ros2-dev/install/ament_xmllint/share/ament_xmllint
+[0.519s] creating /work/ubuntu-ros2-dev/install/ament_xmllint/share/ament_index
+[0.519s] creating /work/ubuntu-ros2-dev/install/ament_xmllint/share/ament_index/resource_index
+[0.519s] creating /work/ubuntu-ros2-dev/install/ament_xmllint/share/ament_index/resource_index/packages
+[0.519s] symbolically linking /work/ubuntu-ros2-dev/build/ament_xmllint/resource/ament_xmllint -> /work/ubuntu-ros2-dev/install/ament_xmllint/share/ament_index/resource_index/packages
+[0.551s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_xmllint' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_xmllint/build --no-deps symlink_data

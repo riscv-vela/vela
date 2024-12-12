@@ -1,0 +1,237 @@
+[0.135s] Invoking command in '/work/ubuntu-ros2-dev/build/yaml_cpp_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ros2/yaml_cpp_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/yaml_cpp_vendor
+[0.403s] -- The CXX compiler identification is GNU 11.4.0
+[0.404s] -- Detecting CXX compiler ABI info
+[0.439s] -- Detecting CXX compiler ABI info - done
+[0.443s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.443s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.444s] -- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+[0.664s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.740s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.778s] -- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+[0.897s] -- Configuring done
+[0.899s] -- Generating done
+[0.900s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor
+[0.916s] Invoked command in '/work/ubuntu-ros2-dev/build/yaml_cpp_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ros2/yaml_cpp_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/yaml_cpp_vendor
+[0.916s] Invoking command in '/work/ubuntu-ros2-dev/build/yaml_cpp_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/yaml_cpp_vendor -- -j8 -l8
+[1.095s] [ 14%] [34m[1mCreating directories for 'yaml_cpp_vendor'[0m
+[1.183s] [ 28%] [34m[1mPerforming download step for 'yaml_cpp_vendor'[0m
+[3.163s] [34m=== [1m./yaml_cpp_vendor[22m (git) ===[0m
+[3.163s] hint: Using 'master' as the name for the initial branch. This default branch name
+[3.163s] hint: is subject to change. To configure the initial branch name to use in all
+[3.168s] hint: of your new repositories, which will suppress this warning, call:
+[3.168s] hint: 
+[3.168s] hint: 	git config --global init.defaultBranch <name>
+[3.168s] hint: 
+[3.168s] hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+[3.168s] hint: 'development'. The just-created branch can be renamed via this command:
+[3.168s] hint: 
+[3.168s] hint: 	git branch -m <name>
+[3.168s] Initialized empty Git repository in /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/src/yaml_cpp_vendor/.git/
+[3.168s] 
+[3.168s] From https://github.com/jbeder/yaml-cpp
+[3.168s]  * [new tag]         0.8.0      -> 0.8.0
+[3.168s] Note: switching to '0.8.0'.
+[3.168s] 
+[3.168s] You are in 'detached HEAD' state. You can look around, make experimental
+[3.169s] changes and commit them, and you can discard any commits you make in this
+[3.169s] state without impacting any branches by switching back to a branch.
+[3.169s] 
+[3.169s] If you want to create a new branch to retain commits you create, you may
+[3.169s] do so (now or later) by using -c with the switch command. Example:
+[3.169s] 
+[3.169s]   git switch -c <new-branch-name>
+[3.169s] 
+[3.169s] Or undo this operation with:
+[3.169s] 
+[3.169s]   git switch -
+[3.169s] 
+[3.169s] Turn off this advice by setting config variable advice.detachedHead to false
+[3.169s] 
+[3.169s] HEAD is now at f732014 Bump version to 0.8.0.
+[3.169s] 
+[3.217s] [ 42%] [34m[1mPerforming patch step for 'yaml_cpp_vendor'[0m
+[3.218s] Applying patch: /work/ubuntu-ros2-dev/src/ros2/yaml_cpp_vendor/patches/0001.patch
+[3.296s] [ 57%] [34m[1mPerforming configure step for 'yaml_cpp_vendor'[0m
+[3.305s] loading initial cache file /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-config.cmake
+[3.352s] -- The CXX compiler identification is GNU 11.4.0
+[3.355s] -- Detecting CXX compiler ABI info
+[3.559s] -- Detecting CXX compiler ABI info - done
+[3.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.566s] -- Detecting CXX compile features
+[3.566s] -- Detecting CXX compile features - done
+[3.568s] -- Configuring done
+[3.576s] -- Generating done
+[3.576s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/src/yaml_cpp_vendor-build
+[3.624s] [ 71%] [34m[1mPerforming build step for 'yaml_cpp_vendor'[0m
+[3.684s] [  3%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[3.703s] [  6%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[3.735s] [ 10%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o[0m
+[3.737s] [ 13%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[3.747s] [ 16%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[3.788s] [ 20%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[3.800s] [ 23%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[3.819s] [ 26%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[3.899s] [ 30%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[3.900s] [ 33%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[4.016s] [ 36%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[4.097s] [ 40%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[4.188s] [ 43%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[4.215s] [ 46%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[4.250s] [ 50%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[4.306s] [ 53%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[4.361s] [ 56%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[4.367s] [ 60%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[4.413s] [ 63%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[4.418s] [ 66%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[4.523s] [ 70%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[4.551s] [ 73%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[4.558s] [ 76%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[4.591s] [ 80%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[4.619s] [ 83%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[4.722s] [ 86%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[4.735s] [ 90%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[4.743s] [ 93%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[4.761s] [ 96%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[5.520s] [100%] [32m[1mLinking CXX shared library libyaml-cpp.so[0m
+[5.748s] [100%] Built target yaml-cpp
+[5.784s] [ 85%] [34m[1mPerforming install step for 'yaml_cpp_vendor'[0m
+[5.878s] [35m[1mConsolidate compiler generated dependencies of target yaml-cpp[0m
+[5.916s] [100%] Built target yaml-cpp
+[5.951s] [36mInstall the project...[0m
+[5.973s] -- Install configuration: ""
+[5.973s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/libyaml-cpp.so.0.8.0
+[5.974s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/libyaml-cpp.so.0.8
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/libyaml-cpp.so
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/dll.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emitfromevents.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/traits.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/stlemitter.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/ostream_wrapper.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emitter.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/contrib
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/contrib/graphbuilder.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/contrib/anchordict.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/null.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/eventhandler.h
+[5.975s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/mark.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emitterstyle.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/depthguard.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/parser.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/anchor.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/noexcept.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emittermanip.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/yaml.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/exceptions.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/binary.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/ptr.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/convert.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/iterator.h
+[5.976s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/node.h
+[5.978s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/parse.h
+[5.978s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/type.h
+[5.978s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/emit.h
+[5.978s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/impl.h
+[5.978s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/node_ref.h
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/iterator.h
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/node_iterator.h
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/node.h
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/iterator_fwd.h
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/impl.h
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/memory.h
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/node_data.h
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emitterdef.h
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/cmake/yaml-cpp/yaml-cpp-targets-noconfig.cmake
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+[5.979s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+[5.980s] -- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/pkgconfig/yaml-cpp.pc
+[6.063s] [100%] [34m[1mCompleted 'yaml_cpp_vendor'[0m
+[6.152s] [100%] Built target yaml_cpp_vendor
+[6.177s] Invoked command in '/work/ubuntu-ros2-dev/build/yaml_cpp_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/yaml_cpp_vendor -- -j8 -l8
+[6.252s] Invoking command in '/work/ubuntu-ros2-dev/build/yaml_cpp_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/yaml_cpp_vendor
+[6.260s] -- Install configuration: ""
+[6.260s] -- Execute custom install script
+[6.260s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package_cmake_prefix.bat
+[6.263s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package_cmake_prefix.dsv
+[6.277s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package_cmake_prefix.sh
+[6.282s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package.bat
+[6.293s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package.dsv
+[6.293s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package.sh
+[6.299s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/ament_index/resource_index/vendor_packages/yaml_cpp_vendor
+[6.312s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/ament_index/resource_index/package_run_dependencies/yaml_cpp_vendor
+[6.314s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/ament_index/resource_index/parent_prefix_path/yaml_cpp_vendor
+[6.318s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/ament_prefix_path.sh
+[6.322s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/ament_prefix_path.dsv
+[6.334s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/path.sh
+[6.335s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/path.dsv
+[6.341s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/local_setup.bash
+[6.344s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/local_setup.sh
+[6.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/local_setup.zsh
+[6.352s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/local_setup.dsv
+[6.355s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/package.dsv
+[6.359s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/ament_index/resource_index/packages/yaml_cpp_vendor
+[6.364s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/yaml_cpp_vendor-extras.cmake
+[6.372s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/yaml_cpp_vendorConfig.cmake
+[6.381s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/yaml_cpp_vendorConfig-version.cmake
+[6.385s] -- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/package.xml
+[6.389s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor
+[6.389s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include
+[6.389s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp
+[6.389s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/dll.h
+[6.389s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emitfromevents.h
+[6.389s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/traits.h
+[6.390s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/stlemitter.h
+[6.390s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/ostream_wrapper.h
+[6.390s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emitter.h
+[6.390s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/contrib
+[6.390s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/contrib/graphbuilder.h
+[6.390s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/contrib/anchordict.h
+[6.390s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/null.h
+[6.390s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/eventhandler.h
+[6.390s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/mark.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emitterstyle.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/depthguard.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/parser.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/anchor.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/noexcept.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emittermanip.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/yaml.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/exceptions.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/binary.h
+[6.391s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/ptr.h
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/convert.h
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/iterator.h
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/node.h
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/parse.h
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/type.h
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/emit.h
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/impl.h
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail
+[6.392s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/node_ref.h
+[6.393s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/iterator.h
+[6.393s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/node_iterator.h
+[6.393s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/node.h
+[6.393s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/iterator_fwd.h
+[6.393s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/impl.h
+[6.394s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/memory.h
+[6.394s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/node_data.h
+[6.394s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emitterdef.h
+[6.394s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib
+[6.394s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/libyaml-cpp.so.0.8
+[6.394s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/pkgconfig
+[6.394s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/pkgconfig/yaml-cpp.pc
+[6.394s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/libyaml-cpp.so.0.8.0
+[6.395s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/libyaml-cpp.so
+[6.395s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake
+[6.396s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp
+[6.396s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+[6.396s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/yaml-cpp-targets-noconfig.cmake
+[6.396s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+[6.396s] -- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+[6.401s] Invoked command in '/work/ubuntu-ros2-dev/build/yaml_cpp_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/yaml_cpp_vendor

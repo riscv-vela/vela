@@ -1,0 +1,6 @@
+Invoking command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor': /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/google_benchmark_vendor
+Invoked command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor' returned '0': /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/google_benchmark_vendor
+Invoking command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/google_benchmark_vendor -- -j8 -l8
+Invoked command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/google_benchmark_vendor -- -j8 -l8
+Invoking command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/google_benchmark_vendor
+Invoked command in '/work/ubuntu-ros2-dev/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/google_benchmark_vendor

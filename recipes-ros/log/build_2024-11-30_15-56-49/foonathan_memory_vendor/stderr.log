@@ -1,0 +1,20 @@
+Cloning into 'foo_mem-ext'...
+HEAD is now at 0f07757 Release 0.7-3
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/11/ios:40[m[K,
+                 from [01m[K/usr/include/c++/11/istream:38[m[K,
+                 from [01m[K/usr/include/c++/11/fstream:38[m[K,
+                 from [01m[K/work/ubuntu-ros2-dev/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext/tool/node_size_debugger.cpp:6[m[K:
+/usr/include/c++/11/bits/stl_pair.h: In instantiation of ‘[01m[Kconstexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = long double; _T2 = long double; typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type = long double; typename std::decay<_Tp2>::type = long double; typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type = long double; typename std::decay<_Tp>::type = long double][m[K’:
+[01m[K/work/ubuntu-ros2-dev/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext/tool/node_size_debugger.hpp:205:34:[m[K   required from ‘[01m[Kstd::size_t debug_map::debug() [with T = long double; std::size_t = long unsigned int][m[K’
+[01m[K/work/ubuntu-ros2-dev/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext/tool/node_size_debugger.hpp:321:38:[m[K   required from ‘[01m[Kstd::size_t debug_single(Debugger) [with T = long double; Debugger = debug_map; std::size_t = long unsigned int][m[K’
+[01m[K/work/ubuntu-ros2-dev/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext/tool/node_size_debugger.hpp:342:75:[m[K   required from ‘[01m[Knode_size_map debug_impl(Debugger, std::tuple<_UTypes ...>) [with Debugger = debug_map; Types = {char, short int, int, long int, long double}; node_size_map = std::map<long unsigned int, long unsigned int>][m[K’
+[01m[K/work/ubuntu-ros2-dev/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext/tool/node_size_debugger.hpp:350:40:[m[K   required from ‘[01m[Kdebug_result debug(Debugger) [with Debugger = debug_map][m[K’
+[01m[K/work/ubuntu-ros2-dev/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext/tool/node_size_debugger.cpp:132:21:[m[K   required from ‘[01m[Kint serialize_impl(const Serializer&) [with Debugger = debug_map; Serializer = simple_serializer][m[K’
+[01m[K/work/ubuntu-ros2-dev/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext/tool/node_size_debugger.cpp:139:45:[m[K   required from ‘[01m[Kvoid serialize_impl(const Serializer&, std::tuple<_UTypes ...>) [with Serializer = simple_serializer; Debuggers = {debug_forward_list, debug_list, debug_set, debug_multiset, debug_unordered_set, debug_unordered_multiset, debug_map, debug_multimap, debug_unordered_map, debug_unordered_multimap, debug_shared_ptr_stateless, debug_shared_ptr_stateful}][m[K’
+[01m[K/work/ubuntu-ros2-dev/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext/tool/node_size_debugger.cpp:147:19:[m[K   required from ‘[01m[Kvoid serialize(const Serializer&) [with Serializer = simple_serializer][m[K’
+[01m[K/work/ubuntu-ros2-dev/build/foonathan_memory_vendor/foo_mem-ext-prefix/src/foo_mem-ext/tool/node_size_debugger.cpp:202:18:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_pair.h:567:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<long double, long double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  567 |     [01;36m[Kmake_pair[m[K(_T1&& __x, _T2&& __y)
+      |     [01;36m[K^~~~~~~~~[m[K

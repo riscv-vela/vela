@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating src/rqt_bag.egg-info
+writing src/rqt_bag.egg-info/PKG-INFO
+writing dependency_links to src/rqt_bag.egg-info/dependency_links.txt
+writing requirements to src/rqt_bag.egg-info/requires.txt
+writing top-level names to src/rqt_bag.egg-info/top_level.txt
+writing manifest file 'src/rqt_bag.egg-info/SOURCES.txt'
+reading manifest file 'src/rqt_bag.egg-info/SOURCES.txt'
+writing manifest file 'src/rqt_bag.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/rqt_bag/lib/python3.10/site-packages/rqt-bag.egg-link (link to src)
+Installing rqt_bag script to /work/ubuntu-ros2-dev/install/rqt_bag/bin
+
+Installed /work/ubuntu-ros2-dev/build/rqt_bag/src
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/rqt_bag/share/ament_index
+creating /work/ubuntu-ros2-dev/install/rqt_bag/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/rqt_bag/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_bag/resource/rqt_bag -> /work/ubuntu-ros2-dev/install/rqt_bag/share/ament_index/resource_index/packages
+creating /work/ubuntu-ros2-dev/install/rqt_bag/share/rqt_bag/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_bag/resource/bag_widget.ui -> /work/ubuntu-ros2-dev/install/rqt_bag/share/rqt_bag/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_bag/plugin.xml -> /work/ubuntu-ros2-dev/install/rqt_bag/share/rqt_bag
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_bag/package.xml -> /work/ubuntu-ros2-dev/install/rqt_bag/share/rqt_bag
+creating /work/ubuntu-ros2-dev/install/rqt_bag/lib/rqt_bag
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_bag/scripts/rqt_bag -> /work/ubuntu-ros2-dev/install/rqt_bag/lib/rqt_bag

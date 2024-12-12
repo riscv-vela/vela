@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating rosbag2_examples_py.egg-info
+writing rosbag2_examples_py.egg-info/PKG-INFO
+writing dependency_links to rosbag2_examples_py.egg-info/dependency_links.txt
+writing entry points to rosbag2_examples_py.egg-info/entry_points.txt
+writing requirements to rosbag2_examples_py.egg-info/requires.txt
+writing top-level names to rosbag2_examples_py.egg-info/top_level.txt
+writing manifest file 'rosbag2_examples_py.egg-info/SOURCES.txt'
+reading manifest file 'rosbag2_examples_py.egg-info/SOURCES.txt'
+writing manifest file 'rosbag2_examples_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/rosbag2_examples_py/lib/python3.10/site-packages/rosbag2-examples-py.egg-link (link to .)
+Installing data_generator_executable script to /work/ubuntu-ros2-dev/install/rosbag2_examples_py/lib/rosbag2_examples_py
+Installing data_generator_node script to /work/ubuntu-ros2-dev/install/rosbag2_examples_py/lib/rosbag2_examples_py
+Installing simple_bag_recorder script to /work/ubuntu-ros2-dev/install/rosbag2_examples_py/lib/rosbag2_examples_py
+
+Installed /work/ubuntu-ros2-dev/build/rosbag2_examples_py
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/rosbag2_examples_py/share/ament_index
+creating /work/ubuntu-ros2-dev/install/rosbag2_examples_py/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/rosbag2_examples_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rosbag2_examples_py/resource/rosbag2_examples_py -> /work/ubuntu-ros2-dev/install/rosbag2_examples_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rosbag2_examples_py/package.xml -> /work/ubuntu-ros2-dev/install/rosbag2_examples_py/share/rosbag2_examples_py

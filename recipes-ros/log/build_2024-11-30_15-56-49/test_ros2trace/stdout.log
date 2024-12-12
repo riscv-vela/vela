@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating test_ros2trace.egg-info
+writing test_ros2trace.egg-info/PKG-INFO
+writing dependency_links to test_ros2trace.egg-info/dependency_links.txt
+writing requirements to test_ros2trace.egg-info/requires.txt
+writing top-level names to test_ros2trace.egg-info/top_level.txt
+writing manifest file 'test_ros2trace.egg-info/SOURCES.txt'
+reading manifest file 'test_ros2trace.egg-info/SOURCES.txt'
+writing manifest file 'test_ros2trace.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/test_ros2trace/lib/python3.10/site-packages/test-ros2trace.egg-link (link to .)
+
+Installed /work/ubuntu-ros2-dev/build/test_ros2trace
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/test_ros2trace/package.xml -> /work/ubuntu-ros2-dev/install/test_ros2trace/share/test_ros2trace
+creating /work/ubuntu-ros2-dev/install/test_ros2trace/share/ament_index
+creating /work/ubuntu-ros2-dev/install/test_ros2trace/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/test_ros2trace/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/test_ros2trace/resource/test_ros2trace -> /work/ubuntu-ros2-dev/install/test_ros2trace/share/ament_index/resource_index/packages

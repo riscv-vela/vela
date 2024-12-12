@@ -1,0 +1,198 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.1 (/work/ubuntu-ros2-dev/install/ament_index_cpp/share/ament_index_cpp/cmake)
+-- Found pluginlib: 5.4.2 (/work/ubuntu-ros2-dev/install/pluginlib/share/pluginlib/cmake)
+-- Found rclcpp: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosbag2_storage: 0.26.5 (/work/ubuntu-ros2-dev/install/rosbag2_storage/share/rosbag2_storage/cmake)
+-- Setting yaml-cpp_DIR to: '/work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found ament_cmake_gmock: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found test_msgs: 2.0.2 (/work/ubuntu-ros2-dev/install/test_msgs/share/test_msgs/cmake)
+-- Found std_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/std_msgs/share/std_msgs/cmake)
+-- Found rosbag2_test_msgdefs: 0.26.5 (/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake)
+-- Found gmock sources under '/work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rosbag2/rosbag2_cpp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosbag2_cpp
+[  1%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/cache/cache_consumer.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/clocks/time_controller_clock.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/converter.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/info.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/message_definitions/local_message_definition_source.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/reader.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/readers/sequential_reader.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/rmw_implemented_serialization_format_converter.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/cache/circular_message_cache.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/serialization_format_converter_factory.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/types/introspection_message.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/typesupport_helpers.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/writer.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/writers/sequential_writer.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/cache/message_cache.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/cache/message_cache_circular_buffer.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/reindexer.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/service_utils.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rosbag2_cpp.dir/src/rosbag2_cpp/cache/message_cache_buffer.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library librosbag2_cpp.so[0m
+[ 33%] Built target rosbag2_cpp
+[ 35%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 38%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 38%] Built target gmock
+[ 40%] [32mBuilding CXX object CMakeFiles/converter_test_plugins.dir/test/rosbag2_cpp/serializer_test_plugin.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/converter_test_plugins.dir/test/rosbag2_cpp/converter_test_plugin.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library libconverter_test_plugins.so[0m
+[ 43%] Built target converter_test_plugins
+[ 45%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 46%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 46%] Built target gmock_main
+[ 48%] [32mBuilding CXX object CMakeFiles/test_converter_factory.dir/test/rosbag2_cpp/test_converter_factory.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_converter_factory[0m
+[ 50%] Built target test_converter_factory
+[ 51%] [32mBuilding CXX object CMakeFiles/test_circular_message_cache.dir/test/rosbag2_cpp/test_circular_message_cache.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable test_circular_message_cache[0m
+[ 53%] Built target test_circular_message_cache
+[ 55%] [32mBuilding CXX object CMakeFiles/test_ros2_message.dir/test/rosbag2_cpp/types/test_ros2_message.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/test_ros2_message.dir/src/rosbag2_cpp/typesupport_helpers.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/test_ros2_message.dir/src/rosbag2_cpp/types/introspection_message.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable test_ros2_message[0m
+[ 60%] Built target test_ros2_message
+[ 61%] [32mBuilding CXX object CMakeFiles/test_sequential_writer.dir/test/rosbag2_cpp/test_sequential_writer.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/test_sequential_writer.dir/test/rosbag2_cpp/fake_data.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable test_sequential_writer[0m
+[ 65%] Built target test_sequential_writer
+[ 66%] [32mBuilding CXX object CMakeFiles/test_serialization_converter.dir/test/rosbag2_cpp/test_serialization_converter.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable test_serialization_converter[0m
+[ 68%] Built target test_serialization_converter
+[ 70%] [32mBuilding CXX object CMakeFiles/test_multifile_reader.dir/test/rosbag2_cpp/test_multifile_reader.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable test_multifile_reader[0m
+[ 71%] Built target test_multifile_reader
+[ 73%] [32mBuilding CXX object CMakeFiles/test_time_controller_clock.dir/test/rosbag2_cpp/test_time_controller_clock.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_time_controller_clock[0m
+[ 75%] Built target test_time_controller_clock
+[ 76%] [32mBuilding CXX object CMakeFiles/test_service_utils.dir/test/rosbag2_cpp/test_service_utils.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_service_utils[0m
+[ 78%] Built target test_service_utils
+[ 80%] [32mBuilding CXX object CMakeFiles/test_message_cache.dir/test/rosbag2_cpp/test_message_cache.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable test_message_cache[0m
+[ 81%] Built target test_message_cache
+[ 83%] [32mBuilding CXX object CMakeFiles/test_local_message_definition_source.dir/test/rosbag2_cpp/test_local_message_definition_source.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable test_local_message_definition_source[0m
+[ 85%] Built target test_local_message_definition_source
+[ 86%] [32mBuilding CXX object CMakeFiles/test_storage_without_metadata_file.dir/test/rosbag2_cpp/test_storage_without_metadata_file.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_storage_without_metadata_file[0m
+[ 88%] Built target test_storage_without_metadata_file
+[ 90%] [32mBuilding CXX object CMakeFiles/test_sequential_reader.dir/test/rosbag2_cpp/test_sequential_reader.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/test_sequential_reader.dir/test/rosbag2_cpp/fake_data.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable test_sequential_reader[0m
+[ 93%] Built target test_sequential_reader
+[ 95%] [32mBuilding CXX object CMakeFiles/test_info.dir/test/rosbag2_cpp/test_info.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable test_info[0m
+[ 96%] Built target test_info
+[ 98%] [32mBuilding CXX object CMakeFiles/test_typesupport_helpers.dir/test/rosbag2_cpp/test_typesupport_helpers.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_typesupport_helpers[0m
+[100%] Built target test_typesupport_helpers
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/cache/cache_buffer_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/cache/cache_consumer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/cache/circular_message_cache.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_buffer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_circular_buffer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/clocks/player_clock.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/clocks/time_controller_clock.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/converter.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/info.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/logging.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/message_definitions/local_message_definition_source.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/plugins/plugin_utils.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/reader.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/reindexer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/rmw_implemented_serialization_format_converter.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/service_utils.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/types.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/typesupport_helpers.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/writer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/writer_interfaces/base_writer_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/include/rosbag2_cpp/rosbag2_cpp/writers/sequential_writer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/lib/libconverter_test_plugins.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/test/rosbag2_cpp/converter_test_plugin.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/ament_index/resource_index/package_run_dependencies/rosbag2_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/ament_index/resource_index/parent_prefix_path/rosbag2_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/ament_index/resource_index/packages/rosbag2_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/ament_index/resource_index/rosbag2_cpp__pluginlib__plugin/rosbag2_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/cmake/rosbag2_cppConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/cmake/rosbag2_cppConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_cpp/lib/librosbag2_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_cpp/lib/librosbag2_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/cmake/export_rosbag2_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_cpp/share/rosbag2_cpp/cmake/export_rosbag2_cppExport-noconfig.cmake

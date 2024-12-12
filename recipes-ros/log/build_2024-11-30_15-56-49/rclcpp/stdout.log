@@ -1,0 +1,857 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.1 (/work/ubuntu-ros2-dev/install/ament_index_cpp/share/ament_index_cpp/cmake)
+-- Found builtin_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found libstatistics_collector: 1.7.3 (/work/ubuntu-ros2-dev/install/libstatistics_collector/share/libstatistics_collector/cmake)
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosgraph_msgs: 2.0.2 (/work/ubuntu-ros2-dev/install/rosgraph_msgs/share/rosgraph_msgs/cmake)
+-- Found tracetools: 8.2.2 (/work/ubuntu-ros2-dev/install/tracetools/share/tracetools/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found rosidl_adapter: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gmock sources under '/work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gmock sources under '/work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gmock sources under '/work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gmock sources under '/work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rclcpp
+[  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  0%] [34m[1mGenerating rclcpp/version.h[0m
+[  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  0%] Built target ament_generate_version_header__rclcpp
+[  0%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[  0%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[  0%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[  0%] Built target gtest_main
+[  0%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[  0%] [34m[1mExpanding interface_traits.hpp.em into node_waitables_interface_traits.hpp[0m
+[  0%] [34m[1mExpanding logging.hpp.em[0m
+[  1%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_base_interface.hpp.hpp[0m
+[  1%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_clock_interface.hpp.hpp[0m
+[  2%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_graph_interface.hpp.hpp[0m
+[  2%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_logging_interface.hpp.hpp[0m
+[  3%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_parameters_interface.hpp.hpp[0m
+[  3%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_services_interface.hpp.hpp[0m
+[  3%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_time_source_interface.hpp.hpp[0m
+[  3%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_timers_interface.hpp.hpp[0m
+[  3%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_topics_interface.hpp.hpp[0m
+[  3%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_type_descriptions_interface.hpp.hpp[0m
+[  3%] [34m[1mExpanding get_interface.hpp.em into get_/work/ubuntu-ros2-dev/src/ros2/rclcpp/rclcpp/include/rclcpp/node_interfaces/node_waitables_interface.hpp.hpp[0m
+[  3%] [34m[1mExpanding interface_traits.hpp.em into node_base_interface_traits.hpp[0m
+[  3%] [34m[1mExpanding interface_traits.hpp.em into node_clock_interface_traits.hpp[0m
+[  3%] [34m[1mExpanding interface_traits.hpp.em into node_graph_interface_traits.hpp[0m
+[  3%] [34m[1mExpanding interface_traits.hpp.em into node_logging_interface_traits.hpp[0m
+[  3%] [34m[1mExpanding interface_traits.hpp.em into node_parameters_interface_traits.hpp[0m
+[  3%] [34m[1mExpanding interface_traits.hpp.em into node_services_interface_traits.hpp[0m
+[  3%] [34m[1mExpanding interface_traits.hpp.em into node_time_source_interface_traits.hpp[0m
+[  3%] [34m[1mExpanding interface_traits.hpp.em into node_topics_interface_traits.hpp[0m
+[  4%] [34m[1mExpanding interface_traits.hpp.em into node_timers_interface_traits.hpp[0m
+[  5%] [34m[1mExpanding interface_traits.hpp.em into node_type_descriptions_interface_traits.hpp[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/any_executable.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/callback_group.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/client.cpp.o[0m
+[  6%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[  6%] Built target gmock_main
+[  6%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  6%] Built target rclcpp_test_msgs__rosidl_generator_type_description
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/context.cpp.o[0m
+[  6%] Built target rclcpp_test_msgs__cpp
+[  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/clock.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/contexts/default_context.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/create_generic_client.cpp.o[0m
+[  7%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/header__description.c.o[0m
+[  7%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/header__functions.c.o[0m
+[  8%] [32m[1mLinking CXX static library libgtest.a[0m
+[  9%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/header__type_support.c.o[0m
+[ 10%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/add_guard_condition_to_rcl_wait_set.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/resolve_intra_process_buffer_type.cpp.o[0m
+[ 10%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/large_message__description.c.o[0m
+[ 10%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/large_message__functions.c.o[0m
+[ 10%] Built target gtest
+[ 10%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/large_message__type_support.c.o[0m
+[ 10%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/message_with_header__description.c.o[0m
+[ 11%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/message_with_header__functions.c.o[0m
+[ 11%] Built target gmock
+[ 11%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/message_with_header__type_support.c.o[0m
+[ 11%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/string__description.c.o[0m
+[ 11%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/string__functions.c.o[0m
+[ 12%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/rclcpp/msg/detail/string__type_support.c.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/rmw_implementation_specific_publisher_payload.cpp.o[0m
+[ 12%] [32m[1mLinking C shared library librclcpp__rosidl_generator_c.so[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/rmw_implementation_specific_payload.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/rmw_implementation_specific_subscription_payload.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/utilities.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/resolve_parameter_overrides.cpp.o[0m
+[ 14%] Built target rclcpp_test_msgs__rosidl_generator_c
+[ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/dynamic_typesupport/dynamic_message.cpp.o[0m
+[ 14%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/duration.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/dynamic_typesupport/dynamic_message_type.cpp.o[0m
+[ 14%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rclcpp/msg/header__type_support.cpp.o[0m
+[ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/dynamic_typesupport/dynamic_message_type_builder.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/dynamic_typesupport/dynamic_message_type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rclcpp/msg/detail/header__type_support_c.cpp.o[0m
+[ 16%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rclcpp/msg/large_message__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rclcpp/msg/detail/large_message__type_support_c.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/exceptions/exceptions.cpp.o[0m
+[ 17%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rclcpp/msg/detail/dds_fastrtps/header__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rclcpp/msg/message_with_header__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rclcpp/msg/detail/message_with_header__type_support_c.cpp.o[0m
+[ 18%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rclcpp/msg/string__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rclcpp/msg/detail/dds_fastrtps/large_message__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/event.cpp.o[0m
+[ 18%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rclcpp/msg/detail/string__type_support_c.cpp.o[0m
+[ 18%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rclcpp/msg/detail/dds_fastrtps/message_with_header__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executor.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library librclcpp__rosidl_typesupport_cpp.so[0m
+[ 18%] Built target rclcpp_test_msgs__rosidl_typesupport_cpp
+[ 18%] [32m[1mLinking CXX shared library librclcpp__rosidl_typesupport_fastrtps_c.so[0m
+[ 18%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rclcpp/msg/detail/dds_fastrtps/string__type_support.cpp.o[0m
+[ 18%] Built target rclcpp_test_msgs__rosidl_typesupport_fastrtps_c
+[ 19%] [32m[1mLinking CXX shared library librclcpp__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 19%] Built target rclcpp_test_msgs__rosidl_typesupport_fastrtps_cpp
+[ 19%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/executor_entities_collection.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/executor_entities_collector.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/executor_notify_waitable.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executable_list.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executor_options.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/multi_threaded_executor.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/single_threaded_executor.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/dynamic_typesupport/dynamic_serialization_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/static_single_threaded_executor.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/expand_topic_or_service_name.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/experimental/executors/events_executor/events_executor.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/experimental/timers_manager.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/future_return_code.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/generic_client.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/generic_publisher.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/generic_subscription.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/graph_listener.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/guard_condition.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/init_options.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/intra_process_manager.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/logger.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/logging_mutex.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/memory_strategies.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/memory_strategy.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/message_info.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/network_flow_endpoint.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_base.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_clock.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_graph.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_logging.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_parameters.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_services.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_type_descriptions.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_waitables.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_topics.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_timers.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_options.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/parameter.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/parameter_client.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/parameter_event_handler.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/parameter_events_filter.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/node_interfaces/node_time_source.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/parameter_map.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/parameter_service.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/parameter_value.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/publisher_base.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/qos.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/event_handler.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/qos_overriding_options.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/rate.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/serialization.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/serialized_message.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/service.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/signal_handler.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/subscription_base.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/subscription_intra_process_base.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/time.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/time_source.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/timer.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/typesupport_helpers.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/utilities.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/waitable.cpp.o[0m
+[ 35%] [32m[1mLinking CXX shared library librclcpp.so[0m
+[ 35%] Built target rclcpp
+[ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object test/CMakeFiles/test_rclcpp_gtest_macros.dir/utils/test_rclcpp_gtest_macros.cpp.o[0m
+[ 36%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rclcpp/msg/header__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rclcpp/msg/large_message__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rclcpp/msg/detail/header__type_support.cpp.o[0m
+[ 37%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rclcpp/msg/detail/header__type_support.c.o[0m
+[ 37%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rclcpp/msg/message_with_header__type_support.cpp.o[0m
+[ 37%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rclcpp/msg/detail/large_message__type_support.c.o[0m
+[ 37%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rclcpp/msg/string__type_support.cpp.o[0m
+[ 38%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rclcpp/msg/detail/message_with_header__type_support.c.o[0m
+[ 39%] [32m[1mLinking CXX shared library librclcpp__rosidl_typesupport_c.so[0m
+[ 39%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rclcpp/msg/detail/string__type_support.c.o[0m
+[ 39%] Built target rclcpp_test_msgs__rosidl_typesupport_c
+[ 39%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rclcpp/msg/detail/large_message__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/benchmark/CMakeFiles/benchmark_init_shutdown.dir/benchmark_init_shutdown.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/benchmark/CMakeFiles/benchmark_node.dir/benchmark_node.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/benchmark/CMakeFiles/benchmark_executor.dir/benchmark_executor.cpp.o[0m
+[ 39%] [32m[1mLinking C shared library librclcpp__rosidl_typesupport_introspection_c.so[0m
+[ 39%] Built target rclcpp_test_msgs__rosidl_typesupport_introspection_c
+[ 39%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rclcpp/msg/detail/message_with_header__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rclcpp/msg/detail/string__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/benchmark/CMakeFiles/benchmark_client.dir/benchmark_client.cpp.o[0m
+[ 39%] [32m[1mLinking CXX shared library librclcpp__rosidl_typesupport_introspection_cpp.so[0m
+[ 39%] Built target rclcpp_test_msgs__rosidl_typesupport_introspection_cpp
+[ 39%] [32mBuilding CXX object test/benchmark/CMakeFiles/benchmark_parameter_client.dir/benchmark_parameter_client.cpp.o[0m
+[ 40%] [32mBuilding CXX object test/benchmark/CMakeFiles/benchmark_service.dir/benchmark_service.cpp.o[0m
+[ 40%] [32mBuilding CXX object test/benchmark/CMakeFiles/benchmark_node_parameters_interface.dir/benchmark_node_parameters_interface.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable benchmark_init_shutdown[0m
+[ 41%] [32m[1mLinking CXX executable test_rclcpp_gtest_macros[0m
+[ 42%] [32m[1mLinking CXX executable benchmark_node[0m
+[ 42%] Built target benchmark_init_shutdown
+[ 42%] Built target rclcpp_test_msgs
+[ 42%] Built target test_rclcpp_gtest_macros
+[ 42%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_allocator_common.dir/allocator/test_allocator_common.cpp.o[0m
+[ 43%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_allocator_deleter.dir/allocator/test_allocator_deleter.cpp.o[0m
+[ 43%] Built target benchmark_node
+[ 43%] [32m[1mLinking CXX executable benchmark_parameter_client[0m
+[ 43%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_exceptions.dir/exceptions/test_exceptions.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable benchmark_client[0m
+[ 43%] Built target benchmark_parameter_client
+[ 43%] [32m[1mLinking CXX executable test_allocator_common[0m
+[ 43%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_allocator_memory_strategy.dir/strategies/test_allocator_memory_strategy.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable test_allocator_deleter[0m
+[ 43%] Built target test_allocator_common
+[ 43%] [32m[1mLinking CXX executable benchmark_node_parameters_interface[0m
+[ 43%] Built target test_allocator_deleter
+[ 43%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_message_pool_memory_strategy.dir/strategies/test_message_pool_memory_strategy.cpp.o[0m
+[ 43%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_any_service_callback.dir/test_any_service_callback.cpp.o[0m
+[ 43%] Built target benchmark_client
+[ 43%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_any_subscription_callback.dir/test_any_subscription_callback.cpp.o[0m
+[ 43%] Built target benchmark_node_parameters_interface
+[ 43%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_client.dir/test_client.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable benchmark_service[0m
+[ 44%] [32m[1mLinking CXX executable test_any_service_callback[0m
+[ 45%] [32m[1mLinking CXX executable test_message_pool_memory_strategy[0m
+[ 45%] Built target test_any_service_callback
+[ 45%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_clock.dir/test_clock.cpp.o[0m
+[ 45%] Built target benchmark_service
+[ 45%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_copy_all_parameter_values.dir/test_copy_all_parameter_values.cpp.o[0m
+[ 45%] Built target test_message_pool_memory_strategy
+[ 45%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_create_timer.dir/test_create_timer.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable test_exceptions[0m
+[ 46%] [32m[1mLinking CXX executable benchmark_executor[0m
+[ 46%] Built target test_exceptions
+[ 46%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_generic_client.dir/test_generic_client.cpp.o[0m
+[ 46%] Built target benchmark_executor
+[ 46%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_client_common.dir/test_client_common.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable test_clock[0m
+[ 48%] [32m[1mLinking CXX executable test_client[0m
+[ 48%] [32m[1mLinking CXX executable test_copy_all_parameter_values[0m
+[ 48%] Built target test_clock
+[ 48%] [32m[1mLinking CXX executable test_create_timer[0m
+[ 49%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_create_subscription.dir/test_create_subscription.cpp.o[0m
+[ 49%] Built target test_copy_all_parameter_values
+[ 49%] Built target test_client
+[ 50%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_add_callback_groups_to_executor__rmw_cyclonedds_cpp.dir/test_add_callback_groups_to_executor.cpp.o[0m
+[ 50%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_add_callback_groups_to_executor__rmw_fastrtps_cpp.dir/test_add_callback_groups_to_executor.cpp.o[0m
+[ 50%] Built target test_create_timer
+[ 51%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_add_callback_groups_to_executor__rmw_fastrtps_dynamic_cpp.dir/test_add_callback_groups_to_executor.cpp.o[0m
+[ 51%] [32m[1mLinking CXX executable test_generic_client[0m
+[ 51%] [32m[1mLinking CXX executable test_allocator_memory_strategy[0m
+[ 51%] [32m[1mLinking CXX executable test_any_subscription_callback[0m
+[ 51%] Built target test_generic_client
+[ 51%] Built target test_allocator_memory_strategy
+[ 51%] [32m[1mLinking CXX executable test_client_common[0m
+[ 51%] Built target test_any_subscription_callback
+[ 51%] Built target test_client_common
+[ 51%] [32m[1mLinking CXX executable test_create_subscription[0m
+[ 51%] Built target test_create_subscription
+[ 51%] [32m[1mLinking CXX executable test_add_callback_groups_to_executor__rmw_cyclonedds_cpp[0m
+[ 51%] [32m[1mLinking CXX executable test_add_callback_groups_to_executor__rmw_fastrtps_cpp[0m
+[ 51%] [32m[1mLinking CXX executable test_add_callback_groups_to_executor__rmw_fastrtps_dynamic_cpp[0m
+[ 51%] Built target test_add_callback_groups_to_executor__rmw_cyclonedds_cpp
+[ 51%] Built target test_add_callback_groups_to_executor__rmw_fastrtps_cpp
+[ 51%] Built target test_add_callback_groups_to_executor__rmw_fastrtps_dynamic_cpp
+[ 52%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_intra_process_buffer.dir/test_intra_process_buffer.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable test_intra_process_buffer[0m
+[ 52%] Built target test_intra_process_buffer
+[ 53%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_loaned_message.dir/test_loaned_message.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable test_loaned_message[0m
+[ 53%] Built target test_loaned_message
+[ 53%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_memory_strategy.dir/test_memory_strategy.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable test_memory_strategy[0m
+[ 54%] Built target test_memory_strategy
+[ 54%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_message_memory_strategy.dir/test_message_memory_strategy.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable test_message_memory_strategy[0m
+[ 54%] Built target test_message_memory_strategy
+[ 54%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node.dir/test_node.cpp.o[0m
+[ 54%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__get_node_interfaces.dir/node_interfaces/test_get_node_interfaces.cpp.o[0m
+[ 54%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_ring_buffer_implementation.dir/test_ring_buffer_implementation.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable test_ring_buffer_implementation[0m
+[ 54%] Built target test_ring_buffer_implementation
+[ 55%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_intra_process_manager_with_allocators.dir/test_intra_process_manager_with_allocators.cpp.o[0m
+[ 55%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_intra_process_manager.dir/test_intra_process_manager.cpp.o[0m
+[ 56%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_future_return_code.dir/test_future_return_code.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable test_future_return_code[0m
+[ 57%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_function_traits.dir/test_function_traits.cpp.o[0m
+[ 57%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_base.dir/node_interfaces/test_node_base.cpp.o[0m
+[ 57%] Built target test_future_return_code
+[ 57%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_expand_topic_or_service_name.dir/test_expand_topic_or_service_name.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable test_function_traits[0m
+[ 57%] Built target test_function_traits
+[ 57%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_clock.dir/node_interfaces/test_node_clock.cpp.o[0m
+[ 58%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_graph.dir/node_interfaces/test_node_graph.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable test_node_interfaces__get_node_interfaces[0m
+[ 58%] [32m[1mLinking CXX executable test_intra_process_manager[0m
+[ 58%] Built target test_node_interfaces__get_node_interfaces
+[ 58%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_interfaces.dir/node_interfaces/test_node_interfaces.cpp.o[0m
+[ 58%] Built target test_intra_process_manager
+[ 58%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_parameters.dir/node_interfaces/test_node_parameters.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable test_expand_topic_or_service_name[0m
+[ 58%] [32m[1mLinking CXX executable test_node_interfaces__node_clock[0m
+[ 58%] Built target test_expand_topic_or_service_name
+[ 58%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_services.dir/node_interfaces/test_node_services.cpp.o[0m
+[ 58%] Built target test_node_interfaces__node_clock
+[ 58%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_timers.dir/node_interfaces/test_node_timers.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable test_node_interfaces__node_interfaces[0m
+[ 58%] [32m[1mLinking CXX executable test_node_interfaces__node_base[0m
+[ 58%] Built target test_node_interfaces__node_interfaces
+[ 58%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_topics.dir/node_interfaces/test_node_topics.cpp.o[0m
+[ 58%] Built target test_node_interfaces__node_base
+[ 58%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_type_descriptions.dir/node_interfaces/test_node_type_descriptions.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable test_node_interfaces__node_parameters[0m
+[ 59%] Built target test_node_interfaces__node_parameters
+[ 59%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__node_waitables.dir/node_interfaces/test_node_waitables.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable test_node_interfaces__node_services[0m
+[ 60%] [32m[1mLinking CXX executable test_node_interfaces__node_type_descriptions[0m
+[ 61%] [32m[1mLinking CXX executable test_node_interfaces__node_timers[0m
+[ 61%] Built target test_node_interfaces__node_services
+[ 61%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_interfaces__test_template_utils.dir/node_interfaces/detail/test_template_utils.cpp.o[0m
+[ 61%] Built target test_node_interfaces__node_type_descriptions
+[ 62%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_global_args.dir/test_node_global_args.cpp.o[0m
+[ 62%] Built target test_node_interfaces__node_timers
+[ 63%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_node_options.dir/test_node_options.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable test_node[0m
+[ 63%] [32m[1mLinking CXX executable test_node_interfaces__test_template_utils[0m
+[ 63%] [32m[1mLinking CXX executable test_intra_process_manager_with_allocators[0m
+[ 63%] [32m[1mLinking CXX executable test_node_interfaces__node_topics[0m
+[ 63%] Built target test_node_interfaces__test_template_utils
+[ 63%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_init_options.dir/test_init_options.cpp.o[0m
+[ 63%] Built target test_node_interfaces__node_topics
+[ 64%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_parameter_client.dir/test_parameter_client.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable test_node_options[0m
+[ 64%] Built target test_node
+[ 64%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_parameter_service.dir/test_parameter_service.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable test_init_options[0m
+[ 64%] Built target test_intra_process_manager_with_allocators
+[ 65%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_parameter_events_filter.dir/test_parameter_events_filter.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable test_node_interfaces__node_waitables[0m
+[ 65%] Built target test_node_options
+[ 65%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_parameter.dir/test_parameter.cpp.o[0m
+[ 65%] Built target test_init_options
+[ 65%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_parameter_event_handler.dir/test_parameter_event_handler.cpp.o[0m
+[ 65%] Built target test_node_interfaces__node_waitables
+[ 65%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_parameter_map.dir/test_parameter_map.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable test_node_global_args[0m
+[ 65%] [32m[1mLinking CXX executable test_parameter_events_filter[0m
+[ 65%] Built target test_node_global_args
+[ 65%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_publisher.dir/test_publisher.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable test_node_interfaces__node_graph[0m
+[ 65%] Built target test_parameter_events_filter
+[ 65%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_publisher_with_type_adapter.dir/test_publisher_with_type_adapter.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable test_parameter_map[0m
+[ 65%] Built target test_parameter_map
+[ 66%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription_with_type_adapter.dir/test_subscription_with_type_adapter.cpp.o[0m
+[ 66%] Built target test_node_interfaces__node_graph
+[ 66%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription_publisher_with_same_type_adapter.dir/test_subscription_publisher_with_same_type_adapter.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable test_parameter_service[0m
+[ 67%] Built target test_parameter_service
+[ 67%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_publisher_subscription_count_api.dir/test_publisher_subscription_count_api.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable test_parameter[0m
+[ 67%] Built target test_parameter
+[ 67%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_qos.dir/test_qos.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable test_qos[0m
+[ 67%] Built target test_qos
+[ 67%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_generic_pubsub__rmw_cyclonedds_cpp.dir/test_generic_pubsub.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable test_parameter_event_handler[0m
+[ 67%] [32m[1mLinking CXX executable test_parameter_client[0m
+[ 67%] Built target test_parameter_event_handler
+[ 67%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_generic_pubsub__rmw_fastrtps_cpp.dir/test_generic_pubsub.cpp.o[0m
+[ 67%] Built target test_parameter_client
+[ 67%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_generic_pubsub__rmw_fastrtps_dynamic_cpp.dir/test_generic_pubsub.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable test_publisher_with_type_adapter[0m
+[ 68%] [32m[1mLinking CXX executable test_publisher_subscription_count_api[0m
+[ 68%] Built target test_publisher_with_type_adapter
+[ 69%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_qos_event__rmw_cyclonedds_cpp.dir/test_qos_event.cpp.o[0m
+[ 69%] Built target test_publisher_subscription_count_api
+[ 69%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_qos_event__rmw_fastrtps_cpp.dir/test_qos_event.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable test_publisher[0m
+[ 69%] [32m[1mLinking CXX executable test_subscription_with_type_adapter[0m
+[ 69%] Built target test_publisher
+[ 70%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_qos_event__rmw_fastrtps_dynamic_cpp.dir/test_qos_event.cpp.o[0m
+[ 70%] Built target test_subscription_with_type_adapter
+[ 70%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_qos_overriding_options.dir/test_qos_overriding_options.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable test_qos_overriding_options[0m
+[ 71%] [32m[1mLinking CXX executable test_generic_pubsub__rmw_cyclonedds_cpp[0m
+[ 71%] Built target test_qos_overriding_options
+[ 72%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_qos_parameters.dir/test_qos_parameters.cpp.o[0m
+[ 72%] Built target test_generic_pubsub__rmw_cyclonedds_cpp
+[ 72%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_rate.dir/test_rate.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable test_generic_pubsub__rmw_fastrtps_cpp[0m
+[ 72%] [32m[1mLinking CXX executable test_rate[0m
+[ 73%] [32m[1mLinking CXX executable test_generic_pubsub__rmw_fastrtps_dynamic_cpp[0m
+[ 73%] Built target test_generic_pubsub__rmw_fastrtps_cpp
+[ 73%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_serialized_message_allocator.dir/test_serialized_message_allocator.cpp.o[0m
+[ 73%] Built target test_rate
+[ 73%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_serialized_message.dir/test_serialized_message.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable test_subscription_publisher_with_same_type_adapter[0m
+[ 74%] Built target test_generic_pubsub__rmw_fastrtps_dynamic_cpp
+[ 74%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_service.dir/test_service.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable test_qos_event__rmw_cyclonedds_cpp[0m
+[ 74%] [32m[1mLinking CXX executable test_qos_parameters[0m
+[ 74%] [32m[1mLinking CXX executable test_qos_event__rmw_fastrtps_cpp[0m
+[ 74%] Built target test_subscription_publisher_with_same_type_adapter
+[ 75%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_service_introspection.dir/test_service_introspection.cpp.o[0m
+[ 75%] Built target test_qos_parameters
+[ 76%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription.dir/test_subscription.cpp.o[0m
+[ 76%] Built target test_qos_event__rmw_cyclonedds_cpp
+[ 76%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription_publisher_count_api.dir/test_subscription_publisher_count_api.cpp.o[0m
+[ 76%] Built target test_qos_event__rmw_fastrtps_cpp
+[ 76%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription_traits.dir/test_subscription_traits.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable test_qos_event__rmw_fastrtps_dynamic_cpp[0m
+[ 76%] [32m[1mLinking CXX executable test_subscription_traits[0m
+[ 76%] Built target test_subscription_traits
+[ 76%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_type_support.dir/test_type_support.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable test_serialized_message[0m
+[ 77%] Built target test_qos_event__rmw_fastrtps_dynamic_cpp
+[ 77%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_typesupport_helpers.dir/test_typesupport_helpers.cpp.o[0m
+[ 77%] Built target test_serialized_message
+[ 78%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_find_weak_nodes.dir/test_find_weak_nodes.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_typesupport_helpers[0m
+[ 78%] Built target test_typesupport_helpers
+[ 78%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_externally_defined_services.dir/test_externally_defined_services.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_service[0m
+[ 78%] [32m[1mLinking CXX executable test_serialized_message_allocator[0m
+[ 78%] Built target test_service
+[ 79%] [32m[1mLinking CXX executable test_type_support[0m
+[ 80%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_duration.dir/test_duration.cpp.o[0m
+[ 80%] Built target test_serialized_message_allocator
+[ 80%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_logger.dir/test_logger.cpp.o[0m
+[ 80%] Built target test_type_support
+[ 80%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_logging.dir/test_logging.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_find_weak_nodes[0m
+[ 80%] [32m[1mLinking CXX executable test_subscription_publisher_count_api[0m
+[ 80%] Built target test_find_weak_nodes
+[ 80%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_context.dir/test_context.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_logging[0m
+[ 80%] [32m[1mLinking CXX executable test_service_introspection[0m
+[ 80%] Built target test_subscription_publisher_count_api
+[ 80%] [32m[1mLinking CXX executable test_logger[0m
+[ 81%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_time.dir/test_time.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable test_externally_defined_services[0m
+[ 81%] Built target test_logging
+[ 82%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_timer.dir/test_timer.cpp.o[0m
+[ 82%] Built target test_logger
+[ 82%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_timers_manager.dir/test_timers_manager.cpp.o[0m
+[ 82%] Built target test_externally_defined_services
+[ 82%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_time_source.dir/test_time_source.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable test_duration[0m
+[ 82%] Built target test_service_introspection
+[ 82%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_utilities.dir/test_utilities.cpp.o[0m
+[ 82%] Built target test_duration
+[ 82%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_wait_for_message.dir/test_wait_for_message.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable test_subscription[0m
+[ 82%] [32m[1mLinking CXX executable test_timers_manager[0m
+[ 82%] Built target test_timers_manager
+[ 83%] [32m[1mLinking CXX executable test_utilities[0m
+[ 83%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_logger_service.dir/test_logger_service.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable test_context[0m
+[ 83%] Built target test_subscription
+[ 83%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_interface_traits.dir/test_interface_traits.cpp.o[0m
+[ 83%] Built target test_utilities
+[ 83%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executors.dir/executors/test_executors.cpp.o[0m
+[ 83%] Built target test_context
+[ 84%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executors_timer_cancel_behavior.dir/executors/test_executors_timer_cancel_behavior.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable test_time[0m
+[ 84%] Built target test_time
+[ 85%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executors_callback_group_behavior.dir/executors/test_executors_callback_group_behavior.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable test_timer[0m
+[ 85%] [32m[1mLinking CXX executable test_interface_traits[0m
+[ 85%] Built target test_timer
+[ 85%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executors_intraprocess.dir/executors/test_executors_intraprocess.cpp.o[0m
+[ 85%] Built target test_interface_traits
+[ 85%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executors_busy_waiting.dir/executors/test_executors_busy_waiting.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable test_time_source[0m
+[ 85%] Built target test_time_source
+[ 85%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executors_warmup.dir/executors/test_executors_warmup.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_logger_service[0m
+[ 86%] [32m[1mLinking CXX executable test_executors_callback_group_behavior[0m
+[ 86%] Built target test_logger_service
+[ 86%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_static_single_threaded_executor.dir/executors/test_static_single_threaded_executor.cpp.o[0m
+[ 86%] Built target test_executors_callback_group_behavior
+[ 86%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_multi_threaded_executor.dir/executors/test_multi_threaded_executor.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_executors_timer_cancel_behavior[0m
+[ 86%] Built target test_executors_timer_cancel_behavior
+[ 87%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_entities_collector.dir/executors/test_entities_collector.cpp.o[0m
+[ 87%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executors_busy_waiting.dir/executors/test_waitable.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_wait_for_message[0m
+[ 87%] [32m[1mLinking CXX executable test_executors_busy_waiting[0m
+[ 87%] Built target test_executors_busy_waiting
+[ 87%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executor_notify_waitable.dir/executors/test_executor_notify_waitable.cpp.o[0m
+[ 87%] Built target test_wait_for_message
+[ 87%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_events_executor.dir/executors/test_events_executor.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_multi_threaded_executor[0m
+[ 87%] [32m[1mLinking CXX executable test_executors_intraprocess[0m
+[ 87%] Built target test_multi_threaded_executor
+[ 87%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_events_queue.dir/executors/test_events_queue.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_static_single_threaded_executor[0m
+[ 87%] [32m[1mLinking CXX executable test_entities_collector[0m
+[ 88%] [32m[1mLinking CXX executable test_events_queue[0m
+[ 88%] Built target test_static_single_threaded_executor
+[ 88%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_guard_condition.dir/test_guard_condition.cpp.o[0m
+[ 88%] Built target test_executors_intraprocess
+[ 88%] Built target test_events_queue
+[ 88%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription_topic_statistics.dir/topic_statistics/test_subscription_topic_statistics.cpp.o[0m
+[ 88%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_wait_set.dir/test_wait_set.cpp.o[0m
+[ 88%] Built target test_entities_collector
+[ 88%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription_options.dir/test_subscription_options.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_executor_notify_waitable[0m
+[ 88%] Built target test_executor_notify_waitable
+[ 88%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_dynamic_storage.dir/wait_set_policies/test_dynamic_storage.cpp.o[0m
+[ 88%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executors_warmup.dir/executors/test_waitable.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable test_subscription_options[0m
+[ 90%] [32m[1mLinking CXX executable test_executors_warmup[0m
+[ 90%] Built target test_subscription_options
+[ 90%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_storage_policy_common.dir/wait_set_policies/test_storage_policy_common.cpp.o[0m
+[ 91%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executors.dir/executors/test_waitable.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable test_guard_condition[0m
+[ 92%] Built target test_executors_warmup
+[ 93%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_static_storage.dir/wait_set_policies/test_static_storage.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable test_executors[0m
+[ 93%] Built target test_guard_condition
+[ 93%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_thread_safe_synchronization.dir/wait_set_policies/test_thread_safe_synchronization.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable test_events_executor[0m
+[ 93%] Built target test_executors
+[ 93%] Built target test_events_executor
+[ 94%] [32m[1mLinking CXX executable test_wait_set[0m
+[ 94%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_rosout_qos.dir/test_rosout_qos.cpp.o[0m
+[ 94%] Built target test_wait_set
+[ 94%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_intra_process_waitable.dir/waitables/test_intra_process_waitable.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable test_subscription_topic_statistics[0m
+[ 95%] [32m[1mLinking CXX executable test_rosout_qos[0m
+[ 95%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_rosout_subscription.dir/test_rosout_subscription.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_dynamic_storage[0m
+[ 95%] Built target test_rosout_qos
+[ 95%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_executor.dir/test_executor.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_storage_policy_common[0m
+[ 95%] Built target test_subscription_topic_statistics
+[ 95%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_graph_listener.dir/test_graph_listener.cpp.o[0m
+[ 95%] Built target test_dynamic_storage
+[ 95%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription_content_filter__rmw_cyclonedds_cpp.dir/test_subscription_content_filter.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_static_storage[0m
+[ 95%] Built target test_storage_policy_common
+[ 95%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription_content_filter__rmw_fastrtps_cpp.dir/test_subscription_content_filter.cpp.o[0m
+[ 95%] Built target test_static_storage
+[ 95%] [32m[1mLinking CXX executable test_thread_safe_synchronization[0m
+[ 95%] Built target test_thread_safe_synchronization
+[ 96%] [32m[1mLinking CXX executable test_executor[0m
+[ 96%] [32m[1mLinking CXX executable test_graph_listener[0m
+[ 96%] Built target test_executor
+[ 96%] Built target test_graph_listener
+[ 96%] [32m[1mLinking CXX executable test_intra_process_waitable[0m
+[ 96%] [32m[1mLinking CXX executable test_rosout_subscription[0m
+[ 96%] Built target test_intra_process_waitable
+[ 96%] Built target test_rosout_subscription
+[ 96%] [32m[1mLinking CXX executable test_subscription_content_filter__rmw_cyclonedds_cpp[0m
+[ 97%] [32m[1mLinking CXX executable test_subscription_content_filter__rmw_fastrtps_cpp[0m
+[ 97%] Built target test_subscription_content_filter__rmw_cyclonedds_cpp
+[ 98%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_subscription_content_filter__rmw_fastrtps_dynamic_cpp.dir/test_subscription_content_filter.cpp.o[0m
+[ 98%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 98%] Built target rclcpp_test_msgs__py
+[ 98%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rclcpp/msg/_large_message_s.c.o[0m
+[ 98%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rclcpp/msg/_header_s.c.o[0m
+[ 99%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rclcpp/msg/_message_with_header_s.c.o[0m
+[ 99%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_test_msgs__rosidl_generator_py.dir/rosidl_generator_py/rclcpp/msg/_string_s.c.o[0m
+[ 99%] Built target test_subscription_content_filter__rmw_fastrtps_cpp
+[ 99%] [32m[1mLinking C shared library librclcpp_test_msgs__rosidl_generator_py.so[0m
+[ 99%] Built target rclcpp_test_msgs__rosidl_generator_py
+[ 99%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rclcpp/_rclcpp_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 99%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rclcpp/_rclcpp_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/rclcpp/rclcpp_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/rclcpp/rclcpp_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target rclcpp_s__rosidl_typesupport_introspection_c
+[100%] Built target rclcpp_s__rosidl_typesupport_fastrtps_c
+[100%] [32mBuilding C object test/rclcpp/CMakeFiles/rclcpp_s__rosidl_typesupport_c.dir/rosidl_generator_py/rclcpp/_rclcpp_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/rclcpp/rclcpp_s__rosidl_typesupport_c.so[0m
+[100%] Built target rclcpp_s__rosidl_typesupport_c
+[100%] [32m[1mLinking CXX executable test_subscription_content_filter__rmw_fastrtps_dynamic_cpp[0m
+[100%] Built target test_subscription_content_filter__rmw_fastrtps_dynamic_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/ament_index/resource_index/package_run_dependencies/rclcpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/ament_index/resource_index/parent_prefix_path/rclcpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/ament_index/resource_index/packages/rclcpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake/rclcppConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake/rclcppConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/allocator/allocator_common.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/any_executable.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/any_service_callback.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/any_subscription_callback.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/callback_group.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/client.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/clock.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/context.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/contexts/default_context.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/copy_all_parameter_values.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/create_client.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/create_generic_client.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/create_generic_publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/create_generic_subscription.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/create_publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/create_service.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/create_subscription.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/create_timer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/README.md
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/add_guard_condition_to_rcl_wait_set.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/qos_parameters.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/template_contains.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/template_unique.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/detail/utilities.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/duration.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type_builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/event.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/event_handler.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/exceptions.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/exceptions/exceptions.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/executor.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/executor_options.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/executors.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/README.md
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/executable_list.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor_event_types.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/executors/events_executor/events_queue.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/experimental/timers_manager.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/function_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/future_return_code.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/generic_client.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/generic_publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/generic_subscription.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/get_message_type_support_handle.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/graph_listener.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/guard_condition.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/init_options.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/intra_process_buffer_type.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/intra_process_setting.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/is_ros_compatible_type.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/loaned_message.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/logger.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/macros.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/memory_strategies.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/memory_strategy.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/message_info.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/message_memory_strategy.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/network_flow_endpoint.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_impl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_base.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_clock.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_graph.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_interfaces.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_logging.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_parameters.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_services.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_time_source.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_timers.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_topics.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_type_descriptions.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_type_descriptions_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_waitables.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_options.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/parameter.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/parameter_client.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/parameter_event_handler.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/parameter_events_filter.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/parameter_map.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/parameter_service.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/parameter_value.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/publisher.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/publisher_base.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/publisher_factory.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/publisher_options.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/qos.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/qos_overriding_options.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/rate.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/rclcpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/serialization.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/serialized_message.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/service.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/strategies/allocator_memory_strategy.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/strategies/message_pool_memory_strategy.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/subscription.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/subscription_base.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/subscription_content_filter_options.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/subscription_factory.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/subscription_options.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/subscription_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/time.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/time_source.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/timer.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/topic_statistics_state.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/type_adapter.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/type_support_decl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/typesupport_helpers.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/utilities.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_for_message.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_result.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_result_kind.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_set.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/wait_set_template.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/waitable.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/logging.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_clock_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_graph_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_services_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_time_source_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_type_descriptions_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/get_node_waitables_interface.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_graph_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_logging_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_type_descriptions_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rclcpp/include/rclcpp/rclcpp/version.h
+-- Installing: /work/ubuntu-ros2-dev/install/rclcpp/lib/librclcpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rclcpp/lib/librclcpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake/rclcppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake/rclcppExport-noconfig.cmake

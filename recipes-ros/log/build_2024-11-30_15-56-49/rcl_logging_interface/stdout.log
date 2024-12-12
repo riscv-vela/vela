@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcutils: 6.7.2 (/work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rcl_logging/rcl_logging_interface/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rcl_logging_interface
+[ 12%] [32mBuilding C object CMakeFiles/rcl_logging_interface.dir/src/logging_dir.c.o[0m
+[ 25%] [32m[1mLinking C shared library librcl_logging_interface.so[0m
+[ 25%] Built target rcl_logging_interface
+[ 37%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 50%] Built target gtest
+[ 62%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 75%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 75%] Built target gtest_main
+[ 87%] [32mBuilding CXX object CMakeFiles/test_get_logging_directory.dir/test/test_get_logging_directory.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_get_logging_directory[0m
+[100%] Built target test_get_logging_directory
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/include/rcl_logging_interface/rcl_logging_interface/rcl_logging_interface.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/include/rcl_logging_interface/rcl_logging_interface/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/ament_index/resource_index/package_run_dependencies/rcl_logging_interface
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/ament_index/resource_index/parent_prefix_path/rcl_logging_interface
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/ament_index/resource_index/packages/rcl_logging_interface
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/cmake/rcl_logging_interfaceConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/cmake/rcl_logging_interfaceConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/rcl_logging_interface/lib/librcl_logging_interface.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rcl_logging_interface/lib/librcl_logging_interface.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/cmake/rcl_logging_interfaceExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/cmake/rcl_logging_interfaceExport-noconfig.cmake

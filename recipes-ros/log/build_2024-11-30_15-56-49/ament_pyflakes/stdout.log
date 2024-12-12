@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ament_pyflakes.egg-info
+writing ament_pyflakes.egg-info/PKG-INFO
+writing dependency_links to ament_pyflakes.egg-info/dependency_links.txt
+writing entry points to ament_pyflakes.egg-info/entry_points.txt
+writing requirements to ament_pyflakes.egg-info/requires.txt
+writing top-level names to ament_pyflakes.egg-info/top_level.txt
+writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+reading manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/ament_pyflakes/lib/python3.10/site-packages/ament-pyflakes.egg-link (link to .)
+Installing ament_pyflakes script to /work/ubuntu-ros2-dev/install/ament_pyflakes/bin
+
+Installed /work/ubuntu-ros2-dev/build/ament_pyflakes
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/ament_pyflakes/package.xml -> /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_pyflakes
+creating /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_index
+creating /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/ament_pyflakes/resource/ament_pyflakes -> /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_index/resource_index/packages

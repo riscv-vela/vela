@@ -1,0 +1,401 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.0 (/work/ubuntu-ros2-dev/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_adapter: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_cmake_flake8: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosbag2_test_msgdefs
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target rosbag2_test_msgdefs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_rosbag2_test_msgdefs
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/complex_idl__description.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/basic_idl__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/basic_msg__description.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/basic_msg__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/basic_msg__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/complex_msg__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/complex_msg__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/complex_msg__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/srv/detail/basic_srv__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/srv/detail/basic_srv__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/srv/detail/basic_srv__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__description.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/basic_idl__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/basic_idl__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/complex_idl__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_c.dir/rosidl_generator_c/rosbag2_test_msgdefs/msg/detail/complex_idl__functions.c.o[0m
+[ 26%] [32m[1mLinking C shared library librosbag2_test_msgdefs__rosidl_generator_c.so[0m
+[ 26%] Built target rosbag2_test_msgdefs__rosidl_generator_c
+running egg_info
+creating rosbag2_test_msgdefs.egg-info
+writing rosbag2_test_msgdefs.egg-info/PKG-INFO
+writing dependency_links to rosbag2_test_msgdefs.egg-info/dependency_links.txt
+writing top-level names to rosbag2_test_msgdefs.egg-info/top_level.txt
+writing manifest file 'rosbag2_test_msgdefs.egg-info/SOURCES.txt'
+reading manifest file 'rosbag2_test_msgdefs.egg-info/SOURCES.txt'
+writing manifest file 'rosbag2_test_msgdefs.egg-info/SOURCES.txt'
+[ 26%] Built target ament_cmake_python_build_rosbag2_test_msgdefs_egg
+[ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_test_msgdefs/msg/complex_idl__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_test_msgdefs/msg/complex_msg_depends_on_idl__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_test_msgdefs/srv/basic_srv__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_test_msgdefs/srv/complex_srv_msg__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_test_msgdefs/srv/complex_srv_idl__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_test_msgdefs/msg/complex_msg__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_test_msgdefs/msg/basic_msg__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbag2_test_msgdefs/msg/basic_idl__type_support.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library librosbag2_test_msgdefs__rosidl_typesupport_c.so[0m
+[ 36%] Built target rosbag2_test_msgdefs__rosidl_typesupport_c
+[ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 37%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_test_msgdefs/msg/detail/complex_idl__type_support.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_test_msgdefs/srv/detail/basic_srv__type_support.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__type_support.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_test_msgdefs/msg/detail/complex_msg__type_support.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_test_msgdefs/msg/detail/basic_msg__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbag2_test_msgdefs/msg/detail/basic_idl__type_support.c.o[0m
+[ 45%] [32m[1mLinking C shared library librosbag2_test_msgdefs__rosidl_typesupport_introspection_c.so[0m
+[ 45%] Built target rosbag2_test_msgdefs__rosidl_typesupport_introspection_c
+[ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_test_msgdefs/msg/detail/complex_idl__type_support_c.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__type_support_c.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__type_support_c.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_test_msgdefs/srv/detail/basic_srv__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_test_msgdefs/msg/detail/complex_msg__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_test_msgdefs/msg/detail/basic_msg__type_support_c.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbag2_test_msgdefs/msg/detail/basic_idl__type_support_c.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library librosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.so[0m
+[ 55%] Built target rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c
+[ 55%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 55%] Built target rosbag2_test_msgdefs__cpp
+[ 56%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_test_msgdefs/msg/complex_idl__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_test_msgdefs/srv/basic_srv__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_test_msgdefs/srv/complex_srv_msg__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_test_msgdefs/srv/complex_srv_idl__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_test_msgdefs/msg/complex_msg_depends_on_idl__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_test_msgdefs/msg/complex_msg__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_test_msgdefs/msg/basic_msg__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbag2_test_msgdefs/msg/basic_idl__type_support.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library librosbag2_test_msgdefs__rosidl_typesupport_cpp.so[0m
+[ 64%] Built target rosbag2_test_msgdefs__rosidl_typesupport_cpp
+[ 65%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_test_msgdefs/msg/detail/dds_fastrtps/complex_idl__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_test_msgdefs/srv/detail/dds_fastrtps/complex_srv_msg__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_test_msgdefs/srv/detail/dds_fastrtps/complex_srv_idl__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_test_msgdefs/srv/detail/dds_fastrtps/basic_srv__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_test_msgdefs/msg/detail/dds_fastrtps/complex_msg_depends_on_idl__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_test_msgdefs/msg/detail/dds_fastrtps/complex_msg__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_test_msgdefs/msg/detail/dds_fastrtps/basic_msg__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbag2_test_msgdefs/msg/detail/dds_fastrtps/basic_idl__type_support.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library librosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] Built target rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp
+[ 75%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_test_msgdefs/msg/detail/complex_idl__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_test_msgdefs/srv/detail/basic_srv__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_test_msgdefs/msg/detail/complex_msg__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_test_msgdefs/msg/detail/basic_msg__type_support.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbag2_test_msgdefs/msg/detail/basic_idl__type_support.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library librosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.so[0m
+[ 84%] Built target rosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp
+[ 84%] Built target rosbag2_test_msgdefs
+[ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 85%] Built target rosbag2_test_msgdefs__py
+[ 86%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_test_msgdefs/msg/_complex_idl_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_test_msgdefs/srv/_complex_srv_idl_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_test_msgdefs/srv/_complex_srv_msg_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_test_msgdefs/srv/_basic_srv_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_test_msgdefs/msg/_complex_msg_depends_on_idl_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_test_msgdefs/msg/_complex_msg_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_test_msgdefs/msg/_basic_msg_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs__rosidl_generator_py.dir/rosidl_generator_py/rosbag2_test_msgdefs/msg/_basic_idl_s.c.o[0m
+[ 94%] [32m[1mLinking C shared library librosbag2_test_msgdefs__rosidl_generator_py.so[0m
+[ 94%] Built target rosbag2_test_msgdefs__rosidl_generator_py
+[ 95%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rosbag2_test_msgdefs/_rosbag2_test_msgdefs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/rosbag2_test_msgdefs/rosbag2_test_msgdefs_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 96%] Built target rosbag2_test_msgdefs_s__rosidl_typesupport_fastrtps_c
+[ 97%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs_s__rosidl_typesupport_c.dir/rosidl_generator_py/rosbag2_test_msgdefs/_rosbag2_test_msgdefs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/rosbag2_test_msgdefs/rosbag2_test_msgdefs_s__rosidl_typesupport_c.so[0m
+[ 98%] Built target rosbag2_test_msgdefs_s__rosidl_typesupport_c
+[ 99%] [32mBuilding C object CMakeFiles/rosbag2_test_msgdefs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rosbag2_test_msgdefs/_rosbag2_test_msgdefs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/rosbag2_test_msgdefs/rosbag2_test_msgdefs_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target rosbag2_test_msgdefs_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/ament_index/resource_index/rosidl_interfaces/rosbag2_test_msgdefs
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/ComplexIdl.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/BasicIdl.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/BasicMsg.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/ComplexMsg.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/ComplexMsgDependsOnIdl.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/srv/BasicSrv.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/srv/ComplexSrvMsg.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/srv/ComplexSrvIdl.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/basic_idl.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/basic_msg.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/complex_idl.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/complex_msg.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/complex_msg_depends_on_idl.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/basic_srv.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/complex_srv_idl.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/complex_srv_msg.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/basic_idl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/basic_msg.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/complex_idl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/complex_msg.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/complex_msg_depends_on_idl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/basic_srv.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/complex_srv_idl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/complex_srv_msg.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_idl__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/basic_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_idl__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/detail/complex_msg_depends_on_idl__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/basic_srv__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_idl__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/include/rosbag2_test_msgdefs/rosbag2_test_msgdefs/srv/detail/complex_srv_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs-0.26.5-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs-0.26.5-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs-0.26.5-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs-0.26.5-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/_rosbag2_test_msgdefs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/_rosbag2_test_msgdefs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/_rosbag2_test_msgdefs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_basic_idl.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_basic_idl_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_basic_msg.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_basic_msg_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_complex_idl.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_complex_idl_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_complex_msg.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_complex_msg_depends_on_idl.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_complex_msg_depends_on_idl_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_complex_msg_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/rosbag2_test_msgdefs_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/rosbag2_test_msgdefs_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/rosbag2_test_msgdefs_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/_basic_srv.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/_basic_srv_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/_complex_srv_idl.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/_complex_srv_idl_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/_complex_srv_msg.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/_complex_srv_msg_s.c
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/rosbag2_test_msgdefs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/rosbag2_test_msgdefs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/rosbag2_test_msgdefs_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/ComplexIdl.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/BasicIdl.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/BasicMsg.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/ComplexMsg.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/ComplexMsgDependsOnIdl.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/srv/BasicSrv.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/srv/ComplexSrvMsg.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/srv/ComplexSrvIdl.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/BasicMsg.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/ComplexMsg.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/msg/ComplexMsgDependsOnIdl.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/srv/BasicSrv.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/srv/ComplexSrvMsg.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/srv/ComplexSrvIdl.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/ament_index/resource_index/package_run_dependencies/rosbag2_test_msgdefs
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/ament_index/resource_index/parent_prefix_path/rosbag2_test_msgdefs
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/ament_index/resource_index/packages/rosbag2_test_msgdefs
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefsConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefsConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_generator_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_generator_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_typesupport_cpp.so" to ""
+Listing '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/__init__.py'...
+Listing '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_basic_idl.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_basic_msg.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_complex_idl.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_complex_msg.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/msg/_complex_msg_depends_on_idl.py'...
+Listing '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/_basic_srv.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/_complex_srv_idl.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/python3.10/site-packages/rosbag2_test_msgdefs/srv/_complex_srv_msg.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_generator_py.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/lib/librosbag2_test_msgdefs__rosidl_generator_py.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/export_rosbag2_test_msgdefs__rosidl_generator_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/export_rosbag2_test_msgdefs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/export_rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/export_rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefs__rosidl_typesupport_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/export_rosbag2_test_msgdefs__rosidl_generator_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/export_rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/export_rosbag2_test_msgdefs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefs__rosidl_typesupport_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/rosbag2_test_msgdefs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/export_rosbag2_test_msgdefs__rosidl_generator_pyExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_test_msgdefs/share/rosbag2_test_msgdefs/cmake/export_rosbag2_test_msgdefs__rosidl_generator_pyExport-noconfig.cmake

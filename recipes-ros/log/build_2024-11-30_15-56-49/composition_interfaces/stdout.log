@@ -1,0 +1,256 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.0 (/work/ubuntu-ros2-dev/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_adapter: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rcl_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/rcl_interfaces/share/rcl_interfaces/cmake)
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_cmake_flake8: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/composition_interfaces
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target composition_interfaces__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_composition_interfaces
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__type_support.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_c.so[0m
+[ 22%] Built target composition_interfaces__rosidl_generator_c
+running egg_info
+creating composition_interfaces.egg-info
+writing composition_interfaces.egg-info/PKG-INFO
+writing dependency_links to composition_interfaces.egg-info/dependency_links.txt
+writing top-level names to composition_interfaces.egg-info/top_level.txt
+writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[ 22%] Built target ament_cmake_python_build_composition_interfaces_egg
+[ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_c.so[0m
+[ 31%] Built target composition_interfaces__rosidl_typesupport_c
+[ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/load_node__type_support.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/unload_node__type_support.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/list_nodes__type_support.c.o[0m
+[ 40%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 40%] Built target composition_interfaces__rosidl_typesupport_introspection_c
+[ 42%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/load_node__type_support_c.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/unload_node__type_support_c.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/list_nodes__type_support_c.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 50%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c
+[ 51%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 51%] Built target composition_interfaces__cpp
+[ 53%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[ 61%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_cpp.so[0m
+[ 61%] Built target composition_interfaces__rosidl_typesupport_cpp
+[ 62%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/load_node__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/unload_node__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/list_nodes__type_support.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 70%] Built target composition_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 72%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/load_node__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/unload_node__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/list_nodes__type_support.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 79%] Built target composition_interfaces__rosidl_typesupport_introspection_cpp
+[ 79%] Built target composition_interfaces
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target composition_interfaces__py
+[ 83%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_load_node_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_unload_node_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_list_nodes_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_py.so[0m
+[ 88%] Built target composition_interfaces__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 92%] Built target composition_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 94%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so[0m
+[ 96%] Built target composition_interfaces_s__rosidl_typesupport_c
+[ 98%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target composition_interfaces_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/ament_index/resource_index/rosidl_interfaces/composition_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces-2.0.2-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces-2.0.2-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces-2.0.2-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces-2.0.2-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/_list_nodes.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/_list_nodes_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/_load_node.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/_load_node_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/_unload_node.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/_unload_node_s.c
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/ament_index/resource_index/package_run_dependencies/composition_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/ament_index/resource_index/parent_prefix_path/composition_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/ament_index/resource_index/packages/composition_interfaces
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces'...
+Compiling '/work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/__init__.py'...
+Listing '/work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv'...
+Compiling '/work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/_list_nodes.py'...
+Compiling '/work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/_load_node.py'...
+Compiling '/work/ubuntu-ros2-dev/install/composition_interfaces/lib/python3.10/site-packages/composition_interfaces/srv/_unload_node.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport-noconfig.cmake

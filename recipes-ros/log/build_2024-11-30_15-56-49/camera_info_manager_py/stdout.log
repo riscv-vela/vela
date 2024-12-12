@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating camera_info_manager_py.egg-info
+writing camera_info_manager_py.egg-info/PKG-INFO
+writing dependency_links to camera_info_manager_py.egg-info/dependency_links.txt
+writing requirements to camera_info_manager_py.egg-info/requires.txt
+writing top-level names to camera_info_manager_py.egg-info/top_level.txt
+writing manifest file 'camera_info_manager_py.egg-info/SOURCES.txt'
+reading manifest file 'camera_info_manager_py.egg-info/SOURCES.txt'
+writing manifest file 'camera_info_manager_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/camera_info_manager_py/lib/python3.10/site-packages/camera-info-manager-py.egg-link (link to .)
+
+Installed /work/ubuntu-ros2-dev/build/camera_info_manager_py
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/camera_info_manager_py/share/ament_index
+creating /work/ubuntu-ros2-dev/install/camera_info_manager_py/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/camera_info_manager_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/camera_info_manager_py/resource/camera_info_manager_py -> /work/ubuntu-ros2-dev/install/camera_info_manager_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/camera_info_manager_py/package.xml -> /work/ubuntu-ros2-dev/install/camera_info_manager_py/share/camera_info_manager_py

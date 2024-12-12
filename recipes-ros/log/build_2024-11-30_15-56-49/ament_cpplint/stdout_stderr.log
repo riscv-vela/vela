@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating ament_cpplint.egg-info
+writing ament_cpplint.egg-info/PKG-INFO
+writing dependency_links to ament_cpplint.egg-info/dependency_links.txt
+writing entry points to ament_cpplint.egg-info/entry_points.txt
+writing requirements to ament_cpplint.egg-info/requires.txt
+writing top-level names to ament_cpplint.egg-info/top_level.txt
+writing manifest file 'ament_cpplint.egg-info/SOURCES.txt'
+reading manifest file 'ament_cpplint.egg-info/SOURCES.txt'
+writing manifest file 'ament_cpplint.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/ament_cpplint/lib/python3.10/site-packages/ament-cpplint.egg-link (link to .)
+Installing ament_cpplint script to /work/ubuntu-ros2-dev/install/ament_cpplint/bin
+
+Installed /work/ubuntu-ros2-dev/build/ament_cpplint
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/ament_cpplint/package.xml -> /work/ubuntu-ros2-dev/install/ament_cpplint/share/ament_cpplint
+creating /work/ubuntu-ros2-dev/install/ament_cpplint/share/ament_index
+creating /work/ubuntu-ros2-dev/install/ament_cpplint/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/ament_cpplint/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/ament_cpplint/resource/ament_cpplint -> /work/ubuntu-ros2-dev/install/ament_cpplint/share/ament_index/resource_index/packages

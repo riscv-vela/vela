@@ -1,0 +1,30 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating quality_of_service_demo_py.egg-info
+writing quality_of_service_demo_py.egg-info/PKG-INFO
+writing dependency_links to quality_of_service_demo_py.egg-info/dependency_links.txt
+writing entry points to quality_of_service_demo_py.egg-info/entry_points.txt
+writing requirements to quality_of_service_demo_py.egg-info/requires.txt
+writing top-level names to quality_of_service_demo_py.egg-info/top_level.txt
+writing manifest file 'quality_of_service_demo_py.egg-info/SOURCES.txt'
+reading manifest file 'quality_of_service_demo_py.egg-info/SOURCES.txt'
+writing manifest file 'quality_of_service_demo_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/lib/python3.10/site-packages/quality-of-service-demo-py.egg-link (link to .)
+Installing deadline script to /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+Installing incompatible_qos script to /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+Installing lifespan script to /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+Installing liveliness script to /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+Installing message_lost_listener script to /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+Installing qos_overrides_listener script to /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+Installing qos_overrides_talker script to /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+
+Installed /work/ubuntu-ros2-dev/build/quality_of_service_demo_py
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/share/ament_index
+creating /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/quality_of_service_demo_py/resource/quality_of_service_demo_py -> /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/quality_of_service_demo_py/package.xml -> /work/ubuntu-ros2-dev/install/quality_of_service_demo_py/share/quality_of_service_demo_py

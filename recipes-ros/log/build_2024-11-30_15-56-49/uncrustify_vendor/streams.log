@@ -1,0 +1,268 @@
+[0.021s] Invoking command in '/work/ubuntu-ros2-dev/build/uncrustify_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/uncrustify_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/uncrustify_vendor
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.185s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.191s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+[0.298s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.345s] -- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+[0.433s] -- Configuring done
+[0.440s] -- Generating done
+[0.441s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/uncrustify_vendor
+[0.465s] Invoked command in '/work/ubuntu-ros2-dev/build/uncrustify_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/uncrustify_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/uncrustify_vendor
+[0.465s] Invoking command in '/work/ubuntu-ros2-dev/build/uncrustify_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/uncrustify_vendor -- -j8 -l8
+[0.870s] [ 14%] [34m[1mCreating directories for 'uncrustify_vendor'[0m
+[0.870s] [ 28%] [34m[1mPerforming download step for 'uncrustify_vendor'[0m
+[3.319s] [34m=== [1m./uncrustify_vendor[22m (git) ===[0m
+[3.323s] hint: Using 'master' as the name for the initial branch. This default branch name
+[3.324s] hint: is subject to change. To configure the initial branch name to use in all
+[3.324s] hint: of your new repositories, which will suppress this warning, call:
+[3.324s] hint: 
+[3.324s] hint: 	git config --global init.defaultBranch <name>
+[3.324s] hint: 
+[3.324s] hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+[3.324s] hint: 'development'. The just-created branch can be renamed via this command:
+[3.324s] hint: 
+[3.324s] hint: 	git branch -m <name>
+[3.324s] Initialized empty Git repository in /work/ubuntu-ros2-dev/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor/.git/
+[3.324s] 
+[3.324s] From https://github.com/uncrustify/uncrustify
+[3.324s]  * [new tag]         uncrustify-0.78.1 -> uncrustify-0.78.1
+[3.324s] Note: switching to 'uncrustify-0.78.1'.
+[3.324s] 
+[3.324s] You are in 'detached HEAD' state. You can look around, make experimental
+[3.324s] changes and commit them, and you can discard any commits you make in this
+[3.325s] state without impacting any branches by switching back to a branch.
+[3.325s] 
+[3.325s] If you want to create a new branch to retain commits you create, you may
+[3.325s] do so (now or later) by using -c with the switch command. Example:
+[3.325s] 
+[3.325s]   git switch -c <new-branch-name>
+[3.325s] 
+[3.325s] Or undo this operation with:
+[3.325s] 
+[3.325s]   git switch -
+[3.325s] 
+[3.325s] Turn off this advice by setting config variable advice.detachedHead to false
+[3.325s] 
+[3.325s] HEAD is now at b8c9528 Merge pull request #4153 from uncrustify/uncrustify-RC-0.78.1
+[3.325s] 
+[3.405s] [ 42%] [34m[1mPerforming patch step for 'uncrustify_vendor'[0m
+[3.409s] Applying patch: /work/ubuntu-ros2-dev/src/ament/uncrustify_vendor/patches/0001-Simplify-installation-for-ROS-2-needs.patch
+[3.482s] [ 57%] [34m[1mPerforming configure step for 'uncrustify_vendor'[0m
+[3.503s] loading initial cache file /work/ubuntu-ros2-dev/build/uncrustify_vendor/uncrustify_vendor-config.cmake
+[3.630s] -- The C compiler identification is GNU 11.4.0
+[3.768s] -- The CXX compiler identification is GNU 11.4.0
+[3.772s] -- Detecting C compiler ABI info
+[3.860s] -- Detecting C compiler ABI info - done
+[3.864s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.864s] -- Detecting C compile features
+[3.864s] -- Detecting C compile features - done
+[3.866s] -- Detecting CXX compiler ABI info
+[3.977s] -- Detecting CXX compiler ABI info - done
+[3.981s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.982s] -- Detecting CXX compile features
+[3.982s] -- Detecting CXX compile features - done
+[4.208s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.208s] -- Performing Test CXXFLAG_Wall
+[4.397s] -- Performing Test CXXFLAG_Wall - Success
+[4.397s] -- Performing Test CXXFLAG_Wextra
+[4.583s] -- Performing Test CXXFLAG_Wextra - Success
+[4.584s] -- Performing Test CXXFLAG_Wshadow
+[4.781s] -- Performing Test CXXFLAG_Wshadow - Success
+[4.781s] -- Performing Test CXXFLAG_Wpointer_arith
+[4.922s] -- Performing Test CXXFLAG_Wpointer_arith - Success
+[4.922s] -- Performing Test CXXFLAG_Wcast_qual
+[5.122s] -- Performing Test CXXFLAG_Wcast_qual - Success
+[5.122s] -- Performing Test CXXFLAG_Wcast_align
+[5.290s] -- Performing Test CXXFLAG_Wcast_align - Success
+[5.290s] -- Performing Test CXXFLAG_Wc_11_extensions
+[5.335s] -- Performing Test CXXFLAG_Wc_11_extensions - Failed
+[5.335s] -- Looking for C++ include inttypes.h
+[5.576s] -- Looking for C++ include inttypes.h - found
+[5.576s] -- Looking for C++ include memory.h
+[5.741s] -- Looking for C++ include memory.h - found
+[5.743s] -- Looking for C++ include stdint.h
+[5.873s] -- Looking for C++ include stdint.h - found
+[5.874s] -- Looking for C++ include stdlib.h
+[5.962s] -- Looking for C++ include stdlib.h - found
+[5.962s] -- Looking for C++ include strings.h
+[6.190s] -- Looking for C++ include strings.h - found
+[6.190s] -- Looking for C++ include string.h
+[6.353s] -- Looking for C++ include string.h - found
+[6.353s] -- Looking for C++ include sys/stat.h
+[6.510s] -- Looking for C++ include sys/stat.h - found
+[6.510s] -- Looking for C++ include sys/types.h
+[6.684s] -- Looking for C++ include sys/types.h - found
+[6.684s] -- Looking for C++ include unistd.h
+[6.790s] -- Looking for C++ include unistd.h - found
+[6.790s] -- Looking for C++ include utime.h
+[6.849s] -- Looking for C++ include utime.h - found
+[6.850s] -- Looking for stdbool.h
+[6.901s] -- Looking for stdbool.h - found
+[6.905s] -- Looking for memset
+[6.954s] -- Looking for memset - found
+[6.954s] -- Looking for strcasecmp
+[7.001s] -- Looking for strcasecmp - found
+[7.001s] -- Looking for strchr
+[7.025s] -- Looking for strchr - not found
+[7.025s] -- Looking for strdup
+[7.096s] -- Looking for strdup - found
+[7.097s] -- Looking for strerror
+[7.213s] -- Looking for strerror - found
+[7.213s] -- Looking for strtol
+[7.280s] -- Looking for strtol - found
+[7.281s] -- Looking for strtoul
+[7.376s] -- Looking for strtoul - found
+[7.376s] -- Looking for stddef.h
+[7.499s] -- Looking for stddef.h - found
+[7.499s] -- Check size of _Bool
+[7.608s] -- Check size of _Bool - done
+[7.614s] -- Configuring done
+[7.788s] -- Generating done
+[7.816s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/uncrustify_vendor/uncrustify_vendor-prefix/src/uncrustify_vendor-build
+[7.866s] [ 71%] [34m[1mPerforming build step for 'uncrustify_vendor'[0m
+[7.928s] [  0%] Built target generate_version_header
+[7.938s] [  2%] [34m[1mGenerating option_enum.h[0m
+[7.938s] [  2%] [34m[1mGenerating option_enum.cpp[0m
+[7.938s] [  5%] [34m[1mGenerating token_names.h[0m
+[7.944s] [  5%] [34m[1mGenerating options.cpp[0m
+[7.950s] [  5%] [34m[1mGenerating punctuator_table.h[0m
+[8.028s] [  8%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_add.cpp.o[0m
+[8.028s] [  8%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_asm_colon.cpp.o[0m
+[8.032s] [  8%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_assign.cpp.o[0m
+[8.033s] [  8%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_braced_init_list.cpp.o[0m
+[8.035s] [  8%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_eigen_comma_init.cpp.o[0m
+[8.037s] [ 11%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align.cpp.o[0m
+[8.039s] [ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_func_proto.cpp.o[0m
+[8.059s] [ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_func_params.cpp.o[0m
+[8.344s] [ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_init_brace.cpp.o[0m
+[8.348s] [ 14%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_left_shift.cpp.o[0m
+[8.359s] [ 17%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_log_al.cpp.o[0m
+[8.366s] [ 17%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_nl_cont.cpp.o[0m
+[8.382s] [ 17%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_oc_decl_colon.cpp.o[0m
+[8.386s] [ 20%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_oc_msg_colons.cpp.o[0m
+[8.421s] [ 20%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_oc_msg_spec.cpp.o[0m
+[8.425s] [ 20%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_preprocessor.cpp.o[0m
+[8.539s] [ 23%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_same_func_call_params.cpp.o[0m
+[8.546s] [ 26%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_struct_initializers.cpp.o[0m
+[8.549s] [ 26%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_stack.cpp.o[0m
+[8.557s] [ 26%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_tab_column.cpp.o[0m
+[8.659s] [ 29%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_trailing_comments.cpp.o[0m
+[8.662s] [ 29%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_tools.cpp.o[0m
+[8.722s] [ 29%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_typedefs.cpp.o[0m
+[8.737s] [ 29%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/align_var_def_brace.cpp.o[0m
+[8.775s] [ 32%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/args.cpp.o[0m
+[8.799s] [ 32%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/backup.cpp.o[0m
+[8.803s] [ 32%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/brace_cleanup.cpp.o[0m
+[8.827s] [ 35%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/braces.cpp.o[0m
+[8.891s] [ 35%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/calculate_closing_brace_position.cpp.o[0m
+[8.896s] [ 35%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/change_int_types.cpp.o[0m
+[8.904s] [ 38%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/check_template.cpp.o[0m
+[8.908s] [ 38%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/chunk.cpp.o[0m
+[9.019s] [ 38%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/ChunkStack.cpp.o[0m
+[9.047s] [ 41%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine.cpp.o[0m
+[9.050s] [ 41%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine_fix_mark.cpp.o[0m
+[9.057s] [ 41%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine_labels.cpp.o[0m
+[9.120s] [ 44%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine_tools.cpp.o[0m
+[9.123s] [ 44%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/combine_skip.cpp.o[0m
+[9.193s] [ 44%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/compat_posix.cpp.o[0m
+[9.238s] [ 47%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/compat_win32.cpp.o[0m
+[9.249s] [ 47%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/cs_top_is_question.cpp.o[0m
+[9.265s] [ 47%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/detect.cpp.o[0m
+[9.307s] [ 47%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/EnumStructUnionParser.cpp.o[0m
+[9.310s] [ 50%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/enum_cleanup.cpp.o[0m
+[9.358s] [ 52%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/flag_braced_init_list.cpp.o[0m
+[9.398s] [ 52%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/flag_parens.cpp.o[0m
+[9.403s] [ 52%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/flag_decltype.cpp.o[0m
+[9.424s] [ 55%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/indent.cpp.o[0m
+[9.467s] [ 55%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/keywords.cpp.o[0m
+[9.516s] [ 55%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/lang_pawn.cpp.o[0m
+[9.534s] [ 58%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/language_names.cpp.o[0m
+[9.536s] [ 58%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/language_tools.cpp.o[0m
+[9.548s] [ 58%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/logger.cpp.o[0m
+[9.553s] [ 61%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/logmask.cpp.o[0m
+[9.682s] [ 61%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/log_rules.cpp.o[0m
+[9.687s] [ 61%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/mark_functor.cpp.o[0m
+[9.705s] [ 64%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/mark_question_colon.cpp.o[0m
+[9.705s] [ 64%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/newlines.cpp.o[0m
+[9.707s] [ 64%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/md5.cpp.o[0m
+[9.750s] [ 67%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/option.cpp.o[0m
+[9.755s] [ 67%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/options_for_QT.cpp.o[0m
+[9.799s] [ 67%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/output.cpp.o[0m
+[9.852s] [ 70%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/parameter_pack_cleanup.cpp.o[0m
+[9.890s] [ 70%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/parens.cpp.o[0m
+[9.971s] [ 70%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/parent_for_pp.cpp.o[0m
+[10.003s] [ 73%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/parsing_frame.cpp.o[0m
+[10.034s] [ 73%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/parsing_frame_stack.cpp.o[0m
+[10.084s] [ 73%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/pcf_flags.cpp.o[0m
+[10.095s] [ 76%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/pragma_cleanup.cpp.o[0m
+[10.137s] [ 76%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/punctuators.cpp.o[0m
+[10.196s] [ 79%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/quick_align_again.cpp.o[0m
+[10.253s] [ 79%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/remove_duplicate_include.cpp.o[0m
+[10.267s] [ 79%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/remove_extra_returns.cpp.o[0m
+[10.307s] [ 82%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/rewrite_infinite_loops.cpp.o[0m
+[10.327s] [ 82%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/semicolons.cpp.o[0m
+[10.359s] [ 82%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/sorting.cpp.o[0m
+[10.402s] [ 85%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/space.cpp.o[0m
+[10.433s] [ 85%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/tokenize_cleanup.cpp.o[0m
+[10.544s] [ 85%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/tokenize.cpp.o[0m
+[10.544s] [ 88%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/uncrustify.cpp.o[0m
+[10.553s] [ 88%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/uncrustify_emscripten.cpp.o[0m
+[10.641s] [ 88%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/uncrustify_types.cpp.o[0m
+[10.761s] [ 91%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unc_ctype.cpp.o[0m
+[10.831s] [ 91%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unc_text.cpp.o[0m
+[10.862s] [ 91%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unc_tools.cpp.o[0m
+[10.891s] [ 94%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/unicode.cpp.o[0m
+[10.905s] [ 94%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/universalindentgui.cpp.o[0m
+[11.041s] [ 94%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/width.cpp.o[0m
+[11.091s] [ 97%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/options.cpp.o[0m
+[11.134s] [ 97%] [32mBuilding CXX object CMakeFiles/uncrustify.dir/src/option_enum.cpp.o[0m
+[12.032s] [100%] [32m[1mLinking CXX executable uncrustify[0m
+[12.507s] [100%] Built target uncrustify
+[12.559s] [ 85%] [34m[1mPerforming install step for 'uncrustify_vendor'[0m
+[12.612s] [  0%] Built target generate_version_header
+[12.659s] [35m[1mConsolidate compiler generated dependencies of target uncrustify[0m
+[12.783s] [100%] Built target uncrustify
+[12.839s] [36mInstall the project...[0m
+[12.843s] -- Install configuration: ""
+[12.843s] -- Installing: /work/ubuntu-ros2-dev/build/uncrustify_vendor/uncrustify_vendor-prefix/install/bin/uncrustify
+[12.884s] [100%] [34m[1mCompleted 'uncrustify_vendor'[0m
+[12.940s] [100%] Built target uncrustify_vendor
+[12.965s] Invoked command in '/work/ubuntu-ros2-dev/build/uncrustify_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/uncrustify_vendor -- -j8 -l8
+[13.194s] Invoking command in '/work/ubuntu-ros2-dev/build/uncrustify_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/uncrustify_vendor
+[13.314s] -- Install configuration: ""
+[13.314s] -- Execute custom install script
+[13.314s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/environment/vendor_package.bat
+[13.315s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/environment/vendor_package.dsv
+[13.315s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/environment/vendor_package.sh
+[13.315s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/ament_index/resource_index/vendor_packages/uncrustify_vendor
+[13.340s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/ament_index/resource_index/package_run_dependencies/uncrustify_vendor
+[13.340s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/ament_index/resource_index/parent_prefix_path/uncrustify_vendor
+[13.362s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/environment/ament_prefix_path.sh
+[13.382s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/environment/ament_prefix_path.dsv
+[13.420s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/environment/path.sh
+[13.438s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/environment/path.dsv
+[13.445s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.bash
+[13.454s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.sh
+[13.471s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.zsh
+[13.506s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.dsv
+[13.529s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/package.dsv
+[13.565s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/ament_index/resource_index/packages/uncrustify_vendor
+[13.597s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/cmake/vendor_package_cmake_prefix.cmake
+[13.620s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig.cmake
+[13.662s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig-version.cmake
+[13.696s] -- Symlinking: /work/ubuntu-ros2-dev/install/uncrustify_vendor/share/uncrustify_vendor/package.xml
+[13.711s] -- Installing: /work/ubuntu-ros2-dev/install/uncrustify_vendor/opt/uncrustify_vendor
+[13.711s] -- Installing: /work/ubuntu-ros2-dev/install/uncrustify_vendor/opt/uncrustify_vendor/bin
+[13.712s] -- Installing: /work/ubuntu-ros2-dev/install/uncrustify_vendor/opt/uncrustify_vendor/bin/uncrustify
+[13.740s] Invoked command in '/work/ubuntu-ros2-dev/build/uncrustify_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/uncrustify_vendor

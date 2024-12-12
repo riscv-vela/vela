@@ -1,0 +1,553 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found geometry_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/work/ubuntu-ros2-dev/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found sensor_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_cmake_flake8: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/visualization_msgs
+[  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  0%] Built target visualization_msgs__rosidl_generator_type_description
+[  0%] Built target ament_cmake_python_symlink_visualization_msgs
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__description.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__description.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__description.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__description.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__description.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__functions.c.o[0m
+[ 26%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_c.so[0m
+[ 26%] Built target visualization_msgs__rosidl_generator_c
+running egg_info
+creating visualization_msgs.egg-info
+writing visualization_msgs.egg-info/PKG-INFO
+writing dependency_links to visualization_msgs.egg-info/dependency_links.txt
+writing top-level names to visualization_msgs.egg-info/top_level.txt
+writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+reading manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[ 26%] Built target ament_cmake_python_build_visualization_msgs_egg
+[ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[ 41%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_c.so[0m
+[ 41%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[ 41%] Built target visualization_msgs__rosidl_typesupport_c
+[ 42%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o[0m
+[ 42%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 43%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[ 46%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 46%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[ 46%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker__type_support_c.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/image_marker__type_support_c.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker_array__type_support_c.cpp.o[0m
+[ 49%] Built target visualization_msgs__cpp
+[ 49%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/mesh_file__type_support_c.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/menu_entry__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_update__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/uv_coordinate__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/srv/detail/get_interactive_markers__type_support_c.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_init__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_control__type_support_c.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 55%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[ 56%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/image_marker__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/menu_entry__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/mesh_file__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker__type_support.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 65%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[ 66%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/image_marker__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_update__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/menu_entry__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/mesh_file__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/uv_coordinate__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/srv/detail/dds_fastrtps/get_interactive_markers__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_pose__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_init__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_feedback__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_control__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker__type_support.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 75%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[ 76%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_cpp.so[0m
+[ 85%] Built target visualization_msgs__rosidl_typesupport_cpp
+[ 85%] Built target visualization_msgs
+[ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 86%] Built target visualization_msgs__py
+[ 87%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_image_marker_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_array_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_menu_entry_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_mesh_file_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_uv_coordinate_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/srv/_get_interactive_markers_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_update_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_pose_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_init_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_feedback_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_control_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_s.c.o[0m
+[ 96%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_py.so[0m
+[ 96%] Built target visualization_msgs__rosidl_generator_py
+[ 97%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 97%] Built target visualization_msgs_s__rosidl_typesupport_fastrtps_c
+[ 97%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so[0m
+[ 98%] Built target visualization_msgs_s__rosidl_typesupport_c
+[ 99%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target visualization_msgs_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/Marker.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.json
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs-5.3.5-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs-5.3.5-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs-5.3.5-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs-5.3.5-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_image_marker.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_image_marker_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_control.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_control_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_feedback_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_init.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_init_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_pose.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_pose_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_update.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_update_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_marker.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_marker_array.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_marker_array_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_marker_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_menu_entry.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_menu_entry_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_mesh_file.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_mesh_file_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_uv_coordinate.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_uv_coordinate_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/srv/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/srv/_get_interactive_markers.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/srv/_get_interactive_markers_s.c
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/Marker.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/Marker.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.msg
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/ament_index/resource_index/packages/visualization_msgs
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/__init__.py'...
+Listing '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_image_marker.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_control.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_init.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_pose.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_interactive_marker_update.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_marker.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_marker_array.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_menu_entry.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_mesh_file.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/msg/_uv_coordinate.py'...
+Listing '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/srv'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/srv/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/visualization_msgs/lib/python3.10/site-packages/visualization_msgs/srv/_get_interactive_markers.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport-noconfig.cmake
