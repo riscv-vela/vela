@@ -1,0 +1,31 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating examples_tf2_py.egg-info
+writing examples_tf2_py.egg-info/PKG-INFO
+writing dependency_links to examples_tf2_py.egg-info/dependency_links.txt
+writing entry points to examples_tf2_py.egg-info/entry_points.txt
+writing requirements to examples_tf2_py.egg-info/requires.txt
+writing top-level names to examples_tf2_py.egg-info/top_level.txt
+writing manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+reading manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+writing manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/examples_tf2_py/lib/python3.10/site-packages/examples-tf2-py.egg-link (link to .)
+Installing async_waits_for_transform script to /work/ubuntu-ros2-dev/install/examples_tf2_py/lib/examples_tf2_py
+Installing blocking_waits_for_transform script to /work/ubuntu-ros2-dev/install/examples_tf2_py/lib/examples_tf2_py
+Installing dynamic_broadcaster script to /work/ubuntu-ros2-dev/install/examples_tf2_py/lib/examples_tf2_py
+Installing frame_dumper script to /work/ubuntu-ros2-dev/install/examples_tf2_py/lib/examples_tf2_py
+Installing static_broadcaster script to /work/ubuntu-ros2-dev/install/examples_tf2_py/lib/examples_tf2_py
+Installing waits_for_transform script to /work/ubuntu-ros2-dev/install/examples_tf2_py/lib/examples_tf2_py
+
+Installed /work/ubuntu-ros2-dev/build/examples_tf2_py
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/examples_tf2_py/share/ament_index
+creating /work/ubuntu-ros2-dev/install/examples_tf2_py/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/examples_tf2_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/examples_tf2_py/resource/examples_tf2_py -> /work/ubuntu-ros2-dev/install/examples_tf2_py/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/examples_tf2_py/package.xml -> /work/ubuntu-ros2-dev/install/examples_tf2_py/share/examples_tf2_py
+creating /work/ubuntu-ros2-dev/install/examples_tf2_py/share/examples_tf2_py/launch
+symbolically linking /work/ubuntu-ros2-dev/build/examples_tf2_py/launch/broadcasters.launch.xml -> /work/ubuntu-ros2-dev/install/examples_tf2_py/share/examples_tf2_py/launch

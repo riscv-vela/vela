@@ -1,0 +1,24 @@
+[0.579s] Invoking command in '/work/ubuntu-ros2-dev/build/osrf_pycommon': PYTHONPATH=/work/ubuntu-ros2-dev/build/osrf_pycommon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/osrf_pycommon/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/osrf_pycommon/build --no-deps symlink_data
+[0.695s] running develop
+[0.695s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.695s]   warnings.warn(
+[0.761s] running egg_info
+[0.761s] creating osrf_pycommon.egg-info
+[0.761s] writing osrf_pycommon.egg-info/PKG-INFO
+[0.762s] writing dependency_links to osrf_pycommon.egg-info/dependency_links.txt
+[0.762s] writing requirements to osrf_pycommon.egg-info/requires.txt
+[0.762s] writing top-level names to osrf_pycommon.egg-info/top_level.txt
+[0.762s] writing manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[0.763s] reading manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[0.764s] writing manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[0.765s] running build_ext
+[0.765s] Creating /work/ubuntu-ros2-dev/install/osrf_pycommon/lib/python3.10/site-packages/osrf-pycommon.egg-link (link to .)
+[0.765s] 
+[0.765s] Installed /work/ubuntu-ros2-dev/build/osrf_pycommon
+[0.765s] running symlink_data
+[0.765s] symbolically linking /work/ubuntu-ros2-dev/build/osrf_pycommon/package.xml -> /work/ubuntu-ros2-dev/install/osrf_pycommon/share/osrf_pycommon
+[0.766s] creating /work/ubuntu-ros2-dev/install/osrf_pycommon/share/ament_index
+[0.766s] creating /work/ubuntu-ros2-dev/install/osrf_pycommon/share/ament_index/resource_index
+[0.766s] creating /work/ubuntu-ros2-dev/install/osrf_pycommon/share/ament_index/resource_index/packages
+[0.766s] symbolically linking /work/ubuntu-ros2-dev/build/osrf_pycommon/resource/osrf_pycommon -> /work/ubuntu-ros2-dev/install/osrf_pycommon/share/ament_index/resource_index/packages
+[0.968s] Invoked command in '/work/ubuntu-ros2-dev/build/osrf_pycommon' returned '0': PYTHONPATH=/work/ubuntu-ros2-dev/build/osrf_pycommon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/osrf_pycommon/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/osrf_pycommon/build --no-deps symlink_data

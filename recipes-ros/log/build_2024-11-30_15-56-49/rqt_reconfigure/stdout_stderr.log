@@ -1,0 +1,36 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating src/rqt_reconfigure.egg-info
+writing src/rqt_reconfigure.egg-info/PKG-INFO
+writing dependency_links to src/rqt_reconfigure.egg-info/dependency_links.txt
+writing entry points to src/rqt_reconfigure.egg-info/entry_points.txt
+writing requirements to src/rqt_reconfigure.egg-info/requires.txt
+writing top-level names to src/rqt_reconfigure.egg-info/top_level.txt
+writing manifest file 'src/rqt_reconfigure.egg-info/SOURCES.txt'
+reading manifest file 'src/rqt_reconfigure.egg-info/SOURCES.txt'
+writing manifest file 'src/rqt_reconfigure.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/rqt_reconfigure/lib/python3.10/site-packages/rqt-reconfigure.egg-link (link to src)
+Installing rqt_reconfigure script to /work/ubuntu-ros2-dev/install/rqt_reconfigure/lib/rqt_reconfigure
+
+Installed /work/ubuntu-ros2-dev/build/rqt_reconfigure/src
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/editor_bool.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/editor_enum.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/editor_number.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/editor_string.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/node_selector.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/paramedit_pane.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/param_main.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/param_timeline.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/singlenode_parameditor.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/text_filter_widget.ui -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/package.xml -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/plugin.xml -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/rqt_reconfigure
+creating /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/ament_index
+creating /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_reconfigure/resource/rqt_reconfigure -> /work/ubuntu-ros2-dev/install/rqt_reconfigure/share/ament_index/resource_index/packages

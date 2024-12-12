@@ -1,0 +1,339 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found libyaml_vendor: 1.6.3 (/work/ubuntu-ros2-dev/install/libyaml_vendor/share/libyaml_vendor/cmake)
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.2
+-- Found rcl_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/rcl_interfaces/share/rcl_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rcl_logging_interface: 3.1.0 (/work/ubuntu-ros2-dev/install/rcl_logging_interface/share/rcl_logging_interface/cmake)
+-- Found rcl_yaml_param_parser: 9.2.4 (/work/ubuntu-ros2-dev/install/rcl_yaml_param_parser/share/rcl_yaml_param_parser/cmake)
+-- Found rmw_implementation: 2.15.3 (/work/ubuntu-ros2-dev/install/rmw_implementation/share/rmw_implementation/cmake)
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tracetools: 8.2.2 (/work/ubuntu-ros2-dev/install/tracetools/share/tracetools/cmake)
+-- Found type_description_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/type_description_interfaces/share/type_description_interfaces/cmake)
+-- Found yaml: 1  
+-- Found rcl_logging_spdlog: 3.1.0 (/work/ubuntu-ros2-dev/install/rcl_logging_spdlog/share/rcl_logging_spdlog/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Creating tests for 'rmw_cyclonedds_cpp'
+-- Enabling message timestamp test for rmw_cyclonedds_cpp
+-- Creating tests for 'rmw_fastrtps_cpp'
+-- Enabling message timestamp test for rmw_fastrtps_cpp
+-- Creating tests for 'rmw_fastrtps_dynamic_cpp'
+-- Enabling message timestamp test for rmw_fastrtps_dynamic_cpp
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rcl/rcl/include>;$<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rcl/rcl/src>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rcl
+[  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  1%] [34m[1mGenerating rcl/version.h[0m
+[  1%] Built target ament_generate_version_header__rcl
+[  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  1%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[  1%] Built target gtest_main
+[  2%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/arguments.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/client.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/event.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/dynamic_message_type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/expand_topic_name.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/domain_id.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/guard_condition.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/init.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/init_options.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/lexer.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/lexer_lookahead.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/graph.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/logging_rosout.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/logging.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/log_level.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/network_flow_endpoints.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node_options.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/publisher.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/remap.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node_resolve_name.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/rmw_implementation_identifier_check.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/security.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/service.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/service_event_publisher.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/subscription.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/time.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/timer.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/type_hash.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/type_description_conversions.c.o[0m
+[ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 23%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/validate_enclave_name.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/validate_topic_name.c.o[0m
+[ 23%] Built target gtest
+[ 24%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/wait.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node_type_cache.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/localhost.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/discovery_options.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/context.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/common.c.o[0m
+[ 29%] [32m[1mLinking C shared library librcl.so[0m
+[ 29%] Built target rcl
+[ 29%] [32mBuilding CXX object test/CMakeFiles/test_client.dir/rcl/test_client.cpp.o[0m
+[ 30%] [32m[1mLinking CXX executable test_client[0m
+[ 30%] Built target test_client
+[ 31%] [32mBuilding CXX object test/CMakeFiles/test_get_actual_qos.dir/rcl/test_get_actual_qos.cpp.o[0m
+[ 31%] [32m[1mLinking CXX executable test_get_actual_qos[0m
+[ 31%] Built target test_get_actual_qos
+[ 32%] [32mBuilding CXX object test/CMakeFiles/test_init.dir/rcl/test_init.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable test_init[0m
+[ 33%] Built target test_init
+[ 34%] [32mBuilding CXX object test/CMakeFiles/test_node.dir/rcl/test_node.cpp.o[0m
+[ 35%] [32m[1mLinking CXX executable test_node[0m
+[ 35%] Built target test_node
+[ 36%] [32mBuilding CXX object test/CMakeFiles/test_remap.dir/rcl/test_remap.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable test_remap[0m
+[ 36%] Built target test_remap
+[ 37%] [32mBuilding CXX object test/CMakeFiles/test_remap_integration.dir/rcl/test_remap_integration.cpp.o[0m
+[ 38%] [32m[1mLinking CXX executable test_remap_integration[0m
+[ 38%] Built target test_remap_integration
+[ 38%] [32mBuilding CXX object test/CMakeFiles/test_guard_condition.dir/rcl/test_guard_condition.cpp.o[0m
+[ 39%] [32m[1mLinking CXX executable test_guard_condition[0m
+[ 39%] Built target test_guard_condition
+[ 40%] [32mBuilding CXX object test/CMakeFiles/test_publisher.dir/rcl/test_publisher.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable test_publisher[0m
+[ 41%] Built target test_publisher
+[ 42%] [32mBuilding CXX object test/CMakeFiles/test_events.dir/rcl/test_events.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable test_events[0m
+[ 43%] Built target test_events
+[ 43%] [32mBuilding CXX object test/CMakeFiles/test_wait.dir/rcl/test_wait.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable test_wait[0m
+[ 44%] Built target test_wait
+[ 45%] [32mBuilding CXX object test/CMakeFiles/test_logging_rosout.dir/rcl/test_logging_rosout.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable test_logging_rosout[0m
+[ 46%] Built target test_logging_rosout
+[ 46%] [32mBuilding CXX object test/CMakeFiles/test_namespace.dir/rcl/test_namespace.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable test_namespace[0m
+[ 47%] Built target test_namespace
+[ 48%] [32mBuilding CXX object test/CMakeFiles/test_rmw_impl_id_check_func.dir/rcl/test_rmw_impl_id_check_func.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable test_rmw_impl_id_check_func[0m
+[ 48%] Built target test_rmw_impl_id_check_func
+[ 49%] [32mBuilding CXX object test/CMakeFiles/test_network_flow_endpoints.dir/rcl/test_network_flow_endpoints.cpp.o[0m
+[ 50%] [32mBuilding CXX object test/CMakeFiles/test_count_matched.dir/rcl/test_count_matched.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_network_flow_endpoints[0m
+[ 51%] [32mBuilding CXX object test/CMakeFiles/test_type_description_conversions.dir/rcl/test_type_description_conversions.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable test_count_matched[0m
+[ 52%] Built target test_network_flow_endpoints
+[ 53%] [32mBuilding CXX object test/CMakeFiles/wait_for_entity_helpers.dir/rcl/wait_for_entity_helpers.cpp.o[0m
+[ 53%] Built target test_count_matched
+[ 54%] [32mBuilding CXX object test/CMakeFiles/test_node_type_cache.dir/rcl/test_node_type_cache.cpp.o[0m
+[ 54%] [32mBuilding CXX object test/CMakeFiles/test_rmw_impl_id_check_exe.dir/rcl/test_rmw_impl_id_check_exe.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable test_rmw_impl_id_check_exe[0m
+[ 55%] Built target test_rmw_impl_id_check_exe
+[ 56%] [32mBuilding CXX object test/CMakeFiles/test_graph.dir/rcl/test_graph.cpp.o[0m
+[ 57%] [32m[1mLinking CXX static library libwait_for_entity_helpers.a[0m
+[ 58%] [32m[1mLinking CXX executable test_type_description_conversions[0m
+[ 58%] Built target wait_for_entity_helpers
+[ 59%] [32mBuilding CXX object test/CMakeFiles/test_arguments.dir/rcl/test_arguments.cpp.o[0m
+[ 59%] Built target test_type_description_conversions
+[ 59%] [32mBuilding CXX object test/CMakeFiles/test_time.dir/rcl/test_time.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable test_node_type_cache[0m
+[ 60%] [32mBuilding CXX object test/CMakeFiles/test_get_node_names.dir/rcl/test_get_node_names.cpp.o[0m
+[ 60%] Built target test_node_type_cache
+[ 60%] [32mBuilding CXX object test/CMakeFiles/test_lexer.dir/rcl/test_lexer.cpp.o[0m
+[ 61%] [32mBuilding CXX object test/CMakeFiles/test_lexer_lookahead.dir/rcl/test_lexer_lookahead.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_get_node_names[0m
+[ 63%] [32m[1mLinking CXX executable test_graph[0m
+[ 64%] [32m[1mLinking CXX executable test_time[0m
+[ 64%] Built target test_get_node_names
+[ 64%] Built target test_time
+[ 65%] [32m[1mLinking CXX executable test_arguments[0m
+[ 65%] Built target test_graph
+[ 65%] Built target test_arguments
+[ 65%] [32m[1mLinking CXX executable test_lexer_lookahead[0m
+[ 66%] [32m[1mLinking CXX executable test_lexer[0m
+[ 66%] Built target test_lexer_lookahead
+[ 66%] Built target test_lexer
+[ 67%] [32mBuilding CXX object test/CMakeFiles/test_logging.dir/rcl/test_logging.cpp.o[0m
+[ 67%] [32m[1mLinking CXX executable test_logging[0m
+[ 67%] Built target test_logging
+[ 68%] [32mBuilding CXX object test/CMakeFiles/test_validate_topic_name.dir/rcl/test_validate_topic_name.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable test_validate_topic_name[0m
+[ 69%] Built target test_validate_topic_name
+[ 69%] [32mBuilding CXX object test/CMakeFiles/test_expand_topic_name.dir/rcl/test_expand_topic_name.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable test_expand_topic_name[0m
+[ 70%] Built target test_expand_topic_name
+[ 71%] [32mBuilding CXX object test/CMakeFiles/test_security.dir/rcl/test_security.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable test_security[0m
+[ 72%] Built target test_security
+[ 73%] [32mBuilding CXX object test/CMakeFiles/test_common.dir/rcl/test_common.cpp.o[0m
+[ 73%] [32mBuilding C object test/CMakeFiles/test_common.dir/__/src/rcl/common.c.o[0m
+[ 74%] [32m[1mLinking CXX executable test_common[0m
+[ 74%] Built target test_common
+[ 74%] [32mBuilding CXX object test/CMakeFiles/test_log_level.dir/rcl/test_log_level.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_log_level[0m
+[ 75%] Built target test_log_level
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test_subscription_content_filter_options.dir/rcl/test_subscription_content_filter_options.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable test_subscription_content_filter_options[0m
+[ 77%] Built target test_subscription_content_filter_options
+[ 77%] [32mBuilding CXX object test/CMakeFiles/test_type_hash.dir/rcl/test_type_hash.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_type_hash[0m
+[ 78%] Built target test_type_hash
+[ 79%] [32mBuilding CXX object test/CMakeFiles/test_info_by_topic.dir/rcl/test_info_by_topic.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable test_info_by_topic[0m
+[ 79%] Built target test_info_by_topic
+[ 79%] [32mBuilding CXX object test/CMakeFiles/test_publisher_wait_all_ack.dir/rcl/test_publisher_wait_all_ack.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_publisher_wait_all_ack[0m
+[ 80%] Built target test_publisher_wait_all_ack
+[ 80%] [32mBuilding CXX object test/CMakeFiles/test_service_event_publisher.dir/rcl/test_service_event_publisher.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable test_service_event_publisher[0m
+[ 81%] Built target test_service_event_publisher
+[ 81%] [32mBuilding CXX object test/CMakeFiles/test_get_type_description_service.dir/rcl/test_get_type_description_service.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable test_get_type_description_service[0m
+[ 82%] Built target test_get_type_description_service
+[ 82%] [32mBuilding CXX object test/CMakeFiles/service_fixture.dir/rcl/service_fixture.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable service_fixture[0m
+[ 83%] Built target service_fixture
+[ 84%] [32mBuilding CXX object test/CMakeFiles/client_fixture.dir/rcl/client_fixture.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable client_fixture[0m
+[ 85%] Built target client_fixture
+[ 85%] [32mBuilding CXX object test/CMakeFiles/test_service__rmw_cyclonedds_cpp.dir/rcl/test_service.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_service__rmw_cyclonedds_cpp[0m
+[ 86%] Built target test_service__rmw_cyclonedds_cpp
+[ 87%] [32mBuilding CXX object test/CMakeFiles/test_subscription__rmw_cyclonedds_cpp.dir/rcl/test_subscription.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_subscription__rmw_cyclonedds_cpp[0m
+[ 88%] Built target test_subscription__rmw_cyclonedds_cpp
+[ 89%] [32mBuilding CXX object test/CMakeFiles/test_service__rmw_fastrtps_cpp.dir/rcl/test_service.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable test_service__rmw_fastrtps_cpp[0m
+[ 89%] Built target test_service__rmw_fastrtps_cpp
+[ 89%] [32mBuilding CXX object test/CMakeFiles/test_subscription__rmw_fastrtps_cpp.dir/rcl/test_subscription.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_subscription__rmw_fastrtps_cpp[0m
+[ 90%] Built target test_subscription__rmw_fastrtps_cpp
+[ 91%] [32mBuilding CXX object test/CMakeFiles/test_service__rmw_fastrtps_dynamic_cpp.dir/rcl/test_service.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable test_service__rmw_fastrtps_dynamic_cpp[0m
+[ 92%] Built target test_service__rmw_fastrtps_dynamic_cpp
+[ 93%] [32mBuilding CXX object test/CMakeFiles/test_subscription__rmw_fastrtps_dynamic_cpp.dir/rcl/test_subscription.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable test_subscription__rmw_fastrtps_dynamic_cpp[0m
+[ 93%] Built target test_subscription__rmw_fastrtps_dynamic_cpp
+[ 95%] [32mBuilding CXX object test/CMakeFiles/test_localhost.dir/rcl/test_localhost.cpp.o[0m
+[ 95%] [32mBuilding CXX object test/CMakeFiles/test_discovery_options.dir/rcl/test_discovery_options.cpp.o[0m
+[ 95%] [32mBuilding CXX object test/CMakeFiles/test_domain_id.dir/rcl/test_domain_id.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable test_localhost[0m
+[ 96%] [32m[1mLinking CXX executable test_domain_id[0m
+[ 97%] [32m[1mLinking CXX executable test_discovery_options[0m
+[ 97%] Built target test_localhost
+[ 98%] [32mBuilding CXX object test/CMakeFiles/test_validate_enclave_name.dir/rcl/test_validate_enclave_name.cpp.o[0m
+[ 98%] Built target test_domain_id
+[ 99%] [32mBuilding CXX object test/CMakeFiles/test_context.dir/rcl/test_context.cpp.o[0m
+[ 99%] Built target test_discovery_options
+[100%] [32mBuilding CXX object test/CMakeFiles/test_timer.dir/rcl/test_timer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_validate_enclave_name[0m
+[100%] Built target test_validate_enclave_name
+[100%] [32m[1mLinking CXX executable test_context[0m
+[100%] Built target test_context
+[100%] [32m[1mLinking CXX executable test_timer[0m
+[100%] Built target test_timer
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/version.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/ament_index/resource_index/package_run_dependencies/rcl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/ament_index/resource_index/parent_prefix_path/rcl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/ament_index/resource_index/packages/rcl
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/rcl-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/rclConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/rclConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/get_default_rcl_logging_implementation.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/rcl_set_symbol_visibility_hidden.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/allocator.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/arguments.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/client.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/context.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/discovery_options.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/domain_id.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/dynamic_message_type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/error_handling.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/event.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/event_callback.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/expand_topic_name.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/graph.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/guard_condition.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/init.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/init_options.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/lexer.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/lexer_lookahead.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/localhost.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/log_level.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/logging.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/logging_rosout.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/macros.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/network_flow_endpoints.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/node.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/node_options.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/node_type_cache.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/publisher.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/rcl.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/remap.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/rmw_implementation_identifier_check.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/security.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/service.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/service_introspection.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/subscription.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/time.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/timer.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/type_description_conversions.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/type_hash.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/types.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/validate_enclave_name.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/validate_topic_name.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl/include/rcl/rcl/wait.h
+-- Installing: /work/ubuntu-ros2-dev/install/rcl/lib/librcl.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rcl/lib/librcl.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/rclExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake/rclExport-noconfig.cmake

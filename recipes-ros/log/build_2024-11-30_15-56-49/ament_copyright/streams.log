@@ -1,0 +1,26 @@
+[0.317s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_copyright': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_copyright/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_copyright/build --no-deps symlink_data
+[0.428s] running develop
+[0.428s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.428s]   warnings.warn(
+[0.475s] running egg_info
+[0.476s] creating ament_copyright.egg-info
+[0.476s] writing ament_copyright.egg-info/PKG-INFO
+[0.476s] writing dependency_links to ament_copyright.egg-info/dependency_links.txt
+[0.476s] writing entry points to ament_copyright.egg-info/entry_points.txt
+[0.476s] writing requirements to ament_copyright.egg-info/requires.txt
+[0.476s] writing top-level names to ament_copyright.egg-info/top_level.txt
+[0.476s] writing manifest file 'ament_copyright.egg-info/SOURCES.txt'
+[0.476s] reading manifest file 'ament_copyright.egg-info/SOURCES.txt'
+[0.476s] writing manifest file 'ament_copyright.egg-info/SOURCES.txt'
+[0.476s] running build_ext
+[0.476s] Creating /work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages/ament-copyright.egg-link (link to .)
+[0.476s] Installing ament_copyright script to /work/ubuntu-ros2-dev/install/ament_copyright/bin
+[0.476s] 
+[0.476s] Installed /work/ubuntu-ros2-dev/build/ament_copyright
+[0.477s] running symlink_data
+[0.477s] symbolically linking /work/ubuntu-ros2-dev/build/ament_copyright/package.xml -> /work/ubuntu-ros2-dev/install/ament_copyright/share/ament_copyright
+[0.477s] creating /work/ubuntu-ros2-dev/install/ament_copyright/share/ament_index
+[0.477s] creating /work/ubuntu-ros2-dev/install/ament_copyright/share/ament_index/resource_index
+[0.477s] creating /work/ubuntu-ros2-dev/install/ament_copyright/share/ament_index/resource_index/packages
+[0.477s] symbolically linking /work/ubuntu-ros2-dev/build/ament_copyright/resource/ament_copyright -> /work/ubuntu-ros2-dev/install/ament_copyright/share/ament_index/resource_index/packages
+[0.512s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_copyright' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_copyright/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_copyright/build --no-deps symlink_data

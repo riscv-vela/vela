@@ -1,0 +1,120 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.1 (/work/ubuntu-ros2-dev/install/ament_index_cpp/share/ament_index_cpp/cmake)
+-- Found mcap_vendor: 0.26.5 (/work/ubuntu-ros2-dev/install/mcap_vendor/share/mcap_vendor/cmake)
+-- Found pluginlib: 5.4.2 (/work/ubuntu-ros2-dev/install/pluginlib/share/pluginlib/cmake)
+-- Found rosbag2_storage: 0.26.5 (/work/ubuntu-ros2-dev/install/rosbag2_storage/share/rosbag2_storage/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found ament_cmake_gmock: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found rosbag2_test_common: 0.26.5 (/work/ubuntu-ros2-dev/install/rosbag2_test_common/share/rosbag2_test_common/cmake)
+-- Found std_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/std_msgs/share/std_msgs/cmake)
+-- Found gmock sources under '/work/ubuntu-ros2-dev/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'clang_format' to check C / C++ code style
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rosbag2/rosbag2_storage_mcap/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosbag2_storage_mcap
+[  0%] Built target ament_cmake_python_symlink_ros2bag_mcap_cli_setup
+[  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 27%] Built target gmock
+[ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 45%] Built target gmock_main
+[ 54%] [32mBuilding CXX object CMakeFiles/rosbag2_storage_mcap.dir/src/mcap_storage.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library librosbag2_storage_mcap.so[0m
+[ 63%] Built target rosbag2_storage_mcap
+[ 63%] Built target ament_cmake_python_symlink_ros2bag_mcap_cli
+[ 72%] [32mBuilding CXX object CMakeFiles/test_mcap_topic_filter.dir/test/rosbag2_storage_mcap/test_mcap_topic_filter.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable test_mcap_topic_filter[0m
+[ 81%] Built target test_mcap_topic_filter
+running egg_info
+creating ros2bag_mcap_cli.egg-info
+writing ros2bag_mcap_cli.egg-info/PKG-INFO
+writing dependency_links to ros2bag_mcap_cli.egg-info/dependency_links.txt
+writing entry points to ros2bag_mcap_cli.egg-info/entry_points.txt
+writing top-level names to ros2bag_mcap_cli.egg-info/top_level.txt
+writing manifest file 'ros2bag_mcap_cli.egg-info/SOURCES.txt'
+reading manifest file 'ros2bag_mcap_cli.egg-info/SOURCES.txt'
+writing manifest file 'ros2bag_mcap_cli.egg-info/SOURCES.txt'
+[ 81%] Built target ament_cmake_python_build_ros2bag_mcap_cli_egg
+[ 90%] [32mBuilding CXX object CMakeFiles/test_mcap_storage.dir/test/rosbag2_storage_mcap/test_mcap_storage.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_mcap_storage[0m
+[100%] Built target test_mcap_storage
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/python3.10/site-packages/ros2bag_mcap_cli-0.26.5-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/python3.10/site-packages/ros2bag_mcap_cli-0.26.5-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/python3.10/site-packages/ros2bag_mcap_cli-0.26.5-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/python3.10/site-packages/ros2bag_mcap_cli-0.26.5-py3.10.egg-info/entry_points.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/python3.10/site-packages/ros2bag_mcap_cli-0.26.5-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/python3.10/site-packages/ros2bag_mcap_cli/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap//plugin_description.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/ament_index/resource_index/package_run_dependencies/rosbag2_storage_mcap
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/ament_index/resource_index/parent_prefix_path/rosbag2_storage_mcap
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/ament_index/resource_index/packages/rosbag2_storage_mcap
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/ament_index/resource_index/rosbag2_storage__pluginlib__plugin/rosbag2_storage_mcap
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/cmake/rosbag2_storage_mcapConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/cmake/rosbag2_storage_mcapConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/package.xml
+Listing '/work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/python3.10/site-packages/ros2bag_mcap_cli'...
+Compiling '/work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/python3.10/site-packages/ros2bag_mcap_cli/__init__.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/librosbag2_storage_mcap.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/lib/librosbag2_storage_mcap.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/cmake/export_rosbag2_storage_mcapExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosbag2_storage_mcap/share/rosbag2_storage_mcap/cmake/export_rosbag2_storage_mcapExport-release.cmake

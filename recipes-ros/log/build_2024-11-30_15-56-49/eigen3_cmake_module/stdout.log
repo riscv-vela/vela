@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_copyright: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/eigen3_cmake_module
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/ament_index/resource_index/package_run_dependencies/eigen3_cmake_module
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/ament_index/resource_index/parent_prefix_path/eigen3_cmake_module
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/ament_index/resource_index/packages/eigen3_cmake_module
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/eigen3_cmake_module-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/eigen3_cmake_moduleConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/eigen3_cmake_moduleConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/Modules/FindEigen3.cmake

@@ -1,0 +1,37 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating launch_testing.egg-info
+writing launch_testing.egg-info/PKG-INFO
+writing dependency_links to launch_testing.egg-info/dependency_links.txt
+writing entry points to launch_testing.egg-info/entry_points.txt
+writing requirements to launch_testing.egg-info/requires.txt
+writing top-level names to launch_testing.egg-info/top_level.txt
+writing manifest file 'launch_testing.egg-info/SOURCES.txt'
+reading manifest file 'launch_testing.egg-info/SOURCES.txt'
+writing manifest file 'launch_testing.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/launch_testing/lib/python3.10/site-packages/launch-testing.egg-link (link to .)
+Installing launch_test script to /work/ubuntu-ros2-dev/install/launch_testing/bin
+
+Installed /work/ubuntu-ros2-dev/build/launch_testing
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/launch_testing/share/ament_index
+creating /work/ubuntu-ros2-dev/install/launch_testing/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/launch_testing/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/resource/launch_testing -> /work/ubuntu-ros2-dev/install/launch_testing/share/ament_index/resource_index/packages
+creating /work/ubuntu-ros2-dev/install/launch_testing/lib/launch_testing
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/example_processes/exit_code_proc.py -> /work/ubuntu-ros2-dev/install/launch_testing/lib/launch_testing
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/example_processes/terminating_proc.py -> /work/ubuntu-ros2-dev/install/launch_testing/lib/launch_testing
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/example_processes/good_proc.py -> /work/ubuntu-ros2-dev/install/launch_testing/lib/launch_testing
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/package.xml -> /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing
+creating /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing/examples
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/test/launch_testing/examples/hello_world_launch_test.py -> /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing/examples
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/test/launch_testing/examples/terminating_proc_launch_test.py -> /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing/examples
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/test/launch_testing/examples/context_launch_test.py -> /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing/examples
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/test/launch_testing/examples/ready_to_test_action_timeout_test.py -> /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing/examples
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/test/launch_testing/examples/parameters_launch_test.py -> /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing/examples
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/test/launch_testing/examples/ready_action_test.py -> /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing/examples
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/test/launch_testing/examples/good_proc_launch_test.py -> /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing/examples
+symbolically linking /work/ubuntu-ros2-dev/build/launch_testing/test/launch_testing/examples/args_launch_test.py -> /work/ubuntu-ros2-dev/install/launch_testing/share/launch_testing/examples

@@ -1,0 +1,29 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating ros2cli.egg-info
+writing ros2cli.egg-info/PKG-INFO
+writing dependency_links to ros2cli.egg-info/dependency_links.txt
+writing entry points to ros2cli.egg-info/entry_points.txt
+writing requirements to ros2cli.egg-info/requires.txt
+writing top-level names to ros2cli.egg-info/top_level.txt
+writing manifest file 'ros2cli.egg-info/SOURCES.txt'
+reading manifest file 'ros2cli.egg-info/SOURCES.txt'
+writing manifest file 'ros2cli.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/ros2cli/lib/python3.10/site-packages/ros2cli.egg-link (link to .)
+Installing _ros2_daemon script to /work/ubuntu-ros2-dev/install/ros2cli/bin
+Installing ros2 script to /work/ubuntu-ros2-dev/install/ros2cli/bin
+
+Installed /work/ubuntu-ros2-dev/build/ros2cli
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/ros2cli/share/ament_index
+creating /work/ubuntu-ros2-dev/install/ros2cli/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/ros2cli/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/ros2cli/resource/ros2cli -> /work/ubuntu-ros2-dev/install/ros2cli/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/ros2cli/package.xml -> /work/ubuntu-ros2-dev/install/ros2cli/share/ros2cli
+symbolically linking /work/ubuntu-ros2-dev/build/ros2cli/resource/package.dsv -> /work/ubuntu-ros2-dev/install/ros2cli/share/ros2cli
+creating /work/ubuntu-ros2-dev/install/ros2cli/share/ros2cli/environment
+symbolically linking /work/ubuntu-ros2-dev/build/ros2cli/completion/ros2-argcomplete.bash -> /work/ubuntu-ros2-dev/install/ros2cli/share/ros2cli/environment
+symbolically linking /work/ubuntu-ros2-dev/build/ros2cli/completion/ros2-argcomplete.zsh -> /work/ubuntu-ros2-dev/install/ros2cli/share/ros2cli/environment

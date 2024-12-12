@@ -1,0 +1,123 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rmw: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw/share/rmw/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found performance_test_fixture: 0.2.1 (/work/ubuntu-ros2-dev/install/performance_test_fixture/share/performance_test_fixture/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck language: c++
+-- Configured cppcheck include dirs: /work/ubuntu-ros2-dev/install/performance_test_fixture/include;$<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rosidl_typesupport_fastrtps/rosidl_typesupport_fastrtps_cpp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosidl_typesupport_fastrtps_cpp
+[  0%] Built target ament_cmake_python_symlink_rosidl_typesupport_fastrtps_cpp_setup
+[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 18%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 18%] Built target gtest
+[ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 36%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 36%] Built target gtest_main
+[ 45%] [32mBuilding CXX object CMakeFiles/rosidl_typesupport_fastrtps_cpp.dir/src/identifier.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rosidl_typesupport_fastrtps_cpp.dir/src/wstring_conversion.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library librosidl_typesupport_fastrtps_cpp.so[0m
+[ 63%] Built target rosidl_typesupport_fastrtps_cpp
+[ 63%] Built target ament_cmake_python_symlink_rosidl_typesupport_fastrtps_cpp
+[ 72%] [32mBuilding CXX object CMakeFiles/test_wstring_conversion_mem.dir/test/test_wstring_conversion_mem.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable test_wstring_conversion_mem[0m
+[ 81%] Built target test_wstring_conversion_mem
+running egg_info
+creating rosidl_typesupport_fastrtps_cpp.egg-info
+writing rosidl_typesupport_fastrtps_cpp.egg-info/PKG-INFO
+writing dependency_links to rosidl_typesupport_fastrtps_cpp.egg-info/dependency_links.txt
+writing entry points to rosidl_typesupport_fastrtps_cpp.egg-info/entry_points.txt
+writing top-level names to rosidl_typesupport_fastrtps_cpp.egg-info/top_level.txt
+writing manifest file 'rosidl_typesupport_fastrtps_cpp.egg-info/SOURCES.txt'
+reading manifest file 'rosidl_typesupport_fastrtps_cpp.egg-info/SOURCES.txt'
+writing manifest file 'rosidl_typesupport_fastrtps_cpp.egg-info/SOURCES.txt'
+[ 81%] Built target ament_cmake_python_build_rosidl_typesupport_fastrtps_cpp_egg
+[ 90%] [32mBuilding CXX object CMakeFiles/test_wstring_conversion.dir/test/test_wstring_conversion.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_wstring_conversion[0m
+[100%] Built target test_wstring_conversion
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp-3.6.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp-3.6.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp-3.6.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp-3.6.0-py3.10.egg-info/entry_points.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp-3.6.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp/cli.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/ament_index/resource_index/rosidl_typesupport_cpp/rosidl_typesupport_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/ament_index/resource_index/packages/rosidl_typesupport_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cpp-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cppConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cppConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cpp_generate_interfaces.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/rosidl_typesupport_fastrtps_cpp__visibility_control.h.in
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/identifier.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support_decl.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+Listing '/work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp'...
+Compiling '/work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/python3.10/site-packages/rosidl_typesupport_fastrtps_cpp/cli.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake/rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/librosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosidl_typesupport_fastrtps_cpp/lib/librosidl_typesupport_fastrtps_cpp.so" to ""

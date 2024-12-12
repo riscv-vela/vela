@@ -1,0 +1,25 @@
+-- Found ament_cmake_core: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_export_dependencies: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/ament_cmake
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_index/resource_index/package_run_dependencies/ament_cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_index/resource_index/parent_prefix_path/ament_cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_index/resource_index/packages/ament_cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/package.xml

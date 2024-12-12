@@ -1,0 +1,21 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running develop
+running egg_info
+creating rqt.egg-info
+writing rqt.egg-info/PKG-INFO
+writing dependency_links to rqt.egg-info/dependency_links.txt
+writing top-level names to rqt.egg-info/top_level.txt
+writing manifest file 'rqt.egg-info/SOURCES.txt'
+reading manifest file 'rqt.egg-info/SOURCES.txt'
+writing manifest file 'rqt.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/rqt/lib/python3.10/site-packages/rqt.egg-link (link to .)
+
+Installed /work/ubuntu-ros2-dev/build/rqt
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/rqt/share/ament_index
+creating /work/ubuntu-ros2-dev/install/rqt/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/rqt/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rqt/resource/rqt -> /work/ubuntu-ros2-dev/install/rqt/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rqt/package.xml -> /work/ubuntu-ros2-dev/install/rqt/share/rqt

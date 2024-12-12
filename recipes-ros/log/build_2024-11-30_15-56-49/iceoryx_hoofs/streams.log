@@ -1,0 +1,266 @@
+[0.351s] Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs': /usr/bin/cmake /work/ubuntu-ros2-dev/src/eclipse-iceoryx/iceoryx/iceoryx_hoofs -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/iceoryx_hoofs
+[0.463s] -- The C compiler identification is GNU 11.4.0
+[0.509s] -- The CXX compiler identification is GNU 11.4.0
+[0.517s] -- Detecting C compiler ABI info
+[0.565s] -- Detecting C compiler ABI info - done
+[0.565s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.565s] -- Detecting C compile features
+[0.565s] -- Detecting C compile features - done
+[0.565s] -- Detecting CXX compiler ABI info
+[0.611s] -- Detecting CXX compiler ABI info - done
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.616s] -- Detecting CXX compile features
+[0.616s] -- Detecting CXX compile features - done
+[0.621s] -- Configuring done
+[0.628s] -- Generating done
+[0.629s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/iceoryx_hoofs
+[0.631s] Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs' returned '0': /usr/bin/cmake /work/ubuntu-ros2-dev/src/eclipse-iceoryx/iceoryx/iceoryx_hoofs -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/iceoryx_hoofs
+[0.632s] Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/iceoryx_hoofs -- -j8 -l8
+[0.743s] [  2%] [32mBuilding CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/file.cpp.o[0m
+[0.743s] [  4%] [32mBuilding CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/grp.cpp.o[0m
+[0.743s] [  6%] [32mBuilding CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/fnctl.cpp.o[0m
+[0.743s] [  8%] [32mBuilding CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/mqueue.cpp.o[0m
+[0.743s] [ 11%] [32mBuilding CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/mman.cpp.o[0m
+[0.743s] [ 13%] [32mBuilding CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/socket.cpp.o[0m
+[0.743s] [ 15%] [32mBuilding CXX object platform/CMakeFiles/iceoryx_platform.dir/linux/source/unistd.cpp.o[0m
+[0.743s] [ 17%] [32m[1mLinking CXX shared library libiceoryx_platform.so[0m
+[0.772s] [ 17%] Built target iceoryx_platform
+[0.781s] [ 20%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/concurrent/active_object.cpp.o[0m
+[0.781s] [ 22%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/concurrent/loffli.cpp.o[0m
+[0.787s] [ 24%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/filesystem.cpp.o[0m
+[0.787s] [ 26%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/helplets.cpp.o[0m
+[0.787s] [ 28%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/deadline_timer.cpp.o[0m
+[0.790s] [ 31%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/requires.cpp.o[0m
+[0.799s] [ 33%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/unique_id.cpp.o[0m
+[0.804s] [ 35%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/cxx/generic_raii.cpp.o[0m
+[0.864s] [ 37%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/error_handling/error_handling.cpp.o[0m
+[1.099s] [ 40%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/file_reader/file_reader.cpp.o[0m
+[1.106s] [ 42%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logcommon.cpp.o[0m
+[1.143s] [ 46%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logging.cpp.o[0m
+[1.144s] [ 46%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logger.cpp.o[0m
+[1.150s] [ 48%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logging_internal.cpp.o[0m
+[1.200s] [ 51%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logmanager.cpp.o[0m
+[1.237s] [ 53%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/log/logstream.cpp.o[0m
+[1.305s] [ 55%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/access_control.cpp.o[0m
+[1.418s] [ 57%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/mutex.cpp.o[0m
+[1.455s] [ 60%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/file_lock.cpp.o[0m
+[1.484s] [ 62%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/semaphore.cpp.o[0m
+[1.505s] [ 64%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/timer.cpp.o[0m
+[1.555s] [ 66%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/shared_memory_object.cpp.o[0m
+[1.627s] [ 68%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/signal_handler.cpp.o[0m
+[1.633s] [ 71%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/signal_watcher.cpp.o[0m
+[1.657s] [ 73%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/message_queue.cpp.o[0m
+[1.716s] [ 75%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/named_pipe.cpp.o[0m
+[1.949s] [ 77%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/unix_domain_socket.cpp.o[0m
+[1.959s] [ 80%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/shared_memory_object/allocator.cpp.o[0m
+[2.005s] [ 82%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/shared_memory_object/memory_map.cpp.o[0m
+[2.168s] [ 84%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/shared_memory_object/shared_memory.cpp.o[0m
+[2.240s] [ 86%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/system_configuration.cpp.o[0m
+[2.296s] [ 88%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/posix_access_rights.cpp.o[0m
+[2.370s] [ 91%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/posix_wrapper/thread.cpp.o[0m
+[2.593s] [ 93%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/units/duration.cpp.o[0m
+[2.667s] [ 95%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/relocatable_pointer/base_relative_pointer.cpp.o[0m
+[2.682s] [ 97%] [32mBuilding CXX object CMakeFiles/iceoryx_hoofs.dir/source/relocatable_pointer/relative_pointer_data.cpp.o[0m
+[3.033s] [100%] [32m[1mLinking CXX shared library libiceoryx_hoofs.so[0m
+[3.154s] [100%] Built target iceoryx_hoofs
+[3.237s] Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs' returned '0': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/iceoryx_hoofs -- -j8 -l8
+[3.335s] Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/iceoryx_hoofs
+[3.455s] -- Install configuration: ""
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/types.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/pthread.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/time.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/resource.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/wait.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/acl.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/errno.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/un.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/grp.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/signal.hpp
+[3.455s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/platform_correction.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/fcntl.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/semaphore.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/getopt.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/mqueue.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/inet.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/mman.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/unistd.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/stat.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/dlfcn.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/pwd.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/platform_settings.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/file.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/platform/socket.hpp
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/libiceoryx_hoofs.so
+[3.456s] -- Set runtime path of "/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/libiceoryx_hoofs.so" to ""
+[3.456s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/libiceoryx_platform.so
+[3.457s] -- Up-to-date: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6
+[3.457s] -- Up-to-date: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs
+[3.457s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/concurrent
+[3.457s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/concurrent/lockfree_queue.hpp
+[3.457s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/concurrent/resizeable_lockfree_queue.hpp
+[3.457s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/log
+[3.459s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logging.hpp
+[3.459s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logstream.hpp
+[3.459s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logger.hpp
+[3.459s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logging_free_function_building_block.hpp
+[3.459s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logmanager.hpp
+[3.459s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/log/logcommon.hpp
+[3.459s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal
+[3.459s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/units
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/units/duration.inl
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/units/duration.hpp
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/trigger_queue.inl
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/sofi.inl
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/loffli.inl
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/smart_lock.inl
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/smart_lock.hpp
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/trigger_queue.hpp
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/periodic_task.hpp
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/lockfree_queue.inl
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/cyclic_index.inl
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/buffer.inl
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/index_queue.hpp
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/cyclic_index.hpp
+[3.460s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/resizeable_lockfree_queue.inl
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/buffer.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/lockfree_queue/index_queue.inl
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/loffli.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/taco.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/periodic_task.inl
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/active_object.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/fifo.inl
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/sofi.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/concurrent/fifo.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/file_reader
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/file_reader/file_reader.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relocatable_ptr.inl
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/pointer_repository.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relative_pointer_data.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relative_pointer_data.inl
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/pointer_repository.inl
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relocatable_ptr.hpp
+[3.461s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/atomic_relocatable_pointer.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relative_pointer.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/relative_pointer.inl
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/base_relative_pointer.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/relocatable_pointer/atomic_relocatable_pointer.inl
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/message_queue.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/system_configuration.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/ipc_channel.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/mutex.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object/memory_map.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object/shared_memory.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/shared_memory_object/allocator.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/posix_call.inl
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/unix_domain_socket.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/posix_wrapper/access_control.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/objectpool
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/objectpool/objectpool.hpp
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx
+[3.462s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/.clang-tidy
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/optional.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/poor_mans_heap.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/method_callback.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/string.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/forward_list.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/pair.hpp
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/reference_counter.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/variant.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/static_storage.hpp
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/unique_ptr.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/storable_function.hpp
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/list.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/algorithm.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/convert.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/set.hpp
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/expected.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/scoped_static.inl
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/reference_counter.hpp
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/string_internal.hpp
+[3.463s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/stack.inl
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/assignment.hpp
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/protected_constructor.hpp
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/comparable.hpp
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/internal.hpp
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/constructor.hpp
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/convertable.hpp
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/newtype/sortable.hpp
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/function_ref.inl
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/variant_internal.hpp
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/storable_function.inl
+[3.464s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/static_storage.inl
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/variant_queue.inl
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/functional_interface.inl
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/vector.inl
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/helplets.inl
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/serialization.inl
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/cxx/unique_id.hpp
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/graphs
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/graphs/directed_acyclic_graph.hpp
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/graphs/directed_graph.hpp
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/design_pattern
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/internal/design_pattern/creation.inl
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/signal_handler.hpp
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/thread.hpp
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/timer.hpp
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/posix_call.hpp
+[3.465s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/signal_watcher.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/named_pipe.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/semaphore.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/file_lock.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/posix_wrapper/posix_access_rights.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/types.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/.clang-tidy
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/function.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/serialization.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/optional.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/deadline_timer.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/filesystem.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/helplets.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/type_traits.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/variant_queue.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/attributes.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/string.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/newtype.hpp
+[3.466s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/function_ref.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/forward_list.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/method_callback.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/variant.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/functional_interface.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/stack.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/generic_raii.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/convert.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/algorithm.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/list.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/unique_ptr.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/requires.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/poor_mans_heap.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/expected.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/vector.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/cxx/scoped_static.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/design_pattern
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/design_pattern/creation.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/error_handling
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/include/iceoryx/v2.0.6/iceoryx_hoofs/error_handling/error_handling.hpp
+[3.467s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/cmake/iceoryx_hoofs/iceoryx_hoofsConfigVersion.cmake
+[3.468s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/cmake/iceoryx_hoofs/iceoryx_hoofsConfig.cmake
+[3.468s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/cmake/iceoryx_hoofs/iceoryx_hoofsTargets.cmake
+[3.468s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/cmake/iceoryx_hoofs/iceoryx_hoofsTargets-noconfig.cmake
+[3.468s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/cmake/iceoryx_hoofs/IceoryxPackageHelper.cmake
+[3.468s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/cmake/iceoryx_hoofs/IceoryxPlatform.cmake
+[3.468s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/cmake/iceoryx_hoofs/IceoryxVersion.cmake
+[3.468s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_hoofs/share/doc/iceoryx_hoofs/LICENSE
+[3.481s] Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_hoofs' returned '0': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/iceoryx_hoofs

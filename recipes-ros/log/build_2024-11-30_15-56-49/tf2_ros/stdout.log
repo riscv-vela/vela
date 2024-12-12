@@ -1,0 +1,154 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found geometry_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found message_filters: 4.11.2 (/work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake)
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp_action/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found tf2: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake)
+-- Found tf2_msgs: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2_msgs/share/tf2_msgs/cmake)
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/tf2_ros
+[  2%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/transform_broadcaster.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/static_transform_broadcaster.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer_server.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/buffer_client.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/transform_listener.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/tf2_ros.dir/src/create_timer_ros.cpp.o[0m
+[ 19%] [32m[1mLinking CXX shared library libtf2_ros.so[0m
+[ 19%] Built target tf2_ros
+[ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 23%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 23%] Built target gtest
+[ 26%] [32mBuilding CXX object CMakeFiles/tf2_monitor.dir/src/tf2_monitor.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable tf2_monitor[0m
+[ 28%] Built target tf2_monitor
+[ 30%] [32mBuilding CXX object CMakeFiles/tf2_echo.dir/src/tf2_echo.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable tf2_echo[0m
+[ 33%] Built target tf2_echo
+[ 35%] [32mBuilding CXX object CMakeFiles/static_transform_broadcaster_node.dir/src/static_transform_broadcaster_node.cpp.o[0m
+[ 38%] [32m[1mLinking CXX shared library libstatic_transform_broadcaster_node.so[0m
+[ 38%] Built target static_transform_broadcaster_node
+[ 40%] [32mBuilding CXX object CMakeFiles/buffer_server.dir/src/buffer_server_main.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable buffer_server[0m
+[ 42%] Built target buffer_server
+[ 45%] [32mBuilding CXX object CMakeFiles/static_transform_publisher.dir/src/static_transform_broadcaster_program.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable static_transform_publisher[0m
+[ 47%] Built target static_transform_publisher
+[ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 52%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 52%] Built target gtest_main
+[ 54%] [32mBuilding CXX object CMakeFiles/test_buffer.dir/test/test_buffer.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable test_buffer[0m
+[ 57%] Built target test_buffer
+[ 59%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_time_reset.dir/test/time_reset_test.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable tf2_ros_test_time_reset[0m
+[ 61%] Built target tf2_ros_test_time_reset
+[ 64%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_velocity.dir/test/velocity_test.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable tf2_ros_test_velocity[0m
+[ 66%] Built target tf2_ros_test_velocity
+[ 69%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_listener.dir/test/listener_unittest.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable tf2_ros_test_listener[0m
+[ 71%] Built target tf2_ros_test_listener
+[ 73%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_transform_broadcaster.dir/test/test_transform_broadcaster.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable tf2_ros_test_transform_broadcaster[0m
+[ 76%] Built target tf2_ros_test_transform_broadcaster
+[ 78%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_static_transform_broadcaster.dir/test/test_static_transform_broadcaster.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable tf2_ros_test_static_transform_broadcaster[0m
+[ 80%] Built target tf2_ros_test_static_transform_broadcaster
+[ 83%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_transform_listener.dir/test/test_transform_listener.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable tf2_ros_test_transform_listener[0m
+[ 85%] Built target tf2_ros_test_transform_listener
+[ 88%] [32mBuilding CXX object CMakeFiles/tf2_ros_test_message_filter.dir/test/message_filter_test.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable tf2_ros_test_message_filter[0m
+[ 90%] Built target tf2_ros_test_message_filter
+[ 92%] [32mBuilding CXX object CMakeFiles/test_buffer_client.dir/test/test_buffer_client.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_buffer_client[0m
+[ 95%] Built target test_buffer_client
+[ 97%] [32mBuilding CXX object CMakeFiles/test_buffer_server.dir/test/test_buffer_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_buffer_server[0m
+[100%] Built target test_buffer_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/lib/tf2_ros/buffer_server
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/lib/tf2_ros/static_transform_publisher
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/lib/tf2_ros/tf2_echo
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/lib/tf2_ros/tf2_monitor
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/async_buffer_interface.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/buffer.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_client.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_interface.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/buffer_server.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_interface.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/create_timer_ros.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/message_filter.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/qos.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_node.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/static_transform_broadcaster_visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/transform_broadcaster.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/transform_listener.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/include/tf2_ros/tf2_ros/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/ament_index/resource_index/package_run_dependencies/tf2_ros
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/ament_index/resource_index/parent_prefix_path/tf2_ros
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/ament_index/resource_index/packages/tf2_ros
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/ament_index/resource_index/rclcpp_components/tf2_ros
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/cmake/tf2_rosConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/tf2_ros/lib/libtf2_ros.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/tf2_ros/lib/libtf2_ros.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/tf2_ros/lib/libstatic_transform_broadcaster_node.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/tf2_ros/share/tf2_ros/cmake/export_tf2_rosExport-noconfig.cmake

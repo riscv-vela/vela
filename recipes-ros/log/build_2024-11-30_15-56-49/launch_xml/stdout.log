@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating launch_xml.egg-info
+writing launch_xml.egg-info/PKG-INFO
+writing dependency_links to launch_xml.egg-info/dependency_links.txt
+writing entry points to launch_xml.egg-info/entry_points.txt
+writing requirements to launch_xml.egg-info/requires.txt
+writing top-level names to launch_xml.egg-info/top_level.txt
+writing manifest file 'launch_xml.egg-info/SOURCES.txt'
+reading manifest file 'launch_xml.egg-info/SOURCES.txt'
+writing manifest file 'launch_xml.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/launch_xml/lib/python3.10/site-packages/launch-xml.egg-link (link to .)
+
+Installed /work/ubuntu-ros2-dev/build/launch_xml
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/launch_xml/package.xml -> /work/ubuntu-ros2-dev/install/launch_xml/share/launch_xml
+creating /work/ubuntu-ros2-dev/install/launch_xml/share/ament_index
+creating /work/ubuntu-ros2-dev/install/launch_xml/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/launch_xml/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/launch_xml/resource/launch_xml -> /work/ubuntu-ros2-dev/install/launch_xml/share/ament_index/resource_index/packages

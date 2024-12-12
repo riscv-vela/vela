@@ -1,0 +1,153 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found action_msgs: 2.0.2 (/work/ubuntu-ros2-dev/install/action_msgs/share/action_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rcl: 9.2.4 (/work/ubuntu-ros2-dev/install/rcl/share/rcl/cmake)
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found test_msgs: 2.0.2 (/work/ubuntu-ros2-dev/install/test_msgs/share/test_msgs/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rmw_cyclonedds_cpp: 2.2.2 (/work/ubuntu-ros2-dev/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+-- Found rmw_fastrtps_dynamic_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_dynamic_cpp/share/rmw_fastrtps_dynamic_cpp/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/work/ubuntu-ros2-dev/src/ros2/rcl/rcl_action/include>;/work/ubuntu-ros2-dev/src/ros2/rcl/rcl_action/src
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rcl_action
+[  2%] [34m[1mGenerating rcl_action/version.h[0m
+[  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  6%] Built target ament_generate_version_header__rcl_action
+[  8%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/action_server.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/action_client.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_handle.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/types.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/names.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/graph.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_state_machine.c.o[0m
+[ 24%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 26%] [32m[1mLinking C shared library librcl_action.so[0m
+[ 26%] Built target rcl_action
+[ 26%] Built target gtest_main
+[ 28%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 28%] Built target gtest
+[ 31%] [32mBuilding CXX object CMakeFiles/test_action_client.dir/test/rcl_action/test_action_client.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable test_action_client[0m
+[ 33%] Built target test_action_client
+[ 35%] [32mBuilding CXX object CMakeFiles/test_action_communication__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_action_communication.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable test_action_communication__rmw_fastrtps_dynamic_cpp[0m
+[ 37%] Built target test_action_communication__rmw_fastrtps_dynamic_cpp
+[ 40%] [32mBuilding CXX object CMakeFiles/test_action_interaction__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_action_interaction.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable test_action_interaction__rmw_fastrtps_dynamic_cpp[0m
+[ 42%] Built target test_action_interaction__rmw_fastrtps_dynamic_cpp
+[ 44%] [32mBuilding CXX object CMakeFiles/test_graph__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_graph.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable test_graph__rmw_fastrtps_dynamic_cpp[0m
+[ 46%] Built target test_graph__rmw_fastrtps_dynamic_cpp
+[ 48%] [32mBuilding CXX object CMakeFiles/test_action_server.dir/test/rcl_action/test_action_server.cpp.o[0m
+[ 51%] [32m[1mLinking CXX executable test_action_server[0m
+[ 51%] Built target test_action_server
+[ 53%] [32mBuilding CXX object CMakeFiles/test_goal_handle.dir/test/rcl_action/test_goal_handle.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable test_goal_handle[0m
+[ 55%] Built target test_goal_handle
+[ 57%] [32mBuilding CXX object CMakeFiles/test_goal_state_machine.dir/test/rcl_action/test_goal_state_machine.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable test_goal_state_machine[0m
+[ 60%] Built target test_goal_state_machine
+[ 62%] [32mBuilding CXX object CMakeFiles/test_types.dir/test/rcl_action/test_types.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable test_types[0m
+[ 64%] Built target test_types
+[ 66%] [32mBuilding CXX object CMakeFiles/test_names.dir/test/rcl_action/test_names.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable test_names[0m
+[ 68%] Built target test_names
+[ 71%] [32mBuilding CXX object CMakeFiles/test_wait.dir/test/rcl_action/test_wait.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable test_wait[0m
+[ 73%] Built target test_wait
+[ 77%] [32mBuilding CXX object CMakeFiles/test_action_interaction__rmw_fastrtps_cpp.dir/test/rcl_action/test_action_interaction.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/test_graph__rmw_fastrtps_cpp.dir/test/rcl_action/test_graph.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_action_interaction__rmw_fastrtps_cpp[0m
+[ 82%] [32m[1mLinking CXX executable test_graph__rmw_fastrtps_cpp[0m
+[ 82%] Built target test_action_interaction__rmw_fastrtps_cpp
+[ 84%] [32mBuilding CXX object CMakeFiles/test_action_communication__rmw_fastrtps_cpp.dir/test/rcl_action/test_action_communication.cpp.o[0m
+[ 84%] Built target test_graph__rmw_fastrtps_cpp
+[ 86%] [32mBuilding CXX object CMakeFiles/test_graph__rmw_cyclonedds_cpp.dir/test/rcl_action/test_graph.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_action_communication__rmw_fastrtps_cpp[0m
+[ 91%] [32m[1mLinking CXX executable test_graph__rmw_cyclonedds_cpp[0m
+[ 91%] Built target test_action_communication__rmw_fastrtps_cpp
+[ 93%] [32mBuilding CXX object CMakeFiles/test_action_interaction__rmw_cyclonedds_cpp.dir/test/rcl_action/test_action_interaction.cpp.o[0m
+[ 93%] Built target test_graph__rmw_cyclonedds_cpp
+[ 95%] [32mBuilding CXX object CMakeFiles/test_action_communication__rmw_cyclonedds_cpp.dir/test/rcl_action/test_action_communication.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable test_action_interaction__rmw_cyclonedds_cpp[0m
+[100%] [32m[1mLinking CXX executable test_action_communication__rmw_cyclonedds_cpp[0m
+[100%] Built target test_action_interaction__rmw_cyclonedds_cpp
+[100%] Built target test_action_communication__rmw_cyclonedds_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/action_client.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/action_server.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/default_qos.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/goal_handle.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/goal_state_machine.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/graph.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/names.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/rcl_action.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/types.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/wait.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/include/rcl_action/rcl_action/version.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/ament_index/resource_index/package_run_dependencies/rcl_action
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/ament_index/resource_index/parent_prefix_path/rcl_action
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/ament_index/resource_index/packages/rcl_action
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/cmake/rcl_actionConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/cmake/rcl_actionConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/rcl_action/lib/librcl_action.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rcl_action/lib/librcl_action.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/cmake/rcl_actionExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rcl_action/share/rcl_action/cmake/rcl_actionExport-noconfig.cmake

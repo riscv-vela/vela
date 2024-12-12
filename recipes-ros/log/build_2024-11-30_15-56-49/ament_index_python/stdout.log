@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating ament_index_python.egg-info
+writing ament_index_python.egg-info/PKG-INFO
+writing dependency_links to ament_index_python.egg-info/dependency_links.txt
+writing entry points to ament_index_python.egg-info/entry_points.txt
+writing requirements to ament_index_python.egg-info/requires.txt
+writing top-level names to ament_index_python.egg-info/top_level.txt
+writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+reading manifest file 'ament_index_python.egg-info/SOURCES.txt'
+writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/ament_index_python/lib/python3.10/site-packages/ament-index-python.egg-link (link to .)
+Installing ament_index script to /work/ubuntu-ros2-dev/install/ament_index_python/bin
+
+Installed /work/ubuntu-ros2-dev/build/ament_index_python
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/ament_index_python/package.xml -> /work/ubuntu-ros2-dev/install/ament_index_python/share/ament_index_python
+creating /work/ubuntu-ros2-dev/install/ament_index_python/share/ament_index_python/environment
+symbolically linking /work/ubuntu-ros2-dev/build/ament_index_python/completion/ament_index-argcomplete.bash -> /work/ubuntu-ros2-dev/install/ament_index_python/share/ament_index_python/environment
+symbolically linking /work/ubuntu-ros2-dev/build/ament_index_python/completion/ament_index-argcomplete.zsh -> /work/ubuntu-ros2-dev/install/ament_index_python/share/ament_index_python/environment
+creating /work/ubuntu-ros2-dev/install/ament_index_python/share/ament_index
+creating /work/ubuntu-ros2-dev/install/ament_index_python/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/ament_index_python/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/ament_index_python/resource/ament_index_python -> /work/ubuntu-ros2-dev/install/ament_index_python/share/ament_index/resource_index/packages

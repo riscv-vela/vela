@@ -1,0 +1,92 @@
+[0.066s] Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_binding_c': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake /work/ubuntu-ros2-dev/src/eclipse-iceoryx/iceoryx/iceoryx_binding_c -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/iceoryx_binding_c
+[0.266s] -- The C compiler identification is GNU 11.4.0
+[0.404s] -- The CXX compiler identification is GNU 11.4.0
+[0.426s] -- Detecting C compiler ABI info
+[0.599s] -- Detecting C compiler ABI info - done
+[0.604s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.604s] -- Detecting C compile features
+[0.604s] -- Detecting C compile features - done
+[0.606s] -- Detecting CXX compiler ABI info
+[0.746s] -- Detecting CXX compiler ABI info - done
+[0.750s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.750s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.754s] -- [i] <<<<<<<<<<<<< Start iceoryx_posh configuration: >>>>>>>>>>>>>
+[0.754s] -- [i] Using m:n communication!
+[0.754s] -- [i] IOX_MAX_PUBLISHERS:512
+[0.754s] -- [i] IOX_MAX_SUBSCRIBERS:1024
+[0.754s] -- [i] IOX_MAX_INTERFACE_NUMBER:4
+[0.754s] -- [i] IOX_MAX_SUBSCRIBERS_PER_PUBLISHER:256
+[0.754s] -- [i] IOX_MAX_CHUNKS_ALLOCATED_PER_PUBLISHER_SIMULTANEOUSLY:8
+[0.754s] -- [i] IOX_MAX_PUBLISHER_HISTORY:16
+[0.754s] -- [i] IOX_MAX_CHUNKS_HELD_PER_SUBSCRIBER_SIMULTANEOUSLY:256
+[0.754s] -- [i] <<<<<<<<<<<<<< End iceoryx_posh configuration: >>>>>>>>>>>>>>
+[0.754s] -- Configuring done
+[0.765s] -- Generating done
+[0.765s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/iceoryx_binding_c
+[0.770s] Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_binding_c' returned '0': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake /work/ubuntu-ros2-dev/src/eclipse-iceoryx/iceoryx/iceoryx_binding_c -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/iceoryx_binding_c
+[0.770s] Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_binding_c': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/iceoryx_binding_c -- -j8 -l8
+[1.004s] [  4%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_client.cpp.o[0m
+[1.004s] [  9%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_config.cpp.o[0m
+[1.004s] [ 13%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_notification_info.cpp.o[0m
+[1.004s] [ 18%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_listener.cpp.o[0m
+[1.045s] [ 22%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_publisher.cpp.o[0m
+[1.050s] [ 27%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_node.cpp.o[0m
+[1.057s] [ 31%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_response_header.cpp.o[0m
+[1.065s] [ 36%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_request_header.cpp.o[0m
+[1.680s] [ 40%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_runtime.cpp.o[0m
+[2.028s] [ 45%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_server.cpp.o[0m
+[2.100s] [ 50%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_subscriber.cpp.o[0m
+[2.255s] [ 54%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_user_trigger.cpp.o[0m
+[2.273s] [ 59%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_wait_set.cpp.o[0m
+[2.509s] [ 63%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_chunk.cpp.o[0m
+[2.565s] [ 68%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c2cpp_enum_translation.cpp.o[0m
+[2.671s] [ 72%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_log.cpp.o[0m
+[2.681s] [ 77%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_enum_translation.cpp.o[0m
+[3.215s] [ 81%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_publisher.cpp.o[0m
+[3.240s] [ 86%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_subscriber.cpp.o[0m
+[3.331s] [ 90%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_service_description_translation.cpp.o[0m
+[3.430s] [ 95%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_service_discovery.cpp.o[0m
+[4.269s] [100%] [32m[1mLinking CXX shared library libiceoryx_binding_c.so[0m
+[4.548s] [100%] Built target iceoryx_binding_c
+[4.579s] Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_binding_c' returned '0': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/iceoryx_binding_c -- -j8 -l8
+[5.511s] Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_binding_c': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/iceoryx_binding_c
+[5.517s] -- Install configuration: ""
+[5.517s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/libiceoryx_binding_c.so
+[5.518s] -- Set runtime path of "/work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/libiceoryx_binding_c.so" to ""
+[5.518s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6
+[5.518s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c
+[5.518s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/enums.h
+[5.519s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/subscriber.h
+[5.519s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/chunk.h
+[5.519s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/response_header.h
+[5.519s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/config.h
+[5.519s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal
+[5.519s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_enum_translation.hpp
+[5.519s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_service_description_translation.hpp
+[5.519s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_waitset.hpp
+[5.519s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_publisher.hpp
+[5.520s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_subscriber.hpp
+[5.520s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/c2cpp_enum_translation.hpp
+[5.520s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/c2cpp_binding.h
+[5.520s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/node.h
+[5.520s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/service_discovery.h
+[5.520s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/types.h
+[5.520s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/api.h
+[5.520s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/runtime.h
+[5.521s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/client.h
+[5.521s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/wait_set.h
+[5.521s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/server.h
+[5.521s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/service_description.h
+[5.521s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/user_trigger.h
+[5.521s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/publisher.h
+[5.521s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/notification_info.h
+[5.522s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/listener.h
+[5.522s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/request_header.h
+[5.522s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/log.h
+[5.522s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cConfigVersion.cmake
+[5.522s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cConfig.cmake
+[5.522s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cTargets.cmake
+[5.522s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cTargets-noconfig.cmake
+[5.522s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/share/doc/iceoryx_binding_c/LICENSE
+[5.525s] Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_binding_c' returned '0': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/iceoryx_binding_c

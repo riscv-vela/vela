@@ -1,0 +1,100 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found builtin_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found geometry_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found launch_testing_ament_cmake: 3.4.2 (/work/ubuntu-ros2-dev/install/launch_testing_ament_cmake/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found rclcpp: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake)
+-- Found tf2_bullet: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2_bullet/share/tf2_bullet/cmake)
+-- Found Bullet: /usr/lib/aarch64-linux-gnu/libBulletDynamics.so  
+-- Found tf2_eigen: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2_eigen/share/tf2_eigen/cmake)
+-- Found tf2_geometry_msgs: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found tf2_kdl: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2_kdl/share/tf2_kdl/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/test_tf2
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 10%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 10%] Built target gtest_main
+[ 15%] [32mBuilding CXX object CMakeFiles/test_buffer_server.dir/test/test_buffer_server.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable test_buffer_server[0m
+[ 20%] Built target test_buffer_server
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 30%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 30%] Built target gtest
+[ 35%] [32mBuilding CXX object CMakeFiles/buffer_core_test.dir/test/buffer_core_test.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable buffer_core_test[0m
+[ 40%] Built target buffer_core_test
+[ 45%] [32mBuilding CXX object CMakeFiles/test_tf2_bullet.dir/test/test_tf2_bullet.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_tf2_bullet[0m
+[ 50%] Built target test_tf2_bullet
+[ 55%] [32mBuilding CXX object CMakeFiles/test_static_publisher.dir/test/test_static_publisher.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable test_static_publisher[0m
+[ 60%] Built target test_static_publisher
+[ 65%] [32mBuilding CXX object CMakeFiles/test_buffer_client.dir/test/test_buffer_client.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable test_buffer_client[0m
+[ 70%] Built target test_buffer_client
+[ 75%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/test_utils.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_utils[0m
+[ 80%] Built target test_utils
+[ 85%] [32mBuilding CXX object CMakeFiles/test_convert.dir/test/test_convert.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_convert[0m
+[ 90%] Built target test_convert
+[ 95%] [32mBuilding CXX object CMakeFiles/test_message_filter.dir/test/test_message_filter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_message_filter[0m
+[100%] Built target test_message_filter
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/lib/test_tf2/test_buffer_client
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/lib/test_tf2/test_buffer_server
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/lib/test_tf2/test_static_publisher
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/lib/test_tf2/test_buffer_client.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/ament_index/resource_index/package_run_dependencies/test_tf2
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/ament_index/resource_index/parent_prefix_path/test_tf2
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/ament_index/resource_index/packages/test_tf2
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/cmake/test_tf2Config.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/cmake/test_tf2Config-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/test_tf2/share/test_tf2/package.xml

@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating sros2.egg-info
+writing sros2.egg-info/PKG-INFO
+writing dependency_links to sros2.egg-info/dependency_links.txt
+writing entry points to sros2.egg-info/entry_points.txt
+writing requirements to sros2.egg-info/requires.txt
+writing top-level names to sros2.egg-info/top_level.txt
+writing manifest file 'sros2.egg-info/SOURCES.txt'
+reading manifest file 'sros2.egg-info/SOURCES.txt'
+writing manifest file 'sros2.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/sros2/lib/python3.10/site-packages/sros2.egg-link (link to .)
+
+Installed /work/ubuntu-ros2-dev/build/sros2
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/sros2/package.xml -> /work/ubuntu-ros2-dev/install/sros2/share/sros2
+creating /work/ubuntu-ros2-dev/install/sros2/share/ament_index
+creating /work/ubuntu-ros2-dev/install/sros2/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/sros2/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/sros2/resource/sros2 -> /work/ubuntu-ros2-dev/install/sros2/share/ament_index/resource_index/packages
+creating /work/ubuntu-ros2-dev/install/sros2/share/sros2/xml_cache
+symbolically linking /work/ubuntu-ros2-dev/build/sros2/xml_cache/xml.xsd -> /work/ubuntu-ros2-dev/install/sros2/share/sros2/xml_cache
+symbolically linking /work/ubuntu-ros2-dev/build/sros2/xml_cache/xhtml-cache.xml -> /work/ubuntu-ros2-dev/install/sros2/share/sros2/xml_cache
+symbolically linking /work/ubuntu-ros2-dev/build/sros2/xml_cache/README.md -> /work/ubuntu-ros2-dev/install/sros2/share/sros2/xml_cache

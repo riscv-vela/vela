@@ -1,0 +1,26 @@
+[0.542s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_flake8': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_lint PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_flake8/build --no-deps symlink_data
+[0.734s] running develop
+[0.734s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.734s]   warnings.warn(
+[0.792s] running egg_info
+[0.793s] creating ament_flake8.egg-info
+[0.793s] writing ament_flake8.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ament_flake8.egg-info/dependency_links.txt
+[0.793s] writing entry points to ament_flake8.egg-info/entry_points.txt
+[0.793s] writing requirements to ament_flake8.egg-info/requires.txt
+[0.793s] writing top-level names to ament_flake8.egg-info/top_level.txt
+[0.793s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[0.794s] reading manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[0.797s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[0.797s] running build_ext
+[0.798s] Creating /work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages/ament-flake8.egg-link (link to .)
+[0.799s] Installing ament_flake8 script to /work/ubuntu-ros2-dev/install/ament_flake8/bin
+[0.799s] 
+[0.799s] Installed /work/ubuntu-ros2-dev/build/ament_flake8
+[0.799s] running symlink_data
+[0.800s] symbolically linking /work/ubuntu-ros2-dev/build/ament_flake8/package.xml -> /work/ubuntu-ros2-dev/install/ament_flake8/share/ament_flake8
+[0.800s] creating /work/ubuntu-ros2-dev/install/ament_flake8/share/ament_index
+[0.800s] creating /work/ubuntu-ros2-dev/install/ament_flake8/share/ament_index/resource_index
+[0.800s] creating /work/ubuntu-ros2-dev/install/ament_flake8/share/ament_index/resource_index/packages
+[0.801s] symbolically linking /work/ubuntu-ros2-dev/build/ament_flake8/resource/ament_flake8 -> /work/ubuntu-ros2-dev/install/ament_flake8/share/ament_index/resource_index/packages
+[0.822s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_flake8' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_lint PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_flake8/build --no-deps symlink_data

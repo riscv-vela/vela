@@ -1,0 +1,205 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/mimick_vendor
+[ 14%] [34m[1mCreating directories for 'mimick_vendor'[0m
+[ 28%] [34m[1mPerforming download step for 'mimick_vendor'[0m
+[34m=== [1m./mimick_vendor[22m (git) ===[0m
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor/.git/
+
+From https://github.com/ros2/Mimick
+ * branch            4dbd495e9f3d87a83c3201ef9d851e85f7133db7 -> FETCH_HEAD
+Note: switching to '4dbd495e9f3d87a83c3201ef9d851e85f7133db7'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 4dbd495  Find the symbols via DT_GNU_HASH instead of DT_HASH. (#36)
+
+[ 42%] [34m[1mNo patch step for 'mimick_vendor'[0m
+[ 57%] [34m[1mPerforming configure step for 'mimick_vendor'[0m
+loading initial cache file /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-config.cmake
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Looking for __stdio_common_vfprintf
+-- Looking for __stdio_common_vfprintf - not found
+-- Looking for _r_debug
+-- Looking for _r_debug - found
+-- Looking for _DYNAMIC
+-- Looking for _DYNAMIC - found
+-- Performing Test HAVE_ELF_AUXV_T
+-- Performing Test HAVE_ELF_AUXV_T - Success
+-- Performing Test HAVE_ELF_AUXINFO
+-- Performing Test HAVE_ELF_AUXINFO - Failed
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for MAP_ANONYMOUS
+-- Looking for MAP_ANONYMOUS - found
+-- Looking for MAP_ANON
+-- Looking for MAP_ANON - found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/src/mimick_vendor-build
+[ 71%] [34m[1mPerforming build step for 'mimick_vendor'[0m
+[35m[1mScanning dependencies of target mimick[0m
+[  4%] [32mBuilding ASM object CMakeFiles/mimick.dir/src/asm/trampoline-aarch64.S.o[0m
+[  9%] [32mBuilding C object CMakeFiles/mimick.dir/src/plt-elf.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/mimick.dir/src/stub.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/mimick.dir/src/trampoline.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/mimick.dir/src/verify.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/mimick.dir/src/vitals.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/mimick.dir/src/when.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/mimick.dir/src/plt.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/mimick.dir/src/mock.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/mimick.dir/src/matcher.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/mimick.dir/src/core.c.o[0m
+[ 54%] [32m[1mLinking C static library libmimick.a[0m
+[ 54%] Built target mimick
+[ 59%] [32mBuilding C object test/CMakeFiles/foo.dir/libfoo.c.o[0m
+[ 63%] [32m[1mLinking C shared library libfoo.so[0m
+[ 63%] Built target foo
+[ 68%] [32mBuilding C object sample/strdup/CMakeFiles/strdup.dir/strdup.c.o[0m
+[ 72%] [32m[1mLinking C shared library libstrdup.so[0m
+[ 72%] Built target strdup
+[ 77%] [32mBuilding CXX object test/CMakeFiles/mmk_test_cxx.dir/test.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable mmk_test_cxx[0m
+[ 81%] Built target mmk_test_cxx
+[ 86%] [32mBuilding C object sample/strdup/CMakeFiles/strdup_test.dir/test.c.o[0m
+[ 90%] [32m[1mLinking C executable strdup_test[0m
+[ 90%] Built target strdup_test
+[ 95%] [32mBuilding C object test/CMakeFiles/mmk_test_c.dir/test.c.o[0m
+[100%] [32m[1mLinking C executable mmk_test_c[0m
+[100%] Built target mmk_test_c
+[100%] Built target mimick_tests
+[ 85%] [34m[1mPerforming install step for 'mimick_vendor'[0m
+[35m[1mConsolidate compiler generated dependencies of target mimick[0m
+[ 54%] Built target mimick
+[35m[1mConsolidate compiler generated dependencies of target foo[0m
+[ 63%] Built target foo
+[35m[1mConsolidate compiler generated dependencies of target strdup[0m
+[ 72%] Built target strdup
+[35m[1mConsolidate compiler generated dependencies of target mmk_test_cxx[0m
+[ 81%] Built target mmk_test_cxx
+[35m[1mConsolidate compiler generated dependencies of target strdup_test[0m
+[ 90%] Built target strdup_test
+[35m[1mConsolidate compiler generated dependencies of target mmk_test_c[0m
+[100%] Built target mmk_test_c
+[100%] Built target mimick_tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/alloc.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/assert.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/literal.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/matcher.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/mock.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/preprocess.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/string.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/unmocked.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/va.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/verify.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/when.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/include/mimick/mimick.h
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/lib/libmimick.a
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/lib/cmake/mimick/mimick-targets.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/lib/cmake/mimick/mimick-targets-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/mimick_vendor/mimick_vendor-prefix/install/lib/cmake/mimick/mimickConfig.cmake
+[100%] [34m[1mCompleted 'mimick_vendor'[0m
+[100%] Built target mimick_vendor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/environment/vendor_package.bat
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/environment/vendor_package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/environment/vendor_package.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/ament_index/resource_index/vendor_packages/mimick_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/ament_index/resource_index/package_run_dependencies/mimick_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/ament_index/resource_index/parent_prefix_path/mimick_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/ament_index/resource_index/packages/mimick_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/cmake/vendor_package_cmake_prefix.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/cmake/mimick_vendorConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/cmake/mimick_vendorConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/mimick_vendor/share/mimick_vendor/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/literal.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/va.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/mimick.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/unmocked.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/matcher.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/mock.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/verify.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/string.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/alloc.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/preprocess.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/assert.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/include/mimick/when.h
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/lib
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/lib/libmimick.a
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/lib/cmake
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/lib/cmake/mimick
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/lib/cmake/mimick/mimick-targets.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/lib/cmake/mimick/mimick-targets-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/mimick_vendor/opt/mimick_vendor/lib/cmake/mimick/mimickConfig.cmake

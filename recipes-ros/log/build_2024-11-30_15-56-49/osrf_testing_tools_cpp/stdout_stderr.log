@@ -1,0 +1,130 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR) 
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR LIBELF_LIBRARY LIBELF_INCLUDE_DIR) 
+-- Found Backward: /work/ubuntu-ros2-dev/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp  
+-- googletest version '1.14' selected, of versions: '1.14'
+-- building googletest from '/work/ubuntu-ros2-dev/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz'...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp/googletest-1.14-extracted
+[ 11%] Creating directories for 'googletest'
+[ 22%] Performing download step (verify and extract) for 'googletest'
+-- verifying file...
+     file='/work/ubuntu-ros2-dev/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz'
+-- verifying file... done
+-- extracting...
+     src='/work/ubuntu-ros2-dev/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz'
+     dst='/work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp/googletest-1.14-extracted/googletest-1.14-src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'googletest'
+[ 44%] No patch step for 'googletest'
+[ 55%] No configure step for 'googletest'
+[ 66%] No build step for 'googletest'
+[ 77%] No install step for 'googletest'
+[ 88%] No test step for 'googletest'
+[100%] Completed 'googletest'
+[100%] Built target googletest
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp
+[  4%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/implementation_monitoring_override.cpp.o[0m
+[  8%] [32mBuilding CXX object googletest-1.14-extracted/googletest-1.14-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 12%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/custom_memory_functions.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/initialize.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/test_runner/CMakeFiles/test_runner.dir/main.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/memory_tools_service.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/is_working.cpp.o[0m
+[ 32%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/monitoring.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/register_hooks.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/stack_trace.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable test_runner[0m
+[ 44%] Built target test_runner
+[ 48%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/testing_helpers.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools.dir/verbosity.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libmemory_tools.so[0m
+[ 56%] Built target memory_tools
+[ 60%] [32mBuilding CXX object src/memory_tools/CMakeFiles/memory_tools_interpose.dir/memory_tools.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libmemory_tools_interpose.so[0m
+[ 64%] Built target memory_tools_interpose
+[ 68%] [32m[1mLinking CXX static library ../../../lib/libgtest.a[0m
+[ 68%] Built target gtest
+[ 72%] [32mBuilding CXX object googletest-1.14-extracted/googletest-1.14-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 76%] [32m[1mLinking CXX static library ../../../lib/libgtest_main.a[0m
+[ 76%] Built target gtest_main
+[ 80%] [32mBuilding CXX object test/test_runner/CMakeFiles/test_parse_environment_variable.dir/test_parse_environment_variable.cpp.o[0m
+[ 84%] [32mBuilding CXX object test/memory_tools/CMakeFiles/test_memory_tools.dir/test_memory_tools.cpp.o[0m
+[ 88%] [32mBuilding CXX object test/test_runner/CMakeFiles/assert_env_vars.dir/assert_env_vars.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable test_parse_environment_variable[0m
+[ 96%] [32m[1mLinking CXX executable assert_env_vars[0m
+[ 96%] Built target test_parse_environment_variable
+[100%] [32m[1mLinking CXX executable test_memory_tools[0m
+[100%] Built target assert_env_vars
+[100%] Built target test_memory_tools
+-- Install configuration: ""
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfigVersion.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/googletest-external-project-add.cmake.in
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.14.0.tar.gz
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.7.0.tar.gz
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.2.tar.gz
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.8.1.tar.gz
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.tar.gz
+-- Up-to-date: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_add_test.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_get_googletest_versions.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_extract_and_build_googletest.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_require_googletest.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/demangle.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/memory_tools.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/verbosity.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/gtest_quickstart.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/is_working.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/memory_tools_service.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/register_hooks.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/monitoring.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/testing_helpers.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/initialize.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/stack_trace.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/visibility_control.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/macros.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/scope_exit.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/lib/libmemory_tools.so
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_toolsExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_toolsExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/lib/libmemory_tools_interpose.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/lib/libmemory_tools_interpose.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/lib/osrf_testing_tools_cpp/test_runner
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/test_runnerExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/test_runnerExport-noconfig.cmake

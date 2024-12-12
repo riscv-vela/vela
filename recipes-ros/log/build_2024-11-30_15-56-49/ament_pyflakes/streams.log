@@ -1,0 +1,26 @@
+[0.579s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_pyflakes': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_pycodestyle PATH=/work/ubuntu-ros2-dev/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_pyflakes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_pyflakes/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pycodestyle:/work/ubuntu-ros2-dev/install/ament_pycodestyle/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_pyflakes/build --no-deps symlink_data
+[0.826s] running develop
+[0.827s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.827s]   warnings.warn(
+[0.932s] running egg_info
+[0.932s] creating ament_pyflakes.egg-info
+[0.932s] writing ament_pyflakes.egg-info/PKG-INFO
+[0.932s] writing dependency_links to ament_pyflakes.egg-info/dependency_links.txt
+[0.933s] writing entry points to ament_pyflakes.egg-info/entry_points.txt
+[0.933s] writing requirements to ament_pyflakes.egg-info/requires.txt
+[0.933s] writing top-level names to ament_pyflakes.egg-info/top_level.txt
+[0.933s] writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[0.934s] reading manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[0.934s] writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[0.935s] running build_ext
+[0.935s] Creating /work/ubuntu-ros2-dev/install/ament_pyflakes/lib/python3.10/site-packages/ament-pyflakes.egg-link (link to .)
+[0.936s] Installing ament_pyflakes script to /work/ubuntu-ros2-dev/install/ament_pyflakes/bin
+[0.936s] 
+[0.936s] Installed /work/ubuntu-ros2-dev/build/ament_pyflakes
+[0.936s] running symlink_data
+[0.936s] symbolically linking /work/ubuntu-ros2-dev/build/ament_pyflakes/package.xml -> /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_pyflakes
+[0.936s] creating /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_index
+[0.936s] creating /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_index/resource_index
+[0.936s] creating /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_index/resource_index/packages
+[0.937s] symbolically linking /work/ubuntu-ros2-dev/build/ament_pyflakes/resource/ament_pyflakes -> /work/ubuntu-ros2-dev/install/ament_pyflakes/share/ament_index/resource_index/packages
+[1.052s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_pycodestyle PATH=/work/ubuntu-ros2-dev/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_pyflakes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_pyflakes/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pycodestyle:/work/ubuntu-ros2-dev/install/ament_pycodestyle/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_pyflakes/build --no-deps symlink_data

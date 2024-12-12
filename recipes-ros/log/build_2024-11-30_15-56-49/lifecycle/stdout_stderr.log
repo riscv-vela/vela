@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp_lifecycle: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp_lifecycle/share/rclcpp_lifecycle/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/std_msgs/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found launch_testing_ament_cmake: 3.4.2 (/work/ubuntu-ros2-dev/install/launch_testing_ament_cmake/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/lifecycle
+[ 16%] [32mBuilding CXX object CMakeFiles/lifecycle_talker.dir/src/lifecycle_talker.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable lifecycle_talker[0m
+[ 33%] Built target lifecycle_talker
+[ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_service_client.dir/src/lifecycle_service_client.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable lifecycle_service_client[0m
+[ 66%] Built target lifecycle_service_client
+[ 83%] [32mBuilding CXX object CMakeFiles/lifecycle_listener.dir/src/lifecycle_listener.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lifecycle_listener[0m
+[100%] Built target lifecycle_listener
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/lib/lifecycle/lifecycle_talker
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/lib/lifecycle/lifecycle_listener
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/lib/lifecycle/lifecycle_service_client
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle//launch/lifecycle_demo_launch.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/ament_index/resource_index/package_run_dependencies/lifecycle
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/ament_index/resource_index/parent_prefix_path/lifecycle
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/ament_index/resource_index/packages/lifecycle
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/cmake/lifecycleConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/cmake/lifecycleConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/lifecycle/share/lifecycle/package.xml

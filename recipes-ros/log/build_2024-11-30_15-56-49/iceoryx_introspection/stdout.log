@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/iceoryx_introspection
+[ 20%] [32mBuilding CXX object CMakeFiles/iceoryx_introspection.dir/source/iceoryx_introspection_app.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/iceoryx_introspection.dir/source/introspection_app.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libiceoryx_introspection.so[0m
+[ 60%] Built target iceoryx_introspection
+[ 80%] [32mBuilding CXX object CMakeFiles/iox-introspection-client.dir/source/introspection_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable iox-introspection-client[0m
+[100%] Built target iox-introspection-client
+-- Install configuration: ""
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/libiceoryx_introspection.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/libiceoryx_introspection.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/bin/iox-introspection-client
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/iceoryx_introspection/bin/iox-introspection-client" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6/iceoryx_introspection
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6/iceoryx_introspection/introspection_types.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6/iceoryx_introspection/introspection_app.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6/iceoryx_introspection/iceoryx_introspection_app.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/cmake/iceoryx_introspection/iceoryx_introspectionConfigVersion.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/cmake/iceoryx_introspection/iceoryx_introspectionConfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/cmake/iceoryx_introspection/iceoryx_introspectionTargets.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/cmake/iceoryx_introspection/iceoryx_introspectionTargets-noconfig.cmake

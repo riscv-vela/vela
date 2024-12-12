@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rmw_connextdds_common: 0.22.0 (/work/ubuntu-ros2-dev/install/rmw_connextdds_common/share/rmw_connextdds_common/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Loaded RTI Connext DDS environment:
+-- - RTI Connext DDS Professional:
+--   - Found: false
+--   - Version: 
+--   - Directory: 
+--   - Architecture: 
+-- - RTI Connext DDS Micro:
+--   - Found: false
+--   - Version: 
+--   - Directory: 
+--   - Architecture: 
+-- Common RMW implementation not found. Skipping rmw_connextdds.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rmw_connextdds
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/ament_index/resource_index/package_run_dependencies/rmw_connextdds
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/ament_index/resource_index/parent_prefix_path/rmw_connextdds
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/ament_index/resource_index/packages/rmw_connextdds
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/cmake/rmw_connextddsConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/cmake/rmw_connextddsConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_connextdds/share/rmw_connextdds/package.xml

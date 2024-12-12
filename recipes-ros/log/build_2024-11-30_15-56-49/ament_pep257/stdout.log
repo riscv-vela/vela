@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ament_pep257.egg-info
+writing ament_pep257.egg-info/PKG-INFO
+writing dependency_links to ament_pep257.egg-info/dependency_links.txt
+writing entry points to ament_pep257.egg-info/entry_points.txt
+writing requirements to ament_pep257.egg-info/requires.txt
+writing top-level names to ament_pep257.egg-info/top_level.txt
+writing manifest file 'ament_pep257.egg-info/SOURCES.txt'
+reading manifest file 'ament_pep257.egg-info/SOURCES.txt'
+writing manifest file 'ament_pep257.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages/ament-pep257.egg-link (link to .)
+Installing ament_pep257 script to /work/ubuntu-ros2-dev/install/ament_pep257/bin
+
+Installed /work/ubuntu-ros2-dev/build/ament_pep257
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/ament_pep257/package.xml -> /work/ubuntu-ros2-dev/install/ament_pep257/share/ament_pep257
+creating /work/ubuntu-ros2-dev/install/ament_pep257/share/ament_index
+creating /work/ubuntu-ros2-dev/install/ament_pep257/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/ament_pep257/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/ament_pep257/resource/ament_pep257 -> /work/ubuntu-ros2-dev/install/ament_pep257/share/ament_index/resource_index/packages

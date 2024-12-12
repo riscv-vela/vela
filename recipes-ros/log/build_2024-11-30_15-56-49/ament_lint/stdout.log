@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating ament_lint.egg-info
+writing ament_lint.egg-info/PKG-INFO
+writing dependency_links to ament_lint.egg-info/dependency_links.txt
+writing entry points to ament_lint.egg-info/entry_points.txt
+writing requirements to ament_lint.egg-info/requires.txt
+writing top-level names to ament_lint.egg-info/top_level.txt
+writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+reading manifest file 'ament_lint.egg-info/SOURCES.txt'
+writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages/ament-lint.egg-link (link to .)
+
+Installed /work/ubuntu-ros2-dev/build/ament_lint
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/ament_lint/package.xml -> /work/ubuntu-ros2-dev/install/ament_lint/share/ament_lint
+creating /work/ubuntu-ros2-dev/install/ament_lint/share/ament_index
+creating /work/ubuntu-ros2-dev/install/ament_lint/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/ament_lint/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/ament_lint/resource/ament_lint -> /work/ubuntu-ros2-dev/install/ament_lint/share/ament_index/resource_index/packages

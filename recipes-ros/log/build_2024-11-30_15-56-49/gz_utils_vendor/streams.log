@@ -1,0 +1,335 @@
+[0.032s] Invoking command in '/work/ubuntu-ros2-dev/build/gz_utils_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/gazebo-release/gz_utils_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/gz_utils_vendor
+[0.321s] -- The C compiler identification is GNU 11.4.0
+[0.321s] -- The CXX compiler identification is GNU 11.4.0
+[0.321s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.327s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake_core: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.451s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.506s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.507s] -- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+[0.509s] -- Found ament_cmake_export_dependencies: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+[0.510s] -- Found gz_cmake_vendor: 0.0.8 (/work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/cmake)
+[0.538s] -- Found ament_cmake_test: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_test/share/ament_cmake_test/cmake)
+[0.547s] -- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+[0.548s] -- Found ament_cmake_copyright: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+[0.548s] -- Found ament_cmake_xmllint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_xmllint/share/ament_cmake_xmllint/cmake)
+[0.637s] -- Configuring done
+[0.640s] -- Generating done
+[0.641s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/gz_utils_vendor
+[0.657s] Invoked command in '/work/ubuntu-ros2-dev/build/gz_utils_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/gazebo-release/gz_utils_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/gz_utils_vendor
+[0.657s] Invoking command in '/work/ubuntu-ros2-dev/build/gz_utils_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/gz_utils_vendor -- -j8 -l8
+[0.918s] [ 14%] [34m[1mCreating directories for 'gz_utils_vendor'[0m
+[0.918s] [ 28%] [34m[1mPerforming download step for 'gz_utils_vendor'[0m
+[2.825s] [34m=== [1m./gz_utils_vendor[22m (git) ===[0m
+[2.825s] hint: Using 'master' as the name for the initial branch. This default branch name
+[2.825s] hint: is subject to change. To configure the initial branch name to use in all
+[2.825s] hint: of your new repositories, which will suppress this warning, call:
+[2.825s] hint: 
+[2.825s] hint: 	git config --global init.defaultBranch <name>
+[2.825s] hint: 
+[2.825s] hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+[2.825s] hint: 'development'. The just-created branch can be renamed via this command:
+[2.825s] hint: 
+[2.825s] hint: 	git branch -m <name>
+[2.825s] Initialized empty Git repository in /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/src/gz_utils_vendor/.git/
+[2.825s] 
+[2.825s] From https://github.com/gazebosim/gz-utils
+[2.825s]  * [new tag]         gz-utils2_2.2.0 -> gz-utils2_2.2.0
+[2.825s] Note: switching to 'gz-utils2_2.2.0'.
+[2.825s] 
+[2.825s] You are in 'detached HEAD' state. You can look around, make experimental
+[2.825s] changes and commit them, and you can discard any commits you make in this
+[2.825s] state without impacting any branches by switching back to a branch.
+[2.825s] 
+[2.825s] If you want to create a new branch to retain commits you create, you may
+[2.825s] do so (now or later) by using -c with the switch command. Example:
+[2.825s] 
+[2.825s]   git switch -c <new-branch-name>
+[2.825s] 
+[2.825s] Or undo this operation with:
+[2.825s] 
+[2.825s]   git switch -
+[2.825s] 
+[2.825s] Turn off this advice by setting config variable advice.detachedHead to false
+[2.825s] 
+[2.825s] HEAD is now at 9e80552 🎈 2.2.0 (#117)
+[2.825s] 
+[2.870s] [ 42%] [34m[1mNo patch step for 'gz_utils_vendor'[0m
+[2.882s] [ 57%] [34m[1mPerforming configure step for 'gz_utils_vendor'[0m
+[2.886s] loading initial cache file /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-config.cmake
+[2.981s] -- The C compiler identification is GNU 11.4.0
+[3.068s] -- The CXX compiler identification is GNU 11.4.0
+[3.072s] -- Detecting C compiler ABI info
+[3.287s] -- Detecting C compiler ABI info - done
+[3.291s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.291s] -- Detecting C compile features
+[3.291s] -- Detecting C compile features - done
+[3.293s] -- Detecting CXX compiler ABI info
+[3.540s] -- Detecting CXX compiler ABI info - done
+[3.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.542s] -- Detecting CXX compile features
+[3.542s] -- Detecting CXX compile features - done
+[3.551s] -- gz-utils2 version 2.2.0
+[3.565s] -- Operating system is Linux
+[3.565s] -- Found CPack generators: DEB
+[5.050s] -- 
+[5.050s] -- Searching for host SSE information
+[5.115s] -- Could not find hardware support for SSE2 on this machine.
+[5.115s] -- Could not find hardware support for SSE3 on this machine.
+[5.115s] -- Could not find hardware support for SSSE3 on this machine.
+[5.115s] -- Could not find hardware support for SSE4.1 on this machine.
+[5.115s] -- Could not find hardware support for SSE4.2 on this machine.
+[5.115s] -- SSE4 disabled.
+[5.115s] --
+[5.155s] -- Configuring library: gz-utils2
+[5.158s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[5.405s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[5.406s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[5.634s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[5.634s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[5.845s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[5.848s] -- Testing is disabled -- skipping UNIT tests
+[5.850s] -- Configuring library: gz-utils2-cli
+[5.851s] -- Testing is disabled -- skipping UNIT tests
+[6.172s] -- Adding codecheck target
+[6.172s] -- Build configuration successful
+[6.172s] -- Build type: RelWithDebInfo
+[6.172s] -- Install prefix: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor
+[6.172s] -- Building Documentation disabled via BUILD_DOCS=OFF
+[6.172s] -- Configuring done
+[6.178s] -- Generating done
+[6.180s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/src/gz_utils_vendor-build
+[6.285s] [ 71%] [34m[1mPerforming build step for 'gz_utils_vendor'[0m
+[6.462s] [ 50%] [32mBuilding CXX object src/CMakeFiles/gz-utils2.dir/Environment.cc.o[0m
+[8.776s] [100%] [32m[1mLinking CXX shared library ../lib/libgz-utils2.so[0m
+[8.933s] [100%] Built target gz-utils2
+[9.027s] [ 85%] [34m[1mPerforming install step for 'gz_utils_vendor'[0m
+[9.137s] [35m[1mConsolidate compiler generated dependencies of target gz-utils2[0m
+[9.190s] [100%] Built target gz-utils2
+[9.256s] [36mInstall the project...[0m
+[9.281s] -- Install configuration: "RelWithDebInfo"
+[9.282s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2-all/gz-utils2-all-config.cmake
+[9.282s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2-all/gz-utils2-all-config-version.cmake
+[9.283s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2-all/gz-utils2-all-targets.cmake
+[9.294s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/detail/Export.hh
+[9.294s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/Export.hh
+[9.294s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/libgz-utils2.so.2.2.0
+[9.295s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/libgz-utils2.so.2
+[9.295s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/libgz-utils2.so
+[9.295s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2/gz-utils2-config.cmake
+[9.295s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2/gz-utils2-config-version.cmake
+[9.295s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2/gz-utils2-targets.cmake
+[9.296s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2/gz-utils2-targets-relwithdebinfo.cmake
+[9.296s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/pkgconfig/gz-utils2.pc
+[9.296s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition
+[9.296s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils.hh
+[9.296s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils
+[9.296s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/Export.hh
+[9.297s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/config.hh
+[9.297s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/ImplPtr.hh
+[9.297s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/ExtraTestMacros.hh
+[9.297s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/SuppressWarning.hh
+[9.297s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/NeverDestroyed.hh
+[9.297s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/Environment.hh
+[9.298s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/detail
+[9.298s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/detail/Export.hh
+[9.298s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/detail/ImplPtr.hh
+[9.298s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/detail/ExtraTestMacros.hh
+[9.298s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/detail/SuppressWarning.hh
+[9.298s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/detail/DefaultOps.hh
+[9.299s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/detail/DefaultOps.hh
+[9.299s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/detail/ExtraTestMacros.hh
+[9.299s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/detail/ImplPtr.hh
+[9.299s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/detail/SuppressWarning.hh
+[9.299s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/detail/subprocess.h
+[9.300s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/Environment.hh
+[9.300s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/ExtraTestMacros.hh
+[9.300s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/ImplPtr.hh
+[9.300s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/NeverDestroyed.hh
+[9.300s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/Subprocess.hh
+[9.300s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/SuppressWarning.hh
+[9.300s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/../utils.hh
+[9.301s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/config.hh
+[9.301s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2-cli/gz-utils2-cli-config.cmake
+[9.302s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2-cli/gz-utils2-cli-config-version.cmake
+[9.302s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/cmake/gz-utils2-cli/gz-utils2-cli-targets.cmake
+[9.302s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/lib/pkgconfig/gz-utils2-cli.pc
+[9.303s] -- Up-to-date: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition
+[9.303s] -- Up-to-date: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils
+[9.303s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli.hh
+[9.303s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli
+[9.304s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/IgnitionFormatter.hpp
+[9.304s] -- Up-to-date: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition
+[9.304s] -- Up-to-date: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils
+[9.304s] -- Up-to-date: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli
+[9.304s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/StringTools.hpp
+[9.304s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/ConfigFwd.hpp
+[9.305s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/Split.hpp
+[9.305s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/App.hpp
+[9.305s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/Timer.hpp
+[9.305s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/TypeTools.hpp
+[9.305s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/CLI.hpp
+[9.306s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/Error.hpp
+[9.306s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/Config.hpp
+[9.306s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/Version.hpp
+[9.306s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/FormatterFwd.hpp
+[9.306s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/Option.hpp
+[9.306s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/Macros.hpp
+[9.306s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/Validators.hpp
+[9.307s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/ignition/utils/cli/Formatter.hpp
+[9.307s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/App.hpp
+[9.307s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/CLI.hpp
+[9.307s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/Config.hpp
+[9.307s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/ConfigFwd.hpp
+[9.308s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/Error.hpp
+[9.308s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/Formatter.hpp
+[9.308s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/FormatterFwd.hpp
+[9.308s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/Macros.hpp
+[9.308s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/Option.hpp
+[9.308s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/Split.hpp
+[9.308s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/StringTools.hpp
+[9.308s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/Timer.hpp
+[9.309s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/TypeTools.hpp
+[9.309s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/Validators.hpp
+[9.309s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/Version.hpp
+[9.309s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/../cli.hh
+[9.309s] -- Installing: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/GzFormatter.hpp
+[9.309s] -- Up-to-date: /work/ubuntu-ros2-dev/build/gz_utils_vendor/gz_utils_vendor-prefix/install/include/gz/utils2/gz/utils/cli/../cli.hh
+[9.404s] [100%] [34m[1mCompleted 'gz_utils_vendor'[0m
+[9.539s] [100%] Built target gz_utils_vendor
+[9.581s] Invoked command in '/work/ubuntu-ros2-dev/build/gz_utils_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/gz_utils_vendor -- -j8 -l8
+[9.820s] Invoking command in '/work/ubuntu-ros2-dev/build/gz_utils_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/gz_utils_vendor
+[9.828s] -- Install configuration: ""
+[9.828s] -- Execute custom install script
+[9.828s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/vendor_package_cmake_prefix.bat
+[9.835s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/vendor_package_cmake_prefix.dsv
+[9.843s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/vendor_package_cmake_prefix.sh
+[9.847s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/vendor_package.bat
+[9.879s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/vendor_package.dsv
+[9.887s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/vendor_package.sh
+[9.895s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/ament_index/resource_index/vendor_packages/gz_utils_vendor
+[9.905s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/gz_utils_vendor.dsv
+[9.910s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/gz_utils_vendor.sh
+[9.914s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/ament_index/resource_index/package_run_dependencies/gz_utils_vendor
+[9.919s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/ament_index/resource_index/parent_prefix_path/gz_utils_vendor
+[9.923s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/ament_prefix_path.sh
+[9.928s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/ament_prefix_path.dsv
+[9.933s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/path.sh
+[9.938s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/environment/path.dsv
+[9.944s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/local_setup.bash
+[9.950s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/local_setup.sh
+[9.955s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/local_setup.zsh
+[9.961s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/local_setup.dsv
+[9.972s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/package.dsv
+[9.979s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/ament_index/resource_index/packages/gz_utils_vendor
+[9.991s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.014s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/cmake/gz_utils_vendor-extras.cmake
+[10.044s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/cmake/gz_utils_vendorConfig.cmake
+[10.094s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/cmake/gz_utils_vendorConfig-version.cmake
+[10.102s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/share/gz_utils_vendor/package.xml
+[10.111s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/extra_cmake/lib/cmake/gz-utils/gz-utils-config.cmake
+[10.116s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/extra_cmake/lib/cmake/gz-utils/gz-utils-config-version.cmake
+[10.143s] -- Up-to-date: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor
+[10.143s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils.hh
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/Export.hh
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli.hh
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/config.hh
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/ImplPtr.hh
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/ExtraTestMacros.hh
+[10.144s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/SuppressWarning.hh
+[10.145s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli
+[10.145s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/StringTools.hpp
+[10.145s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/ConfigFwd.hpp
+[10.146s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/Split.hpp
+[10.146s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/App.hpp
+[10.146s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/Timer.hpp
+[10.146s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/GzFormatter.hpp
+[10.146s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/TypeTools.hpp
+[10.147s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/CLI.hpp
+[10.147s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/Error.hpp
+[10.147s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/Config.hpp
+[10.147s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/Version.hpp
+[10.147s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/FormatterFwd.hpp
+[10.148s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/Option.hpp
+[10.148s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/Macros.hpp
+[10.148s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/Validators.hpp
+[10.149s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/cli/Formatter.hpp
+[10.150s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/Subprocess.hh
+[10.150s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/NeverDestroyed.hh
+[10.150s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/Environment.hh
+[10.150s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail
+[10.151s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/subprocess.h
+[10.152s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/Export.hh
+[10.152s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/ImplPtr.hh
+[10.152s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/ExtraTestMacros.hh
+[10.152s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/SuppressWarning.hh
+[10.152s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/gz/utils/detail/DefaultOps.hh
+[10.152s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition
+[10.152s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils.hh
+[10.153s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils
+[10.153s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/Export.hh
+[10.153s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli.hh
+[10.153s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/config.hh
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/ImplPtr.hh
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/ExtraTestMacros.hh
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/SuppressWarning.hh
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/StringTools.hpp
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/ConfigFwd.hpp
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/Split.hpp
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/App.hpp
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/Timer.hpp
+[10.154s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/TypeTools.hpp
+[10.156s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/CLI.hpp
+[10.157s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/Error.hpp
+[10.157s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/IgnitionFormatter.hpp
+[10.158s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/Config.hpp
+[10.158s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/Version.hpp
+[10.158s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/FormatterFwd.hpp
+[10.158s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/Option.hpp
+[10.158s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/Macros.hpp
+[10.158s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/Validators.hpp
+[10.158s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/cli/Formatter.hpp
+[10.158s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/NeverDestroyed.hh
+[10.158s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/Environment.hh
+[10.159s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/detail
+[10.159s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/detail/Export.hh
+[10.159s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/detail/ImplPtr.hh
+[10.159s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/detail/ExtraTestMacros.hh
+[10.159s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/detail/SuppressWarning.hh
+[10.159s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/include/gz/utils2/ignition/utils/detail/DefaultOps.hh
+[10.160s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib
+[10.160s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/libgz-utils2.so.2.2.0
+[10.160s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/pkgconfig
+[10.160s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/pkgconfig/gz-utils2.pc
+[10.160s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/pkgconfig/gz-utils2-cli.pc
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/libgz-utils2.so.2
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/libgz-utils2.so
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2/gz-utils2-config.cmake
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2/gz-utils2-targets-relwithdebinfo.cmake
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2/gz-utils2-config-version.cmake
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2/gz-utils2-targets.cmake
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2-cli
+[10.161s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2-cli/gz-utils2-cli-config.cmake
+[10.162s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2-cli/gz-utils2-cli-config-version.cmake
+[10.162s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2-cli/gz-utils2-cli-targets.cmake
+[10.162s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2-all
+[10.162s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2-all/gz-utils2-all-config-version.cmake
+[10.162s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2-all/gz-utils2-all-config.cmake
+[10.162s] -- Installing: /work/ubuntu-ros2-dev/install/gz_utils_vendor/opt/gz_utils_vendor/lib/cmake/gz-utils2-all/gz-utils2-all-targets.cmake
+[10.177s] Invoked command in '/work/ubuntu-ros2-dev/build/gz_utils_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/gz_cmake_vendor:/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/gz_utils_vendor

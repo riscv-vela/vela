@@ -1,0 +1,24 @@
+[0.473s] Invoking command in '/work/ubuntu-ros2-dev/build/domain_coordinator': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/domain_coordinator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/domain_coordinator/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/domain_coordinator/build --no-deps symlink_data
+[0.594s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.594s]   warnings.warn(
+[0.595s] running develop
+[0.650s] running egg_info
+[0.650s] creating domain_coordinator.egg-info
+[0.650s] writing domain_coordinator.egg-info/PKG-INFO
+[0.650s] writing dependency_links to domain_coordinator.egg-info/dependency_links.txt
+[0.650s] writing requirements to domain_coordinator.egg-info/requires.txt
+[0.651s] writing top-level names to domain_coordinator.egg-info/top_level.txt
+[0.651s] writing manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[0.652s] reading manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[0.652s] writing manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[0.653s] running build_ext
+[0.653s] Creating /work/ubuntu-ros2-dev/install/domain_coordinator/lib/python3.10/site-packages/domain-coordinator.egg-link (link to .)
+[0.654s] 
+[0.654s] Installed /work/ubuntu-ros2-dev/build/domain_coordinator
+[0.654s] running symlink_data
+[0.654s] symbolically linking /work/ubuntu-ros2-dev/build/domain_coordinator/package.xml -> /work/ubuntu-ros2-dev/install/domain_coordinator/share/domain_coordinator
+[0.654s] creating /work/ubuntu-ros2-dev/install/domain_coordinator/share/ament_index
+[0.654s] creating /work/ubuntu-ros2-dev/install/domain_coordinator/share/ament_index/resource_index
+[0.654s] creating /work/ubuntu-ros2-dev/install/domain_coordinator/share/ament_index/resource_index/packages
+[0.654s] symbolically linking /work/ubuntu-ros2-dev/build/domain_coordinator/resource/domain_coordinator -> /work/ubuntu-ros2-dev/install/domain_coordinator/share/ament_index/resource_index/packages
+[0.686s] Invoked command in '/work/ubuntu-ros2-dev/build/domain_coordinator' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/domain_coordinator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/domain_coordinator/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/domain_coordinator/build --no-deps symlink_data

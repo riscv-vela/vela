@@ -1,0 +1,29 @@
+-- Found ament_cmake_core: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_test: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_test/share/ament_cmake_test/cmake)
+-- Found ament_cmake_copyright: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/ament_cmake_pycodestyle
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_index/resource_index/package_run_dependencies/ament_cmake_pycodestyle
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_index/resource_index/parent_prefix_path/ament_cmake_pycodestyle
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_index/resource_index/packages/ament_cmake_pycodestyle
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/cmake/ament_cmake_pycodestyle-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/cmake/ament_cmake_pycodestyleConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/cmake/ament_cmake_pycodestyleConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/cmake/ament_cmake_pycodestyle_lint_hook.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_pycodestyle/share/ament_cmake_pycodestyle/cmake/ament_pycodestyle.cmake

@@ -1,0 +1,155 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_python: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/std_msgs/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found rclcpp_lifecycle: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp_lifecycle/share/rclcpp_lifecycle/cmake)
+-- Found sensor_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/message_filters
+[  3%] [32mBuilding CXX object CMakeFiles/message_filters.dir/src/connection.cpp.o[0m
+[  6%] [32m[1mLinking CXX shared library libmessage_filters.so[0m
+[  6%] Built target message_filters
+[  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 12%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 12%] Built target gtest
+[ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 18%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 18%] Built target gtest_main
+[ 18%] Built target ament_cmake_python_symlink_message_filters
+[ 21%] [32mBuilding CXX object CMakeFiles/message_filters-time_synchronizer_unittest.dir/test/time_synchronizer_unittest.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable message_filters-time_synchronizer_unittest[0m
+[ 25%] Built target message_filters-time_synchronizer_unittest
+[ 28%] [32mBuilding CXX object CMakeFiles/message_filters-test_exact_time_policy.dir/test/test_exact_time_policy.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/message_filters-test_approximate_time_policy.dir/test/test_approximate_time_policy.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/message_filters-test_synchronizer.dir/test/test_synchronizer.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/message_filters-test_subscriber.dir/test/test_subscriber.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/message_filters-test_time_sequencer.dir/test/time_sequencer_unittest.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable message_filters-test_exact_time_policy[0m
+[ 43%] Built target message_filters-test_exact_time_policy
+[ 46%] [32m[1mLinking CXX executable message_filters-test_time_sequencer[0m
+[ 50%] [32m[1mLinking CXX executable message_filters-test_approximate_time_policy[0m
+[ 50%] Built target message_filters-test_time_sequencer
+[ 50%] Built target message_filters-test_approximate_time_policy
+[ 53%] [32m[1mLinking CXX executable message_filters-test_synchronizer[0m
+[ 53%] Built target message_filters-test_synchronizer
+[ 56%] [32m[1mLinking CXX executable message_filters-test_subscriber[0m
+[ 56%] Built target message_filters-test_subscriber
+[ 59%] [32mBuilding CXX object CMakeFiles/message_filters-test_message_traits.dir/test/test_message_traits.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable message_filters-test_message_traits[0m
+[ 62%] Built target message_filters-test_message_traits
+running egg_info
+creating message_filters.egg-info
+writing message_filters.egg-info/PKG-INFO
+writing dependency_links to message_filters.egg-info/dependency_links.txt
+writing top-level names to message_filters.egg-info/top_level.txt
+writing manifest file 'message_filters.egg-info/SOURCES.txt'
+reading manifest file 'message_filters.egg-info/SOURCES.txt'
+writing manifest file 'message_filters.egg-info/SOURCES.txt'
+[ 62%] Built target ament_cmake_python_build_message_filters_egg
+[ 65%] [32mBuilding CXX object CMakeFiles/message_filters-test_fuzz.dir/test/test_fuzz.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable message_filters-test_fuzz[0m
+[ 68%] Built target message_filters-test_fuzz
+[ 71%] [32mBuilding CXX object CMakeFiles/message_filters-test_latest_time_policy.dir/test/test_latest_time_policy.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable message_filters-test_latest_time_policy[0m
+[ 75%] Built target message_filters-test_latest_time_policy
+[ 78%] [32mBuilding CXX object CMakeFiles/message_filters-test_approximate_epsilon_time_policy.dir/test/test_approximate_epsilon_time_policy.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable message_filters-test_approximate_epsilon_time_policy[0m
+[ 81%] Built target message_filters-test_approximate_epsilon_time_policy
+[ 84%] [32mBuilding CXX object CMakeFiles/message_filters-test_chain.dir/test/test_chain.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable message_filters-test_chain[0m
+[ 87%] Built target message_filters-test_chain
+[ 90%] [32mBuilding CXX object CMakeFiles/message_filters-msg_cache_unittest.dir/test/msg_cache_unittest.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable message_filters-msg_cache_unittest[0m
+[ 93%] Built target message_filters-msg_cache_unittest
+[ 96%] [32mBuilding CXX object CMakeFiles/message_filters-test_simple.dir/test/test_simple.cpp.o[0m
+[100%] [32m[1mLinking CXX executable message_filters-test_simple[0m
+[100%] Built target message_filters-test_simple
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/cache.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/chain.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/connection.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/message_event.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/message_traits.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/null_types.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/parameter_adapter.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/pass_through.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/signal1.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/signal9.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/simple_filter.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/subscriber.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/sync_policies/approximate_epsilon_time.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/sync_policies/approximate_time.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/sync_policies/exact_time.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/sync_policies/latest_time.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/synchronizer.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/time_sequencer.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/time_synchronizer.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/include/message_filters/message_filters/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/lib/python3.10/site-packages/message_filters-4.11.2-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/lib/python3.10/site-packages/message_filters-4.11.2-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/lib/python3.10/site-packages/message_filters-4.11.2-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/lib/python3.10/site-packages/message_filters-4.11.2-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/lib/python3.10/site-packages/message_filters/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/ament_index/resource_index/package_run_dependencies/message_filters
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/ament_index/resource_index/parent_prefix_path/message_filters
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/ament_index/resource_index/packages/message_filters
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake/message_filtersConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake/message_filtersConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/message_filters/lib/libmessage_filters.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/message_filters/lib/libmessage_filters.so" to ""
+Listing '/work/ubuntu-ros2-dev/install/message_filters/lib/python3.10/site-packages/message_filters'...
+Compiling '/work/ubuntu-ros2-dev/install/message_filters/lib/python3.10/site-packages/message_filters/__init__.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake/message_filtersExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/message_filters/share/message_filters/cmake/message_filtersExport-noconfig.cmake

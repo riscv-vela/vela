@@ -1,0 +1,22 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating tracetools_read.egg-info
+writing tracetools_read.egg-info/PKG-INFO
+writing dependency_links to tracetools_read.egg-info/dependency_links.txt
+writing requirements to tracetools_read.egg-info/requires.txt
+writing top-level names to tracetools_read.egg-info/top_level.txt
+writing manifest file 'tracetools_read.egg-info/SOURCES.txt'
+reading manifest file 'tracetools_read.egg-info/SOURCES.txt'
+writing manifest file 'tracetools_read.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/tracetools_read/lib/python3.10/site-packages/tracetools-read.egg-link (link to .)
+
+Installed /work/ubuntu-ros2-dev/build/tracetools_read
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/tracetools_read/package.xml -> /work/ubuntu-ros2-dev/install/tracetools_read/share/tracetools_read
+creating /work/ubuntu-ros2-dev/install/tracetools_read/share/ament_index
+creating /work/ubuntu-ros2-dev/install/tracetools_read/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/tracetools_read/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/tracetools_read/resource/tracetools_read -> /work/ubuntu-ros2-dev/install/tracetools_read/share/ament_index/resource_index/packages

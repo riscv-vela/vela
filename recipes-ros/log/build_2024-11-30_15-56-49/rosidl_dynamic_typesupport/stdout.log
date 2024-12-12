@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcutils: 6.7.2 (/work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake)
+-- Found rosidl_runtime_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport
+/usr/bin/cmake -S/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport -B/work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport/CMakeFiles /work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport'
+/usr/bin/gmake  -f CMakeFiles/rosidl_dynamic_typesupport.dir/build.make CMakeFiles/rosidl_dynamic_typesupport.dir/depend
+gmake[2]: Entering directory '/work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport'
+cd /work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport /work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport /work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport /work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport /work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport/CMakeFiles/rosidl_dynamic_typesupport.dir/DependInfo.cmake --color=
+gmake[2]: Leaving directory '/work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport'
+/usr/bin/gmake  -f CMakeFiles/rosidl_dynamic_typesupport.dir/build.make CMakeFiles/rosidl_dynamic_typesupport.dir/build
+gmake[2]: Entering directory '/work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport'
+[ 16%] [32mBuilding C object CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/serialization_support.c.o[0m
+/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"rosidl_dynamic_typesupport\" -Drosidl_dynamic_typesupport_EXPORTS -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/include -isystem /work/ubuntu-ros2-dev/install/rcutils/include/rcutils -isystem /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /work/ubuntu-ros2-dev/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -fPIC -Wall -Wextra -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/serialization_support.c.o -MF CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/serialization_support.c.o.d -o CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/serialization_support.c.o -c /work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src/api/serialization_support.c
+[ 33%] [32mBuilding C object CMakeFiles/rosidl_dynamic_typesupport.dir/src/identifier.c.o[0m
+/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"rosidl_dynamic_typesupport\" -Drosidl_dynamic_typesupport_EXPORTS -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/include -isystem /work/ubuntu-ros2-dev/install/rcutils/include/rcutils -isystem /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /work/ubuntu-ros2-dev/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -fPIC -Wall -Wextra -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rosidl_dynamic_typesupport.dir/src/identifier.c.o -MF CMakeFiles/rosidl_dynamic_typesupport.dir/src/identifier.c.o.d -o CMakeFiles/rosidl_dynamic_typesupport.dir/src/identifier.c.o -c /work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src/identifier.c
+[ 50%] [32mBuilding C object CMakeFiles/rosidl_dynamic_typesupport.dir/src/dynamic_message_type_support_struct.c.o[0m
+/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"rosidl_dynamic_typesupport\" -Drosidl_dynamic_typesupport_EXPORTS -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/include -isystem /work/ubuntu-ros2-dev/install/rcutils/include/rcutils -isystem /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /work/ubuntu-ros2-dev/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -fPIC -Wall -Wextra -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rosidl_dynamic_typesupport.dir/src/dynamic_message_type_support_struct.c.o -MF CMakeFiles/rosidl_dynamic_typesupport.dir/src/dynamic_message_type_support_struct.c.o.d -o CMakeFiles/rosidl_dynamic_typesupport.dir/src/dynamic_message_type_support_struct.c.o -c /work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src/dynamic_message_type_support_struct.c
+[ 66%] [32mBuilding C object CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_type.c.o[0m
+/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"rosidl_dynamic_typesupport\" -Drosidl_dynamic_typesupport_EXPORTS -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/include -isystem /work/ubuntu-ros2-dev/install/rcutils/include/rcutils -isystem /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /work/ubuntu-ros2-dev/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -fPIC -Wall -Wextra -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_type.c.o -MF CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_type.c.o.d -o CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_type.c.o -c /work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src/api/dynamic_type.c
+[ 83%] [32mBuilding C object CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_data.c.o[0m
+/usr/bin/cc -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"rosidl_dynamic_typesupport\" -Drosidl_dynamic_typesupport_EXPORTS -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src -I/work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/include -isystem /work/ubuntu-ros2-dev/install/rcutils/include/rcutils -isystem /work/ubuntu-ros2-dev/install/rosidl_runtime_c/include/rosidl_runtime_c -isystem /work/ubuntu-ros2-dev/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface -fPIC -Wall -Wextra -Wpedantic -std=gnu11 -MD -MT CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_data.c.o -MF CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_data.c.o.d -o CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_data.c.o -c /work/ubuntu-ros2-dev/src/ros2/rosidl_dynamic_typesupport/src/api/dynamic_data.c
+[100%] [32m[1mLinking C shared library librosidl_dynamic_typesupport.so[0m
+/usr/bin/cmake -E cmake_link_script CMakeFiles/rosidl_dynamic_typesupport.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -shared -Wl,-soname,librosidl_dynamic_typesupport.so -o librosidl_dynamic_typesupport.so CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/serialization_support.c.o CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_data.c.o CMakeFiles/rosidl_dynamic_typesupport.dir/src/api/dynamic_type.c.o CMakeFiles/rosidl_dynamic_typesupport.dir/src/dynamic_message_type_support_struct.c.o CMakeFiles/rosidl_dynamic_typesupport.dir/src/identifier.c.o  -Wl,-rpath,/work/ubuntu-ros2-dev/install/rosidl_runtime_c/lib:/work/ubuntu-ros2-dev/install/rcutils/lib: /work/ubuntu-ros2-dev/install/rosidl_runtime_c/lib/librosidl_runtime_c.so /work/ubuntu-ros2-dev/install/rcutils/lib/librcutils.so -ldl 
+gmake[2]: Leaving directory '/work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport'
+[100%] Built target rosidl_dynamic_typesupport
+gmake[1]: Leaving directory '/work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport'
+/usr/bin/cmake -E cmake_progress_start /work/ubuntu-ros2-dev/build/rosidl_dynamic_typesupport/CMakeFiles 0
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_data.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/dynamic_type.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support_interface.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/dynamic_message_type_support_struct.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/macros.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/uchar.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/ament_index/resource_index/package_run_dependencies/rosidl_dynamic_typesupport
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/ament_index/resource_index/parent_prefix_path/rosidl_dynamic_typesupport
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/ament_index/resource_index/packages/rosidl_dynamic_typesupport
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/cmake/rosidl_dynamic_typesupportConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/cmake/rosidl_dynamic_typesupportConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/lib/librosidl_dynamic_typesupport.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/lib/librosidl_dynamic_typesupport.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/cmake/rosidl_dynamic_typesupport-exportExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rosidl_dynamic_typesupport/share/rosidl_dynamic_typesupport/cmake/rosidl_dynamic_typesupport-exportExport-noconfig.cmake

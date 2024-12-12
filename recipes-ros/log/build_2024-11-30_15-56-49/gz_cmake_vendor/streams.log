@@ -1,0 +1,350 @@
+[0.131s] Invoking command in '/work/ubuntu-ros2-dev/build/gz_cmake_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/gazebo-release/gz_cmake_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/gz_cmake_vendor
+[0.296s] -- The C compiler identification is GNU 11.4.0
+[0.296s] -- The CXX compiler identification is GNU 11.4.0
+[0.296s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.401s] -- Found ament_cmake_core: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.498s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.535s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.536s] -- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+[0.538s] -- Found ament_cmake_export_dependencies: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+[0.559s] -- Found ament_cmake_test: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_test/share/ament_cmake_test/cmake)
+[0.560s] -- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+[0.560s] -- Found ament_cmake_copyright: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+[0.561s] -- Found ament_cmake_xmllint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_xmllint/share/ament_cmake_xmllint/cmake)
+[0.601s] -- Configuring done
+[0.604s] -- Generating done
+[0.604s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/gz_cmake_vendor
+[0.688s] Invoked command in '/work/ubuntu-ros2-dev/build/gz_cmake_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/gazebo-release/gz_cmake_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/gz_cmake_vendor
+[0.688s] Invoking command in '/work/ubuntu-ros2-dev/build/gz_cmake_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/gz_cmake_vendor -- -j8 -l8
+[0.709s] [ 14%] [34m[1mCreating directories for 'gz_cmake_vendor'[0m
+[0.731s] [ 28%] [34m[1mPerforming download step for 'gz_cmake_vendor'[0m
+[2.582s] [34m=== [1m./gz_cmake_vendor[22m (git) ===[0m
+[2.583s] hint: Using 'master' as the name for the initial branch. This default branch name
+[2.583s] hint: is subject to change. To configure the initial branch name to use in all
+[2.583s] hint: of your new repositories, which will suppress this warning, call:
+[2.583s] hint: 
+[2.583s] hint: 	git config --global init.defaultBranch <name>
+[2.583s] hint: 
+[2.583s] hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+[2.584s] hint: 'development'. The just-created branch can be renamed via this command:
+[2.584s] hint: 
+[2.584s] hint: 	git branch -m <name>
+[2.584s] Initialized empty Git repository in /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/src/gz_cmake_vendor/.git/
+[2.584s] 
+[2.584s] From https://github.com/gazebosim/gz-cmake
+[2.584s]  * [new tag]         gz-cmake3_3.5.3 -> gz-cmake3_3.5.3
+[2.584s] Note: switching to 'gz-cmake3_3.5.3'.
+[2.584s] 
+[2.585s] You are in 'detached HEAD' state. You can look around, make experimental
+[2.585s] changes and commit them, and you can discard any commits you make in this
+[2.585s] state without impacting any branches by switching back to a branch.
+[2.585s] 
+[2.585s] If you want to create a new branch to retain commits you create, you may
+[2.585s] do so (now or later) by using -c with the switch command. Example:
+[2.585s] 
+[2.585s]   git switch -c <new-branch-name>
+[2.586s] 
+[2.586s] Or undo this operation with:
+[2.586s] 
+[2.586s]   git switch -
+[2.586s] 
+[2.586s] Turn off this advice by setting config variable advice.detachedHead to false
+[2.586s] 
+[2.586s] HEAD is now at ddd38ff Prepare for 3.5.3 Release (#426)
+[2.586s] 
+[2.671s] [ 42%] [34m[1mPerforming patch step for 'gz_cmake_vendor'[0m
+[2.672s] Applying patch: /work/ubuntu-ros2-dev/src/gazebo-release/gz_cmake_vendor/patches/0001-fix-pkg-config-dir.patch
+[2.800s] [ 57%] [34m[1mPerforming configure step for 'gz_cmake_vendor'[0m
+[2.838s] loading initial cache file /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-config.cmake
+[2.955s] -- The C compiler identification is GNU 11.4.0
+[3.120s] -- The CXX compiler identification is GNU 11.4.0
+[3.135s] -- Detecting C compiler ABI info
+[3.225s] -- Detecting C compiler ABI info - done
+[3.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.230s] -- Detecting C compile features
+[3.230s] -- Detecting C compile features - done
+[3.234s] -- Detecting CXX compiler ABI info
+[3.358s] -- Detecting CXX compiler ABI info - done
+[3.361s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.362s] -- Detecting CXX compile features
+[3.362s] -- Detecting CXX compile features - done
+[3.366s] -- gz-cmake3 version 3.5.3
+[3.366s] -- Operating system is Linux
+[3.386s] -- Found CPack generators: DEB
+[3.393s] -- Install prefix: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor
+[3.713s] -- Adding codecheck target
+[3.713s] -- Building Documentation disabled via BUILD_DOCS=OFF
+[3.713s] -- Configuring done
+[3.716s] -- Generating done
+[3.717s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/src/gz_cmake_vendor-build
+[3.732s] [ 71%] [34m[1mPerforming build step for 'gz_cmake_vendor'[0m
+[3.813s] [ 50%] [34m[1mGenerating cmake/IgnBenchmark.cmake[0m
+[3.822s] [ 50%] Built target target_IgnBenchmark.cmake
+[3.830s] [100%] [34m[1mGenerating cmake/IgnPython.cmake[0m
+[3.886s] [100%] Built target target_IgnPython.cmake
+[3.952s] [ 85%] [34m[1mPerforming install step for 'gz_cmake_vendor'[0m
+[4.117s] [ 50%] [34m[1mGenerating cmake/IgnPython.cmake[0m
+[4.144s] [100%] [34m[1mGenerating cmake/IgnBenchmark.cmake[0m
+[4.170s] [100%] Built target target_IgnPython.cmake
+[4.199s] [100%] Built target target_IgnBenchmark.cmake
+[4.270s] [36mInstall the project...[0m
+[4.289s] -- Install configuration: ""
+[4.289s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/benchmark
+[4.289s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/benchmark/run_benchmarks.py
+[4.290s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/codecheck
+[4.290s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/codecheck/cpplint.py
+[4.290s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/codecheck/namespace_AZ.rule
+[4.290s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/codecheck/header_guard.rule
+[4.290s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/tools
+[4.290s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/tools/check_test_ran.py
+[4.290s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/tools/doc_check.sh
+[4.290s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/gz-cmake3-config.cmake
+[4.290s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/gz-cmake3-config-version.cmake
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/lib/pkgconfig/gz-cmake3.pc
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/gz-cmake3-utilities-targets.cmake
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/gz
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/gz/utilities
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/gz/utilities/ExtraTestMacros.hh
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/gz/utilities/SuppressWarning.hh
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/gz/utilities/detail
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/gz/utilities/detail/ExtraTestMacros.hh
+[4.291s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/gz/utilities/detail/SuppressWarning.hh
+[4.292s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/ignition
+[4.292s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/ignition/utilities
+[4.292s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/ignition/utilities/ExtraTestMacros.hh
+[4.292s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/include/gz/cmake3/ignition/utilities/SuppressWarning.hh
+[4.293s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindAVCODEC.cmake
+[4.293s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindAVDEVICE.cmake
+[4.293s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindAVFORMAT.cmake
+[4.293s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindAVUTIL.cmake
+[4.293s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindCPPZMQ.cmake
+[4.293s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindDL.cmake
+[4.308s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindEIGEN3.cmake
+[4.309s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindFreeImage.cmake
+[4.311s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindGTS.cmake
+[4.311s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindGzAssimp.cmake
+[4.311s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindGzBullet.cmake
+[4.312s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindGzCURL.cmake
+[4.312s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindGzOGRE.cmake
+[4.312s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindGzOGRE2.cmake
+[4.313s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindGzProtobuf.cmake
+[4.313s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindGzURDFDOM.cmake
+[4.313s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindIFADDRS.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindJSONCPP.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindODE.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindOptiX.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindSQLite3.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindSWSCALE.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindTINYXML2.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindUUID.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindYAML.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindZIP.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/FindZeroMQ.cmake
+[4.314s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzAddComponent.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzBenchmark.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzBuildExamples.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzBuildExecutables.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzBuildTests.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzCMake.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzCheckSSE.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzCmakeLogging.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzCodeCheck.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzCodeCoverage.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzConfigureBuild.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzConfigureProject.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzCreateCoreLibrary.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzCreateDocs.cmake
+[4.315s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzCxxStandard.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzGenerateVersionInfo.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzGetLibSourcesAndUnitTests.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzGetSources.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzImportTarget.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzInstallAllHeaders.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzManualSearch.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzPkgConfig.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzPython.cmake
+[4.316s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzRelocatableBinaries.cmake
+[4.317s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzRonn2Man.cmake
+[4.317s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzSanitizers.cmake
+[4.317s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzSetCompilerFlags.cmake
+[4.317s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzStringAppend.cmake
+[4.317s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/GzUtils.cmake
+[4.317s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/JoinPaths.cmake
+[4.318s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/Export.hh.in
+[4.318s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/cmake_uninstall.cmake.in
+[4.318s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/cpack_options.cmake.in
+[4.318s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/gz-all-config.cmake.in
+[4.318s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/gz-component-config.cmake.in
+[4.318s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/gz-config.cmake.in
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/gz_auto_headers.hh.in
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/upload_doc.sh.in
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/version_info.json.in
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/pkgconfig/gz-component.pc.in
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/pkgconfig/gz.pc.in
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/IgnPython.cmake
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/cmake/gz-cmake3/cmake3/IgnBenchmark.cmake
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/doxygen
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/doxygen/header.html
+[4.319s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/doxygen/footer.html
+[4.320s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/doxygen/api.in
+[4.320s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/doxygen/cppreference.tag.xml
+[4.320s] -- Installing: /work/ubuntu-ros2-dev/build/gz_cmake_vendor/gz_cmake_vendor-prefix/install/share/gz/gz-cmake3/doxygen/layout.xml
+[4.389s] [100%] [34m[1mCompleted 'gz_cmake_vendor'[0m
+[4.412s] [100%] Built target gz_cmake_vendor
+[4.419s] Invoked command in '/work/ubuntu-ros2-dev/build/gz_cmake_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/gz_cmake_vendor -- -j8 -l8
+[4.585s] Invoking command in '/work/ubuntu-ros2-dev/build/gz_cmake_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/gz_cmake_vendor
+[5.346s] -- Install configuration: ""
+[5.346s] -- Execute custom install script
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/vendor_package_cmake_prefix.bat
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/vendor_package_cmake_prefix.dsv
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/vendor_package_cmake_prefix.sh
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/vendor_package.bat
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/vendor_package.dsv
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/vendor_package.sh
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/ament_index/resource_index/vendor_packages/gz_cmake_vendor
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/ament_index/resource_index/package_run_dependencies/gz_cmake_vendor
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/ament_index/resource_index/parent_prefix_path/gz_cmake_vendor
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/ament_prefix_path.sh
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/ament_prefix_path.dsv
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/path.sh
+[5.346s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/environment/path.dsv
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/local_setup.bash
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/local_setup.sh
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/local_setup.zsh
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/local_setup.dsv
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/package.dsv
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/ament_index/resource_index/packages/gz_cmake_vendor
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/cmake/gz_cmake_vendor-extras.cmake
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/cmake/gz_cmake_vendorConfig.cmake
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/cmake/gz_cmake_vendorConfig-version.cmake
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/share/gz_cmake_vendor/package.xml
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/extra_cmake/lib/cmake/gz-cmake/gz-cmake-config.cmake
+[5.347s] -- Symlinking: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/extra_cmake/lib/cmake/gz-cmake/gz-cmake-config-version.cmake
+[5.347s] -- Up-to-date: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/gz
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/gz/utilities
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/gz/utilities/ExtraTestMacros.hh
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/gz/utilities/SuppressWarning.hh
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/gz/utilities/detail
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/gz/utilities/detail/ExtraTestMacros.hh
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/gz/utilities/detail/SuppressWarning.hh
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/ignition
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/ignition/utilities
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/ignition/utilities/ExtraTestMacros.hh
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/include/gz/cmake3/ignition/utilities/SuppressWarning.hh
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/doxygen
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/doxygen/header.html
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/doxygen/footer.html
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/doxygen/api.in
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/doxygen/cppreference.tag.xml
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/doxygen/layout.xml
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/codecheck
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/codecheck/cpplint.py
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/codecheck/namespace_AZ.rule
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/codecheck/header_guard.rule
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/tools
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/tools/check_test_ran.py
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/tools/doc_check.sh
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/benchmark
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/gz/gz-cmake3/benchmark/run_benchmarks.py
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/gz-cmake3-utilities-targets.cmake
+[5.347s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/gz-cmake3-config.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/gz-cmake3-config-version.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindAVDEVICE.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzBuildTests.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzSanitizers.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzCodeCoverage.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzCreateDocs.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzCMake.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzCreateCoreLibrary.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzImportTarget.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/gz-component-config.cmake.in
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzCmakeLogging.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/upload_doc.sh.in
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindDL.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindGzURDFDOM.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindZeroMQ.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzConfigureProject.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/pkgconfig
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/pkgconfig/gz-component.pc.in
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/pkgconfig/gz.pc.in
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/version_info.json.in
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindUUID.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/Export.hh.in
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindGzAssimp.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindAVUTIL.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzUtils.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/cpack_options.cmake.in
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindIFADDRS.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/gz-all-config.cmake.in
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindAVFORMAT.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindGzCURL.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindOptiX.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzRonn2Man.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzBuildExamples.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzGenerateVersionInfo.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzPkgConfig.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzCheckSSE.cmake
+[5.348s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindGzProtobuf.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzCodeCheck.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindFreeImage.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindODE.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindGzOGRE2.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzPackaging.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindSWSCALE.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzBuildExecutables.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzManualSearch.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindAVCODEC.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/JoinPaths.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindGTS.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindGzBullet.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/gz-config.cmake.in
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/gz_auto_headers.hh.in
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindZIP.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/IgnBenchmark.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindEIGEN3.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzCxxStandard.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzRelocatableBinaries.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzAddComponent.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzSetCompilerFlags.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindGzOGRE.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindSQLite3.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzGetLibSourcesAndUnitTests.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindJSONCPP.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindYAML.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzBenchmark.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/IgnPython.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindCPPZMQ.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/cmake_uninstall.cmake.in
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzGetSources.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzInstallAllHeaders.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzPython.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzConfigureBuild.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/FindTINYXML2.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/share/cmake/gz-cmake3/cmake3/GzStringAppend.cmake
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib/pkgconfig
+[5.349s] -- Installing: /work/ubuntu-ros2-dev/install/gz_cmake_vendor/opt/gz_cmake_vendor/lib/pkgconfig/gz-cmake3.pc
+[5.358s] Invoked command in '/work/ubuntu-ros2-dev/build/gz_cmake_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package:/work/ubuntu-ros2-dev/install/ament_lint CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_xmllint:/work/ubuntu-ros2-dev/install/ament_cmake_copyright:/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_lint_cmake/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint_cmake:/work/ubuntu-ros2-dev/install/ament_lint_cmake/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/gz_cmake_vendor

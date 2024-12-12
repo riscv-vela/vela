@@ -1,0 +1,42 @@
+[0.180s] Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_introspection': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake /work/ubuntu-ros2-dev/src/eclipse-iceoryx/iceoryx/tools/introspection -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/iceoryx_introspection
+[0.742s] -- The C compiler identification is GNU 11.4.0
+[0.742s] -- The CXX compiler identification is GNU 11.4.0
+[0.742s] -- Detecting C compiler ABI info
+[0.742s] -- Detecting C compiler ABI info - done
+[0.742s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.742s] -- Detecting C compile features
+[0.742s] -- Detecting C compile features - done
+[0.742s] -- Detecting CXX compiler ABI info
+[0.950s] -- Detecting CXX compiler ABI info - done
+[0.954s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.954s] -- Detecting CXX compile features
+[0.954s] -- Detecting CXX compile features - done
+[1.323s] -- Configuring done
+[1.325s] -- Generating done
+[1.325s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/iceoryx_introspection
+[1.352s] Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_introspection' returned '0': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake /work/ubuntu-ros2-dev/src/eclipse-iceoryx/iceoryx/tools/introspection -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/iceoryx_introspection
+[1.352s] Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_introspection': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/iceoryx_introspection -- -j8 -l8
+[1.752s] [ 20%] [32mBuilding CXX object CMakeFiles/iceoryx_introspection.dir/source/iceoryx_introspection_app.cpp.o[0m
+[1.753s] [ 40%] [32mBuilding CXX object CMakeFiles/iceoryx_introspection.dir/source/introspection_app.cpp.o[0m
+[3.771s] [ 60%] [32m[1mLinking CXX shared library libiceoryx_introspection.so[0m
+[3.972s] [ 60%] Built target iceoryx_introspection
+[4.072s] [ 80%] [32mBuilding CXX object CMakeFiles/iox-introspection-client.dir/source/introspection_main.cpp.o[0m
+[4.881s] [100%] [32m[1mLinking CXX executable iox-introspection-client[0m
+[5.043s] [100%] Built target iox-introspection-client
+[5.084s] Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_introspection' returned '0': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/iceoryx_introspection -- -j8 -l8
+[5.363s] Invoking command in '/work/ubuntu-ros2-dev/build/iceoryx_introspection': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/iceoryx_introspection
+[5.380s] -- Install configuration: ""
+[5.380s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/libiceoryx_introspection.so
+[5.380s] -- Set runtime path of "/work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/libiceoryx_introspection.so" to ""
+[5.380s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/bin/iox-introspection-client
+[5.382s] -- Set runtime path of "/work/ubuntu-ros2-dev/install/iceoryx_introspection/bin/iox-introspection-client" to ""
+[5.382s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6
+[5.382s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6/iceoryx_introspection
+[5.382s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6/iceoryx_introspection/introspection_types.hpp
+[5.382s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6/iceoryx_introspection/introspection_app.hpp
+[5.382s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/include/iceoryx/v2.0.6/iceoryx_introspection/iceoryx_introspection_app.hpp
+[5.382s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/cmake/iceoryx_introspection/iceoryx_introspectionConfigVersion.cmake
+[5.382s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/cmake/iceoryx_introspection/iceoryx_introspectionConfig.cmake
+[5.382s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/cmake/iceoryx_introspection/iceoryx_introspectionTargets.cmake
+[5.382s] -- Installing: /work/ubuntu-ros2-dev/install/iceoryx_introspection/lib/cmake/iceoryx_introspection/iceoryx_introspectionTargets-noconfig.cmake
+[5.444s] Invoked command in '/work/ubuntu-ros2-dev/build/iceoryx_introspection' returned '0': CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh:/work/ubuntu-ros2-dev/install/iceoryx_hoofs LD_LIBRARY_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/bin:${PATH} PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_posh/lib/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/iceoryx_hoofs/lib/pkgconfig /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/iceoryx_introspection

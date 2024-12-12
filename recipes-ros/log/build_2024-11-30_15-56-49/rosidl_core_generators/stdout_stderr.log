@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosidl_core_generators
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/ament_index/resource_index/package_run_dependencies/rosidl_core_generators
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/ament_index/resource_index/parent_prefix_path/rosidl_core_generators
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/ament_index/resource_index/packages/rosidl_core_generators
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/cmake/rosidl_core_generators-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/cmake/rosidl_core_generatorsConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/cmake/rosidl_core_generatorsConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_core_generators/share/rosidl_core_generators/package.xml

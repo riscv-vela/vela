@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [i] <<<<<<<<<<<<< Start iceoryx_posh configuration: >>>>>>>>>>>>>
+-- [i] Using m:n communication!
+-- [i] IOX_MAX_PUBLISHERS:512
+-- [i] IOX_MAX_SUBSCRIBERS:1024
+-- [i] IOX_MAX_INTERFACE_NUMBER:4
+-- [i] IOX_MAX_SUBSCRIBERS_PER_PUBLISHER:256
+-- [i] IOX_MAX_CHUNKS_ALLOCATED_PER_PUBLISHER_SIMULTANEOUSLY:8
+-- [i] IOX_MAX_PUBLISHER_HISTORY:16
+-- [i] IOX_MAX_CHUNKS_HELD_PER_SUBSCRIBER_SIMULTANEOUSLY:256
+-- [i] <<<<<<<<<<<<<< End iceoryx_posh configuration: >>>>>>>>>>>>>>
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/iceoryx_binding_c
+[  4%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_client.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_config.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_notification_info.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_listener.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_publisher.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_node.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_response_header.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_request_header.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_runtime.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_subscriber.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_user_trigger.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_wait_set.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_chunk.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c2cpp_enum_translation.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_log.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_enum_translation.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_publisher.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_subscriber.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/cpp2c_service_description_translation.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/iceoryx_binding_c.dir/source/c_service_discovery.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libiceoryx_binding_c.so[0m
+[100%] Built target iceoryx_binding_c
+-- Install configuration: ""
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/libiceoryx_binding_c.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/libiceoryx_binding_c.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/enums.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/subscriber.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/chunk.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/response_header.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/config.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_enum_translation.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_service_description_translation.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_waitset.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_publisher.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/cpp2c_subscriber.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/c2cpp_enum_translation.hpp
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/internal/c2cpp_binding.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/node.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/service_discovery.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/types.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/api.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/runtime.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/client.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/wait_set.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/server.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/service_description.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/user_trigger.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/publisher.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/notification_info.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/listener.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/request_header.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/include/iceoryx/v2.0.6/iceoryx_binding_c/log.h
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cConfigVersion.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cConfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cTargets.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/lib/cmake/iceoryx_binding_c/iceoryx_binding_cTargets-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/iceoryx_binding_c/share/doc/iceoryx_binding_c/LICENSE

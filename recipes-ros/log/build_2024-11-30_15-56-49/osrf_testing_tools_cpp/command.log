@@ -1,0 +1,6 @@
+Invoking command in '/work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp': /usr/bin/cmake /work/ubuntu-ros2-dev/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp
+Invoked command in '/work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake /work/ubuntu-ros2-dev/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/osrf_testing_tools_cpp
+Invoking command in '/work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp -- -j8 -l8
+Invoked command in '/work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp -- -j8 -l8
+Invoking command in '/work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp
+Invoked command in '/work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/osrf_testing_tools_cpp

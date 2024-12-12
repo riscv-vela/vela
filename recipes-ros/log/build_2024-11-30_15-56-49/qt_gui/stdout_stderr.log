@@ -1,0 +1,145 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/qt_gui
+Built target ament_cmake_python_symlink_qt_gui
+running egg_info
+creating qt_gui.egg-info
+writing qt_gui.egg-info/PKG-INFO
+writing dependency_links to qt_gui.egg-info/dependency_links.txt
+writing top-level names to qt_gui.egg-info/top_level.txt
+writing manifest file 'qt_gui.egg-info/SOURCES.txt'
+reading manifest file 'qt_gui.egg-info/SOURCES.txt'
+writing manifest file 'qt_gui.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_qt_gui_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui-2.7.4-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui-2.7.4-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui-2.7.4-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui-2.7.4-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/about_handler.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/application_context.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/application_dbus_interface.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/composite_plugin_provider.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/container_manager.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/dock_widget.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/dock_widget_container.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/dock_widget_title_bar.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/dockable_main_window.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/errors.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/help_provider.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/icon_loader.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/main.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/main_window.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/menu_manager.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/minimized_dock_widgets_toolbar.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/perspective_manager.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/perspective_manager_dbus_interface.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_context.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_descriptor.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_container.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_dbus_service.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_direct.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_xembed.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_xembed_client.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_xembed_container.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_instance_id.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_manager.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_manager_dbus_interface.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_menu.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_provider.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/recursive_plugin_provider.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/reload_importer.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/reparent_event.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/ros_package_helper.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/settings.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/settings_proxy.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/settings_proxy_dbus_service.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/window_changed_signaler.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/resource/dock_widget_title_bar.ui
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/resource/perspective_create.ui
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/resource/ros_org_vertical.png
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/ament_index/resource_index/package_run_dependencies/qt_gui
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/ament_index/resource_index/parent_prefix_path/qt_gui
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/ament_index/resource_index/packages/qt_gui
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/cmake/qt_guiConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/cmake/qt_guiConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/qt_gui/share/qt_gui/package.xml
+Listing '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/about_handler.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/application_context.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/application_dbus_interface.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/composite_plugin_provider.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/container_manager.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/dock_widget.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/dock_widget_container.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/dock_widget_title_bar.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/dockable_main_window.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/errors.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/help_provider.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/icon_loader.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/main.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/main_window.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/menu_manager.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/minimized_dock_widgets_toolbar.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/perspective_manager.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/perspective_manager_dbus_interface.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_context.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_descriptor.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_container.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_dbus_service.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_direct.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_xembed.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_xembed_client.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_handler_xembed_container.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_instance_id.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_manager.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_manager_dbus_interface.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_menu.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/plugin_provider.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/recursive_plugin_provider.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/reload_importer.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/reparent_event.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/ros_package_helper.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/settings.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/settings_proxy.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/settings_proxy_dbus_service.py'...
+Compiling '/work/ubuntu-ros2-dev/install/qt_gui/lib/python3.10/site-packages/qt_gui/window_changed_signaler.py'...

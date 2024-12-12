@@ -1,0 +1,231 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor
+[ 14%] [34m[1mCreating directories for 'yaml_cpp_vendor'[0m
+[ 28%] [34m[1mPerforming download step for 'yaml_cpp_vendor'[0m
+[34m=== [1m./yaml_cpp_vendor[22m (git) ===[0m
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/src/yaml_cpp_vendor/.git/
+
+From https://github.com/jbeder/yaml-cpp
+ * [new tag]         0.8.0      -> 0.8.0
+Note: switching to '0.8.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f732014 Bump version to 0.8.0.
+
+[ 42%] [34m[1mPerforming patch step for 'yaml_cpp_vendor'[0m
+Applying patch: /work/ubuntu-ros2-dev/src/ros2/yaml_cpp_vendor/patches/0001.patch
+[ 57%] [34m[1mPerforming configure step for 'yaml_cpp_vendor'[0m
+loading initial cache file /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-config.cmake
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/src/yaml_cpp_vendor-build
+[ 71%] [34m[1mPerforming build step for 'yaml_cpp_vendor'[0m
+[  3%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libyaml-cpp.so[0m
+[100%] Built target yaml-cpp
+[ 85%] [34m[1mPerforming install step for 'yaml_cpp_vendor'[0m
+[35m[1mConsolidate compiler generated dependencies of target yaml-cpp[0m
+[100%] Built target yaml-cpp
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/libyaml-cpp.so.0.8.0
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/libyaml-cpp.so.0.8
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/libyaml-cpp.so
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/dll.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emitfromevents.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/traits.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/stlemitter.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/ostream_wrapper.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emitter.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/contrib
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/contrib/graphbuilder.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/contrib/anchordict.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/null.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/eventhandler.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/mark.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emitterstyle.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/depthguard.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/parser.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/anchor.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/noexcept.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emittermanip.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/yaml.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/exceptions.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/binary.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/ptr.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/convert.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/iterator.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/node.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/parse.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/type.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/emit.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/impl.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/node_ref.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/iterator.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/node_iterator.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/node.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/iterator_fwd.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/impl.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/memory.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/node/detail/node_data.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/include/yaml-cpp/emitterdef.h
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/cmake/yaml-cpp/yaml-cpp-targets-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/yaml_cpp_vendor/yaml_cpp_vendor-prefix/install/lib/pkgconfig/yaml-cpp.pc
+[100%] [34m[1mCompleted 'yaml_cpp_vendor'[0m
+[100%] Built target yaml_cpp_vendor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package_cmake_prefix.bat
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package_cmake_prefix.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package_cmake_prefix.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package.bat
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/vendor_package.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/ament_index/resource_index/vendor_packages/yaml_cpp_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/ament_index/resource_index/package_run_dependencies/yaml_cpp_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/ament_index/resource_index/parent_prefix_path/yaml_cpp_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/ament_index/resource_index/packages/yaml_cpp_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/yaml_cpp_vendor-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/yaml_cpp_vendorConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/yaml_cpp_vendorConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/share/yaml_cpp_vendor/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/dll.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emitfromevents.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/traits.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/stlemitter.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/ostream_wrapper.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emitter.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/contrib
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/contrib/graphbuilder.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/contrib/anchordict.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/null.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/eventhandler.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/mark.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emitterstyle.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/depthguard.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/parser.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/anchor.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/noexcept.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emittermanip.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/yaml.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/exceptions.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/binary.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/ptr.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/convert.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/iterator.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/node.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/parse.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/type.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/emit.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/impl.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/node_ref.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/iterator.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/node_iterator.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/node.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/iterator_fwd.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/impl.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/memory.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/node/detail/node_data.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/include/yaml-cpp/emitterdef.h
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/libyaml-cpp.so.0.8
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/pkgconfig
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/pkgconfig/yaml-cpp.pc
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/libyaml-cpp.so.0.8.0
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/libyaml-cpp.so
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/yaml-cpp-targets-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake

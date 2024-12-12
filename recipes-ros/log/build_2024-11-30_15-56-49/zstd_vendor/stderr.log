@@ -1,0 +1,27 @@
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:[m[K In function ‘[01m[KZSTD_decompressSequences[m[K’:
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1849:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdumps[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1849 |         seqState.dumpsEnd = [01;35m[Kdumps + dumpsLength[m[K;
+      |                             [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1860:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KnbSeq[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1860 |             [01;35m[KnbSeq--[m[K;
+      |             [01;35m[K~~~~~^~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1849:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KdumpsLength[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1849 |         seqState.dumpsEnd = [01;35m[Kdumps + dumpsLength[m[K;
+      |                             [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:[m[K In function ‘[01m[KZSTD_decompressBlock[m[K’:
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1504:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Klitbp.origSize[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1504 |             size_t [01;35m[KrleSize[m[K = litbp.origSize;
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1488:23:[m[K [01;36m[Knote: [m[K‘[01m[Klitbp.origSize[m[K’ was declared here
+ 1488 |     blockProperties_t [01;36m[Klitbp[m[K;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1495:5:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(unsigned int *)((char *)&litbp + offsetof(blockProperties_t, blockType))[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1495 |     [01;35m[Kswitch[m[K(litbp.blockType)
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1488:23:[m[K [01;36m[Knote: [m[K‘[01m[K*(unsigned int *)((char *)&litbp + offsetof(blockProperties_t, blockType))[m[K’ was declared here
+ 1488 |     blockProperties_t [01;36m[Klitbp[m[K;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:[m[K In function ‘[01m[KZSTDv01_decompressDCtx[m[K’:
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1935:9:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(unsigned int *)((char *)&blockProperties + offsetof(blockProperties_t, blockType))[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1935 |         [01;35m[Kswitch[m[K(blockProperties.blockType)
+      |         [01;35m[K^~~~~~[m[K

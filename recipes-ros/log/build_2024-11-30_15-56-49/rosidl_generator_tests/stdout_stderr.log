@@ -1,0 +1,300 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_pytest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found rosidl_cmake: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_cmake/share/rosidl_cmake/cmake)
+-- Found rosidl_adapter: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Found rosidl_runtime_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake)
+-- Found rosidl_runtime_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_runtime_cpp/share/rosidl_runtime_cpp/cmake)
+-- Found test_interface_files: 0.11.0 (/work/ubuntu-ros2-dev/install/test_interface_files/share/test_interface_files/cmake)
+-- Found type_description_interfaces: 2.0.2 (/work/ubuntu-ros2-dev/install/type_description_interfaces/share/type_description_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rosidl_generator_tests
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target rosidl_generator_tests__rosidl_generator_type_description
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  2%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[  2%] Built target gtest_main
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  3%] [32m[1mLinking CXX static library libgtest.a[0m
+[  3%] Built target gtest
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] Built target rosidl_generator_tests__cpp
+[  4%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/basic_idl__description.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/arrays__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/arrays__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/basic_types__description.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/basic_types__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/basic_types__type_support.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/bounded_plain_sequences__description.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/bounded_plain_sequences__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/bounded_plain_sequences__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/bounded_sequences__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/bounded_sequences__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/bounded_sequences__type_support.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/constants__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/constants__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/constants__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/defaults__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/defaults__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/defaults__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/empty__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/empty__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/empty__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/multi_nested__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/multi_nested__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/multi_nested__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/nested__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/nested__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/nested__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/strings__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/strings__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/strings__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/unbounded_sequences__description.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/unbounded_sequences__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/unbounded_sequences__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/w_strings__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/w_strings__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/w_strings__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/srv/detail/arrays__description.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/srv/detail/arrays__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/srv/detail/arrays__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/srv/detail/basic_types__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/srv/detail/basic_types__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/srv/detail/basic_types__type_support.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/srv/detail/empty__description.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/srv/detail/empty__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/srv/detail/empty__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/small_constant__description.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/small_constant__functions.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/small_constant__type_support.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/arrays__description.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/action/detail/fibonacci__type_support.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/action/detail/fibonacci__functions.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/action/detail/fibonacci__description.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/basic_idl__type_support.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_generator_c.dir/rosidl_generator_c/rosidl_generator_tests/msg/detail/basic_idl__functions.c.o[0m
+[ 30%] [32m[1mLinking C shared library librosidl_generator_tests__rosidl_generator_c.so[0m
+[ 30%] Built target rosidl_generator_tests__rosidl_generator_c
+[ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/basic_idl__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/action/fibonacci__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/arrays__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/basic_types__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/bounded_plain_sequences__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/bounded_sequences__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/constants__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/defaults__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/empty__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/multi_nested__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/nested__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/strings__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/unbounded_sequences__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/w_strings__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/srv/arrays__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/srv/basic_types__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/srv/empty__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosidl_generator_tests/msg/small_constant__type_support.cpp.o[0m
+[ 39%] [32m[1mLinking CXX shared library librosidl_generator_tests__rosidl_typesupport_cpp.so[0m
+[ 39%] Built target rosidl_generator_tests__rosidl_typesupport_cpp
+[ 39%] [32mBuilding C object CMakeFiles/test_interfaces_c.dir/test/rosidl_generator_c/test_interfaces.c.o[0m
+[ 40%] [32m[1mLinking C executable test_interfaces_c[0m
+[ 40%] Built target test_interfaces_c
+[ 40%] [32mBuilding C object CMakeFiles/test_invalid_initialization_c.dir/test/rosidl_generator_c/test_invalid_initialization.c.o[0m
+[ 41%] [32m[1mLinking C executable test_invalid_initialization_c[0m
+[ 41%] Built target test_invalid_initialization_c
+[ 41%] [32mBuilding C object CMakeFiles/test_descriptions_c.dir/test/rosidl_generator_c/test_descriptions.c.o[0m
+[ 42%] [32m[1mLinking C executable test_descriptions_c[0m
+[ 42%] Built target test_descriptions_c
+[ 43%] [32mBuilding C object CMakeFiles/test_compilation_c.dir/test/rosidl_generator_c/test_compilation.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/test_compilation_c.dir/test/rosidl_generator_c/separate_compilation.c.o[0m
+[ 44%] [32m[1mLinking C executable test_compilation_c[0m
+[ 44%] Built target test_compilation_c
+[ 44%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/basic_idl__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/basic_types__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/bounded_plain_sequences__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/bounded_sequences__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/constants__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/defaults__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/empty__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/multi_nested__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/nested__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/strings__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/unbounded_sequences__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/w_strings__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/srv/detail/arrays__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/srv/detail/basic_types__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/srv/detail/empty__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/small_constant__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/msg/detail/arrays__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosidl_generator_tests/action/detail/fibonacci__type_support.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library librosidl_generator_tests__rosidl_typesupport_introspection_cpp.so[0m
+[ 53%] Built target rosidl_generator_tests__rosidl_typesupport_introspection_cpp
+[ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/basic_idl__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/bounded_plain_sequences__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/bounded_sequences__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/constants__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/defaults__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/empty__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/multi_nested__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/nested__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/strings__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/unbounded_sequences__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/w_strings__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/srv/arrays__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/srv/basic_types__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/srv/empty__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/small_constant__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/basic_types__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/msg/arrays__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosidl_generator_tests/action/fibonacci__type_support.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library librosidl_generator_tests__rosidl_typesupport_c.so[0m
+[ 63%] Built target rosidl_generator_tests__rosidl_typesupport_c
+[ 63%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 64%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/basic_idl__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/bounded_sequences__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/constants__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/defaults__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/empty__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/multi_nested__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/nested__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/strings__type_support.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/unbounded_sequences__type_support.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/w_strings__type_support.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/srv/detail/arrays__type_support.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/srv/detail/basic_types__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/srv/detail/empty__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/small_constant__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/bounded_plain_sequences__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/basic_types__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/msg/detail/arrays__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosidl_generator_tests/action/detail/fibonacci__type_support.c.o[0m
+[ 73%] [32m[1mLinking C shared library librosidl_generator_tests__rosidl_typesupport_introspection_c.so[0m
+[ 73%] Built target rosidl_generator_tests__rosidl_typesupport_introspection_c
+[ 74%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/basic_idl__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/constants__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/defaults__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/bounded_sequences__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/empty__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/multi_nested__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/nested__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/strings__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/unbounded_sequences__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/w_strings__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/srv/detail/dds_fastrtps/arrays__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/srv/detail/dds_fastrtps/basic_types__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/srv/detail/dds_fastrtps/empty__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/small_constant__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/bounded_plain_sequences__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/basic_types__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/msg/detail/dds_fastrtps/arrays__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosidl_generator_tests/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library librosidl_generator_tests__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 83%] Built target rosidl_generator_tests__rosidl_typesupport_fastrtps_cpp
+[ 84%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/basic_idl__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/action/detail/fibonacci__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/defaults__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/empty__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/multi_nested__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/nested__type_support_c.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/strings__type_support_c.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/unbounded_sequences__type_support_c.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/w_strings__type_support_c.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/srv/detail/arrays__type_support_c.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/srv/detail/basic_types__type_support_c.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/srv/detail/empty__type_support_c.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/small_constant__type_support_c.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/constants__type_support_c.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/bounded_sequences__type_support_c.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/bounded_plain_sequences__type_support_c.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/basic_types__type_support_c.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/rosidl_generator_tests__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosidl_generator_tests/msg/detail/arrays__type_support_c.cpp.o[0m
+[ 93%] [32m[1mLinking CXX shared library librosidl_generator_tests__rosidl_typesupport_fastrtps_c.so[0m
+[ 93%] Built target rosidl_generator_tests__rosidl_typesupport_fastrtps_c
+[ 93%] Built target rosidl_generator_tests
+[ 93%] [32mBuilding CXX object CMakeFiles/test_msg_builder.dir/test/rosidl_generator_cpp/test_msg_builder.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/test_msg_initialization.dir/test/rosidl_generator_cpp/test_msg_initialization.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable test_msg_initialization[0m
+[ 94%] Built target test_msg_initialization
+[ 94%] [32mBuilding CXX object CMakeFiles/test_traits.dir/test/rosidl_generator_cpp/test_traits.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_msg_builder[0m
+[ 95%] Built target test_msg_builder
+[ 95%] [32mBuilding CXX object CMakeFiles/test_name.dir/test/rosidl_generator_cpp/test_name.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable test_traits[0m
+[ 97%] [32m[1mLinking CXX executable test_name[0m
+[ 97%] Built target test_traits
+[ 97%] [32mBuilding CXX object CMakeFiles/test_msg_datatype.dir/test/rosidl_generator_cpp/test_msg_datatype.cpp.o[0m
+[ 97%] Built target test_name
+[ 97%] [32mBuilding CXX object CMakeFiles/test_interfaces.dir/test/rosidl_generator_cpp/test_interfaces.cpp.o[0m
+[ 98%] [32m[1mLinking CXX executable test_msg_datatype[0m
+[ 98%] Built target test_msg_datatype
+[ 98%] [32mBuilding CXX object CMakeFiles/test_srv_initialization.dir/test/rosidl_generator_cpp/test_srv_initialization.cpp.o[0m
+[ 99%] [32m[1mLinking CXX executable test_srv_initialization[0m
+[ 99%] Built target test_srv_initialization
+[100%] [32m[1mLinking CXX executable test_interfaces[0m
+[100%] Built target test_interfaces
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_tests
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_tests
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/ament_index/resource_index/packages/rosidl_generator_tests
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/cmake/rosidl_generator_testsConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/cmake/rosidl_generator_testsConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rosidl_generator_tests/share/rosidl_generator_tests/package.xml

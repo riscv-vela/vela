@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found tf2: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake)
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/tf2_py
+[  0%] Built target ament_cmake_python_symlink_tf2_py
+[ 50%] [32mBuilding CXX object CMakeFiles/_tf2_py.dir/src/tf2_py.cpp.o[0m
+[100%] [32m[1mLinking CXX shared module test_tf2_py/_tf2_py.so[0m
+[100%] Built target _tf2_py
+running egg_info
+creating tf2_py.egg-info
+writing tf2_py.egg-info/PKG-INFO
+writing dependency_links to tf2_py.egg-info/dependency_links.txt
+writing top-level names to tf2_py.egg-info/top_level.txt
+writing manifest file 'tf2_py.egg-info/SOURCES.txt'
+reading manifest file 'tf2_py.egg-info/SOURCES.txt'
+writing manifest file 'tf2_py.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_tf2_py_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/lib/python3.10/site-packages/tf2_py-0.36.5-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/lib/python3.10/site-packages/tf2_py-0.36.5-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/lib/python3.10/site-packages/tf2_py-0.36.5-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/lib/python3.10/site-packages/tf2_py-0.36.5-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/lib/python3.10/site-packages/tf2_py/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/lib/python3.10/site-packages/tf2_py/_tf2_py.so
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/ament_index/resource_index/package_run_dependencies/tf2_py
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/ament_index/resource_index/parent_prefix_path/tf2_py
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/ament_index/resource_index/packages/tf2_py
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/cmake/tf2_pyConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/cmake/tf2_pyConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/tf2_py/share/tf2_py/package.xml
+Listing '/work/ubuntu-ros2-dev/install/tf2_py/lib/python3.10/site-packages/tf2_py'...
+Compiling '/work/ubuntu-ros2-dev/install/tf2_py/lib/python3.10/site-packages/tf2_py/__init__.py'...

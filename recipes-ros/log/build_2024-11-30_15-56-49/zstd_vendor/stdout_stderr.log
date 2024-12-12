@@ -1,0 +1,249 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/zstd_vendor
+[ 14%] [34m[1mCreating directories for 'zstd_vendor'[0m
+[ 28%] [34m[1mPerforming download step for 'zstd_vendor'[0m
+[34m=== [1m./zstd_vendor[22m (git) ===[0m
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/.git/
+
+From https://github.com/facebook/zstd
+ * [new tag]         v1.5.5     -> v1.5.5
+Note: switching to 'v1.5.5'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 63779c7 Merge pull request #3595 from facebook/dev
+
+[ 42%] [34m[1mPerforming patch step for 'zstd_vendor'[0m
+Applying patch: /work/ubuntu-ros2-dev/src/ros2/rosbag2/zstd_vendor/patches/0001.patch
+[ 57%] [34m[1mPerforming configure step for 'zstd_vendor'[0m
+loading initial cache file /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-config.cmake
+-- The C compiler identification is GNU 11.4.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- ZSTD VERSION: 1.5.5
+-- Setting build type to 'Release' as none was specified.
+-- Performing Test C_FLAG_WALL
+-- Performing Test C_FLAG_WALL - Success
+-- Performing Test CXX_FLAG_WALL
+-- Performing Test CXX_FLAG_WALL - Success
+-- Performing Test C_FLAG_WEXTRA
+-- Performing Test C_FLAG_WEXTRA - Success
+-- Performing Test CXX_FLAG_WEXTRA
+-- Performing Test CXX_FLAG_WEXTRA - Success
+-- Performing Test C_FLAG_WUNDEF
+-- Performing Test C_FLAG_WUNDEF - Success
+-- Performing Test CXX_FLAG_WUNDEF
+-- Performing Test CXX_FLAG_WUNDEF - Success
+-- Performing Test C_FLAG_WSHADOW
+-- Performing Test C_FLAG_WSHADOW - Success
+-- Performing Test CXX_FLAG_WSHADOW
+-- Performing Test CXX_FLAG_WSHADOW - Success
+-- Performing Test C_FLAG_WCAST_ALIGN
+-- Performing Test C_FLAG_WCAST_ALIGN - Success
+-- Performing Test CXX_FLAG_WCAST_ALIGN
+-- Performing Test CXX_FLAG_WCAST_ALIGN - Success
+-- Performing Test C_FLAG_WCAST_QUAL
+-- Performing Test C_FLAG_WCAST_QUAL - Success
+-- Performing Test CXX_FLAG_WCAST_QUAL
+-- Performing Test CXX_FLAG_WCAST_QUAL - Success
+-- Performing Test C_FLAG_WSTRICT_PROTOTYPES
+-- Performing Test C_FLAG_WSTRICT_PROTOTYPES - Success
+-- Performing Test LD_FLAG_Z_NOEXECSTACK
+-- Performing Test LD_FLAG_Z_NOEXECSTACK - Success
+-- Performing Test C_FLAG_QUNUSED_ARGUMENTS
+-- Performing Test C_FLAG_QUNUSED_ARGUMENTS - Failed
+-- Performing Test CXX_FLAG_QUNUSED_ARGUMENTS
+-- Performing Test CXX_FLAG_QUNUSED_ARGUMENTS - Failed
+-- Performing Test C_FLAG_WA_NOEXECSTACK
+-- Performing Test C_FLAG_WA_NOEXECSTACK - Success
+-- Performing Test CXX_FLAG_WA_NOEXECSTACK
+-- Performing Test CXX_FLAG_WA_NOEXECSTACK - Success
+-- CMAKE_INSTALL_PREFIX: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor
+-- CMAKE_INSTALL_LIBDIR: lib
+-- ZSTD_LEGACY_SUPPORT defined!
+-- ZSTD_MULTITHREAD_SUPPORT is enabled
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor-build
+[ 71%] [34m[1mPerforming build step for 'zstd_vendor'[0m
+[  2%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/debug.c.o[0m
+[  5%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/error_private.c.o[0m
+[  7%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/fse_decompress.c.o[0m
+[ 10%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/entropy_common.c.o[0m
+[ 13%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/pool.c.o[0m
+[ 15%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/xxhash.c.o[0m
+[ 18%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/threading.c.o[0m
+[ 21%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/zstd_common.c.o[0m
+[ 23%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/fse_compress.c.o[0m
+[ 26%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/hist.c.o[0m
+[ 28%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/huf_compress.c.o[0m
+[ 31%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_compress.c.o[0m
+[ 34%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_compress_literals.c.o[0m
+[ 36%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_compress_superblock.c.o[0m
+[ 39%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_compress_sequences.c.o[0m
+[ 42%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_double_fast.c.o[0m
+[ 44%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_fast.c.o[0m
+[ 47%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_lazy.c.o[0m
+[ 50%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_ldm.c.o[0m
+[ 52%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_opt.c.o[0m
+[ 55%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstdmt_compress.c.o[0m
+[ 57%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/huf_decompress.c.o[0m
+[ 60%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/huf_decompress_amd64.S.o[0m
+[ 63%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/zstd_ddict.c.o[0m
+[ 65%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/zstd_decompress.c.o[0m
+[ 68%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/zstd_decompress_block.c.o[0m
+[ 71%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/dictBuilder/cover.c.o[0m
+[ 73%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/dictBuilder/divsufsort.c.o[0m
+[ 76%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/dictBuilder/fastcover.c.o[0m
+[ 78%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/dictBuilder/zdict.c.o[0m
+[ 81%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c.o[0m
+[ 84%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v02.c.o[0m
+[ 86%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v03.c.o[0m
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:[m[K In function ‘[01m[KZSTD_decompressSequences[m[K’:
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1849:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdumps[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1849 |         seqState.dumpsEnd = [01;35m[Kdumps + dumpsLength[m[K;
+      |                             [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1860:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KnbSeq[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1860 |             [01;35m[KnbSeq--[m[K;
+      |             [01;35m[K~~~~~^~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1849:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KdumpsLength[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1849 |         seqState.dumpsEnd = [01;35m[Kdumps + dumpsLength[m[K;
+      |                             [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[ 89%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v04.c.o[0m
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:[m[K In function ‘[01m[KZSTD_decompressBlock[m[K’:
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1504:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Klitbp.origSize[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1504 |             size_t [01;35m[KrleSize[m[K = litbp.origSize;
+      |                    [01;35m[K^~~~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1488:23:[m[K [01;36m[Knote: [m[K‘[01m[Klitbp.origSize[m[K’ was declared here
+ 1488 |     blockProperties_t [01;36m[Klitbp[m[K;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1495:5:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(unsigned int *)((char *)&litbp + offsetof(blockProperties_t, blockType))[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1495 |     [01;35m[Kswitch[m[K(litbp.blockType)
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1488:23:[m[K [01;36m[Knote: [m[K‘[01m[K*(unsigned int *)((char *)&litbp + offsetof(blockProperties_t, blockType))[m[K’ was declared here
+ 1488 |     blockProperties_t [01;36m[Klitbp[m[K;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:[m[K In function ‘[01m[KZSTDv01_decompressDCtx[m[K’:
+[01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1935:9:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(unsigned int *)((char *)&blockProperties + offsetof(blockProperties_t, blockType))[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ 1935 |         [01;35m[Kswitch[m[K(blockProperties.blockType)
+      |         [01;35m[K^~~~~~[m[K
+[ 92%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v05.c.o[0m
+[ 94%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v06.c.o[0m
+[ 97%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v07.c.o[0m
+[100%] [32m[1mLinking C shared library libzstd.so[0m
+[100%] Built target libzstd_shared
+[ 85%] [34m[1mPerforming install step for 'zstd_vendor'[0m
+[35m[1mConsolidate compiler generated dependencies of target libzstd_shared[0m
+[100%] Built target libzstd_shared
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/cmake/zstd/zstdTargets.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/cmake/zstd/zstdTargets-release.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/cmake/zstd/zstdConfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/cmake/zstd/zstdConfigVersion.cmake
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/pkgconfig/libzstd.pc
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/include/zstd.h
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/include/zdict.h
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/include/zstd_errors.h
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/libzstd.so.1.5.5
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/libzstd.so.1
+-- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/libzstd.so
+[100%] [34m[1mCompleted 'zstd_vendor'[0m
+[100%] Built target zstd_vendor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/vendor_package.bat
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/vendor_package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/vendor_package.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/ament_index/resource_index/vendor_packages/zstd_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/Modules/Findzstd.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/ament_index/resource_index/package_run_dependencies/zstd_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/ament_index/resource_index/parent_prefix_path/zstd_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/ament_index/resource_index/packages/zstd_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendor-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/vendor_package_cmake_prefix.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/include
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/include/zdict.h
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/include/zstd.h
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/include/zstd_errors.h
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/pkgconfig
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/pkgconfig/libzstd.pc
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/libzstd.so
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/libzstd.so.1
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd/zstdConfigVersion.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd/zstdTargets-release.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd/zstdTargets.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd/zstdConfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/libzstd.so.1.5.5

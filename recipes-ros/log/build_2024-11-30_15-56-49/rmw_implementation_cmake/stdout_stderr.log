@@ -1,0 +1,32 @@
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rmw_implementation_cmake
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/ament_index/resource_index/package_run_dependencies/rmw_implementation_cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/ament_index/resource_index/parent_prefix_path/rmw_implementation_cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/ament_index/resource_index/packages/rmw_implementation_cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/rmw_implementation_cmake-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/rmw_implementation_cmakeConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/rmw_implementation_cmakeConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/call_for_each_rmw_implementation.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/get_available_rmw_implementations.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake

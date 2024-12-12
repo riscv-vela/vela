@@ -1,0 +1,255 @@
+[0.252s] Invoking command in '/work/ubuntu-ros2-dev/build/zstd_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ros2/rosbag2/zstd_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/zstd_vendor
+[0.802s] -- The C compiler identification is GNU 11.4.0
+[0.802s] -- The CXX compiler identification is GNU 11.4.0
+[0.803s] -- Detecting C compiler ABI info
+[0.803s] -- Detecting C compiler ABI info - done
+[0.803s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.803s] -- Detecting C compile features
+[0.803s] -- Detecting C compile features - done
+[0.803s] -- Detecting CXX compiler ABI info
+[0.803s] -- Detecting CXX compiler ABI info - done
+[0.803s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.803s] -- Detecting CXX compile features
+[0.803s] -- Detecting CXX compile features - done
+[0.803s] -- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+[0.977s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.076s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.099s] -- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+[1.218s] -- Configuring done
+[1.218s] -- Generating done
+[1.218s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/zstd_vendor
+[1.259s] Invoked command in '/work/ubuntu-ros2-dev/build/zstd_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ros2/rosbag2/zstd_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/zstd_vendor
+[1.266s] Invoking command in '/work/ubuntu-ros2-dev/build/zstd_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/zstd_vendor -- -j8 -l8
+[1.407s] [ 14%] [34m[1mCreating directories for 'zstd_vendor'[0m
+[1.561s] [ 28%] [34m[1mPerforming download step for 'zstd_vendor'[0m
+[5.038s] [34m=== [1m./zstd_vendor[22m (git) ===[0m
+[5.038s] hint: Using 'master' as the name for the initial branch. This default branch name
+[5.038s] hint: is subject to change. To configure the initial branch name to use in all
+[5.038s] hint: of your new repositories, which will suppress this warning, call:
+[5.038s] hint: 
+[5.038s] hint: 	git config --global init.defaultBranch <name>
+[5.038s] hint: 
+[5.038s] hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+[5.038s] hint: 'development'. The just-created branch can be renamed via this command:
+[5.038s] hint: 
+[5.038s] hint: 	git branch -m <name>
+[5.038s] Initialized empty Git repository in /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/.git/
+[5.038s] 
+[5.038s] From https://github.com/facebook/zstd
+[5.039s]  * [new tag]         v1.5.5     -> v1.5.5
+[5.039s] Note: switching to 'v1.5.5'.
+[5.039s] 
+[5.039s] You are in 'detached HEAD' state. You can look around, make experimental
+[5.039s] changes and commit them, and you can discard any commits you make in this
+[5.039s] state without impacting any branches by switching back to a branch.
+[5.039s] 
+[5.039s] If you want to create a new branch to retain commits you create, you may
+[5.039s] do so (now or later) by using -c with the switch command. Example:
+[5.039s] 
+[5.039s]   git switch -c <new-branch-name>
+[5.039s] 
+[5.039s] Or undo this operation with:
+[5.039s] 
+[5.039s]   git switch -
+[5.039s] 
+[5.039s] Turn off this advice by setting config variable advice.detachedHead to false
+[5.039s] 
+[5.039s] HEAD is now at 63779c7 Merge pull request #3595 from facebook/dev
+[5.039s] 
+[5.063s] [ 42%] [34m[1mPerforming patch step for 'zstd_vendor'[0m
+[5.064s] Applying patch: /work/ubuntu-ros2-dev/src/ros2/rosbag2/zstd_vendor/patches/0001.patch
+[5.085s] [ 57%] [34m[1mPerforming configure step for 'zstd_vendor'[0m
+[5.086s] loading initial cache file /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-config.cmake
+[5.120s] -- The C compiler identification is GNU 11.4.0
+[5.150s] -- The ASM compiler identification is GNU
+[5.150s] -- Found assembler: /usr/bin/cc
+[5.243s] -- The CXX compiler identification is GNU 11.4.0
+[5.267s] -- Detecting C compiler ABI info
+[5.418s] -- Detecting C compiler ABI info - done
+[5.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.422s] -- Detecting C compile features
+[5.422s] -- Detecting C compile features - done
+[5.427s] -- Detecting CXX compiler ABI info
+[5.601s] -- Detecting CXX compiler ABI info - done
+[5.609s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.609s] -- Detecting CXX compile features
+[5.609s] -- Detecting CXX compile features - done
+[5.610s] -- ZSTD VERSION: 1.5.5
+[5.610s] -- Setting build type to 'Release' as none was specified.
+[5.614s] -- Performing Test C_FLAG_WALL
+[5.793s] -- Performing Test C_FLAG_WALL - Success
+[5.793s] -- Performing Test CXX_FLAG_WALL
+[5.882s] -- Performing Test CXX_FLAG_WALL - Success
+[5.882s] -- Performing Test C_FLAG_WEXTRA
+[6.001s] -- Performing Test C_FLAG_WEXTRA - Success
+[6.002s] -- Performing Test CXX_FLAG_WEXTRA
+[6.126s] -- Performing Test CXX_FLAG_WEXTRA - Success
+[6.126s] -- Performing Test C_FLAG_WUNDEF
+[6.213s] -- Performing Test C_FLAG_WUNDEF - Success
+[6.214s] -- Performing Test CXX_FLAG_WUNDEF
+[6.419s] -- Performing Test CXX_FLAG_WUNDEF - Success
+[6.419s] -- Performing Test C_FLAG_WSHADOW
+[6.630s] -- Performing Test C_FLAG_WSHADOW - Success
+[6.630s] -- Performing Test CXX_FLAG_WSHADOW
+[6.806s] -- Performing Test CXX_FLAG_WSHADOW - Success
+[6.806s] -- Performing Test C_FLAG_WCAST_ALIGN
+[6.940s] -- Performing Test C_FLAG_WCAST_ALIGN - Success
+[6.941s] -- Performing Test CXX_FLAG_WCAST_ALIGN
+[7.105s] -- Performing Test CXX_FLAG_WCAST_ALIGN - Success
+[7.105s] -- Performing Test C_FLAG_WCAST_QUAL
+[7.262s] -- Performing Test C_FLAG_WCAST_QUAL - Success
+[7.262s] -- Performing Test CXX_FLAG_WCAST_QUAL
+[7.490s] -- Performing Test CXX_FLAG_WCAST_QUAL - Success
+[7.490s] -- Performing Test C_FLAG_WSTRICT_PROTOTYPES
+[7.670s] -- Performing Test C_FLAG_WSTRICT_PROTOTYPES - Success
+[7.671s] -- Performing Test LD_FLAG_Z_NOEXECSTACK
+[7.856s] -- Performing Test LD_FLAG_Z_NOEXECSTACK - Success
+[7.857s] -- Performing Test C_FLAG_QUNUSED_ARGUMENTS
+[7.889s] -- Performing Test C_FLAG_QUNUSED_ARGUMENTS - Failed
+[7.889s] -- Performing Test CXX_FLAG_QUNUSED_ARGUMENTS
+[7.959s] -- Performing Test CXX_FLAG_QUNUSED_ARGUMENTS - Failed
+[7.960s] -- Performing Test C_FLAG_WA_NOEXECSTACK
+[8.059s] -- Performing Test C_FLAG_WA_NOEXECSTACK - Success
+[8.059s] -- Performing Test CXX_FLAG_WA_NOEXECSTACK
+[8.202s] -- Performing Test CXX_FLAG_WA_NOEXECSTACK - Success
+[8.202s] -- CMAKE_INSTALL_PREFIX: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor
+[8.203s] -- CMAKE_INSTALL_LIBDIR: lib
+[8.203s] -- ZSTD_LEGACY_SUPPORT defined!
+[8.203s] -- ZSTD_MULTITHREAD_SUPPORT is enabled
+[8.203s] -- Looking for pthread.h
+[8.302s] -- Looking for pthread.h - found
+[8.303s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.352s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.354s] -- Found Threads: TRUE  
+[8.357s] -- Configuring done
+[8.363s] -- Generating done
+[8.363s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor-build
+[8.391s] [ 71%] [34m[1mPerforming build step for 'zstd_vendor'[0m
+[8.441s] [  2%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/debug.c.o[0m
+[8.445s] [  5%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/error_private.c.o[0m
+[8.446s] [  7%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/fse_decompress.c.o[0m
+[8.447s] [ 10%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/entropy_common.c.o[0m
+[8.450s] [ 13%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/pool.c.o[0m
+[8.452s] [ 15%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/xxhash.c.o[0m
+[8.454s] [ 18%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/threading.c.o[0m
+[8.455s] [ 21%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/common/zstd_common.c.o[0m
+[8.504s] [ 23%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/fse_compress.c.o[0m
+[8.516s] [ 26%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/hist.c.o[0m
+[8.559s] [ 28%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/huf_compress.c.o[0m
+[8.615s] [ 31%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_compress.c.o[0m
+[8.649s] [ 34%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_compress_literals.c.o[0m
+[8.685s] [ 36%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_compress_superblock.c.o[0m
+[8.696s] [ 39%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_compress_sequences.c.o[0m
+[8.740s] [ 42%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_double_fast.c.o[0m
+[8.746s] [ 44%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_fast.c.o[0m
+[8.767s] [ 47%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_lazy.c.o[0m
+[8.856s] [ 50%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_ldm.c.o[0m
+[8.925s] [ 52%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstd_opt.c.o[0m
+[8.933s] [ 55%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/compress/zstdmt_compress.c.o[0m
+[9.052s] [ 57%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/huf_decompress.c.o[0m
+[9.096s] [ 60%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/huf_decompress_amd64.S.o[0m
+[9.198s] [ 63%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/zstd_ddict.c.o[0m
+[9.393s] [ 65%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/zstd_decompress.c.o[0m
+[9.473s] [ 68%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/decompress/zstd_decompress_block.c.o[0m
+[10.041s] [ 71%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/dictBuilder/cover.c.o[0m
+[10.193s] [ 73%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/dictBuilder/divsufsort.c.o[0m
+[10.196s] [ 76%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/dictBuilder/fastcover.c.o[0m
+[10.276s] [ 78%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/dictBuilder/zdict.c.o[0m
+[10.316s] [ 81%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c.o[0m
+[10.454s] [ 84%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v02.c.o[0m
+[10.513s] [ 86%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v03.c.o[0m
+[10.935s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:[m[K In function ‘[01m[KZSTD_decompressSequences[m[K’:
+[10.936s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1849:35:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdumps[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[10.936s]  1849 |         seqState.dumpsEnd = [01;35m[Kdumps + dumpsLength[m[K;
+[10.936s]       |                             [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[10.936s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1860:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KnbSeq[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[10.936s]  1860 |             [01;35m[KnbSeq--[m[K;
+[10.936s]       |             [01;35m[K~~~~~^~[m[K
+[10.937s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1849:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KdumpsLength[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[10.938s]  1849 |         seqState.dumpsEnd = [01;35m[Kdumps + dumpsLength[m[K;
+[10.938s]       |                             [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[10.980s] [ 89%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v04.c.o[0m
+[11.346s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:[m[K In function ‘[01m[KZSTD_decompressBlock[m[K’:
+[11.346s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1504:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Klitbp.origSize[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[11.346s]  1504 |             size_t [01;35m[KrleSize[m[K = litbp.origSize;
+[11.346s]       |                    [01;35m[K^~~~~~~[m[K
+[11.346s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1488:23:[m[K [01;36m[Knote: [m[K‘[01m[Klitbp.origSize[m[K’ was declared here
+[11.346s]  1488 |     blockProperties_t [01;36m[Klitbp[m[K;
+[11.346s]       |                       [01;36m[K^~~~~[m[K
+[11.346s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1495:5:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(unsigned int *)((char *)&litbp + offsetof(blockProperties_t, blockType))[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[11.346s]  1495 |     [01;35m[Kswitch[m[K(litbp.blockType)
+[11.346s]       |     [01;35m[K^~~~~~[m[K
+[11.346s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1488:23:[m[K [01;36m[Knote: [m[K‘[01m[K*(unsigned int *)((char *)&litbp + offsetof(blockProperties_t, blockType))[m[K’ was declared here
+[11.346s]  1488 |     blockProperties_t [01;36m[Klitbp[m[K;
+[11.346s]       |                       [01;36m[K^~~~~[m[K
+[11.352s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:[m[K In function ‘[01m[KZSTDv01_decompressDCtx[m[K’:
+[11.352s] [01m[K/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v01.c:1935:9:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(unsigned int *)((char *)&blockProperties + offsetof(blockProperties_t, blockType))[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[11.352s]  1935 |         [01;35m[Kswitch[m[K(blockProperties.blockType)
+[11.352s]       |         [01;35m[K^~~~~~[m[K
+[11.392s] [ 92%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v05.c.o[0m
+[11.561s] [ 94%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v06.c.o[0m
+[11.694s] [ 97%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/src/zstd_vendor/lib/legacy/zstd_v07.c.o[0m
+[16.408s] [100%] [32m[1mLinking C shared library libzstd.so[0m
+[16.597s] [100%] Built target libzstd_shared
+[16.623s] [ 85%] [34m[1mPerforming install step for 'zstd_vendor'[0m
+[16.761s] [35m[1mConsolidate compiler generated dependencies of target libzstd_shared[0m
+[16.841s] [100%] Built target libzstd_shared
+[16.906s] [36mInstall the project...[0m
+[16.913s] -- Install configuration: "Release"
+[16.913s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/cmake/zstd/zstdTargets.cmake
+[16.913s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/cmake/zstd/zstdTargets-release.cmake
+[16.913s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/cmake/zstd/zstdConfig.cmake
+[16.913s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/cmake/zstd/zstdConfigVersion.cmake
+[16.913s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/pkgconfig/libzstd.pc
+[16.913s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/include/zstd.h
+[16.914s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/include/zdict.h
+[16.914s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/include/zstd_errors.h
+[16.914s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/libzstd.so.1.5.5
+[16.914s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/libzstd.so.1
+[16.914s] -- Installing: /work/ubuntu-ros2-dev/build/zstd_vendor/zstd_vendor-prefix/install/lib/libzstd.so
+[17.018s] [100%] [34m[1mCompleted 'zstd_vendor'[0m
+[17.081s] [100%] Built target zstd_vendor
+[17.094s] Invoked command in '/work/ubuntu-ros2-dev/build/zstd_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/zstd_vendor -- -j8 -l8
+[17.409s] Invoking command in '/work/ubuntu-ros2-dev/build/zstd_vendor': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/zstd_vendor
+[17.429s] -- Install configuration: ""
+[17.429s] -- Execute custom install script
+[17.429s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/vendor_package.bat
+[17.453s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/vendor_package.dsv
+[17.479s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/vendor_package.sh
+[17.513s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/ament_index/resource_index/vendor_packages/zstd_vendor
+[17.573s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/Modules/Findzstd.cmake
+[17.624s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/ament_index/resource_index/package_run_dependencies/zstd_vendor
+[17.658s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/ament_index/resource_index/parent_prefix_path/zstd_vendor
+[17.691s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.sh
+[17.732s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.dsv
+[17.766s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/path.sh
+[17.777s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/environment/path.dsv
+[17.785s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/local_setup.bash
+[17.794s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/local_setup.sh
+[17.807s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/local_setup.zsh
+[17.815s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/local_setup.dsv
+[17.856s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/package.dsv
+[17.866s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/ament_index/resource_index/packages/zstd_vendor
+[17.875s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendor-extras.cmake
+[17.888s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/vendor_package_cmake_prefix.cmake
+[17.911s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig.cmake
+[17.941s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig-version.cmake
+[17.969s] -- Symlinking: /work/ubuntu-ros2-dev/install/zstd_vendor/share/zstd_vendor/package.xml
+[18.002s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor
+[18.002s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/include
+[18.002s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/include/zdict.h
+[18.002s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/include/zstd.h
+[18.002s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/include/zstd_errors.h
+[18.002s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib
+[18.002s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/pkgconfig
+[18.003s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/pkgconfig/libzstd.pc
+[18.003s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/libzstd.so
+[18.003s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/libzstd.so.1
+[18.003s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake
+[18.003s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd
+[18.003s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd/zstdConfigVersion.cmake
+[18.003s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd/zstdTargets-release.cmake
+[18.003s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd/zstdTargets.cmake
+[18.004s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/cmake/zstd/zstdConfig.cmake
+[18.004s] -- Installing: /work/ubuntu-ros2-dev/install/zstd_vendor/opt/zstd_vendor/lib/libzstd.so.1.5.5
+[18.013s] Invoked command in '/work/ubuntu-ros2-dev/build/zstd_vendor' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake:/work/ubuntu-ros2-dev/install/ament_cmake_gen_version_h:/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package:/work/ubuntu-ros2-dev/install/ament_cmake_gtest:/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_target_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_export_targets:/work/ubuntu-ros2-dev/install/ament_cmake_export_interfaces:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_version:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_link_flags:/work/ubuntu-ros2-dev/install/ament_cmake_export_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_export_include_directories:/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/gtest_vendor PKG_CONFIG_PATH=/work/ubuntu-ros2-dev/install/gtest_vendor/lib/aarch64-linux-gnu/pkgconfig:/work/ubuntu-ros2-dev/install/gtest_vendor/lib/pkgconfig PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/zstd_vendor

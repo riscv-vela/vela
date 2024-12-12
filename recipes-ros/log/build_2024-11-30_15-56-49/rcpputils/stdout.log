@@ -1,0 +1,159 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_ros: 0.12.0 (/work/ubuntu-ros2-dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found rcutils: 6.7.2 (/work/ubuntu-ros2-dev/install/rcutils/share/rcutils/cmake)
+-- Found ament_cmake_copyright: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_flake8: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_xmllint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_xmllint/share/ament_cmake_xmllint/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/rcpputils
+[  1%] [34m[1mGenerating rcpputils/version.h[0m
+[  1%] Built target ament_generate_version_header__rcpputils
+[  3%] [32mBuilding C object CMakeFiles/dummy_shared_library.dir/test/dummy_shared_library/dummy_shared_library.c.o[0m
+[  5%] [32m[1mLinking C shared library libdummy_shared_library.so[0m
+[  5%] Built target dummy_shared_library
+[  7%] [32mBuilding CXX object CMakeFiles/rcpputils.dir/src/asserts.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rcpputils.dir/src/shared_library.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rcpputils.dir/src/process.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rcpputils.dir/src/find_library.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rcpputils.dir/src/filesystem_helper.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rcpputils.dir/src/env.cpp.o[0m
+[ 19%] [32m[1mLinking CXX shared library librcpputils.so[0m
+[ 19%] Built target rcpputils
+[ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 23%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 23%] Built target gtest
+[ 25%] [32mBuilding CXX object CMakeFiles/test_library.dir/test/test_library.cpp.o[0m
+[ 26%] [32m[1mLinking CXX shared library libtest_library.so[0m
+[ 26%] Built target test_library
+[ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 30%] Built target gtest_main
+[ 32%] [32mBuilding CXX object CMakeFiles/test_asserts_ndebug.dir/test/test_asserts.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable test_asserts_ndebug[0m
+[ 34%] Built target test_asserts_ndebug
+[ 36%] [32mBuilding CXX object CMakeFiles/test_split.dir/test/test_split.cpp.o[0m
+[ 38%] [32m[1mLinking CXX executable test_split[0m
+[ 38%] Built target test_split
+[ 40%] [32mBuilding CXX object CMakeFiles/test_filesystem_helper.dir/test/test_filesystem_helper.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable test_filesystem_helper[0m
+[ 42%] Built target test_filesystem_helper
+[ 44%] [32mBuilding CXX object CMakeFiles/test_find_and_replace.dir/test/test_find_and_replace.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable test_find_and_replace[0m
+[ 46%] Built target test_find_and_replace
+[ 48%] [32mBuilding CXX object CMakeFiles/test_pointer_traits.dir/test/test_pointer_traits.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_pointer_traits[0m
+[ 50%] Built target test_pointer_traits
+[ 51%] [32mBuilding CXX object CMakeFiles/test_process.dir/test/test_process.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable test_process[0m
+[ 53%] Built target test_process
+[ 55%] [32mBuilding CXX object CMakeFiles/test_shared_library.dir/test/test_shared_library.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable test_shared_library[0m
+[ 57%] Built target test_shared_library
+[ 59%] [32mBuilding CXX object CMakeFiles/test_endian.dir/test/test_endian.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable test_endian[0m
+[ 61%] Built target test_endian
+[ 63%] [32mBuilding CXX object CMakeFiles/test_find_library.dir/test/test_find_library.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable test_find_library[0m
+[ 65%] Built target test_find_library
+[ 67%] [32mBuilding CXX object CMakeFiles/test_clamp.dir/test/test_clamp.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable test_clamp[0m
+[ 69%] Built target test_clamp
+[ 71%] [32mBuilding CXX object CMakeFiles/test_accumulator.dir/test/test_accumulator.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable test_accumulator[0m
+[ 73%] Built target test_accumulator
+[ 75%] [32mBuilding CXX object CMakeFiles/test_unique_lock.dir/test/test_unique_lock.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable test_unique_lock[0m
+[ 76%] Built target test_unique_lock
+[ 78%] [32mBuilding CXX object CMakeFiles/test_scope_exit.dir/test/test_scope_exit.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_scope_exit[0m
+[ 80%] Built target test_scope_exit
+[ 82%] [32mBuilding CXX object CMakeFiles/test_env.dir/test/test_env.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable test_env[0m
+[ 84%] Built target test_env
+[ 86%] [32mBuilding CXX object CMakeFiles/test_time.dir/test/test_time.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_time[0m
+[ 88%] Built target test_time
+[ 90%] [32mBuilding CXX object CMakeFiles/test_join.dir/test/test_join.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable test_join[0m
+[ 92%] Built target test_join
+[ 94%] [32mBuilding CXX object CMakeFiles/test_thread_safety_annotations.dir/test/test_thread_safety_annotations.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable test_thread_safety_annotations[0m
+[ 96%] Built target test_thread_safety_annotations
+[ 98%] [32mBuilding CXX object CMakeFiles/test_asserts_debug.dir/test/test_asserts.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_asserts_debug[0m
+[100%] Built target test_asserts_debug
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/ament_index/resource_index/package_run_dependencies/rcpputils
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/ament_index/resource_index/parent_prefix_path/rcpputils
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/ament_index/resource_index/packages/rcpputils
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/cmake/rcpputilsConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/cmake/rcpputilsConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/package.xml
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcppmath/clamp.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcppmath/rolling_mean_accumulator.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/asserts.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/endian.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/env.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/filesystem_helper.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/find_and_replace.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/find_library.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/get_env.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/join.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/pointer_traits.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/process.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/rolling_mean_accumulator.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/scope_exit.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/shared_library.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/split.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/thread_safety_annotations.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/time.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/tl_expected/expected.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/unique_lock.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/rcpputils/include/rcpputils/rcpputils/version.h
+-- Installing: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/cmake/rcpputilsExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rcpputils/share/rcpputils/cmake/rcpputilsExport-noconfig.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/rcpputils/lib/librcpputils.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/rcpputils/lib/librcpputils.so" to ""

@@ -1,0 +1,32 @@
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_vendor_package: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake)
+-- Skipping vendor package build for 'libcurl_vendor', which is already satisfied
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/libcurl_vendor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/ament_index/resource_index/package_run_dependencies/libcurl_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/ament_index/resource_index/parent_prefix_path/libcurl_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/ament_index/resource_index/packages/libcurl_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/cmake/libcurl_vendor-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/cmake/libcurl_vendorConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/cmake/libcurl_vendorConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/libcurl_vendor/share/libcurl_vendor/package.xml

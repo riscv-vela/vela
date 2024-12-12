@@ -1,0 +1,33 @@
+[0.026s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cmake_export_definitions': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/ament_cmake/ament_cmake_export_definitions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions
+[0.031s] -- Found ament_cmake_core: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.112s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.141s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.180s] -- Configuring done
+[0.180s] -- Generating done
+[0.180s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/ament_cmake_export_definitions
+[0.195s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cmake_export_definitions' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/ament_cmake/ament_cmake_export_definitions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/ament_cmake_export_definitions
+[0.196s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cmake_export_definitions': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/ament_cmake_export_definitions -- -j8 -l8
+[0.217s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cmake_export_definitions' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/ament_cmake_export_definitions -- -j8 -l8
+[0.234s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cmake_export_definitions': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/ament_cmake_export_definitions
+[0.331s] -- Install configuration: ""
+[0.331s] -- Execute custom install script
+[0.331s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_definitions
+[0.331s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_definitions
+[0.331s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/environment/ament_prefix_path.sh
+[0.331s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/environment/ament_prefix_path.dsv
+[0.331s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/environment/path.sh
+[0.331s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/environment/path.dsv
+[0.331s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/local_setup.bash
+[0.331s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/local_setup.sh
+[0.331s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/local_setup.zsh
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/local_setup.dsv
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/package.dsv
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_index/resource_index/packages/ament_cmake_export_definitions
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitions-extras.cmake
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitionsConfig.cmake
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitionsConfig-version.cmake
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/package.xml
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitions-extras.cmake.in
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/cmake/ament_cmake_export_definitions_package_hook.cmake
+[0.332s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_export_definitions/share/ament_cmake_export_definitions/cmake/ament_export_definitions.cmake
+[0.335s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cmake_export_definitions' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/ament_cmake_export_definitions

@@ -1,0 +1,108 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.5 (/work/ubuntu-ros2-dev/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/work/ubuntu-ros2-dev/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/work/ubuntu-ros2-dev/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/work/ubuntu-ros2-dev/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /work/ubuntu-ros2-dev/install/fastrtps/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.5 (/work/ubuntu-ros2-dev/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.5 (/work/ubuntu-ros2-dev/install/tf2/share/tf2/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/work/ubuntu-ros2-dev/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found ament_cmake_cppcheck: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.17.1 (/work/ubuntu-ros2-dev/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_gtest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/work/ubuntu-ros2-dev/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found python_cmake_module: 0.11.1 (/work/ubuntu-ros2-dev/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found ament_cmake_pytest: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/laser_geometry
+[ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] Built target ament_cmake_python_symlink_laser_geometry
+[ 37%] [32mBuilding CXX object CMakeFiles/laser_geometry.dir/src/laser_geometry.cpp.o[0m
+running egg_info
+creating laser_geometry.egg-info
+writing laser_geometry.egg-info/PKG-INFO
+writing dependency_links to laser_geometry.egg-info/dependency_links.txt
+writing top-level names to laser_geometry.egg-info/top_level.txt
+writing manifest file 'laser_geometry.egg-info/SOURCES.txt'
+reading manifest file 'laser_geometry.egg-info/SOURCES.txt'
+writing manifest file 'laser_geometry.egg-info/SOURCES.txt'
+[ 37%] Built target ament_cmake_python_build_laser_geometry_egg
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 62%] [32m[1mLinking CXX shared library liblaser_geometry.so[0m
+[ 62%] Built target laser_geometry
+[ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 75%] Built target gtest
+[ 87%] [32mBuilding CXX object CMakeFiles/projection_test.dir/test/projection_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable projection_test[0m
+[100%] Built target projection_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/environment/pythonpath.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/environment/pythonpath.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/lib/python3.10/site-packages/laser_geometry-2.7.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/lib/python3.10/site-packages/laser_geometry-2.7.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/lib/python3.10/site-packages/laser_geometry-2.7.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/lib/python3.10/site-packages/laser_geometry-2.7.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/lib/python3.10/site-packages/laser_geometry/__init__.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/lib/python3.10/site-packages/laser_geometry/laser_geometry.py
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/environment/library_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/environment/library_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/include/laser_geometry/laser_geometry/laser_geometry.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/include/laser_geometry/laser_geometry/visibility_control.hpp
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/ament_index/resource_index/package_run_dependencies/laser_geometry
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/ament_index/resource_index/parent_prefix_path/laser_geometry
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/ament_index/resource_index/packages/laser_geometry
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/package.xml
+Listing '/work/ubuntu-ros2-dev/install/laser_geometry/lib/python3.10/site-packages/laser_geometry'...
+Compiling '/work/ubuntu-ros2-dev/install/laser_geometry/lib/python3.10/site-packages/laser_geometry/__init__.py'...
+Compiling '/work/ubuntu-ros2-dev/install/laser_geometry/lib/python3.10/site-packages/laser_geometry/laser_geometry.py'...
+-- Installing: /work/ubuntu-ros2-dev/install/laser_geometry/lib/liblaser_geometry.so
+-- Set runtime path of "/work/ubuntu-ros2-dev/install/laser_geometry/lib/liblaser_geometry.so" to ""
+-- Installing: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/cmake/laser_geometryExport.cmake
+-- Installing: /work/ubuntu-ros2-dev/install/laser_geometry/share/laser_geometry/cmake/laser_geometryExport-noconfig.cmake

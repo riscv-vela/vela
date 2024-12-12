@@ -1,0 +1,26 @@
+[0.320s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cppcheck': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_pycodestyle:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:/work/ubuntu-ros2-dev/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_cppcheck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_cppcheck/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pycodestyle:/work/ubuntu-ros2-dev/install/ament_pycodestyle/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_cppcheck/build --no-deps symlink_data
+[0.427s] running develop
+[0.427s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.427s]   warnings.warn(
+[0.473s] running egg_info
+[0.473s] creating ament_cppcheck.egg-info
+[0.473s] writing ament_cppcheck.egg-info/PKG-INFO
+[0.473s] writing dependency_links to ament_cppcheck.egg-info/dependency_links.txt
+[0.474s] writing entry points to ament_cppcheck.egg-info/entry_points.txt
+[0.474s] writing requirements to ament_cppcheck.egg-info/requires.txt
+[0.474s] writing top-level names to ament_cppcheck.egg-info/top_level.txt
+[0.474s] writing manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[0.475s] reading manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[0.476s] writing manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[0.477s] running build_ext
+[0.477s] Creating /work/ubuntu-ros2-dev/install/ament_cppcheck/lib/python3.10/site-packages/ament-cppcheck.egg-link (link to .)
+[0.477s] Installing ament_cppcheck script to /work/ubuntu-ros2-dev/install/ament_cppcheck/bin
+[0.478s] 
+[0.478s] Installed /work/ubuntu-ros2-dev/build/ament_cppcheck
+[0.478s] running symlink_data
+[0.478s] symbolically linking /work/ubuntu-ros2-dev/build/ament_cppcheck/package.xml -> /work/ubuntu-ros2-dev/install/ament_cppcheck/share/ament_cppcheck
+[0.478s] creating /work/ubuntu-ros2-dev/install/ament_cppcheck/share/ament_index
+[0.478s] creating /work/ubuntu-ros2-dev/install/ament_cppcheck/share/ament_index/resource_index
+[0.478s] creating /work/ubuntu-ros2-dev/install/ament_cppcheck/share/ament_index/resource_index/packages
+[0.478s] symbolically linking /work/ubuntu-ros2-dev/build/ament_cppcheck/resource/ament_cppcheck -> /work/ubuntu-ros2-dev/install/ament_cppcheck/share/ament_index/resource_index/packages
+[0.498s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cppcheck' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_pycodestyle:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:/work/ubuntu-ros2-dev/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/ament_cppcheck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/ament_cppcheck/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pycodestyle:/work/ubuntu-ros2-dev/install/ament_pycodestyle/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/ament_cppcheck/build --no-deps symlink_data

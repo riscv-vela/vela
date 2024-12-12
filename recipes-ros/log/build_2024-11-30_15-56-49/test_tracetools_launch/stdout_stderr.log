@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating test_tracetools_launch.egg-info
+writing test_tracetools_launch.egg-info/PKG-INFO
+writing dependency_links to test_tracetools_launch.egg-info/dependency_links.txt
+writing requirements to test_tracetools_launch.egg-info/requires.txt
+writing top-level names to test_tracetools_launch.egg-info/top_level.txt
+writing manifest file 'test_tracetools_launch.egg-info/SOURCES.txt'
+reading manifest file 'test_tracetools_launch.egg-info/SOURCES.txt'
+writing manifest file 'test_tracetools_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/test_tracetools_launch/lib/python3.10/site-packages/test-tracetools-launch.egg-link (link to .)
+
+Installed /work/ubuntu-ros2-dev/build/test_tracetools_launch
+running symlink_data
+symbolically linking /work/ubuntu-ros2-dev/build/test_tracetools_launch/package.xml -> /work/ubuntu-ros2-dev/install/test_tracetools_launch/share/test_tracetools_launch
+creating /work/ubuntu-ros2-dev/install/test_tracetools_launch/share/ament_index
+creating /work/ubuntu-ros2-dev/install/test_tracetools_launch/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/test_tracetools_launch/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/test_tracetools_launch/resource/test_tracetools_launch -> /work/ubuntu-ros2-dev/install/test_tracetools_launch/share/ament_index/resource_index/packages
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(

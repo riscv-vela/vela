@@ -1,0 +1,165 @@
+[0.018s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cmake_vendor_package': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/ament_cmake/ament_cmake_vendor_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package
+[0.027s] -- Found ament_cmake_core: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.129s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.160s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.161s] -- Found ament_cmake_export_dependencies: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+[0.233s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.269s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.318s] -- Detecting C compile features
+[0.319s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.395s] -- Detecting CXX compile features
+[0.395s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake_test: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake_test/share/ament_cmake_test/cmake)
+[0.414s] -- Configuring done
+[0.425s] -- Generating done
+[0.427s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package
+[0.433s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cmake_vendor_package' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake /work/ubuntu-ros2-dev/src/ament/ament_cmake/ament_cmake_vendor_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/ament_cmake_vendor_package
+[0.434s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cmake_vendor_package': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package -- -j8 -l8
+[0.542s] [  4%] [34m[1mCreating directories for 'exlib_bad'[0m
+[0.542s] [  9%] [34m[1mCreating directories for 'exlib_good'[0m
+[0.557s] [ 14%] [34m[1mNo download step for 'exlib_bad'[0m
+[0.557s] [ 19%] [34m[1mNo download step for 'exlib_good'[0m
+[0.559s] [ 23%] [34m[1mNo patch step for 'exlib_bad'[0m
+[0.565s] [ 28%] [34m[1mNo patch step for 'exlib_good'[0m
+[0.574s] [ 33%] [34m[1mPerforming configure step for 'exlib_bad'[0m
+[0.578s] loading initial cache file /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-config.cmake
+[0.588s] [ 38%] [34m[1mPerforming configure step for 'exlib_good'[0m
+[0.592s] loading initial cache file /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-config.cmake
+[0.632s] -- The C compiler identification is GNU 11.4.0
+[0.638s] -- The C compiler identification is GNU 11.4.0
+[0.676s] -- The CXX compiler identification is GNU 11.4.0
+[0.679s] -- Detecting C compiler ABI info
+[0.696s] -- The CXX compiler identification is GNU 11.4.0
+[0.711s] -- Detecting C compiler ABI info
+[0.750s] -- Detecting C compiler ABI info - done
+[0.754s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.755s] -- Detecting C compile features
+[0.755s] -- Detecting C compile features - done
+[0.757s] -- Detecting CXX compiler ABI info
+[0.762s] -- Detecting C compiler ABI info - done
+[0.766s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.766s] -- Detecting C compile features
+[0.766s] -- Detecting C compile features - done
+[0.768s] -- Detecting CXX compiler ABI info
+[0.840s] -- Detecting CXX compiler ABI info - done
+[0.840s] -- Detecting CXX compiler ABI info - done
+[0.844s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.844s] -- Detecting CXX compile features
+[0.845s] -- Detecting CXX compile features - done
+[0.845s] -- Configuring done
+[0.846s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.846s] -- Detecting CXX compile features
+[0.846s] -- Detecting CXX compile features - done
+[0.847s] -- Generating done
+[0.847s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build
+[0.848s] -- Configuring done
+[0.849s] -- Generating done
+[0.850s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-prefix/src/exlib_bad-build
+[0.871s] [ 42%] [34m[1mPerforming build step for 'exlib_good'[0m
+[0.878s] [ 47%] [34m[1mPerforming build step for 'exlib_bad'[0m
+[0.923s] [ 50%] [32mBuilding C object CMakeFiles/exlib.dir/src/exlib.c.o[0m
+[0.942s] [100%] [32m[1mLinking C shared library libexlib.so[0m
+[0.989s] [100%] Built target exlib
+[1.007s] [ 50%] [32mBuilding C object CMakeFiles/exlib.dir/src/exlib.c.o[0m
+[1.062s] [ 52%] [34m[1mPerforming install step for 'exlib_bad'[0m
+[1.088s] [100%] [32m[1mLinking C shared library libexlib.so[0m
+[1.152s] [100%] Built target exlib
+[1.180s] [35m[1mConsolidate compiler generated dependencies of target exlib[0m
+[1.203s] [ 57%] [34m[1mPerforming install step for 'exlib_good'[0m
+[1.252s] [100%] Built target exlib
+[1.323s] [36mInstall the project...[0m
+[1.347s] -- Install configuration: ""
+[1.347s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/libexlib.so
+[1.347s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include
+[1.347s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib
+[1.347s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib/visibility_control.h
+[1.347s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib/exlib.h
+[1.347s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/cmake/exlib/exlibTargets.cmake
+[1.347s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/cmake/exlib/exlibTargets-noconfig.cmake
+[1.347s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/cmake/exlib/exlibConfig.cmake
+[1.359s] [35m[1mConsolidate compiler generated dependencies of target exlib[0m
+[1.377s] [100%] Built target exlib
+[1.390s] [ 61%] [34m[1mCompleted 'exlib_bad'[0m
+[1.419s] [36mInstall the project...[0m
+[1.434s] -- Install configuration: ""
+[1.434s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/libexlib.so
+[1.434s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include
+[1.434s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include/exlib
+[1.435s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include/exlib/visibility_control.h
+[1.435s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include/exlib/exlib.h
+[1.435s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/cmake/exlib/exlibTargets.cmake
+[1.435s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/cmake/exlib/exlibTargets-noconfig.cmake
+[1.435s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/cmake/exlib/exlibConfig.cmake
+[1.456s] [ 61%] Built target exlib_bad
+[1.502s] [ 66%] [34m[1mCompleted 'exlib_good'[0m
+[1.542s] [ 66%] Built target exlib_good
+[1.602s] [ 71%] [34m[1mCreating directories for 'depender'[0m
+[1.733s] [ 76%] [34m[1mNo download step for 'depender'[0m
+[1.757s] [ 80%] [34m[1mNo patch step for 'depender'[0m
+[1.824s] [ 85%] [34m[1mPerforming configure step for 'depender'[0m
+[1.830s] loading initial cache file /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/depender-config.cmake
+[1.919s] -- The C compiler identification is GNU 11.4.0
+[1.978s] -- The CXX compiler identification is GNU 11.4.0
+[1.994s] -- Detecting C compiler ABI info
+[2.168s] -- Detecting C compiler ABI info - done
+[2.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.180s] -- Detecting C compile features
+[2.180s] -- Detecting C compile features - done
+[2.180s] -- Detecting CXX compiler ABI info
+[2.257s] -- Detecting CXX compiler ABI info - done
+[2.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.257s] -- Detecting CXX compile features
+[2.257s] -- Detecting CXX compile features - done
+[2.260s] -- Configuring done
+[2.267s] -- Generating done
+[2.267s] -- Build files have been written to: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-build
+[2.276s] [ 90%] [34m[1mPerforming build step for 'depender'[0m
+[2.296s] [ 50%] [32mBuilding C object CMakeFiles/depender.dir/src/depender.c.o[0m
+[2.311s] [100%] [32m[1mLinking C executable depender[0m
+[2.332s] [100%] Built target depender
+[2.347s] [ 95%] [34m[1mPerforming install step for 'depender'[0m
+[2.364s] [35m[1mConsolidate compiler generated dependencies of target depender[0m
+[2.369s] [100%] Built target depender
+[2.378s] [36mInstall the project...[0m
+[2.381s] -- Install configuration: ""
+[2.382s] -- Installing: /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/depender-prefix/install/bin/depender
+[2.382s] -- Set runtime path of "/work/ubuntu-ros2-dev/build/ament_cmake_vendor_package/test/depender-prefix/install/bin/depender" to ""
+[2.388s] [100%] [34m[1mCompleted 'depender'[0m
+[2.402s] [100%] Built target depender
+[2.448s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cmake_vendor_package' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package -- -j8 -l8
+[2.582s] Invoking command in '/work/ubuntu-ros2-dev/build/ament_cmake_vendor_package': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package
+[2.777s] -- Install configuration: ""
+[2.777s] -- Execute custom install script
+[2.777s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_index/resource_index/package_run_dependencies/ament_cmake_vendor_package
+[2.778s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_index/resource_index/parent_prefix_path/ament_cmake_vendor_package
+[2.778s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/ament_prefix_path.sh
+[2.778s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/ament_prefix_path.dsv
+[2.778s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/path.sh
+[2.779s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/path.dsv
+[2.779s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.bash
+[2.779s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.sh
+[2.779s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.zsh
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.dsv
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/package.dsv
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_index/resource_index/packages/ament_cmake_vendor_package
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_package-extras.cmake
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_packageConfig.cmake
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_packageConfig-version.cmake
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/package.xml
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_vendor.cmake
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/target.repos.in
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.bat.in
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.dsv.in
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.sh.in
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.bat.in
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.cmake.in
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.dsv.in
+[2.780s] -- Symlinking: /work/ubuntu-ros2-dev/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.sh.in
+[2.784s] Invoked command in '/work/ubuntu-ros2-dev/build/ament_cmake_vendor_package' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core:/work/ubuntu-ros2-dev/install/ament_package CMAKE_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_cmake_test:/work/ubuntu-ros2-dev/install/ament_cmake_export_dependencies:/work/ubuntu-ros2-dev/install/ament_cmake_python:/work/ubuntu-ros2-dev/install/ament_cmake_libraries:/work/ubuntu-ros2-dev/install/ament_cmake_core PYTHONPATH=/work/ubuntu-ros2-dev/install/ament_cmake_test/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_package:/work/ubuntu-ros2-dev/install/ament_package/lib/python3.10/site-packages /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/ament_cmake_vendor_package

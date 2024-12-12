@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/work/ubuntu-ros2-dev/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /work/ubuntu-ros2-dev/build/shared_queues_vendor
+[ 12%] [34m[1mCreating directories for 'ext-singleproducerconsumer'[0m
+[ 25%] [34m[1mPerforming download step (download, verify and extract) for 'ext-singleproducerconsumer'[0m
+-- Downloading...
+   dst='/work/ubuntu-ros2-dev/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+   timeout='60 seconds'
+   inactivity timeout='none'
+-- Using src='https://github.com/cameron314/readerwriterqueue/archive/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+-- verifying file...
+       file='/work/ubuntu-ros2-dev/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+-- Downloading... done
+-- extracting...
+     src='/work/ubuntu-ros2-dev/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+     dst='/work/ubuntu-ros2-dev/build/shared_queues_vendor/singleproducerconsumer/src/ext-singleproducerconsumer'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] [34m[1mNo update step for 'ext-singleproducerconsumer'[0m
+[ 50%] [34m[1mNo patch step for 'ext-singleproducerconsumer'[0m
+[ 62%] [34m[1mNo configure step for 'ext-singleproducerconsumer'[0m
+[ 75%] [34m[1mNo build step for 'ext-singleproducerconsumer'[0m
+[ 87%] [34m[1mNo install step for 'ext-singleproducerconsumer'[0m
+[100%] [34m[1mCompleted 'ext-singleproducerconsumer'[0m
+[100%] Built target ext-singleproducerconsumer
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/include/moodycamel/atomicops.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/include/moodycamel/readerwriterqueue.h
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/ament_index/resource_index/package_run_dependencies/shared_queues_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/ament_index/resource_index/parent_prefix_path/shared_queues_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/environment/path.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/environment/path.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.bash
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.sh
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.zsh
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/package.dsv
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/ament_index/resource_index/packages/shared_queues_vendor
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/cmake/shared_queues_vendorConfig.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/cmake/shared_queues_vendorConfig-version.cmake
+-- Symlinking: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/package.xml
+-- Installing: /work/ubuntu-ros2-dev/install/shared_queues_vendor/share/shared_queues_vendor/cmake/export_shared_queues_vendorExport.cmake

@@ -1,0 +1,23 @@
+[0.488s] Invoking command in '/work/ubuntu-ros2-dev/build/rpyutils': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/rpyutils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/rpyutils/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/rpyutils/build --no-deps symlink_data
+[0.662s] running develop
+[0.662s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.663s]   warnings.warn(
+[0.718s] running egg_info
+[0.718s] creating rpyutils.egg-info
+[0.718s] writing rpyutils.egg-info/PKG-INFO
+[0.718s] writing dependency_links to rpyutils.egg-info/dependency_links.txt
+[0.718s] writing top-level names to rpyutils.egg-info/top_level.txt
+[0.718s] writing manifest file 'rpyutils.egg-info/SOURCES.txt'
+[0.718s] reading manifest file 'rpyutils.egg-info/SOURCES.txt'
+[0.718s] writing manifest file 'rpyutils.egg-info/SOURCES.txt'
+[0.719s] running build_ext
+[0.719s] Creating /work/ubuntu-ros2-dev/install/rpyutils/lib/python3.10/site-packages/rpyutils.egg-link (link to .)
+[0.719s] 
+[0.719s] Installed /work/ubuntu-ros2-dev/build/rpyutils
+[0.719s] running symlink_data
+[0.719s] symbolically linking /work/ubuntu-ros2-dev/build/rpyutils/package.xml -> /work/ubuntu-ros2-dev/install/rpyutils/share/rpyutils
+[0.719s] creating /work/ubuntu-ros2-dev/install/rpyutils/share/ament_index
+[0.719s] creating /work/ubuntu-ros2-dev/install/rpyutils/share/ament_index/resource_index
+[0.719s] creating /work/ubuntu-ros2-dev/install/rpyutils/share/ament_index/resource_index/packages
+[0.719s] symbolically linking /work/ubuntu-ros2-dev/build/rpyutils/resource/rpyutils -> /work/ubuntu-ros2-dev/install/rpyutils/share/ament_index/resource_index/packages
+[0.865s] Invoked command in '/work/ubuntu-ros2-dev/build/rpyutils' returned '0': AMENT_PREFIX_PATH=/work/ubuntu-ros2-dev/install/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_copyright:/work/ubuntu-ros2-dev/install/ament_pep257:/work/ubuntu-ros2-dev/install/ament_flake8:/work/ubuntu-ros2-dev/install/ament_lint PATH=/work/ubuntu-ros2-dev/install/ament_xmllint/bin:/work/ubuntu-ros2-dev/install/ament_copyright/bin:/work/ubuntu-ros2-dev/install/ament_pep257/bin:/work/ubuntu-ros2-dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/work/ubuntu-ros2-dev/build/rpyutils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/work/ubuntu-ros2-dev/install/rpyutils/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_xmllint:/work/ubuntu-ros2-dev/install/ament_xmllint/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_copyright:/work/ubuntu-ros2-dev/install/ament_copyright/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_pep257:/work/ubuntu-ros2-dev/install/ament_pep257/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_flake8:/work/ubuntu-ros2-dev/install/ament_flake8/lib/python3.10/site-packages:/work/ubuntu-ros2-dev/build/ament_lint:/work/ubuntu-ros2-dev/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /work/ubuntu-ros2-dev/build/rpyutils/build --no-deps symlink_data

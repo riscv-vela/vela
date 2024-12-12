@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating src/rqt_py_console.egg-info
+writing src/rqt_py_console.egg-info/PKG-INFO
+writing dependency_links to src/rqt_py_console.egg-info/dependency_links.txt
+writing entry points to src/rqt_py_console.egg-info/entry_points.txt
+writing requirements to src/rqt_py_console.egg-info/requires.txt
+writing top-level names to src/rqt_py_console.egg-info/top_level.txt
+writing manifest file 'src/rqt_py_console.egg-info/SOURCES.txt'
+reading manifest file 'src/rqt_py_console.egg-info/SOURCES.txt'
+writing manifest file 'src/rqt_py_console.egg-info/SOURCES.txt'
+running build_ext
+Creating /work/ubuntu-ros2-dev/install/rqt_py_console/lib/python3.10/site-packages/rqt-py-console.egg-link (link to src)
+Installing rqt_py_console script to /work/ubuntu-ros2-dev/install/rqt_py_console/lib/rqt_py_console
+
+Installed /work/ubuntu-ros2-dev/build/rqt_py_console/src
+running symlink_data
+creating /work/ubuntu-ros2-dev/install/rqt_py_console/share/ament_index
+creating /work/ubuntu-ros2-dev/install/rqt_py_console/share/ament_index/resource_index
+creating /work/ubuntu-ros2-dev/install/rqt_py_console/share/ament_index/resource_index/packages
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_py_console/resource/rqt_py_console -> /work/ubuntu-ros2-dev/install/rqt_py_console/share/ament_index/resource_index/packages
+creating /work/ubuntu-ros2-dev/install/rqt_py_console/share/rqt_py_console/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_py_console/resource/py_console_widget.ui -> /work/ubuntu-ros2-dev/install/rqt_py_console/share/rqt_py_console/resource
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_py_console/package.xml -> /work/ubuntu-ros2-dev/install/rqt_py_console/share/rqt_py_console
+symbolically linking /work/ubuntu-ros2-dev/build/rqt_py_console/plugin.xml -> /work/ubuntu-ros2-dev/install/rqt_py_console/share/rqt_py_console

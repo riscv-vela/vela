@@ -1,0 +1,6 @@
+Invoking command in '/work/ubuntu-ros2-dev/build/urdfdom_headers': /usr/bin/cmake /work/ubuntu-ros2-dev/src/ros/urdfdom_headers -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/urdfdom_headers
+Invoked command in '/work/ubuntu-ros2-dev/build/urdfdom_headers' returned '0': /usr/bin/cmake /work/ubuntu-ros2-dev/src/ros/urdfdom_headers -DCMAKE_INSTALL_PREFIX=/work/ubuntu-ros2-dev/install/urdfdom_headers
+Invoking command in '/work/ubuntu-ros2-dev/build/urdfdom_headers': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/urdfdom_headers -- -j8 -l8
+Invoked command in '/work/ubuntu-ros2-dev/build/urdfdom_headers' returned '0': /usr/bin/cmake --build /work/ubuntu-ros2-dev/build/urdfdom_headers -- -j8 -l8
+Invoking command in '/work/ubuntu-ros2-dev/build/urdfdom_headers': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/urdfdom_headers
+Invoked command in '/work/ubuntu-ros2-dev/build/urdfdom_headers' returned '0': /usr/bin/cmake --install /work/ubuntu-ros2-dev/build/urdfdom_headers
