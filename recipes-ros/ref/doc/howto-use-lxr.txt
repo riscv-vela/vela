@@ -1,0 +1,48 @@
+parallels@parallels-Parallels-Virtual-Platform:freedom-u-sdk$ pwd
+/home/parallels/work/2306_0004_kernel_defender/repo/freedom-u-sdk
+
+parallels@parallels-Parallels-Virtual-Platform:freedom-u-sdk$ docker pull hwchiu/docker-lxr
+Using default tag: latest
+latest: Pulling from hwchiu/docker-lxr
+bd97b43c27e3: Pull complete 
+6960dc1aba18: Pull complete 
+2b61829b0db5: Pull complete 
+1f88dc826b14: Pull complete 
+73b3859b1e43: Pull complete 
+933344138276: Pull complete 
+aba45c265d04: Pull complete 
+bb794a57348b: Pull complete 
+749eaaefa94c: Pull complete 
+77aed51df196: Pull complete 
+1ac40e914a88: Pull complete 
+c092547576d7: Pull complete 
+6e64e9668d8f: Pull complete 
+b449f028d801: Pull complete 
+d9c528264939: Pull complete 
+Digest: sha256:e24dbd0270d2c10d7968ea12e66013bd5d1f7fa63ff36e4e9da0b2e16f7c80f0
+Status: Downloaded newer image for hwchiu/docker-lxr:latest
+docker.io/hwchiu/docker-lxr:latest
+
+# lxr build
+docker run --name lxr -it -v /home/parallels/work/2306_0004_kernel_defender/repo/freedom-u-sdk:/source   -p 8001:80  hwchiu/docker-lxr:latest 172.17.0.1 linux
+
+# fix entrypoint shell
+# apache2 restart
+# do not execute genxref, already created
+service mysql start
+expect /lxr/expect_initdb
+#service apache2 start
+service apache2 restart
+
+cd /lxr
+#./genxref  --allurls
+
+
+
+
+# lxr runtime container build
+docker commit -a "boggle70" -m "lxr runtime" lxr lxr_runtime:latest
+
+# lxr built images execute
+docker run --name lxr-runtime -it -v /home/parallels/work/2306_0004_kernel_defender/repo/freedom-u-sdk:/source   -p 8002:80  lxr_runtime:latest 172.17.0.1 linux
+
