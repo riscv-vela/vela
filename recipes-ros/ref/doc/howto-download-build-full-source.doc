@@ -1,0 +1,45 @@
+
+
+==============================================================
+bash shell
+==============================================================
+
+git clone ssh://git@git.falinux.com:8122/boggle70/2306_0004_kernel_defender.git
+
+cd 2306_0004_kernel_defender
+
+cd repo
+
+sh download-freedom-u-sdk.sh
+
+cd ../
+
+cd docker
+
+sh run.sh
+
+==============================================================
+docker container shell
+==============================================================
+
+cd /work/2306_0004_kernel_defender
+
+cd repo/freedom-u-sdk/
+
+sh ../full_build.sh
+
+
+==============================================================
+securecpu config / application copy & patch
+==============================================================
+
+cd /work/2306_0004_kernel_defender/repo
+
+sh securecpu-apply-patch.sh
+
+
+간략히 설명하면
+1. git clone
+2. freedom-u-sdk download and default build
+3. securecpu 패치 적용 및 빌드
+
