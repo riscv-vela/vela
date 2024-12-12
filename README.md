@@ -34,3 +34,6 @@ runqemu core-image-minimal nographic
 
 **NOTE** `nographic` is needed for this image, because it has no graphical support for graphical Qemu run.
 
+### Change linux kernel configuration
+
+If you need change linux kernel configuration, append to recipes-kernel/linux/linux-yocto/riscv-vela.cfg.
