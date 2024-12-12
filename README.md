@@ -26,7 +26,7 @@ cd meta-riscv-vela
 kas build kas/riscv-vela.yml
 ```
 
-**riscv-vela.yml** will build `core-image-minimal`, you can then boot it with:
+**riscv-vela.yml** will build `riscv-vela-image-core`, you can then boot it with:
 
 ```text
 kas shell -c "runqemu nographic" kas/riscv-vela.yml
