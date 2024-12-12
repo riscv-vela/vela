@@ -1,0 +1,5 @@
+[run]
+omit =
+    # omit test directory
+    test/*
+    setup.py

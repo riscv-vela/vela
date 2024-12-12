@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.10.2 FATAL_ERROR)
+
+find_package(@LIB_NAME@@LIB_VER_MAJOR@ ${@LIB_NAME@_FIND_VERSION} REQUIRED COMPONENTS ${@LIB_NAME@_FIND_COMPONENTS})
+
+# Set up the core library and add it to the list of all components
+add_library(@LIB_NAME_COMP_PREFIX@::@LIB_NAME_COMP_PREFIX@ ALIAS @LIB_NAME@@LIB_VER_MAJOR@::@LIB_NAME@@LIB_VER_MAJOR@)
+add_library(@LIB_NAME_COMP_PREFIX@::core ALIAS @LIB_NAME@@LIB_VER_MAJOR@::@LIB_NAME@@LIB_VER_MAJOR@)
+
+# Retrieve the list of components
+get_target_property(components @LIB_NAME@@LIB_VER_MAJOR@::requested INTERFACE_LINK_LIBRARIES)
+
+foreach(component ${components})
+  # Skip the core library
+  if(${component} STREQUAL @LIB_NAME@@LIB_VER_MAJOR@::@LIB_NAME@@LIB_VER_MAJOR@)
+    continue()
+  endif()
+
+  # Change "gz-libN::gz-libN-component" to "component"
+  string(REGEX REPLACE "@LIB_NAME@@LIB_VER_MAJOR@::@LIB_NAME@@LIB_VER_MAJOR@-" "" component_name ${component})
+  add_library(@LIB_NAME_COMP_PREFIX@::${component_name} ALIAS ${component})
+endforeach()
+
+# Add a root gz-lib alias
+add_library(@LIB_NAME_COMP_PREFIX@ ALIAS @LIB_NAME@@LIB_VER_MAJOR@::@LIB_NAME@@LIB_VER_MAJOR@)

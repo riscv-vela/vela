@@ -1,0 +1,9 @@
+.idea/
+.ipynb_checkpoints/
+cmake-build-*/
+build/
+venv/
+**/.pytest_cache/
+__pycache__/
+*.db3-*
+

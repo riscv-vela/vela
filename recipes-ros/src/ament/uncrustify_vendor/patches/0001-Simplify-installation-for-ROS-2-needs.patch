@@ -1,0 +1,51 @@
+From 5409b03b54deb1416d90ccfa150d059f05d7761a Mon Sep 17 00:00:00 2001
+From: Chris Lalancette <clalancette@gmail.com>
+Date: Wed, 3 Apr 2024 09:29:24 -0400
+Subject: [PATCH] Simplify installation for ROS 2 needs.
+
+Signed-off-by: Chris Lalancette <clalancette@gmail.com>
+---
+ CMakeLists.txt | 22 +---------------------
+ 1 file changed, 1 insertion(+), 21 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 6a48dae0e..a9a3eecfe 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -520,32 +520,12 @@ include(CPack)
+ # Install
+ #
+ if(MSVC)
+-  install(TARGETS uncrustify DESTINATION ".")
+-  install(FILES ${uncrustify_docs}
+-    DESTINATION "."
+-  )
+-  install(FILES "${PROJECT_SOURCE_DIR}/documentation/htdocs/index.html"
+-    DESTINATION "doc"
+-  )
+-  install(DIRECTORY "${PROJECT_SOURCE_DIR}/etc/"
+-    DESTINATION "cfg"
+-    FILES_MATCHING PATTERN "*.cfg"
+-  )
++  install(TARGETS uncrustify RUNTIME DESTINATION bin)
+ else()
+   include(GNUInstallDirs)
+   install(TARGETS uncrustify
+     RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}"
+   )
+-  install(FILES "${CMAKE_CURRENT_BINARY_DIR}/uncrustify.1"
+-    DESTINATION "${CMAKE_INSTALL_MANDIR}/man1"
+-  )
+-  install(DIRECTORY "${PROJECT_SOURCE_DIR}/etc/"
+-    DESTINATION "${CMAKE_INSTALL_DOCDIR}/examples"
+-    FILES_MATCHING PATTERN "*.cfg"
+-  )
+-  install(FILES ${uncrustify_docs}
+-    DESTINATION "${CMAKE_INSTALL_DOCDIR}"
+-  )
+ endif()
+ 
+ #
+-- 
+2.44.0
+

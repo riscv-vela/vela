@@ -1,0 +1,29 @@
+<package format="3">
+  <name>rqt_service_caller</name>
+  <version>1.2.1</version>
+  <description>rqt_service_caller provides a GUI plugin for calling arbitrary services.</description>
+
+  <maintainer email="brandon@openrobotics.org">Brandon Ong</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/rqt_service_caller</url>
+  <url type="repository">https://github.com/ros-visualization/rqt_service_caller</url>
+  <url type="bugtracker">https://github.com/ros-visualization/rqt_service_caller/issues</url>
+
+  <author email="dthomas@osrfoundation.org">Dirk Thomas</author>
+  <author>Dorian Scholz</author>
+  <author email="mikeblautman@gmail.com">Mike Lautman</author>
+
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <exec_depend>rqt_py_common</exec_depend>
+
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <architecture_independent/>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

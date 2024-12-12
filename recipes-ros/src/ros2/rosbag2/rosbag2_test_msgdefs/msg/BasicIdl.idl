@@ -1,0 +1,7 @@
+module rosbag2_test_msgdefs {
+  module msg {
+    struct BasicIdl {
+        float x;
+    };
+  };
+};

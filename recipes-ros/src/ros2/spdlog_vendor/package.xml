@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>spdlog_vendor</name>
+  <version>1.6.1</version>
+  <description>
+    Wrapper around spdlog, providing nothing but a dependency on spdlog, on some systems.
+    On others, it provides an ExternalProject build of spdlog.
+  </description>
+
+  <maintainer email="dharini@openrobotics.org">Dharini Dutia</maintainer>
+  <maintainer email="scott@openrobotics.org">Scott K Logan</maintainer>
+
+  <license>Apache License 2.0</license>  <!-- the contents of this package are Apache 2.0 -->
+  <license>MIT</license>  <!-- spdlog is MIT -->
+
+  <url type="website">https://github.com/gabime/spdlog</url>
+
+  <author email="clalancette@openrobotics.org">Chris Lalancette</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
+
+  <depend>spdlog</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
