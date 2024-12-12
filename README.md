@@ -46,6 +46,5 @@ If you need to change linux kernel source, edit files in build/tmp/work-shared/q
 And then, run the following commands: 
 
 ```text
-bitbake -f -c compile linux-yocto
-bitbake linux-yocto
+kas build --target linux-yocto -c compile kas/riscv-vela.yml -- -f && kas build --target linux-yocto kas/riscv-vela.yml
 ```
