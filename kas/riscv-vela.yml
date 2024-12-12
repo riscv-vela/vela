@@ -2,3 +2,5 @@ header:
   version: 14
   includes:
     - base-riscv.yml
+
+target: riscv-vela-image-core
