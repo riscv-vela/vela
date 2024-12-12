@@ -1,0 +1,33 @@
+<package format="2">
+  <name>rqt_publisher</name>
+  <version>1.7.2</version>
+  <description>rqt_publisher provides a GUI plugin for publishing arbitrary messages with fixed or computed field values.</description>
+
+  <maintainer email="clalancette@gmail.com">Chris Lalancette</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/rqt_publisher</url>
+  <url type="repository">https://github.com/ros-visualization/rqt_publisher</url>
+  <url type="bugtracker">https://github.com/ros-visualization/rqt_publisher/issues</url>
+
+  <author email="dthomas@osrfoundation.org">Dirk Thomas</author>
+  <author>Dorian Scholz</author>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend version_gte="0.2.19">python_qt_binding</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>qt_gui_py_common</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rosidl_runtime_py</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <exec_depend>rqt_py_common</exec_depend>
+
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

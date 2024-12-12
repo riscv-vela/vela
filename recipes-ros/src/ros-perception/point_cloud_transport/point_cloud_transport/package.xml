@@ -1,0 +1,38 @@
+<package format="3">
+  <name>point_cloud_transport</name>
+
+  <version>4.0.2</version>
+
+  <description>
+    Support for transporting PointCloud2 messages in compressed format and plugin interface for implementing additional PointCloud2 transports.
+  </description>
+
+  <author>Jakub Paplham</author>
+
+  <maintainer email="alejandro@openrobotics.org">Alejandro Hernández</maintainer>
+  <maintainer email="john.dangelo@tailos.com">John D'Angelo</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/ros-perception/point_cloud_transport</url>
+  <url type="bugtracker">https://github.com/ros-perception/point_cloud_transport/issues</url>
+
+  <buildtool_depend>ament_cmake_ros</buildtool_depend>
+
+  <depend>message_filters</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp_components</depend>
+  <depend>rclcpp</depend>
+  <depend>rcpputils</depend>
+  <depend>rmw</depend>
+  <depend>sensor_msgs</depend>
+
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <rosdoc2>rosdoc2.yaml</rosdoc2>
+  </export>
+
+</package>

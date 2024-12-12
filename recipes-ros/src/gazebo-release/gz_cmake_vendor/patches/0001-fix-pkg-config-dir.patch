@@ -1,0 +1,39 @@
+diff -urp gz_cmake_vendor.orig/cmake/GzPackaging.cmake gz_cmake_vendor/cmake/GzPackaging.cmake
+--- gz_cmake_vendor.orig/cmake/GzPackaging.cmake	2024-03-28 15:51:16.743283355 +0000
++++ gz_cmake_vendor/cmake/GzPackaging.cmake	2024-03-28 15:52:58.347658733 +0000
+@@ -212,10 +212,11 @@ function(_gz_create_pkgconfig)
+   endif()
+ 
+   set(pkgconfig_output "${CMAKE_BINARY_DIR}/cmake/pkgconfig/${target_name}.pc")
+-  set(pkgconfig_install_dir "${CMAKE_INSTALL_FULL_LIBDIR}/pkgconfig")
++  set(pkgconfig_install_dir "${CMAKE_INSTALL_LIBDIR}/pkgconfig")
++  set(pkgconfig_abs_install_dir "${CMAKE_INSTALL_FULL_LIBDIR}/pkgconfig")
+   file(RELATIVE_PATH
+     PC_CONFIG_RELATIVE_PATH_TO_PREFIX
+-    "${pkgconfig_install_dir}"
++    "${pkgconfig_abs_install_dir}"
+     "${CMAKE_INSTALL_PREFIX}"
+   )
+ 
+diff -urp gz_cmake_vendor.orig/CMakeLists.txt gz_cmake_vendor/CMakeLists.txt
+--- gz_cmake_vendor.orig/CMakeLists.txt	2024-03-28 15:51:16.741283367 +0000
++++ gz_cmake_vendor/CMakeLists.txt	2024-03-28 15:52:12.762938969 +0000
+@@ -63,7 +63,8 @@ set(gz_version_output "${PROJECT_NAME_LO
+ set(gz_config_install_dir "${CMAKE_INSTALL_DATAROOTDIR}/cmake/${PROJECT_NAME_LOWER}")
+ set(gz_pkgconfig_input "${CMAKE_CURRENT_SOURCE_DIR}/config/gz-cmake.pc.in")
+ set(gz_pkgconfig_output "${CMAKE_BINARY_DIR}/${PROJECT_NAME}.pc")
+-set(gz_pkgconfig_install_dir "${CMAKE_INSTALL_FULL_LIBDIR}/pkgconfig")
++set(gz_pkgconfig_install_dir "${CMAKE_INSTALL_LIBDIR}/pkgconfig")
++set(gz_pkgconfig_abs_install_dir "${CMAKE_INSTALL_FULL_LIBDIR}/pkgconfig")
+ set(gz_utilities_target ${PROJECT_EXPORT_NAME}-utilities)
+ set(gz_utilities_import_target_name ${PROJECT_EXPORT_NAME}::${gz_utilities_target})
+ set(gz_utilities_target_output_filename "${gz_utilities_target}-targets.cmake")
+@@ -96,7 +97,7 @@ install(
+ # Configure and install the pkgconfig file (needed for utilities headers)
+ file(RELATIVE_PATH
+   GZ_PC_CONFIG_RELATIVE_PATH_TO_PREFIX
+-  "${gz_pkgconfig_install_dir}"
++  "${gz_pkgconfig_abs_install_dir}"
+   "${CMAKE_INSTALL_PREFIX}"
+ )
+ 
