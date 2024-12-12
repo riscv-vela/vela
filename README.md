@@ -10,6 +10,9 @@ More information can be found at: <https://github.com/riscv-vela/> (Official Sit
 
 ### Kas Support
 
+KAS is a Python-based tool designed to automate Yocto-based builds.
+See [https://kas.readthedocs.io/](https://kas.readthedocs.io/)
+
 Kas build is supported, you can run the following commands:
 
 ```text
