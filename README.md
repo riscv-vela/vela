@@ -20,7 +20,7 @@ cd meta-riscv-vela
 * For basic `qemuriscv64` build run:
 
 ```text
-kas build kas/base-riscv.yml
+kas build kas/riscv-vela.yml
 ```
 
 **base-riscv.yml** will build `core-image-minimal`, you can then boot it with:
