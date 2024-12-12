@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="openembedded" fetch="https://github.com/openembedded/" />
+  <remote name="yocto" fetch="https://github.com/yoctoproject/" />
+  <remote name="riscv" fetch="https://github.com/riscv/" />
+  <default remote="openembedded" revision="scarthgap" />
+
+  <project name="meta-riscv" remote="riscv" path="meta-riscv" revision="scarthgap" />
+  <project name="poky" remote="yocto" path="poky" revision="scarthgap" />
+  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="scarthgap" />
+
+</manifest>
