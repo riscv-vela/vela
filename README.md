@@ -70,7 +70,7 @@ And then, run the following commands:
 kas build --target linux-yocto -c compile kas/riscv-vela.yml -- -f && kas build --target linux-yocto kas/riscv-vela.yml
 ```
 
-## ROS 2 
+## Build of ROS 2 
 
 ### Documentation
 
