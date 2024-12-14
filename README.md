@@ -4,6 +4,9 @@ Welcome to the official GitHub repository of the RISC-V Based Software-Defined R
 ## Overview
 This repository focuses on expanding the Software-Defined Robotics (SDR) ecosystem using RISC-V hardware extension technologies and system software. The project name, Vela, means "sail" in Latin, symbolizing a starting point for applying RISC-V technology in the SDR field.
 
+![image](https://github.com/user-attachments/assets/84a594db-c45c-42b5-aa9e-ed8f45364aeb)
+
+
 
 ## License
 • Linux Kernel: Licensed under the GNU General Public License version 2 (GPLv2).
