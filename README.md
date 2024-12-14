@@ -10,6 +10,7 @@ This repository focuses on expanding the Software-Defined Robotics (SDR) ecosyst
 
 ## License
 • Linux Kernel: Licensed under the GNU General Public License version 2 (GPLv2).
+
 • ROS2: Licensed under Apache 2.0.
 
 
