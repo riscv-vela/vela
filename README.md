@@ -26,15 +26,6 @@ This repository includes tools for the development environment, Linux kernel, mi
 4. High Availability: Managing and controlling hardware and software faults within robotic systems.
 5. Message Delivery Optimization: Enhancing inter-application message delivery performance in ROS2.
 
-
-# meta-riscv-vela
-
-RISC-V Vela Layer for OpenEmbedded/Yocto
-
-## Description
-
-More information can be found at: <https://github.com/riscv-vela/> (Official Site)
-
 ## Quick Start
 
 ### Kas Support
