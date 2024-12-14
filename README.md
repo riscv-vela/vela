@@ -27,7 +27,7 @@ This repository includes tools for the development environment, Linux kernel, mi
 4. High Availability: Managing and controlling hardware and software faults within robotic systems.
 5. Message Delivery Optimization: Enhancing inter-application message delivery performance in ROS2.
 
-## Quick Start
+## Build of Yocto distro
 
 ### Kas Support
 
@@ -70,7 +70,9 @@ And then, run the following commands:
 kas build --target linux-yocto -c compile kas/riscv-vela.yml -- -f && kas build --target linux-yocto kas/riscv-vela.yml
 ```
 
-## ROS 2 Documentation
+## ROS 2 
+
+### Documentation
 
 This repository contains the sources for the ROS 2 documentation hosted at [docs.ros.org](https://docs.ros.org/en). The sources are built and uploaded nightly by a [Jenkins job](https://build.ros.org/job/doc_ros2doc).
 
@@ -99,9 +101,9 @@ To contribute to the ROS 2 source code project, see the [ROS 2 contributing guid
   ```bash
   pip freeze > constraints.txt
 
-## System Setup
+### System Setup
 
-### Set Locale
+#### Set Locale
 Ensure a UTF-8 supported locale is set. For minimal environments like Docker, use the following commands:
 
   ```bash
@@ -112,7 +114,7 @@ Ensure a UTF-8 supported locale is set. For minimal environments like Docker, us
   locale  # Verify settings
   ```
 
-### Enable Required Repositories
+#### Enable Required Repositories
 Enable the Universe repository:
 
   ```bash
@@ -120,7 +122,7 @@ Enable the Universe repository:
   sudo add-apt-repository universe
   ```
 
-### Add the ROS 2 GPG key and repository:
+#### Add the ROS 2 GPG key and repository:
 
   ```bash
 sudo apt update && sudo apt install curl -y
@@ -128,7 +130,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
   ```
 
-### Install Development Tools
+#### Install Development Tools
 
   ```bash
 sudo apt update && sudo apt install -y \
@@ -147,9 +149,9 @@ sudo apt update && sudo apt install -y \
   ros-dev-tools
   ```
 
-## Building ROS 2
+### Building ROS 2
 
-### Get ROS 2 Code
+#### Get ROS 2 Code
 Create a workspace and clone repositories:
 
   ```bash
@@ -168,7 +170,7 @@ rosdep update
 rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-6.0.1 urdfdom_headers"
   ```
 
-### Build the Workspace
+#### Build the Workspace
 Build the code with colcon:
 
   ```bash
@@ -181,7 +183,7 @@ If certain packages cause build issues, skip them using:
 colcon build --symlink-install --packages-skip <package_name>
   ```
 
-### Environment Setup
+#### Environment Setup
 Source the environment setup file:
 
   ```bash
@@ -189,7 +191,7 @@ Source the environment setup file:
   ```
 
 
-### Running Examples
+#### Running Examples
 Start the Talker (C++):
 
   ```bash
