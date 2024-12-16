@@ -14,10 +14,16 @@ This repository focuses on expanding the Software-Defined Robotics (SDR) ecosyst
 • ROS2: Licensed under Apache 2.0.
 
 
-## Repository Structure
+## Directory Structure
 
-TDB
-
+- conf : Yocto layer configuration files.
+- docs : Documents of meta-riscv-vela.
+- dynamic-layers : Collections of dynamic layers.
+- kas : Configuration files for kas build tool.
+- recipes-bsp, recipes-core, recipes-devtools, recipes-graphics, recipes-kernel, recipes-multimedia, recipes-support : Yocto recipes for meta-riscv-vela.
+- tools/manifests/riscv-yocto.xml : Manifest file for [repo](https://source.android.com/setup/downloading#installing-repo) tool.
+- wic : [Kickstart](https://docs.yoctoproject.org/ref-manual/kickstart.html) files.
+- recipes-ros : ROS2 source codes.
 
 ## Requirement List
 This repository includes tools for the development environment, Linux kernel, middleware, and the Robot Operating System (ROS2). To meet the demands of SDR applications, the following features are added to existing open-source capabilities:
