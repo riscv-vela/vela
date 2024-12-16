@@ -1,10 +1,10 @@
 ## Directory Structure
 
 - conf : Yocto layer configuration files.
-- docs : Documents of meta-riscv-vela.
+- docs : Documents of vela layer.
 - dynamic-layers : Collections of dynamic layers.
 - kas : Configuration files for kas build tool.
-- recipes-bsp, recipes-core, recipes-devtools, recipes-graphics, recipes-kernel, recipes-multimedia, recipes-support : Yocto recipes for meta-riscv-vela.
+- recipes-bsp, recipes-core, recipes-devtools, recipes-graphics, recipes-kernel, recipes-multimedia, recipes-support : Yocto recipes for vela layer.
 - tools/manifests/riscv-yocto.xml : Manifest file for [repo](https://source.android.com/setup/downloading#installing-repo) tool.
 - wic : [Kickstart](https://docs.yoctoproject.org/ref-manual/kickstart.html) files.
 - recipes-ros : ROS2 source codes.
@@ -19,8 +19,8 @@ See [https://kas.readthedocs.io/](https://kas.readthedocs.io/)
 Kas build is supported, you can run the following commands:
 
 ```text
-git clone https://github.com/riscv-vela/meta-riscv-vela.git
-cd meta-riscv-vela
+git clone https://github.com/riscv-vela/vela.git
+cd vela
 ```
 
 * For basic `qemuriscv64` build run:
