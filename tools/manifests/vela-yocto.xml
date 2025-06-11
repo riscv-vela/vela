@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="openembedded" fetch="https://github.com/openembedded/" />
+  <remote name="yocto" fetch="https://github.com/yoctoproject/" />
+  <remote name="vela" fetch="https://github.com/riscv-vela/" />
+  <default remote="openembedded" revision="scarthgap" />
+
+  <project name="vela" remote="vela" path="vela" revision="main" />
+  <project name="poky" remote="yocto" path="poky" revision="scarthgap" />
+  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="scarthgap" />
+
+</manifest>

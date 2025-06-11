@@ -6,7 +6,7 @@ MACHINE="qemuriscv64"
 DISTRO="poky-altcfg"
 CONFFILE="conf/auto.conf"
 # core-image-sato, corea-image-sato-sdk
-BITBAKEIMAGE="core-image-full-cmdline"
+BITBAKEIMAGE="riscv-vela-image-core"
 
 # make sure sstate is there
 #echo "Creating sstate directory"
@@ -42,7 +42,7 @@ bitbake-layers add-layer ../meta-openembedded/meta-oe
 bitbake-layers add-layer ../meta-openembedded/meta-python
 bitbake-layers add-layer ../meta-openembedded/meta-multimedia
 bitbake-layers add-layer ../meta-openembedded/meta-networking
-bitbake-layers add-layer ../meta-riscv
+bitbake-layers add-layer ../vela
 
 # fix the configuration
 echo "Creating auto.conf"
@@ -66,14 +66,12 @@ EOF
 
 echo "To build an image run"
 echo "---------------------------------------------------"
-echo "bitbake core-image-full-cmdline"
+echo "bitbake riscv-vela-image-core"
 echo "---------------------------------------------------"
 echo ""
 echo "Buildable machine info"
 echo "---------------------------------------------------"
 echo "* qemuriscv64: The 64-bit RISC-V machine"
-echo "* qemuriscv32: The 32-bit RISC-V machine"
-echo "* freedom-u540: The SiFive HiFive Unleashed board"
 echo "---------------------------------------------------"
 
 # start build
