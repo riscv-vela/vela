@@ -6,7 +6,7 @@ MACHINE="qemuriscv64"
 DISTRO="poky-altcfg"
 CONFFILE="conf/auto.conf"
 # core-image-sato, corea-image-sato-sdk
-BITBAKEIMAGE="riscv-vela-image-core"
+BITBAKEIMAGE="ros-image-core"
 
 # make sure sstate is there
 #echo "Creating sstate directory"
@@ -42,6 +42,9 @@ bitbake-layers add-layer ../meta-openembedded/meta-oe
 bitbake-layers add-layer ../meta-openembedded/meta-python
 bitbake-layers add-layer ../meta-openembedded/meta-multimedia
 bitbake-layers add-layer ../meta-openembedded/meta-networking
+bitbake-layers add-layer ../meta-ros/meta-ros-common
+bitbake-layers add-layer ../meta-ros/meta-ros2
+bitbake-layers add-layer ../meta-ros/meta-ros2-jazzy
 bitbake-layers add-layer ../vela
 
 # fix the configuration
@@ -62,11 +65,15 @@ DISTRO = "${DISTRO}"
 PACKAGECONFIG:append:pn-qemu-native = " sdl"
 PACKAGECONFIG:append:pn-nativesdk-qemu = " sdl"
 USER_CLASSES:append = " buildstats buildhistory buildstats-summary"
+DISTRO_FEATURES:append = " systemd usrmerge"
+VIRTUAL-RUNTIME_init_manager = "systemd"
+DISTRO_FEATURES_BACKFILL_CONSIDERED = "sysvinit"
+VIRTUAL-RUNTIME_initscripts = ""
 EOF
 
 echo "To build an image run"
 echo "---------------------------------------------------"
-echo "bitbake riscv-vela-image-core"
+echo "bitbake ros-image-core"
 echo "---------------------------------------------------"
 echo ""
 echo "Buildable machine info"
