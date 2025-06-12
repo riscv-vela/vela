@@ -2,5 +2,13 @@ header:
   version: 14
   includes:
     - base-riscv.yml
+    - ros2-jazzy.yml
 
-target: riscv-vela-image-core
+local_conf_header:
+  meta-ros2: |
+    DISTRO_FEATURES:append = " systemd usrmerge"
+    VIRTUAL-RUNTIME_init_manager = "systemd"
+    DISTRO_FEATURES_BACKFILL_CONSIDERED = "sysvinit"
+    VIRTUAL-RUNTIME_initscripts = ""
+
+target: ros-image-core
