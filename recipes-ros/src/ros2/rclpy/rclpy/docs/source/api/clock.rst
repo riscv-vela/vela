@@ -1,4 +1,0 @@
-Clock
-=====
-
-.. automodule:: rclpy.clock

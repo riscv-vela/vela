@@ -1,1 +1,0 @@
-rosbag2_test_msgdefs/BasicMsg b

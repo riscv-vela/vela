@@ -1,4 +1,0 @@
-Time
-=====
-
-.. automodule:: rclpy.time
