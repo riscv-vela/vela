@@ -22,11 +22,10 @@ Execute run.sh for running qemu.
 ./run.sh
 ```
 
-Login with the user ubuntu and the default password ubuntu.
-You will be asked to choose a new password at first boot.
+Login with the user vela without password.
 
 Port 2222 of localhost is forwarded to port 22 (ssh) of virtual machine.
 
 ```
-ssh -p 2222 ubuntu@localhost
+ssh -p 2222 vela@localhost
 ```
