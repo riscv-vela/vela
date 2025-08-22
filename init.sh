@@ -30,6 +30,7 @@ sudo mount ${LOOP_DEV}p1 ${TARGET_DIR}
 
 sudo debootstrap ${DEBOOTSTRAP_OPT} ${SUITE} ${TARGET_DIR} ${MIRROR}
 echo "/debootstrap/debootstrap --second-stage" | sudo chroot ${TARGET_DIR}
+echo "adduser vela && passwd -d vela && usermod -aG sudo vela" | sudo chroot ${TARGET_DIR}
 sudo mkdir ${TARGET_DIR}/boot/extlinux
 sudo cp extlinux.conf ${TARGET_DIR}/boot/extlinux/extlinux.conf
 
