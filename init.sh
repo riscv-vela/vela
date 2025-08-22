@@ -5,7 +5,6 @@ set -e
 ARCH=riscv64
 CACHE_DIR=$(realpath debootstrap_packages)
 SUITE=noble
-TARGET_DIR=target
 MIRROR=http://ports.ubuntu.com/ubuntu-ports
 INCLUDE_PACKAGES=linux-image-generic
 
@@ -26,6 +25,7 @@ sudo parted ${DISK_IMAGE_NAME} --script -- mklabel msdos mkpart primary ext4 1Mi
 LOOP_DEV=$(sudo losetup --find --show --partscan ${DISK_IMAGE_NAME})
 
 sudo mkfs.ext4 ${LOOP_DEV}p1
+TARGET_DIR=$(mktemp -d mnt-XXXX)
 sudo mount ${LOOP_DEV}p1 ${TARGET_DIR}
 
 sudo debootstrap ${DEBOOTSTRAP_OPT} ${SUITE} ${TARGET_DIR} ${MIRROR}
@@ -35,5 +35,6 @@ sudo mkdir ${TARGET_DIR}/boot/extlinux
 sudo cp extlinux.conf ${TARGET_DIR}/boot/extlinux/extlinux.conf
 
 sudo umount ${TARGET_DIR}
+rmdir ${TARGET_DIR}
 
 sudo losetup -d ${LOOP_DEV}
