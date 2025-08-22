@@ -3,7 +3,7 @@
 set -e
 
 SSH_HOST_PORT=2222
-UBUNTU_IMAGE_FILE=ubuntu-24.04.2-preinstalled-server-riscv64.img
+UBUNTU_IMAGE_FILE=ubuntu-noble-riscv64.img
 QEMU_MEM=2048
 QEMU_CPUS=4
 
