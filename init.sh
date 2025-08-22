@@ -2,55 +2,35 @@
 
 set -e
 
-DISK_IMAGE="ubuntu-24.04.2-preinstalled-server-riscv64.img"
-DOWNLOAD_URL_BASE="https://cdimage.ubuntu.com/releases/noble/release"
-NBD_DEV="/dev/nbd0"
-QEMU_STATIC="qemu-riscv64-static"
+ARCH=riscv64
+CACHE_DIR=$(realpath debootstrap_packages)
+SUITE=noble
+TARGET_DIR=target
+MIRROR=http://ports.ubuntu.com/ubuntu-ports
+INCLUDE_PACKAGES=linux-image-generic
 
-apt_install_cmd() {
-	echo "apt-get --yes update"
-	echo "apt-get --yes upgrade"
-	echo "apt-get --yes install $@"
-	echo "apt-get --yes clean"
-}
+DISK_IMAGE_NAME=ubuntu-${SUITE}-${ARCH}.img
+DISK_IMAGE_SIZE=16G
 
-print_cmds() {
-	apt_install_cmd gdb
-}
-
-run_cmd_in_qemu() {
-	print_cmds | sudo chroot ${1}
-}
-
-# prepare ubuntu base image
-if [ ! -e ${DISK_IMAGE} ]; then
-	if [ ! -e ${DISK_IMAGE}.xz ]; then
-		wget ${DOWNLOAD_URL_BASE}/${DISK_IMAGE}.xz
-	fi
-	xz -dk ${DISK_IMAGE}.xz
-	qemu-img resize -f raw ${DISK_IMAGE} +1G
+DEBOOTSTRAP_OPT="--arch=${ARCH} --foreign"
+if [ -d ${CACHE_DIR} ]; then
+	DEBOOTSTRAP_OPT="${DEBOOTSTRAP_OPT} --cache-dir=${CACHE_DIR}"
+fi
+if [ -n "${INCLUDE_PACKAGES}" ]; then
+	DEBOOTSTRAP_OPT="${DEBOOTSTRAP_OPT} --include=${INCLUDE_PACKAGES}"
 fi
 
-sudo modprobe nbd
+qemu-img create -f raw ${DISK_IMAGE_NAME} ${DISK_IMAGE_SIZE}
+sudo parted ${DISK_IMAGE_NAME} --script -- mklabel msdos mkpart primary ext4 1MiB 100%
 
-# connect DISK_IMAGE to nbd device
-sudo qemu-nbd -c ${NBD_DEV} -f raw ${DISK_IMAGE}
+LOOP_DEV=$(sudo losetup --find --show --partscan ${DISK_IMAGE_NAME})
 
-# mount rootfs
-MOUNT_POINT=$(mktemp -d mnt-XXXX)
-sudo mount ${NBD_DEV}p1 ${MOUNT_POINT}
+sudo mkfs.ext4 ${LOOP_DEV}p1
+sudo mount ${LOOP_DEV}p1 ${TARGET_DIR}
 
-# copy qemu binary
-sudo cp /usr/bin/${QEMU_STATIC} ${MOUNT_POINT}/usr/bin/
+sudo debootstrap ${DEBOOTSTRAP_OPT} ${SUITE} ${TARGET_DIR} ${MIRROR}
+echo "/debootstrap/debootstrap --second-stage" | sudo chroot ${TARGET_DIR}
 
-run_cmd_in_qemu ${MOUNT_POINT}
+sudo umount ${TARGET_DIR}
 
-# remove qemu binary
-sudo rm ${MOUNT_POINT}/usr/bin/${QEMU_STATIC}
-
-# unmount rootfs
-sudo umount ${MOUNT_POINT}
-rmdir ${MOUNT_POINT}
-
-# disconnect nbd device
-sudo qemu-nbd -d ${NBD_DEV}
+sudo losetup -d ${LOOP_DEV}
