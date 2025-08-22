@@ -30,6 +30,8 @@ sudo mount ${LOOP_DEV}p1 ${TARGET_DIR}
 
 sudo debootstrap ${DEBOOTSTRAP_OPT} ${SUITE} ${TARGET_DIR} ${MIRROR}
 echo "/debootstrap/debootstrap --second-stage" | sudo chroot ${TARGET_DIR}
+sudo mkdir ${TARGET_DIR}/boot/extlinux
+sudo cp extlinux.conf ${TARGET_DIR}/boot/extlinux/extlinux.conf
 
 sudo umount ${TARGET_DIR}
 
