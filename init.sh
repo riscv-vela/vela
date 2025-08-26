@@ -33,6 +33,7 @@ echo "/debootstrap/debootstrap --second-stage" | sudo chroot ${TARGET_DIR}
 echo "adduser vela && passwd -d vela && usermod -aG sudo vela" | sudo chroot ${TARGET_DIR}
 sudo mkdir ${TARGET_DIR}/boot/extlinux
 sudo cp extlinux.conf ${TARGET_DIR}/boot/extlinux/extlinux.conf
+sudo cp netcfg.yaml ${TARGET_DIR}/etc/netplan/01-netcfg.yaml
 
 sudo umount ${TARGET_DIR}
 rmdir ${TARGET_DIR}
