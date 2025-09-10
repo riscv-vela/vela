@@ -10,6 +10,9 @@ assignees: ''
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
+**Motivation for adding the feature**
+Explain the motivation or reason for adding this feature (e.g., benefits, use cases, pain points addressed).
+
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.
 

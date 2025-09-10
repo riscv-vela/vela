@@ -20,6 +20,12 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
+**Observed results after actions**
+Describe the actual results after performing the steps above (e.g., system status, side effects, changes noticed).
+
+**Error messages or logs**
+If applicable, copy and paste the error message(s) or log output that you observed when the issue occured.
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
