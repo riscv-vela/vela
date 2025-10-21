@@ -6,7 +6,7 @@ ARCH=riscv64
 CACHE_DIR=$(realpath debootstrap_packages)
 SUITE=noble
 MIRROR=http://ports.ubuntu.com/ubuntu-ports
-INCLUDE_PACKAGES=linux-image-generic
+INCLUDE_PACKAGES=linux-image-generic,openssh-server
 
 DISK_IMAGE_NAME=ubuntu-${SUITE}-${ARCH}.img
 DISK_IMAGE_SIZE=16G
@@ -44,6 +44,7 @@ echo " \
 sudo mkdir ${TARGET_DIR}/boot/extlinux
 sudo cp extlinux.conf ${TARGET_DIR}/boot/extlinux/extlinux.conf
 sudo cp netcfg.yaml ${TARGET_DIR}/etc/netplan/01-netcfg.yaml
+sudo sed -i 's/^#\?PermitEmptyPasswords .*/PermitEmptyPasswords yes/' ${TARGET_DIR}/etc/ssh/sshd_config
 
 sudo umount ${TARGET_DIR}
 rmdir ${TARGET_DIR}
