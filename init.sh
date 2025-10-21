@@ -28,9 +28,12 @@ sudo mkfs.ext4 ${LOOP_DEV}p1
 TARGET_DIR=$(mktemp -d mnt-XXXX)
 sudo mount ${LOOP_DEV}p1 ${TARGET_DIR}
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 sudo debootstrap ${DEBOOTSTRAP_OPT} ${SUITE} ${TARGET_DIR} ${MIRROR}
 echo "/debootstrap/debootstrap --second-stage" | sudo chroot ${TARGET_DIR}
-echo "adduser vela && passwd -d vela && usermod -aG sudo vela" | sudo chroot ${TARGET_DIR}
+echo "locale-gen en_US en_US.UTF-8 && update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 && adduser vela && passwd -d vela && usermod -aG sudo vela" | sudo chroot ${TARGET_DIR}
 sudo mkdir ${TARGET_DIR}/boot/extlinux
 sudo cp extlinux.conf ${TARGET_DIR}/boot/extlinux/extlinux.conf
 sudo cp netcfg.yaml ${TARGET_DIR}/etc/netplan/01-netcfg.yaml
