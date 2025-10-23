@@ -6,7 +6,7 @@ ARCH=riscv64
 CACHE_DIR=$(realpath debootstrap_packages)
 SUITE=noble
 MIRROR=http://ports.ubuntu.com/ubuntu-ports
-INCLUDE_PACKAGES=linux-image-generic,openssh-server
+INCLUDE_PACKAGES=linux-image-generic,openssh-server,git
 
 DISK_IMAGE_NAME=ubuntu-${SUITE}-${ARCH}.img
 DISK_IMAGE_SIZE=16G
