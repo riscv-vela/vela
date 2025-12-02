@@ -70,6 +70,7 @@ Port 2222 of localhost is forwarded to port 22 (ssh) of virtual machine.
 
 ```
 ssh -p 2222 vela@localhost
+```
 
 ## 6. Release Policy
 The Vela project follows a regular release cycle. All major features and patches are merged after integration testing and are officially released twice a year (August
