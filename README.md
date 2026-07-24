@@ -46,7 +46,7 @@ Install required packages with following commands.
 
 ```
 sudo apt update
-sudo apt install opensbi qemu-system-misc u-boot-qemu qemu-user-static binfmt-support
+sudo apt install opensbi qemu-system-misc u-boot-qemu qemu-user-static binfmt-support debootstrap
 ```
 
 ### Preparing ubuntu image
