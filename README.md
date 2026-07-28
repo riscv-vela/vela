@@ -1,8 +1,5 @@
 
 ## 1. Introduction
-Project Name: Vela
-
-Meaning:
 
 “Vela” is a Linux-based custom operating system for an open RISC-V platform designed for Software-Defined Robotics (SDR).
 
