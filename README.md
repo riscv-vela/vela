@@ -9,7 +9,7 @@ It also supports AI execution engines and ROS 2/DDS-based middleware, providing 
 
 As an Ubuntu-based custom operating system, the Vela distribution can boot on 
   - [Q-Vela](https://github.com/riscv-vela/q-vela), an SDR S/W emulation platform provided by the RISC-V Vela project
-  - [F-Vela](https://github.com/riscv-vela/f-vela) and [I-Vela](https://github.com/riscv-vela/i-vela) hardware verification environments.
+  - [F-Vela](https://github.com/riscv-vela/f-vela) and [I-Vela](https://github.com/riscv-vela/i-vela) hardware verification environments(**currently under development**).
   - Additionally, SiFive’s HiFive [Premier P550](https://www.sifive.com/boards/hifive-premier-p550) development board.
 
 ## 2. License
