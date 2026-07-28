@@ -8,9 +8,9 @@ Vela is being developed to integrate low-power, high-efficiency, high-reliabilit
 It also supports AI execution engines and ROS 2/DDS-based middleware, providing an open and lightweight software distribution for future intelligent robots.
 
 As an Ubuntu-based custom operating system, the Vela distribution can boot on 
-  - Q-Vela[https://github.com/riscv-vela/q-vela], an SDR S/W emulation platform provided by the RISC-V Vela project
-  - F-Vela[https://github.com/riscv-vela/f-vela] and I-Vela[https://github.com/riscv-vela/i-vela] hardware verification environments.
-  - Additionally, SiFive’s HiFive Premier P550 development board.
+  - [Q-Vela](https://github.com/riscv-vela/q-vela), an SDR S/W emulation platform provided by the RISC-V Vela project
+  - [F-Vela](https://github.com/riscv-vela/f-vela) and [I-Vela](https://github.com/riscv-vela/i-vela) hardware verification environments.
+  - Additionally, SiFive’s HiFive [Premier P550](https://www.sifive.com/boards/hifive-premier-p550) development board.
 
 ## 2. License
 The Vela is an open RISC-V–based SDR system software stack that includes multiple open-source components such as the Linux kernel, ROS2, and Ubuntu packages. Therefore, it is distributed under a multi-license open-source scheme, where each component retains its original license.
