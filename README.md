@@ -68,9 +68,9 @@ The Vela project follows a regular release cycle. All major features and patches
 and November).
  - Summer Release: Every August — includes new feature integration and results from the first half of the year
  - Winter Release: Every November — focuses on performance improvement and system stabilization
-Versioning follows the format: v<Year>.<Cycle>. Examples:
- - v2025.1 → August 2025 Release
- - v2025.2 → November 2025 Release
+Versioning follows the format: v<Year>.<Month>. Examples:
+ - v2026.08 → August 2026 Release
+ - v2026.11 → November 2026 Release
 
 ## 6. Developer Guide
 The Vela project operates entirely on GitHub-based open collaboration to build an open RISC-V system software ecosystem. Developers and contributors are expected
